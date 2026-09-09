@@ -1,0 +1,5 @@
+# VISTA PREVIA: se pide a los buscadores que NO indexen este despliegue,
+# para que la lista no aparezca en Google antes de tiempo.
+# Al publicar de forma definitiva, borra este archivo.
+/*
+  X-Robots-Tag: noindex, nofollow

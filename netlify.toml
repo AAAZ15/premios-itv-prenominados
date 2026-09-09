@@ -1,0 +1,12 @@
+[build]
+  command = "npm run build"
+  publish = "out"
+
+# ---------------------------------------------------------------------------
+# VISTA PREVIA: se pide a los buscadores que NO indexen este despliegue.
+# Al publicar de forma definitiva, borra este bloque (y public/_headers).
+# ---------------------------------------------------------------------------
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"

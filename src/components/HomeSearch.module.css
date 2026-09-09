@@ -1,0 +1,113 @@
+.results {
+  margin-top: 1.25rem;
+  border-radius: var(--r-lg);
+  border: 1px solid var(--hairline-soft);
+  background: rgba(2, 4, 10, 0.35);
+  overflow: hidden;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  padding: 0.8rem 1rem;
+  border-bottom: 1px solid var(--hairline-soft);
+  transition: background-color 0.2s var(--ease);
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+.item:hover,
+.item:focus-visible {
+  background: rgba(56, 189, 248, 0.08);
+}
+
+.body {
+  display: block;
+  flex: 1;
+  min-width: 0;
+}
+
+.name {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  overflow-wrap: anywhere;
+}
+
+.mark {
+  color: var(--cyan-soft);
+}
+
+.categories {
+  display: block;
+  margin-top: 0.2rem;
+  font-size: 0.6875rem;
+  color: var(--text-muted);
+  line-height: 1.45;
+}
+
+.chevron {
+  flex: none;
+  color: var(--text-dim);
+}
+
+.footerRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.8rem 1rem;
+  background: rgba(255, 255, 255, 0.028);
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.footerLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-family: var(--font-body);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--cyan);
+  white-space: nowrap;
+}
+
+.emptyRow {
+  padding: 1.5rem 1rem;
+  text-align: center;
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+}
+
+.shortcuts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.45rem;
+  margin-top: 1.15rem;
+}
+
+.shortcut {
+  padding: 0.4rem 0.8rem;
+  border-radius: var(--r-full);
+  background: rgba(255, 255, 255, 0.045);
+  border: 1px solid var(--hairline-soft);
+  font-size: 0.6875rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  transition: color 0.2s var(--ease), border-color 0.2s var(--ease);
+}
+
+.shortcut:hover {
+  color: var(--cyan-soft);
+  border-color: var(--rim);
+}

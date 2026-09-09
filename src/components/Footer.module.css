@@ -1,0 +1,112 @@
+.footer {
+  margin-top: var(--section-gap);
+  border-top: 1px solid var(--hairline-soft);
+  background: linear-gradient(180deg, rgba(5, 9, 20, 0) 0%, rgba(2, 4, 10, 0.85) 60%);
+  padding-bottom: calc(1.5rem + env(safe-area-inset-bottom, 0px));
+}
+
+.inner {
+  display: grid;
+  gap: 2.5rem;
+  padding-block: 3rem 2rem;
+}
+
+@media (min-width: 768px) {
+  .inner {
+    grid-template-columns: 1.4fr 1fr;
+    align-items: start;
+    gap: 3rem;
+  }
+}
+
+.brandBlock {
+  max-width: 40ch;
+}
+
+.title {
+  font-size: 1.25rem;
+  letter-spacing: 0.14em;
+}
+
+.edition {
+  margin-top: 0.35rem;
+  font-family: var(--font-display);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--cyan);
+}
+
+.tagline {
+  margin-top: 1rem;
+  color: var(--text-muted);
+  font-size: 0.875rem;
+  line-height: 1.7;
+}
+
+.linksTitle {
+  font-family: var(--font-body);
+  font-size: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+.links {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem 1.5rem;
+  margin-top: 1rem;
+}
+
+@media (min-width: 768px) {
+  .links {
+    grid-template-columns: 1fr;
+    gap: 0.65rem;
+  }
+}
+
+.link {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  transition: color 0.2s var(--ease);
+  width: fit-content;
+}
+
+.link:hover {
+  color: var(--cyan);
+}
+
+.bottom {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--hairline-soft);
+}
+
+.site {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--cyan);
+  transition: text-shadow 0.25s var(--ease);
+}
+
+.site:hover {
+  text-shadow: 0 0 18px rgba(56, 189, 248, 0.6);
+}
+
+.legal {
+  font-size: 0.75rem;
+  color: var(--text-dim);
+}

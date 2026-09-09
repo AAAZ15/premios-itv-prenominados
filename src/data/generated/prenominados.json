@@ -1,0 +1,5610 @@
+{
+  "meta": {
+    "source": "Nominados oficiales PREMIOS ITV 2023 (1).xlsx",
+    "generatedAt": "2026-09-09T18:52:50.852Z",
+    "totalCategories": 18,
+    "totalNominees": 600
+  },
+  "categories": [
+    {
+      "id": "mejor-presentador-de-noticias",
+      "slug": "mejor-presentador-de-noticias",
+      "name": "MEJOR PRESENTADOR DE NOTICIAS",
+      "order": 0,
+      "sourceRow": 3,
+      "discipline": "Noticias",
+      "entryType": "persona",
+      "metaLabel": null,
+      "count": 27
+    },
+    {
+      "id": "mejor-presentadora-de-noticias",
+      "slug": "mejor-presentadora-de-noticias",
+      "name": "MEJOR PRESENTADORA DE NOTICIAS",
+      "order": 1,
+      "sourceRow": 33,
+      "discipline": "Noticias",
+      "entryType": "persona",
+      "metaLabel": null,
+      "count": 30
+    },
+    {
+      "id": "mejor-reportero-a-de-noticias",
+      "slug": "mejor-reportero-a-de-noticias",
+      "name": "MEJOR REPORTERO/A DE NOTICIAS",
+      "order": 2,
+      "sourceRow": 67,
+      "discipline": "Noticias",
+      "entryType": "persona",
+      "metaLabel": null,
+      "count": 83
+    },
+    {
+      "id": "mejor-cuenta-informativa-digital",
+      "slug": "mejor-cuenta-informativa-digital",
+      "name": "MEJOR CUENTA INFORMATIVA DIGITAL",
+      "order": 3,
+      "sourceRow": 153,
+      "discipline": "Noticias",
+      "entryType": "medio",
+      "metaLabel": "Plataforma",
+      "count": 22
+    },
+    {
+      "id": "mejor-narrador-deportivo",
+      "slug": "mejor-narrador-deportivo",
+      "name": "MEJOR NARRADOR DEPORTIVO",
+      "order": 4,
+      "sourceRow": 181,
+      "discipline": "Deportes",
+      "entryType": "persona",
+      "metaLabel": null,
+      "count": 34
+    },
+    {
+      "id": "mejor-comentarista-deportivo-masculino",
+      "slug": "mejor-comentarista-deportivo-masculino",
+      "name": "MEJOR COMENTARISTA DEPORTIVO (MASCULINO)",
+      "order": 5,
+      "sourceRow": 220,
+      "discipline": "Deportes",
+      "entryType": "persona",
+      "metaLabel": null,
+      "count": 83
+    },
+    {
+      "id": "mejor-comentarista-deportivo-mujeres",
+      "slug": "mejor-comentarista-deportivo-mujeres",
+      "name": "MEJOR COMENTARISTA DEPORTIVO (MUJERES)",
+      "order": 6,
+      "sourceRow": 307,
+      "discipline": "Deportes",
+      "entryType": "persona",
+      "metaLabel": null,
+      "count": 30
+    },
+    {
+      "id": "mejor-cuenta-digital-de-deportes",
+      "slug": "mejor-cuenta-digital-de-deportes",
+      "name": "MEJOR CUENTA DIGITAL DE DEPORTES",
+      "order": 7,
+      "sourceRow": 341,
+      "discipline": "Deportes",
+      "entryType": "cuenta",
+      "metaLabel": "Plataforma",
+      "count": 16
+    },
+    {
+      "id": "mejor-conductor-de-variedades",
+      "slug": "mejor-conductor-de-variedades",
+      "name": "MEJOR CONDUCTOR DE VARIEDADES",
+      "order": 8,
+      "sourceRow": 370,
+      "discipline": "Variedades",
+      "entryType": "persona",
+      "metaLabel": null,
+      "count": 34
+    },
+    {
+      "id": "mejor-conductora-de-variedades",
+      "slug": "mejor-conductora-de-variedades",
+      "name": "MEJOR CONDUCTORA DE VARIEDADES",
+      "order": 9,
+      "sourceRow": 407,
+      "discipline": "Variedades",
+      "entryType": "persona",
+      "metaLabel": null,
+      "count": 34
+    },
+    {
+      "id": "mejor-programa-de-variedades",
+      "slug": "mejor-programa-de-variedades",
+      "name": "MEJOR PROGRAMA DE VARIEDADES",
+      "order": 10,
+      "sourceRow": 444,
+      "discipline": "Variedades",
+      "entryType": "programa",
+      "metaLabel": "Canal",
+      "count": 29
+    },
+    {
+      "id": "mejor-actor",
+      "slug": "mejor-actor",
+      "name": "MEJOR ACTOR",
+      "order": 11,
+      "sourceRow": 478,
+      "discipline": "Dramáticos",
+      "entryType": "persona",
+      "metaLabel": null,
+      "count": 23
+    },
+    {
+      "id": "mejor-actriz",
+      "slug": "mejor-actriz",
+      "name": "MEJOR ACTRIZ",
+      "order": 12,
+      "sourceRow": 504,
+      "discipline": "Dramáticos",
+      "entryType": "persona",
+      "metaLabel": null,
+      "count": 17
+    },
+    {
+      "id": "mejor-cuenta-de-instagram-senior",
+      "slug": "mejor-cuenta-de-instagram-senior",
+      "name": "MEJOR CUENTA DE INSTAGRAM SENIOR",
+      "order": 13,
+      "sourceRow": 526,
+      "discipline": "Digital",
+      "entryType": "cuenta",
+      "metaLabel": null,
+      "count": 68
+    },
+    {
+      "id": "mejor-cuenta-de-instagram-junior",
+      "slug": "mejor-cuenta-de-instagram-junior",
+      "name": "MEJOR CUENTA DE INSTAGRAM JUNIOR",
+      "order": 14,
+      "sourceRow": 600,
+      "discipline": "Digital",
+      "entryType": "cuenta",
+      "metaLabel": "Usuario",
+      "count": 31
+    },
+    {
+      "id": "mejor-youtuber",
+      "slug": "mejor-youtuber",
+      "name": "MEJOR YOUTUBER",
+      "order": 15,
+      "sourceRow": 636,
+      "discipline": "Digital",
+      "entryType": "cuenta",
+      "metaLabel": "Canal",
+      "count": 15
+    },
+    {
+      "id": "mejor-cuenta-digital-de-dramaticos",
+      "slug": "mejor-cuenta-digital-de-dramaticos",
+      "name": "MEJOR CUENTA DIGITAL DE DRAMÁTICOS",
+      "order": 16,
+      "sourceRow": 657,
+      "discipline": "Dramáticos",
+      "entryType": "cuenta",
+      "metaLabel": "Plataforma",
+      "count": 3
+    },
+    {
+      "id": "mejor-cuenta-digital-de-entretenimiento",
+      "slug": "mejor-cuenta-digital-de-entretenimiento",
+      "name": "MEJOR CUENTA DIGITAL DE ENTRETENIMIENTO",
+      "order": 17,
+      "sourceRow": 666,
+      "discipline": "Digital",
+      "entryType": "cuenta",
+      "metaLabel": "Plataforma",
+      "count": 21
+    }
+  ],
+  "nominees": [
+    {
+      "id": "n0001",
+      "name": "AIZPRUA JUAN CARLOS",
+      "meta": null,
+      "categoryId": "mejor-presentador-de-noticias",
+      "type": "persona",
+      "order": 0,
+      "sourceRow": 5
+    },
+    {
+      "id": "n0002",
+      "name": "ALVAREZ WANDEMBERG ROBERTO",
+      "meta": null,
+      "categoryId": "mejor-presentador-de-noticias",
+      "type": "persona",
+      "order": 1,
+      "sourceRow": 6
+    },
+    {
+      "id": "n0003",
+      "name": "AREVALO JOSÉ LUIS",
+      "meta": null,
+      "categoryId": "mejor-presentador-de-noticias",
+      "type": "persona",
+      "order": 2,
+      "sourceRow": 7
+    },
+    {
+      "id": "n0004",
+      "name": "ARTIEDA LENIN",
+      "meta": null,
+      "categoryId": "mejor-presentador-de-noticias",
+      "type": "persona",
+      "order": 3,
+      "sourceRow": 8
+    },
+    {
+      "id": "n0005",
+      "name": "AYORA MAURICIO",
+      "meta": null,
+      "categoryId": "mejor-presentador-de-noticias",
+      "type": "persona",
+      "order": 4,
+      "sourceRow": 9
+    },
+    {
+      "id": "n0006",
+      "name": "BAQUERIZO RODOLFO",
+      "meta": null,
+      "categoryId": "mejor-presentador-de-noticias",
+      "type": "persona",
+      "order": 5,
+      "sourceRow": 10
+    },
+    {
+      "id": "n0007",
+      "name": "BONE ANGEL",
+      "meta": null,
+      "categoryId": "mejor-presentador-de-noticias",
+      "type": "persona",
+      "order": 6,
+      "sourceRow": 11
+    },
+    {
+      "id": "n0008",
+      "name": "BOSCÁN ANDERSSON",
+      "meta": null,
+      "categoryId": "mejor-presentador-de-noticias",
+      "type": "persona",
+      "order": 7,
+      "sourceRow": 12
+    },
+    {
+      "id": "n0009",
+      "name": "CARRERA JONNATHAN",
+      "meta": null,
+      "categoryId": "mejor-presentador-de-noticias",
+      "type": "persona",
+      "order": 8,
+      "sourceRow": 13
+    },
+    {
+      "id": "n0010",
+      "name": "CARRIÓN ANDRÉS",
+      "meta": null,
+      "categoryId": "mejor-presentador-de-noticias",
+      "type": "persona",
+      "order": 9,
+      "sourceRow": 14
+    },
+    {
+      "id": "n0011",
+      "name": "CORREA FERNANDO",
+      "meta": null,
+      "categoryId": "mejor-presentador-de-noticias",
+      "type": "persona",
+      "order": 10,
+      "sourceRow": 15
+    },
+    {
+      "id": "n0012",
+      "name": "DELGADO JOSÉ",
+      "meta": null,
+      "categoryId": "mejor-presentador-de-noticias",
+      "type": "persona",
+      "order": 11,
+      "sourceRow": 16
+    },
+    {
+      "id": "n0013",
+      "name": "ESCOBAR JORGE",
+      "meta": null,
+      "categoryId": "mejor-presentador-de-noticias",
+      "type": "persona",
+      "order": 12,
+      "sourceRow": 17
+    },
+    {
+      "id": "n0014",
+      "name": "ESTEVEZ CARLOS",
+      "meta": null,
+      "categoryId": "mejor-presentador-de-noticias",
+      "type": "persona",
+      "order": 13,
+      "sourceRow": 18
+    },
+    {
+      "id": "n0015",
+      "name": "HERNÁNDEZ RAFAEL",
+      "meta": null,
+      "categoryId": "mejor-presentador-de-noticias",
+      "type": "persona",
+      "order": 14,
+      "sourceRow": 19
+    },
+    {
+      "id": "n0016",
+      "name": "JIMÉNEZ PEDRO",
+      "meta": null,
+      "categoryId": "mejor-presentador-de-noticias",
+      "type": "persona",
+      "order": 15,
+      "sourceRow": 20
+    },
+    {
+      "id": "n0017",
+      "name": "JUNGBLUTH ANDRÉS",
+      "meta": null,
+      "categoryId": "mejor-presentador-de-noticias",
+      "type": "persona",
+      "order": 16,
+      "sourceRow": 21
+    },
+    {
+      "id": "n0018",
+      "name": "NEGRETE JORGE",
+      "meta": null,
+      "categoryId": "mejor-presentador-de-noticias",
+      "type": "persona",
+      "order": 17,
+      "sourceRow": 22
+    },
+    {
+      "id": "n0019",
+      "name": "PAREDES FREDDY",
+      "meta": null,
+      "categoryId": "mejor-presentador-de-noticias",
+      "type": "persona",
+      "order": 18,
+      "sourceRow": 23
+    },
+    {
+      "id": "n0020",
+      "name": "PÉREZ MILTON",
+      "meta": null,
+      "categoryId": "mejor-presentador-de-noticias",
+      "type": "persona",
+      "order": 19,
+      "sourceRow": 24
+    },
+    {
+      "id": "n0021",
+      "name": "PINOARGOTE QUIROZ ALFREDO",
+      "meta": null,
+      "categoryId": "mejor-presentador-de-noticias",
+      "type": "persona",
+      "order": 20,
+      "sourceRow": 25
+    },
+    {
+      "id": "n0022",
+      "name": "RUIZ LUIS ANTONIO",
+      "meta": null,
+      "categoryId": "mejor-presentador-de-noticias",
+      "type": "persona",
+      "order": 21,
+      "sourceRow": 26
+    },
+    {
+      "id": "n0023",
+      "name": "SACOTO CARLOS",
+      "meta": null,
+      "categoryId": "mejor-presentador-de-noticias",
+      "type": "persona",
+      "order": 22,
+      "sourceRow": 27
+    },
+    {
+      "id": "n0024",
+      "name": "SAMANIEGO HERNÁN",
+      "meta": null,
+      "categoryId": "mejor-presentador-de-noticias",
+      "type": "persona",
+      "order": 23,
+      "sourceRow": 28
+    },
+    {
+      "id": "n0025",
+      "name": "SEGARRA JAVIER",
+      "meta": null,
+      "categoryId": "mejor-presentador-de-noticias",
+      "type": "persona",
+      "order": 24,
+      "sourceRow": 29
+    },
+    {
+      "id": "n0026",
+      "name": "VELA FABRICIO",
+      "meta": null,
+      "categoryId": "mejor-presentador-de-noticias",
+      "type": "persona",
+      "order": 25,
+      "sourceRow": 30
+    },
+    {
+      "id": "n0027",
+      "name": "VERA CARLOS",
+      "meta": null,
+      "categoryId": "mejor-presentador-de-noticias",
+      "type": "persona",
+      "order": 26,
+      "sourceRow": 31
+    },
+    {
+      "id": "n0028",
+      "name": "ACOSTA MARÍA GRAZZIA",
+      "meta": null,
+      "categoryId": "mejor-presentadora-de-noticias",
+      "type": "persona",
+      "order": 0,
+      "sourceRow": 35
+    },
+    {
+      "id": "n0029",
+      "name": "ARCENTALES CARLA",
+      "meta": null,
+      "categoryId": "mejor-presentadora-de-noticias",
+      "type": "persona",
+      "order": 1,
+      "sourceRow": 36
+    },
+    {
+      "id": "n0030",
+      "name": "BAER GABRIELA",
+      "meta": null,
+      "categoryId": "mejor-presentadora-de-noticias",
+      "type": "persona",
+      "order": 2,
+      "sourceRow": 37
+    },
+    {
+      "id": "n0031",
+      "name": "BAYONA GISSELLA",
+      "meta": null,
+      "categoryId": "mejor-presentadora-de-noticias",
+      "type": "persona",
+      "order": 3,
+      "sourceRow": 38
+    },
+    {
+      "id": "n0032",
+      "name": "BERMEO ADRIANA",
+      "meta": null,
+      "categoryId": "mejor-presentadora-de-noticias",
+      "type": "persona",
+      "order": 4,
+      "sourceRow": 39
+    },
+    {
+      "id": "n0033",
+      "name": "BERMEO ANALY",
+      "meta": null,
+      "categoryId": "mejor-presentadora-de-noticias",
+      "type": "persona",
+      "order": 5,
+      "sourceRow": 40
+    },
+    {
+      "id": "n0034",
+      "name": "BERMEO SASKIA",
+      "meta": null,
+      "categoryId": "mejor-presentadora-de-noticias",
+      "type": "persona",
+      "order": 6,
+      "sourceRow": 41
+    },
+    {
+      "id": "n0035",
+      "name": "CARMIGNIANI MARÍA ISABEL",
+      "meta": null,
+      "categoryId": "mejor-presentadora-de-noticias",
+      "type": "persona",
+      "order": 7,
+      "sourceRow": 42
+    },
+    {
+      "id": "n0036",
+      "name": "DÁVALOS MARÍA CARIDAD",
+      "meta": null,
+      "categoryId": "mejor-presentadora-de-noticias",
+      "type": "persona",
+      "order": 8,
+      "sourceRow": 43
+    },
+    {
+      "id": "n0037",
+      "name": "DE LEBED MARÍA ISABEL",
+      "meta": null,
+      "categoryId": "mejor-presentadora-de-noticias",
+      "type": "persona",
+      "order": 9,
+      "sourceRow": 44
+    },
+    {
+      "id": "n0038",
+      "name": "DELGADILLO LUISA",
+      "meta": null,
+      "categoryId": "mejor-presentadora-de-noticias",
+      "type": "persona",
+      "order": 10,
+      "sourceRow": 45
+    },
+    {
+      "id": "n0039",
+      "name": "ESPÍN ESTEFANI",
+      "meta": null,
+      "categoryId": "mejor-presentadora-de-noticias",
+      "type": "persona",
+      "order": 11,
+      "sourceRow": 46
+    },
+    {
+      "id": "n0040",
+      "name": "FILELLA VANESSA",
+      "meta": null,
+      "categoryId": "mejor-presentadora-de-noticias",
+      "type": "persona",
+      "order": 12,
+      "sourceRow": 47
+    },
+    {
+      "id": "n0041",
+      "name": "GUTIÉRREZ MARÍA DEL ROSARIO",
+      "meta": null,
+      "categoryId": "mejor-presentadora-de-noticias",
+      "type": "persona",
+      "order": 13,
+      "sourceRow": 48
+    },
+    {
+      "id": "n0042",
+      "name": "LEÓN DIANA",
+      "meta": null,
+      "categoryId": "mejor-presentadora-de-noticias",
+      "type": "persona",
+      "order": 14,
+      "sourceRow": 49
+    },
+    {
+      "id": "n0043",
+      "name": "LOOR TANIA",
+      "meta": null,
+      "categoryId": "mejor-presentadora-de-noticias",
+      "type": "persona",
+      "order": 15,
+      "sourceRow": 50
+    },
+    {
+      "id": "n0044",
+      "name": "MELLA CAROLINA",
+      "meta": null,
+      "categoryId": "mejor-presentadora-de-noticias",
+      "type": "persona",
+      "order": 16,
+      "sourceRow": 51
+    },
+    {
+      "id": "n0045",
+      "name": "MENA VALERIA",
+      "meta": null,
+      "categoryId": "mejor-presentadora-de-noticias",
+      "type": "persona",
+      "order": 17,
+      "sourceRow": 52
+    },
+    {
+      "id": "n0046",
+      "name": "MORA SAMANTHA",
+      "meta": null,
+      "categoryId": "mejor-presentadora-de-noticias",
+      "type": "persona",
+      "order": 18,
+      "sourceRow": 53
+    },
+    {
+      "id": "n0047",
+      "name": "PERALTA ADRIANA",
+      "meta": null,
+      "categoryId": "mejor-presentadora-de-noticias",
+      "type": "persona",
+      "order": 19,
+      "sourceRow": 54
+    },
+    {
+      "id": "n0048",
+      "name": "PINOARGOTE VERA MARÍA JOSÉ",
+      "meta": null,
+      "categoryId": "mejor-presentadora-de-noticias",
+      "type": "persona",
+      "order": 20,
+      "sourceRow": 55
+    },
+    {
+      "id": "n0049",
+      "name": "PROAÑO MARÍA ALEJANDRA",
+      "meta": null,
+      "categoryId": "mejor-presentadora-de-noticias",
+      "type": "persona",
+      "order": 21,
+      "sourceRow": 56
+    },
+    {
+      "id": "n0050",
+      "name": "QUIÑÓNEZ HELEN",
+      "meta": null,
+      "categoryId": "mejor-presentadora-de-noticias",
+      "type": "persona",
+      "order": 22,
+      "sourceRow": 57
+    },
+    {
+      "id": "n0051",
+      "name": "SUASNAVAS MARÍA FERNANDA",
+      "meta": null,
+      "categoryId": "mejor-presentadora-de-noticias",
+      "type": "persona",
+      "order": 23,
+      "sourceRow": 58
+    },
+    {
+      "id": "n0052",
+      "name": "VALAREZO LIZ",
+      "meta": null,
+      "categoryId": "mejor-presentadora-de-noticias",
+      "type": "persona",
+      "order": 24,
+      "sourceRow": 59
+    },
+    {
+      "id": "n0053",
+      "name": "VÁSCONEZ ROSA ELENA",
+      "meta": null,
+      "categoryId": "mejor-presentadora-de-noticias",
+      "type": "persona",
+      "order": 25,
+      "sourceRow": 60
+    },
+    {
+      "id": "n0054",
+      "name": "VERA KATTY",
+      "meta": null,
+      "categoryId": "mejor-presentadora-de-noticias",
+      "type": "persona",
+      "order": 26,
+      "sourceRow": 61
+    },
+    {
+      "id": "n0055",
+      "name": "VERA MARTINA",
+      "meta": null,
+      "categoryId": "mejor-presentadora-de-noticias",
+      "type": "persona",
+      "order": 27,
+      "sourceRow": 62
+    },
+    {
+      "id": "n0056",
+      "name": "VILLALVA VALERIE",
+      "meta": null,
+      "categoryId": "mejor-presentadora-de-noticias",
+      "type": "persona",
+      "order": 28,
+      "sourceRow": 63
+    },
+    {
+      "id": "n0057",
+      "name": "VINTIMILLA PAOLA",
+      "meta": null,
+      "categoryId": "mejor-presentadora-de-noticias",
+      "type": "persona",
+      "order": 29,
+      "sourceRow": 64
+    },
+    {
+      "id": "n0058",
+      "name": "AIZPRUA JUAN CARLOS",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 0,
+      "sourceRow": 69
+    },
+    {
+      "id": "n0059",
+      "name": "AGUILAR TITI",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 1,
+      "sourceRow": 70
+    },
+    {
+      "id": "n0060",
+      "name": "ALCÍVAR RICARDO",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 2,
+      "sourceRow": 71
+    },
+    {
+      "id": "n0061",
+      "name": "ANDRES SALAZAR",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 3,
+      "sourceRow": 72
+    },
+    {
+      "id": "n0062",
+      "name": "ARIAS ESTEFANÍA",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 4,
+      "sourceRow": 73
+    },
+    {
+      "id": "n0063",
+      "name": "ARTIEDA LENIN",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 5,
+      "sourceRow": 74
+    },
+    {
+      "id": "n0064",
+      "name": "BAEZ ANDREA",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 6,
+      "sourceRow": 75
+    },
+    {
+      "id": "n0065",
+      "name": "BAQUERIZO STALYN",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 7,
+      "sourceRow": 76
+    },
+    {
+      "id": "n0066",
+      "name": "BARBERÁN SOLEDAD",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 8,
+      "sourceRow": 77
+    },
+    {
+      "id": "n0067",
+      "name": "BERMEO ADRIANA",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 9,
+      "sourceRow": 78
+    },
+    {
+      "id": "n0068",
+      "name": "BERMEO SASKYA",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 10,
+      "sourceRow": 79
+    },
+    {
+      "id": "n0069",
+      "name": "BOADA ALE",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 11,
+      "sourceRow": 80
+    },
+    {
+      "id": "n0070",
+      "name": "BRYAN JIMENEZ",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 12,
+      "sourceRow": 81
+    },
+    {
+      "id": "n0071",
+      "name": "CAROLINA PIMENTEL",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 13,
+      "sourceRow": 82
+    },
+    {
+      "id": "n0072",
+      "name": "CARPIO MARIA",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 14,
+      "sourceRow": 83
+    },
+    {
+      "id": "n0073",
+      "name": "CEVALLOS BERNARDA",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 15,
+      "sourceRow": 84
+    },
+    {
+      "id": "n0074",
+      "name": "COELLO PAUL",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 16,
+      "sourceRow": 85
+    },
+    {
+      "id": "n0075",
+      "name": "CRUZATTY RICARDO",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 17,
+      "sourceRow": 86
+    },
+    {
+      "id": "n0076",
+      "name": "CUENCA DIEGO",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 18,
+      "sourceRow": 87
+    },
+    {
+      "id": "n0077",
+      "name": "DELGADO JOSÉ",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 19,
+      "sourceRow": 88
+    },
+    {
+      "id": "n0078",
+      "name": "DELGADO KARLA",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 20,
+      "sourceRow": 89
+    },
+    {
+      "id": "n0079",
+      "name": "DUEÑAS CELESTE",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 21,
+      "sourceRow": 90
+    },
+    {
+      "id": "n0080",
+      "name": "DUEÑAS HENRY",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 22,
+      "sourceRow": 91
+    },
+    {
+      "id": "n0081",
+      "name": "ESCOBAR JORGE",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 23,
+      "sourceRow": 92
+    },
+    {
+      "id": "n0082",
+      "name": "EZCURRA FERNANDO",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 24,
+      "sourceRow": 93
+    },
+    {
+      "id": "n0083",
+      "name": "FELIX CASTELLANOS",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 25,
+      "sourceRow": 94
+    },
+    {
+      "id": "n0084",
+      "name": "FILELLA VANESSA",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 26,
+      "sourceRow": 95
+    },
+    {
+      "id": "n0085",
+      "name": "FLORES LEONARDO",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 27,
+      "sourceRow": 96
+    },
+    {
+      "id": "n0086",
+      "name": "GARCES FRANCISCO",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 28,
+      "sourceRow": 97
+    },
+    {
+      "id": "n0087",
+      "name": "GARCIA CATALINA",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 29,
+      "sourceRow": 98
+    },
+    {
+      "id": "n0088",
+      "name": "GARCIA JORGE",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 30,
+      "sourceRow": 99
+    },
+    {
+      "id": "n0089",
+      "name": "GONZÁLEZ MERLIS",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 31,
+      "sourceRow": 100
+    },
+    {
+      "id": "n0090",
+      "name": "GOYES RASHEL",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 32,
+      "sourceRow": 101
+    },
+    {
+      "id": "n0091",
+      "name": "GRANDA MARÍA MERCEDES",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 33,
+      "sourceRow": 102
+    },
+    {
+      "id": "n0092",
+      "name": "GRANJA BESSI",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 34,
+      "sourceRow": 103
+    },
+    {
+      "id": "n0093",
+      "name": "GURUMENDI CARLOS JULIO",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 35,
+      "sourceRow": 104
+    },
+    {
+      "id": "n0094",
+      "name": "HARO KAREN",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 36,
+      "sourceRow": 105
+    },
+    {
+      "id": "n0095",
+      "name": "HEREDIA LUISA MARÍA",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 37,
+      "sourceRow": 106
+    },
+    {
+      "id": "n0096",
+      "name": "HIDALGO CRISTHIAN",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 38,
+      "sourceRow": 107
+    },
+    {
+      "id": "n0097",
+      "name": "HIGUERA HERNAN",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 39,
+      "sourceRow": 108
+    },
+    {
+      "id": "n0098",
+      "name": "JAZMIN SOLIS",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 40,
+      "sourceRow": 109
+    },
+    {
+      "id": "n0099",
+      "name": "JIMENEZ PEDRO",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 41,
+      "sourceRow": 110
+    },
+    {
+      "id": "n0100",
+      "name": "LIZETH ESCOBAR",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 42,
+      "sourceRow": 111
+    },
+    {
+      "id": "n0101",
+      "name": "MARCHELLE LUIGI",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 43,
+      "sourceRow": 112
+    },
+    {
+      "id": "n0102",
+      "name": "MENDOZA JOSUE",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 44,
+      "sourceRow": 113
+    },
+    {
+      "id": "n0103",
+      "name": "MERIZALDE BELÉN",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 45,
+      "sourceRow": 114
+    },
+    {
+      "id": "n0104",
+      "name": "MONROY DAYANA",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 46,
+      "sourceRow": 115
+    },
+    {
+      "id": "n0105",
+      "name": "MONTILLA PAMELA",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 47,
+      "sourceRow": 116
+    },
+    {
+      "id": "n0106",
+      "name": "MORA SAMANTHA",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 48,
+      "sourceRow": 117
+    },
+    {
+      "id": "n0107",
+      "name": "MORÁN MAITHE",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 49,
+      "sourceRow": 118
+    },
+    {
+      "id": "n0108",
+      "name": "NARANJO SANTIAGO",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 50,
+      "sourceRow": 119
+    },
+    {
+      "id": "n0109",
+      "name": "NEGRETE JORGE",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 51,
+      "sourceRow": 120
+    },
+    {
+      "id": "n0110",
+      "name": "OCHOA MERLIN",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 52,
+      "sourceRow": 121
+    },
+    {
+      "id": "n0111",
+      "name": "OLIVERO VERÓNICA",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 53,
+      "sourceRow": 122
+    },
+    {
+      "id": "n0112",
+      "name": "PALACIOS ANA MARÍA",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 54,
+      "sourceRow": 123
+    },
+    {
+      "id": "n0113",
+      "name": "PERALTA ADRIANA",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 55,
+      "sourceRow": 124
+    },
+    {
+      "id": "n0114",
+      "name": "PIZA CHARLIE",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 56,
+      "sourceRow": 125
+    },
+    {
+      "id": "n0115",
+      "name": "RAMOS JOHANNA",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 57,
+      "sourceRow": 126
+    },
+    {
+      "id": "n0116",
+      "name": "RASHEL GOYES",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 58,
+      "sourceRow": 127
+    },
+    {
+      "id": "n0117",
+      "name": "RODAS JACQUELINE",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 59,
+      "sourceRow": 128
+    },
+    {
+      "id": "n0118",
+      "name": "RODRÍGUEZ ABDÓN",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 60,
+      "sourceRow": 129
+    },
+    {
+      "id": "n0119",
+      "name": "ROJAS ADRIANA",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 61,
+      "sourceRow": 130
+    },
+    {
+      "id": "n0120",
+      "name": "SACOTO CARLOS",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 62,
+      "sourceRow": 131
+    },
+    {
+      "id": "n0121",
+      "name": "SALAZAR JORGE",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 63,
+      "sourceRow": 132
+    },
+    {
+      "id": "n0122",
+      "name": "SALAZAR LUCCIOLA",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 64,
+      "sourceRow": 133
+    },
+    {
+      "id": "n0123",
+      "name": "SANTANA FABIOLA",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 65,
+      "sourceRow": 134
+    },
+    {
+      "id": "n0124",
+      "name": "SANTANA KARLA",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 66,
+      "sourceRow": 135
+    },
+    {
+      "id": "n0125",
+      "name": "SAONA JULIO CESAR",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 67,
+      "sourceRow": 136
+    },
+    {
+      "id": "n0126",
+      "name": "SEBASTIAN ORTIZ",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 68,
+      "sourceRow": 137
+    },
+    {
+      "id": "n0127",
+      "name": "SINGUEL ASTRID",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 69,
+      "sourceRow": 138
+    },
+    {
+      "id": "n0128",
+      "name": "SOLÓRZANO ISMENIA",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 70,
+      "sourceRow": 139
+    },
+    {
+      "id": "n0129",
+      "name": "SOTO MARTÍN",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 71,
+      "sourceRow": 140
+    },
+    {
+      "id": "n0130",
+      "name": "SPER JORGE",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 72,
+      "sourceRow": 141
+    },
+    {
+      "id": "n0131",
+      "name": "SUÁREZ ILIANA",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 73,
+      "sourceRow": 142
+    },
+    {
+      "id": "n0132",
+      "name": "TUTIVÉN PAÚL",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 74,
+      "sourceRow": 143
+    },
+    {
+      "id": "n0133",
+      "name": "VALENCIA DANIELA",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 75,
+      "sourceRow": 144
+    },
+    {
+      "id": "n0134",
+      "name": "VARGAS ALEX",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 76,
+      "sourceRow": 145
+    },
+    {
+      "id": "n0135",
+      "name": "VÁSCONEZ ROSA ELENA",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 77,
+      "sourceRow": 146
+    },
+    {
+      "id": "n0136",
+      "name": "VILLALVA VALERI",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 78,
+      "sourceRow": 147
+    },
+    {
+      "id": "n0137",
+      "name": "YEPEZ FAUSTO",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 79,
+      "sourceRow": 148
+    },
+    {
+      "id": "n0138",
+      "name": "YONG WILLIAM",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 80,
+      "sourceRow": 149
+    },
+    {
+      "id": "n0139",
+      "name": "ZAMORA EMILIO",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 81,
+      "sourceRow": 150
+    },
+    {
+      "id": "n0140",
+      "name": "ZAPATA BELÉN",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "type": "persona",
+      "order": 82,
+      "sourceRow": 151
+    },
+    {
+      "id": "n0141",
+      "name": "ALDIA",
+      "meta": null,
+      "categoryId": "mejor-cuenta-informativa-digital",
+      "type": "medio",
+      "order": 0,
+      "sourceRow": 155
+    },
+    {
+      "id": "n0142",
+      "name": "CANAL TV DIGITAL",
+      "meta": null,
+      "categoryId": "mejor-cuenta-informativa-digital",
+      "type": "medio",
+      "order": 1,
+      "sourceRow": 156
+    },
+    {
+      "id": "n0143",
+      "name": "DIARIO EL COMERCIO",
+      "meta": null,
+      "categoryId": "mejor-cuenta-informativa-digital",
+      "type": "medio",
+      "order": 2,
+      "sourceRow": 157
+    },
+    {
+      "id": "n0144",
+      "name": "DIARIO EL MERCURIO",
+      "meta": null,
+      "categoryId": "mejor-cuenta-informativa-digital",
+      "type": "medio",
+      "order": 3,
+      "sourceRow": 158
+    },
+    {
+      "id": "n0145",
+      "name": "DIARIO EL TELÉGRAFO",
+      "meta": null,
+      "categoryId": "mejor-cuenta-informativa-digital",
+      "type": "medio",
+      "order": 4,
+      "sourceRow": 159
+    },
+    {
+      "id": "n0146",
+      "name": "DIARIO EXPRESO",
+      "meta": null,
+      "categoryId": "mejor-cuenta-informativa-digital",
+      "type": "medio",
+      "order": 5,
+      "sourceRow": 160
+    },
+    {
+      "id": "n0147",
+      "name": "DIARIO EXTRA",
+      "meta": null,
+      "categoryId": "mejor-cuenta-informativa-digital",
+      "type": "medio",
+      "order": 6,
+      "sourceRow": 161
+    },
+    {
+      "id": "n0148",
+      "name": "ECUADORINMEDIATO",
+      "meta": null,
+      "categoryId": "mejor-cuenta-informativa-digital",
+      "type": "medio",
+      "order": 7,
+      "sourceRow": 162
+    },
+    {
+      "id": "n0149",
+      "name": "ECUAVISA NOTICIAS",
+      "meta": "Instagram",
+      "categoryId": "mejor-cuenta-informativa-digital",
+      "type": "medio",
+      "order": 8,
+      "sourceRow": 163
+    },
+    {
+      "id": "n0150",
+      "name": "EL DIARIO MANABITA",
+      "meta": null,
+      "categoryId": "mejor-cuenta-informativa-digital",
+      "type": "medio",
+      "order": 9,
+      "sourceRow": 164
+    },
+    {
+      "id": "n0151",
+      "name": "EL NOTICIERO TC",
+      "meta": null,
+      "categoryId": "mejor-cuenta-informativa-digital",
+      "type": "medio",
+      "order": 10,
+      "sourceRow": 165
+    },
+    {
+      "id": "n0152",
+      "name": "EL UNIVERSO",
+      "meta": null,
+      "categoryId": "mejor-cuenta-informativa-digital",
+      "type": "medio",
+      "order": 11,
+      "sourceRow": 166
+    },
+    {
+      "id": "n0153",
+      "name": "LA DATA",
+      "meta": null,
+      "categoryId": "mejor-cuenta-informativa-digital",
+      "type": "medio",
+      "order": 12,
+      "sourceRow": 167
+    },
+    {
+      "id": "n0154",
+      "name": "LA HISTORIA",
+      "meta": null,
+      "categoryId": "mejor-cuenta-informativa-digital",
+      "type": "medio",
+      "order": 13,
+      "sourceRow": 168
+    },
+    {
+      "id": "n0155",
+      "name": "LA HORA ECUADOR",
+      "meta": null,
+      "categoryId": "mejor-cuenta-informativa-digital",
+      "type": "medio",
+      "order": 14,
+      "sourceRow": 169
+    },
+    {
+      "id": "n0156",
+      "name": "LA POSTA EC",
+      "meta": null,
+      "categoryId": "mejor-cuenta-informativa-digital",
+      "type": "medio",
+      "order": 15,
+      "sourceRow": 170
+    },
+    {
+      "id": "n0157",
+      "name": "METRO ECUADOR",
+      "meta": null,
+      "categoryId": "mejor-cuenta-informativa-digital",
+      "type": "medio",
+      "order": 16,
+      "sourceRow": 171
+    },
+    {
+      "id": "n0158",
+      "name": "PRIMICIAS",
+      "meta": null,
+      "categoryId": "mejor-cuenta-informativa-digital",
+      "type": "medio",
+      "order": 17,
+      "sourceRow": 172
+    },
+    {
+      "id": "n0159",
+      "name": "RADIO CENTRO",
+      "meta": null,
+      "categoryId": "mejor-cuenta-informativa-digital",
+      "type": "medio",
+      "order": 18,
+      "sourceRow": 173
+    },
+    {
+      "id": "n0160",
+      "name": "RADIO DINÁMICA ECUADOR",
+      "meta": null,
+      "categoryId": "mejor-cuenta-informativa-digital",
+      "type": "medio",
+      "order": 19,
+      "sourceRow": 174
+    },
+    {
+      "id": "n0161",
+      "name": "RADIO SUCRE",
+      "meta": null,
+      "categoryId": "mejor-cuenta-informativa-digital",
+      "type": "medio",
+      "order": 20,
+      "sourceRow": 175
+    },
+    {
+      "id": "n0162",
+      "name": "ÚLTIMA HORA ECUADOR",
+      "meta": null,
+      "categoryId": "mejor-cuenta-informativa-digital",
+      "type": "medio",
+      "order": 21,
+      "sourceRow": 176
+    },
+    {
+      "id": "n0163",
+      "name": "ALVARADO JAIME ANTONIO",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "type": "persona",
+      "order": 0,
+      "sourceRow": 183
+    },
+    {
+      "id": "n0164",
+      "name": "ANDINO EDUARDO",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "type": "persona",
+      "order": 1,
+      "sourceRow": 184
+    },
+    {
+      "id": "n0165",
+      "name": "ARÉVALO JOSÉ LUIS",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "type": "persona",
+      "order": 2,
+      "sourceRow": 185
+    },
+    {
+      "id": "n0166",
+      "name": "ARROYO CÉSAR",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "type": "persona",
+      "order": 3,
+      "sourceRow": 186
+    },
+    {
+      "id": "n0167",
+      "name": "BENAVIDES ANDRÉS",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "type": "persona",
+      "order": 4,
+      "sourceRow": 187
+    },
+    {
+      "id": "n0168",
+      "name": "BORBOR UFREDO",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "type": "persona",
+      "order": 5,
+      "sourceRow": 188
+    },
+    {
+      "id": "n0169",
+      "name": "CEVALLOS JHONATAN",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "type": "persona",
+      "order": 6,
+      "sourceRow": 189
+    },
+    {
+      "id": "n0170",
+      "name": "DÁVILA JAVIER JR.",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "type": "persona",
+      "order": 7,
+      "sourceRow": 190
+    },
+    {
+      "id": "n0171",
+      "name": "ESPAÑA GERARDO",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "type": "persona",
+      "order": 8,
+      "sourceRow": 191
+    },
+    {
+      "id": "n0172",
+      "name": "GALLARDO FABIÁN",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "type": "persona",
+      "order": 9,
+      "sourceRow": 192
+    },
+    {
+      "id": "n0173",
+      "name": "GILER EDUARDO",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "type": "persona",
+      "order": 10,
+      "sourceRow": 193
+    },
+    {
+      "id": "n0174",
+      "name": "GÓMEZ ALBERTO",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "type": "persona",
+      "order": 11,
+      "sourceRow": 194
+    },
+    {
+      "id": "n0175",
+      "name": "HIDALGO FREDY",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "type": "persona",
+      "order": 12,
+      "sourceRow": 195
+    },
+    {
+      "id": "n0176",
+      "name": "JÁCOME LUIS EDUARDO",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "type": "persona",
+      "order": 13,
+      "sourceRow": 196
+    },
+    {
+      "id": "n0177",
+      "name": "LANATA BENNY",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "type": "persona",
+      "order": 14,
+      "sourceRow": 197
+    },
+    {
+      "id": "n0178",
+      "name": "LASO ALFONSO",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "type": "persona",
+      "order": 15,
+      "sourceRow": 198
+    },
+    {
+      "id": "n0179",
+      "name": "LOOR NÉSTOR",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "type": "persona",
+      "order": 16,
+      "sourceRow": 199
+    },
+    {
+      "id": "n0180",
+      "name": "MELO DIEGO",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "type": "persona",
+      "order": 17,
+      "sourceRow": 200
+    },
+    {
+      "id": "n0181",
+      "name": "MERA PEPE",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "type": "persona",
+      "order": 18,
+      "sourceRow": 201
+    },
+    {
+      "id": "n0182",
+      "name": "MORALES CHRISTIAN",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "type": "persona",
+      "order": 19,
+      "sourceRow": 202
+    },
+    {
+      "id": "n0183",
+      "name": "MUÑÓZ ANDRÉS",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "type": "persona",
+      "order": 20,
+      "sourceRow": 203
+    },
+    {
+      "id": "n0184",
+      "name": "NAVAS DANIEL",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "type": "persona",
+      "order": 21,
+      "sourceRow": 204
+    },
+    {
+      "id": "n0185",
+      "name": "NOVOA ROBIN",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "type": "persona",
+      "order": 22,
+      "sourceRow": 205
+    },
+    {
+      "id": "n0186",
+      "name": "OÑA ROBERTO",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "type": "persona",
+      "order": 23,
+      "sourceRow": 206
+    },
+    {
+      "id": "n0187",
+      "name": "PEÑAFIEL JORGE EDUARDO",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "type": "persona",
+      "order": 24,
+      "sourceRow": 208
+    },
+    {
+      "id": "n0188",
+      "name": "PORTILLA OSCAR",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "type": "persona",
+      "order": 25,
+      "sourceRow": 209
+    },
+    {
+      "id": "n0189",
+      "name": "RIVERA FRANCISCO",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "type": "persona",
+      "order": 26,
+      "sourceRow": 210
+    },
+    {
+      "id": "n0190",
+      "name": "RIVERA JUAN CARLOS",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "type": "persona",
+      "order": 27,
+      "sourceRow": 211
+    },
+    {
+      "id": "n0191",
+      "name": "ROBALINO JERRY",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "type": "persona",
+      "order": 28,
+      "sourceRow": 212
+    },
+    {
+      "id": "n0192",
+      "name": "RUIZ WALTER",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "type": "persona",
+      "order": 29,
+      "sourceRow": 213
+    },
+    {
+      "id": "n0193",
+      "name": "SALTOS ERICK",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "type": "persona",
+      "order": 30,
+      "sourceRow": 214
+    },
+    {
+      "id": "n0194",
+      "name": "VELOZ DANIELA",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "type": "persona",
+      "order": 31,
+      "sourceRow": 215
+    },
+    {
+      "id": "n0195",
+      "name": "VILLAMARÍN ANDRÉS",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "type": "persona",
+      "order": 32,
+      "sourceRow": 216
+    },
+    {
+      "id": "n0196",
+      "name": "ZEDEÑO DUVAL",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "type": "persona",
+      "order": 33,
+      "sourceRow": 217
+    },
+    {
+      "id": "n0197",
+      "name": "ACONDA SEBASTIÁN",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 0,
+      "sourceRow": 222
+    },
+    {
+      "id": "n0198",
+      "name": "AGUINAGA ALEX",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 1,
+      "sourceRow": 223
+    },
+    {
+      "id": "n0199",
+      "name": "ALVARADO JOEL",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 2,
+      "sourceRow": 224
+    },
+    {
+      "id": "n0200",
+      "name": "ARCOS DIEGO",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 3,
+      "sourceRow": 225
+    },
+    {
+      "id": "n0201",
+      "name": "ARGUELLO CARLOS XAVIER",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 4,
+      "sourceRow": 226
+    },
+    {
+      "id": "n0202",
+      "name": "ÁVILA ESTEBAN",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 5,
+      "sourceRow": 227
+    },
+    {
+      "id": "n0203",
+      "name": "AVILÉS RAÚL",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 6,
+      "sourceRow": 228
+    },
+    {
+      "id": "n0204",
+      "name": "BARCOS RÓMULO",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 7,
+      "sourceRow": 229
+    },
+    {
+      "id": "n0205",
+      "name": "BASANTES SERGIO",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 8,
+      "sourceRow": 230
+    },
+    {
+      "id": "n0206",
+      "name": "BONAFONT ROBERTO",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 9,
+      "sourceRow": 231
+    },
+    {
+      "id": "n0207",
+      "name": "BORBOR UFREDO",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 10,
+      "sourceRow": 232
+    },
+    {
+      "id": "n0208",
+      "name": "BRIONES STALIN",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 11,
+      "sourceRow": 233
+    },
+    {
+      "id": "n0209",
+      "name": "BUCARAM SANTIAGO",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 12,
+      "sourceRow": 234
+    },
+    {
+      "id": "n0210",
+      "name": "BUSTAMANTE LUIS",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 13,
+      "sourceRow": 235
+    },
+    {
+      "id": "n0211",
+      "name": "CAGUANA ANDRÉS",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 14,
+      "sourceRow": 236
+    },
+    {
+      "id": "n0212",
+      "name": "CANESSA MARIO",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 15,
+      "sourceRow": 237
+    },
+    {
+      "id": "n0213",
+      "name": "CEVALLOS JOSÉ FRANCISCO",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 16,
+      "sourceRow": 238
+    },
+    {
+      "id": "n0214",
+      "name": "COELLO XAVIER",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 17,
+      "sourceRow": 239
+    },
+    {
+      "id": "n0215",
+      "name": "CORNEJO BRYAN",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 18,
+      "sourceRow": 240
+    },
+    {
+      "id": "n0216",
+      "name": "CORNEJO PATRICIO",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 19,
+      "sourceRow": 241
+    },
+    {
+      "id": "n0217",
+      "name": "CRESPO JOSE CARLOS",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 20,
+      "sourceRow": 242
+    },
+    {
+      "id": "n0218",
+      "name": "DÁVILA WILLIAM",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 21,
+      "sourceRow": 243
+    },
+    {
+      "id": "n0219",
+      "name": "DECKER SEBASTIAN",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 22,
+      "sourceRow": 244
+    },
+    {
+      "id": "n0220",
+      "name": "DREER ESTEBAN",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 23,
+      "sourceRow": 245
+    },
+    {
+      "id": "n0221",
+      "name": "DUEÑAS STEFFANO",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 24,
+      "sourceRow": 246
+    },
+    {
+      "id": "n0222",
+      "name": "ENDARA MICHAEL",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 25,
+      "sourceRow": 247
+    },
+    {
+      "id": "n0223",
+      "name": "ESPINOZA ANDRÉS",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 26,
+      "sourceRow": 248
+    },
+    {
+      "id": "n0224",
+      "name": "FIGUEROA GUSTAVO",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 27,
+      "sourceRow": 249
+    },
+    {
+      "id": "n0225",
+      "name": "FORLÁN RICHARD",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 28,
+      "sourceRow": 250
+    },
+    {
+      "id": "n0226",
+      "name": "GALLARDO GERMÁN",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 29,
+      "sourceRow": 251
+    },
+    {
+      "id": "n0227",
+      "name": "GALVEZ CARLOS",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 30,
+      "sourceRow": 252
+    },
+    {
+      "id": "n0228",
+      "name": "GARCÍA JEANCARLO",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 31,
+      "sourceRow": 253
+    },
+    {
+      "id": "n0229",
+      "name": "GARCÍA MANUEL",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 32,
+      "sourceRow": 254
+    },
+    {
+      "id": "n0230",
+      "name": "GAVICA JOSE",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 33,
+      "sourceRow": 255
+    },
+    {
+      "id": "n0231",
+      "name": "GUEVARA FERNANDO",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 34,
+      "sourceRow": 256
+    },
+    {
+      "id": "n0232",
+      "name": "GUSCHMER ANDRÉS",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 35,
+      "sourceRow": 257
+    },
+    {
+      "id": "n0233",
+      "name": "HARB ALFONSO",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 36,
+      "sourceRow": 258
+    },
+    {
+      "id": "n0234",
+      "name": "HIDALGO FREDY",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 37,
+      "sourceRow": 259
+    },
+    {
+      "id": "n0235",
+      "name": "ILLINGWORTH ANDRÉS",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 38,
+      "sourceRow": 260
+    },
+    {
+      "id": "n0236",
+      "name": "JACOME LUIS",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 39,
+      "sourceRow": 261
+    },
+    {
+      "id": "n0237",
+      "name": "KLIMOWICZ JAVIER",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 40,
+      "sourceRow": 262
+    },
+    {
+      "id": "n0238",
+      "name": "LASALVIA JORGE",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 41,
+      "sourceRow": 263
+    },
+    {
+      "id": "n0239",
+      "name": "LÓPEZ MARCO",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 42,
+      "sourceRow": 264
+    },
+    {
+      "id": "n0240",
+      "name": "MAGALLANES ARTURO",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 43,
+      "sourceRow": 265
+    },
+    {
+      "id": "n0241",
+      "name": "MARCHELLE LUIGI",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 44,
+      "sourceRow": 266
+    },
+    {
+      "id": "n0242",
+      "name": "MELO DIEGO",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 45,
+      "sourceRow": 267
+    },
+    {
+      "id": "n0243",
+      "name": "MENDOZA LIGNER",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 46,
+      "sourceRow": 268
+    },
+    {
+      "id": "n0244",
+      "name": "MIGUELES JOSÉ LUIS",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 47,
+      "sourceRow": 269
+    },
+    {
+      "id": "n0245",
+      "name": "MOLESTINA CARLOS ALBERTO",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 48,
+      "sourceRow": 270
+    },
+    {
+      "id": "n0246",
+      "name": "MOLESTINA FRANCISCO",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 49,
+      "sourceRow": 271
+    },
+    {
+      "id": "n0247",
+      "name": "MOLESTINA JOSE",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 50,
+      "sourceRow": 272
+    },
+    {
+      "id": "n0248",
+      "name": "MONDAINI MARCOS",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 51,
+      "sourceRow": 273
+    },
+    {
+      "id": "n0249",
+      "name": "MORALES CARLOS",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 52,
+      "sourceRow": 274
+    },
+    {
+      "id": "n0250",
+      "name": "MORALES RAMÓN",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 53,
+      "sourceRow": 275
+    },
+    {
+      "id": "n0251",
+      "name": "MORENO BYRON",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 54,
+      "sourceRow": 276
+    },
+    {
+      "id": "n0252",
+      "name": "MUÑOZ VITO",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 55,
+      "sourceRow": 277
+    },
+    {
+      "id": "n0253",
+      "name": "NAVARRO GUSTAVO",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 56,
+      "sourceRow": 278
+    },
+    {
+      "id": "n0254",
+      "name": "NAVAS DANIEL",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 57,
+      "sourceRow": 279
+    },
+    {
+      "id": "n0255",
+      "name": "NAVAS STÉFANO",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 58,
+      "sourceRow": 280
+    },
+    {
+      "id": "n0256",
+      "name": "NOGALED SEBASTIÁN",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 59,
+      "sourceRow": 281
+    },
+    {
+      "id": "n0257",
+      "name": "PAULSON ANDRÉS",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 60,
+      "sourceRow": 282
+    },
+    {
+      "id": "n0258",
+      "name": "PÉNDOLA RICARDO",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 61,
+      "sourceRow": 283
+    },
+    {
+      "id": "n0259",
+      "name": "PONCE ANDRES",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 62,
+      "sourceRow": 284
+    },
+    {
+      "id": "n0260",
+      "name": "QUIMÍS IVÁN",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 63,
+      "sourceRow": 285
+    },
+    {
+      "id": "n0261",
+      "name": "QUIÑÓNEZ PEDRO",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 64,
+      "sourceRow": 286
+    },
+    {
+      "id": "n0262",
+      "name": "RODRÍGUEZ MARIANO",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 65,
+      "sourceRow": 287
+    },
+    {
+      "id": "n0263",
+      "name": "ROJAS LUIS ANDRÉ",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 66,
+      "sourceRow": 288
+    },
+    {
+      "id": "n0264",
+      "name": "ROSALES FELIX",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 67,
+      "sourceRow": 289
+    },
+    {
+      "id": "n0265",
+      "name": "RUIZ JAVIER",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 68,
+      "sourceRow": 290
+    },
+    {
+      "id": "n0266",
+      "name": "SÁNCHEZ JORGE",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 69,
+      "sourceRow": 291
+    },
+    {
+      "id": "n0267",
+      "name": "SÁNCHEZ WASHINGTON",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 70,
+      "sourceRow": 292
+    },
+    {
+      "id": "n0268",
+      "name": "SIERRA OMAR",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 71,
+      "sourceRow": 293
+    },
+    {
+      "id": "n0269",
+      "name": "SUÁREZ KEVIN",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 72,
+      "sourceRow": 294
+    },
+    {
+      "id": "n0270",
+      "name": "URRUTIA PATRICIO",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 73,
+      "sourceRow": 295
+    },
+    {
+      "id": "n0271",
+      "name": "VARGAS JOSÉ MIGUEL",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 74,
+      "sourceRow": 296
+    },
+    {
+      "id": "n0272",
+      "name": "VELA ANIBAL",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 75,
+      "sourceRow": 297
+    },
+    {
+      "id": "n0273",
+      "name": "VERDESOTO KEVIN",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 76,
+      "sourceRow": 298
+    },
+    {
+      "id": "n0274",
+      "name": "VILLAMARÍN ANDRÉS",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 77,
+      "sourceRow": 299
+    },
+    {
+      "id": "n0275",
+      "name": "VINCES RONALD",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 78,
+      "sourceRow": 300
+    },
+    {
+      "id": "n0276",
+      "name": "VIZCAÍNO FABIÁN",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 79,
+      "sourceRow": 301
+    },
+    {
+      "id": "n0277",
+      "name": "ZAPATA LUIS",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 80,
+      "sourceRow": 302
+    },
+    {
+      "id": "n0278",
+      "name": "ZEDEÑO DUVAL",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 81,
+      "sourceRow": 303
+    },
+    {
+      "id": "n0279",
+      "name": "ZEVALLOS XAVIER",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-masculino",
+      "type": "persona",
+      "order": 82,
+      "sourceRow": 304
+    },
+    {
+      "id": "n0280",
+      "name": "ALCÍVAR GABRIELA",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-mujeres",
+      "type": "persona",
+      "order": 0,
+      "sourceRow": 309
+    },
+    {
+      "id": "n0281",
+      "name": "ALFARO FLORENCIA",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-mujeres",
+      "type": "persona",
+      "order": 1,
+      "sourceRow": 310
+    },
+    {
+      "id": "n0282",
+      "name": "ALVARADO KRISTY",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-mujeres",
+      "type": "persona",
+      "order": 2,
+      "sourceRow": 311
+    },
+    {
+      "id": "n0283",
+      "name": "ARIAS GUADALUPE",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-mujeres",
+      "type": "persona",
+      "order": 3,
+      "sourceRow": 312
+    },
+    {
+      "id": "n0284",
+      "name": "AYALA CARLA",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-mujeres",
+      "type": "persona",
+      "order": 4,
+      "sourceRow": 313
+    },
+    {
+      "id": "n0285",
+      "name": "BAYAS MAYRA",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-mujeres",
+      "type": "persona",
+      "order": 5,
+      "sourceRow": 314
+    },
+    {
+      "id": "n0286",
+      "name": "CALDERÓN JOHANNA",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-mujeres",
+      "type": "persona",
+      "order": 6,
+      "sourceRow": 315
+    },
+    {
+      "id": "n0287",
+      "name": "CHEVEZ MERCEDES",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-mujeres",
+      "type": "persona",
+      "order": 7,
+      "sourceRow": 316
+    },
+    {
+      "id": "n0288",
+      "name": "CHONG NATHALY",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-mujeres",
+      "type": "persona",
+      "order": 8,
+      "sourceRow": 317
+    },
+    {
+      "id": "n0289",
+      "name": "DÁVILA KAROLINA",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-mujeres",
+      "type": "persona",
+      "order": 9,
+      "sourceRow": 318
+    },
+    {
+      "id": "n0290",
+      "name": "DE LA TORRE XIOMARA",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-mujeres",
+      "type": "persona",
+      "order": 10,
+      "sourceRow": 319
+    },
+    {
+      "id": "n0291",
+      "name": "DIAZ MARIELA",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-mujeres",
+      "type": "persona",
+      "order": 11,
+      "sourceRow": 320
+    },
+    {
+      "id": "n0292",
+      "name": "FLORES MARIA JOSE",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-mujeres",
+      "type": "persona",
+      "order": 12,
+      "sourceRow": 321
+    },
+    {
+      "id": "n0293",
+      "name": "GAVILANES MAJO",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-mujeres",
+      "type": "persona",
+      "order": 13,
+      "sourceRow": 322
+    },
+    {
+      "id": "n0294",
+      "name": "GONZÁLEZ FANNY",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-mujeres",
+      "type": "persona",
+      "order": 14,
+      "sourceRow": 323
+    },
+    {
+      "id": "n0295",
+      "name": "IGLESIAS ANTONELLA",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-mujeres",
+      "type": "persona",
+      "order": 15,
+      "sourceRow": 324
+    },
+    {
+      "id": "n0296",
+      "name": "JURADO GABY",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-mujeres",
+      "type": "persona",
+      "order": 16,
+      "sourceRow": 325
+    },
+    {
+      "id": "n0297",
+      "name": "MELENDRES ANA",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-mujeres",
+      "type": "persona",
+      "order": 17,
+      "sourceRow": 326
+    },
+    {
+      "id": "n0298",
+      "name": "MENA VALERIA",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-mujeres",
+      "type": "persona",
+      "order": 18,
+      "sourceRow": 327
+    },
+    {
+      "id": "n0299",
+      "name": "MENESES SYLVIA",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-mujeres",
+      "type": "persona",
+      "order": 19,
+      "sourceRow": 328
+    },
+    {
+      "id": "n0300",
+      "name": "RODRIGUEZ SOLEDAD",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-mujeres",
+      "type": "persona",
+      "order": 20,
+      "sourceRow": 329
+    },
+    {
+      "id": "n0301",
+      "name": "SERRANO JOSSELINE",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-mujeres",
+      "type": "persona",
+      "order": 21,
+      "sourceRow": 330
+    },
+    {
+      "id": "n0302",
+      "name": "VARELES ERIIKA",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-mujeres",
+      "type": "persona",
+      "order": 22,
+      "sourceRow": 331
+    },
+    {
+      "id": "n0303",
+      "name": "VARGAS VANESSA",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-mujeres",
+      "type": "persona",
+      "order": 23,
+      "sourceRow": 332
+    },
+    {
+      "id": "n0304",
+      "name": "VASCO ANALI",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-mujeres",
+      "type": "persona",
+      "order": 24,
+      "sourceRow": 333
+    },
+    {
+      "id": "n0305",
+      "name": "VELOZ DANIELA",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-mujeres",
+      "type": "persona",
+      "order": 25,
+      "sourceRow": 334
+    },
+    {
+      "id": "n0306",
+      "name": "VERA DANIELA",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-mujeres",
+      "type": "persona",
+      "order": 26,
+      "sourceRow": 335
+    },
+    {
+      "id": "n0307",
+      "name": "VERA JOCELYN",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-mujeres",
+      "type": "persona",
+      "order": 27,
+      "sourceRow": 336
+    },
+    {
+      "id": "n0308",
+      "name": "VILLACRÉS RAHAB",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-mujeres",
+      "type": "persona",
+      "order": 28,
+      "sourceRow": 337
+    },
+    {
+      "id": "n0309",
+      "name": "VILLALVA VALERIE",
+      "meta": null,
+      "categoryId": "mejor-comentarista-deportivo-mujeres",
+      "type": "persona",
+      "order": 29,
+      "sourceRow": 338
+    },
+    {
+      "id": "n0310",
+      "name": "ANDRÉS GARZÓN VEGA",
+      "meta": "Tik Tok",
+      "categoryId": "mejor-cuenta-digital-de-deportes",
+      "type": "cuenta",
+      "order": 0,
+      "sourceRow": 343
+    },
+    {
+      "id": "n0311",
+      "name": "APUGOL",
+      "meta": "Tik Tok",
+      "categoryId": "mejor-cuenta-digital-de-deportes",
+      "type": "cuenta",
+      "order": 1,
+      "sourceRow": 344
+    },
+    {
+      "id": "n0312",
+      "name": "DIBLU TV DIGITAL",
+      "meta": "YouTube",
+      "categoryId": "mejor-cuenta-digital-de-deportes",
+      "type": "cuenta",
+      "order": 2,
+      "sourceRow": 345
+    },
+    {
+      "id": "n0313",
+      "name": "DIRECT FÚTBOL",
+      "meta": "Instagram",
+      "categoryId": "mejor-cuenta-digital-de-deportes",
+      "type": "cuenta",
+      "order": 3,
+      "sourceRow": 346
+    },
+    {
+      "id": "n0314",
+      "name": "EL CANAL DEL FÚTBOL",
+      "meta": "Instagram",
+      "categoryId": "mejor-cuenta-digital-de-deportes",
+      "type": "cuenta",
+      "order": 4,
+      "sourceRow": 347
+    },
+    {
+      "id": "n0315",
+      "name": "FANBOLEROS",
+      "meta": "Instagram",
+      "categoryId": "mejor-cuenta-digital-de-deportes",
+      "type": "cuenta",
+      "order": 5,
+      "sourceRow": 348
+    },
+    {
+      "id": "n0316",
+      "name": "FÚTBOL ECUADOR",
+      "meta": "Instagram",
+      "categoryId": "mejor-cuenta-digital-de-deportes",
+      "type": "cuenta",
+      "order": 6,
+      "sourceRow": 349
+    },
+    {
+      "id": "n0317",
+      "name": "FÚTBOL FEMENINO MÁS",
+      "meta": "Facebook",
+      "categoryId": "mejor-cuenta-digital-de-deportes",
+      "type": "cuenta",
+      "order": 7,
+      "sourceRow": 350
+    },
+    {
+      "id": "n0318",
+      "name": "GOLTV Ecuador",
+      "meta": "Instagram",
+      "categoryId": "mejor-cuenta-digital-de-deportes",
+      "type": "cuenta",
+      "order": 8,
+      "sourceRow": 351
+    },
+    {
+      "id": "n0319",
+      "name": "IDOLO TV",
+      "meta": "Instagram",
+      "categoryId": "mejor-cuenta-digital-de-deportes",
+      "type": "cuenta",
+      "order": 9,
+      "sourceRow": 352
+    },
+    {
+      "id": "n0320",
+      "name": "MARCA90EC",
+      "meta": "Instagram",
+      "categoryId": "mejor-cuenta-digital-de-deportes",
+      "type": "cuenta",
+      "order": 10,
+      "sourceRow": 353
+    },
+    {
+      "id": "n0321",
+      "name": "RADIO CARAVANA",
+      "meta": "X",
+      "categoryId": "mejor-cuenta-digital-de-deportes",
+      "type": "cuenta",
+      "order": 11,
+      "sourceRow": 354
+    },
+    {
+      "id": "n0322",
+      "name": "SE MOVIÓ EL BALÓN",
+      "meta": "Tik Tok",
+      "categoryId": "mejor-cuenta-digital-de-deportes",
+      "type": "cuenta",
+      "order": 12,
+      "sourceRow": 355
+    },
+    {
+      "id": "n0323",
+      "name": "SEGMENTO FÚTBOL",
+      "meta": "Instagram",
+      "categoryId": "mejor-cuenta-digital-de-deportes",
+      "type": "cuenta",
+      "order": 13,
+      "sourceRow": 356
+    },
+    {
+      "id": "n0324",
+      "name": "STUDIO FÚTBOL",
+      "meta": "Instagram",
+      "categoryId": "mejor-cuenta-digital-de-deportes",
+      "type": "cuenta",
+      "order": 14,
+      "sourceRow": 357
+    },
+    {
+      "id": "n0325",
+      "name": "TC DEPORTES",
+      "meta": "Instagram",
+      "categoryId": "mejor-cuenta-digital-de-deportes",
+      "type": "cuenta",
+      "order": 15,
+      "sourceRow": 358
+    },
+    {
+      "id": "n0326",
+      "name": "ALBUJA MARCO",
+      "meta": null,
+      "categoryId": "mejor-conductor-de-variedades",
+      "type": "persona",
+      "order": 0,
+      "sourceRow": 372
+    },
+    {
+      "id": "n0327",
+      "name": "ALTAMIRANO MAURICIO",
+      "meta": null,
+      "categoryId": "mejor-conductor-de-variedades",
+      "type": "persona",
+      "order": 1,
+      "sourceRow": 373
+    },
+    {
+      "id": "n0328",
+      "name": "ANDRADE EDUARDO",
+      "meta": null,
+      "categoryId": "mejor-conductor-de-variedades",
+      "type": "persona",
+      "order": 2,
+      "sourceRow": 374
+    },
+    {
+      "id": "n0329",
+      "name": "ARAUZ VICTOR",
+      "meta": null,
+      "categoryId": "mejor-conductor-de-variedades",
+      "type": "persona",
+      "order": 3,
+      "sourceRow": 375
+    },
+    {
+      "id": "n0330",
+      "name": "ARÉVALO JOSÉ",
+      "meta": null,
+      "categoryId": "mejor-conductor-de-variedades",
+      "type": "persona",
+      "order": 4,
+      "sourceRow": 376
+    },
+    {
+      "id": "n0331",
+      "name": "ARROYO PATRICIO",
+      "meta": null,
+      "categoryId": "mejor-conductor-de-variedades",
+      "type": "persona",
+      "order": 5,
+      "sourceRow": 377
+    },
+    {
+      "id": "n0332",
+      "name": "BARAHONA ANGELLO",
+      "meta": null,
+      "categoryId": "mejor-conductor-de-variedades",
+      "type": "persona",
+      "order": 6,
+      "sourceRow": 378
+    },
+    {
+      "id": "n0333",
+      "name": "BUSTAMANTE HENRY",
+      "meta": null,
+      "categoryId": "mejor-conductor-de-variedades",
+      "type": "persona",
+      "order": 7,
+      "sourceRow": 379
+    },
+    {
+      "id": "n0334",
+      "name": "CASTRO SANTIAGO",
+      "meta": null,
+      "categoryId": "mejor-conductor-de-variedades",
+      "type": "persona",
+      "order": 8,
+      "sourceRow": 380
+    },
+    {
+      "id": "n0335",
+      "name": "CAVIEDES ARTURO",
+      "meta": null,
+      "categoryId": "mejor-conductor-de-variedades",
+      "type": "persona",
+      "order": 9,
+      "sourceRow": 381
+    },
+    {
+      "id": "n0336",
+      "name": "DELGADO ISAAC",
+      "meta": null,
+      "categoryId": "mejor-conductor-de-variedades",
+      "type": "persona",
+      "order": 10,
+      "sourceRow": 382
+    },
+    {
+      "id": "n0337",
+      "name": "DREER ESTEBAN",
+      "meta": null,
+      "categoryId": "mejor-conductor-de-variedades",
+      "type": "persona",
+      "order": 11,
+      "sourceRow": 383
+    },
+    {
+      "id": "n0338",
+      "name": "ESTRADA JONATHAN",
+      "meta": null,
+      "categoryId": "mejor-conductor-de-variedades",
+      "type": "persona",
+      "order": 12,
+      "sourceRow": 384
+    },
+    {
+      "id": "n0339",
+      "name": "FARINA RONALD",
+      "meta": null,
+      "categoryId": "mejor-conductor-de-variedades",
+      "type": "persona",
+      "order": 13,
+      "sourceRow": 385
+    },
+    {
+      "id": "n0340",
+      "name": "GUSCHMER ANDRÉS",
+      "meta": null,
+      "categoryId": "mejor-conductor-de-variedades",
+      "type": "persona",
+      "order": 14,
+      "sourceRow": 386
+    },
+    {
+      "id": "n0341",
+      "name": "GUZMÁN ALBERTO",
+      "meta": null,
+      "categoryId": "mejor-conductor-de-variedades",
+      "type": "persona",
+      "order": 15,
+      "sourceRow": 387
+    },
+    {
+      "id": "n0342",
+      "name": "HEREDIA JORGE",
+      "meta": null,
+      "categoryId": "mejor-conductor-de-variedades",
+      "type": "persona",
+      "order": 16,
+      "sourceRow": 388
+    },
+    {
+      "id": "n0343",
+      "name": "HOFFMANN DIETER",
+      "meta": null,
+      "categoryId": "mejor-conductor-de-variedades",
+      "type": "persona",
+      "order": 17,
+      "sourceRow": 389
+    },
+    {
+      "id": "n0344",
+      "name": "JARAMILLO ESTEBAN (ABE)",
+      "meta": null,
+      "categoryId": "mejor-conductor-de-variedades",
+      "type": "persona",
+      "order": 18,
+      "sourceRow": 390
+    },
+    {
+      "id": "n0345",
+      "name": "MATAMOROS CARLOS JOSÉ",
+      "meta": null,
+      "categoryId": "mejor-conductor-de-variedades",
+      "type": "persona",
+      "order": 19,
+      "sourceRow": 391
+    },
+    {
+      "id": "n0346",
+      "name": "MORÁN DENILSON",
+      "meta": null,
+      "categoryId": "mejor-conductor-de-variedades",
+      "type": "persona",
+      "order": 20,
+      "sourceRow": 392
+    },
+    {
+      "id": "n0347",
+      "name": "NACIPUCHA SAMUEL",
+      "meta": null,
+      "categoryId": "mejor-conductor-de-variedades",
+      "type": "persona",
+      "order": 21,
+      "sourceRow": 393
+    },
+    {
+      "id": "n0348",
+      "name": "NIETO CARLOS",
+      "meta": null,
+      "categoryId": "mejor-conductor-de-variedades",
+      "type": "persona",
+      "order": 22,
+      "sourceRow": 394
+    },
+    {
+      "id": "n0349",
+      "name": "NORRIS CHRISTIAN",
+      "meta": null,
+      "categoryId": "mejor-conductor-de-variedades",
+      "type": "persona",
+      "order": 23,
+      "sourceRow": 395
+    },
+    {
+      "id": "n0350",
+      "name": "PINOARGOTE QUIROZ ALFREDO",
+      "meta": null,
+      "categoryId": "mejor-conductor-de-variedades",
+      "type": "persona",
+      "order": 24,
+      "sourceRow": 396
+    },
+    {
+      "id": "n0351",
+      "name": "PIMENTEL ZAVIER",
+      "meta": null,
+      "categoryId": "mejor-conductor-de-variedades",
+      "type": "persona",
+      "order": 25,
+      "sourceRow": 397
+    },
+    {
+      "id": "n0352",
+      "name": "QUEZADA LEONARDO",
+      "meta": null,
+      "categoryId": "mejor-conductor-de-variedades",
+      "type": "persona",
+      "order": 26,
+      "sourceRow": 398
+    },
+    {
+      "id": "n0353",
+      "name": "QUINTERO PONCHO",
+      "meta": null,
+      "categoryId": "mejor-conductor-de-variedades",
+      "type": "persona",
+      "order": 27,
+      "sourceRow": 399
+    },
+    {
+      "id": "n0354",
+      "name": "ROSERO DANILO",
+      "meta": null,
+      "categoryId": "mejor-conductor-de-variedades",
+      "type": "persona",
+      "order": 28,
+      "sourceRow": 400
+    },
+    {
+      "id": "n0355",
+      "name": "URRUTIA JOSÉ",
+      "meta": null,
+      "categoryId": "mejor-conductor-de-variedades",
+      "type": "persona",
+      "order": 29,
+      "sourceRow": 401
+    },
+    {
+      "id": "n0356",
+      "name": "VÁSQUEZ REINALDO",
+      "meta": null,
+      "categoryId": "mejor-conductor-de-variedades",
+      "type": "persona",
+      "order": 30,
+      "sourceRow": 402
+    },
+    {
+      "id": "n0357",
+      "name": "VIDÁN ESTÉBAN",
+      "meta": null,
+      "categoryId": "mejor-conductor-de-variedades",
+      "type": "persona",
+      "order": 31,
+      "sourceRow": 403
+    },
+    {
+      "id": "n0358",
+      "name": "VIZUETE ALEX",
+      "meta": null,
+      "categoryId": "mejor-conductor-de-variedades",
+      "type": "persona",
+      "order": 32,
+      "sourceRow": 404
+    },
+    {
+      "id": "n0359",
+      "name": "ZEA DANIEL",
+      "meta": null,
+      "categoryId": "mejor-conductor-de-variedades",
+      "type": "persona",
+      "order": 33,
+      "sourceRow": 405
+    },
+    {
+      "id": "n0360",
+      "name": "AGUIRRE CAROLINA",
+      "meta": null,
+      "categoryId": "mejor-conductora-de-variedades",
+      "type": "persona",
+      "order": 0,
+      "sourceRow": 409
+    },
+    {
+      "id": "n0361",
+      "name": "ANGULO DENISSE",
+      "meta": null,
+      "categoryId": "mejor-conductora-de-variedades",
+      "type": "persona",
+      "order": 1,
+      "sourceRow": 410
+    },
+    {
+      "id": "n0362",
+      "name": "ARCE AURA",
+      "meta": null,
+      "categoryId": "mejor-conductora-de-variedades",
+      "type": "persona",
+      "order": 2,
+      "sourceRow": 411
+    },
+    {
+      "id": "n0363",
+      "name": "BARREIRO KARIN",
+      "meta": null,
+      "categoryId": "mejor-conductora-de-variedades",
+      "type": "persona",
+      "order": 3,
+      "sourceRow": 412
+    },
+    {
+      "id": "n0364",
+      "name": "DIAZ GABY",
+      "meta": null,
+      "categoryId": "mejor-conductora-de-variedades",
+      "type": "persona",
+      "order": 4,
+      "sourceRow": 413
+    },
+    {
+      "id": "n0365",
+      "name": "GAETE JACQUELINE",
+      "meta": null,
+      "categoryId": "mejor-conductora-de-variedades",
+      "type": "persona",
+      "order": 5,
+      "sourceRow": 414
+    },
+    {
+      "id": "n0366",
+      "name": "GALLARDO LEONELA",
+      "meta": null,
+      "categoryId": "mejor-conductora-de-variedades",
+      "type": "persona",
+      "order": 6,
+      "sourceRow": 415
+    },
+    {
+      "id": "n0367",
+      "name": "GALVEZ TABATA",
+      "meta": null,
+      "categoryId": "mejor-conductora-de-variedades",
+      "type": "persona",
+      "order": 7,
+      "sourceRow": 416
+    },
+    {
+      "id": "n0368",
+      "name": "GANCHOZO JOMAHIRA",
+      "meta": null,
+      "categoryId": "mejor-conductora-de-variedades",
+      "type": "persona",
+      "order": 8,
+      "sourceRow": 417
+    },
+    {
+      "id": "n0369",
+      "name": "GUERRERO SORAYA",
+      "meta": null,
+      "categoryId": "mejor-conductora-de-variedades",
+      "type": "persona",
+      "order": 9,
+      "sourceRow": 418
+    },
+    {
+      "id": "n0370",
+      "name": "GUITIERREZ MARIA",
+      "meta": null,
+      "categoryId": "mejor-conductora-de-variedades",
+      "type": "persona",
+      "order": 10,
+      "sourceRow": 419
+    },
+    {
+      "id": "n0371",
+      "name": "GUTIERRÉZ VALERIA",
+      "meta": null,
+      "categoryId": "mejor-conductora-de-variedades",
+      "type": "persona",
+      "order": 11,
+      "sourceRow": 420
+    },
+    {
+      "id": "n0372",
+      "name": "JACHO LARISA",
+      "meta": null,
+      "categoryId": "mejor-conductora-de-variedades",
+      "type": "persona",
+      "order": 12,
+      "sourceRow": 421
+    },
+    {
+      "id": "n0373",
+      "name": "JAUME CAROLINA",
+      "meta": null,
+      "categoryId": "mejor-conductora-de-variedades",
+      "type": "persona",
+      "order": 13,
+      "sourceRow": 422
+    },
+    {
+      "id": "n0374",
+      "name": "JIMBO CAZAR ANDREA",
+      "meta": null,
+      "categoryId": "mejor-conductora-de-variedades",
+      "type": "persona",
+      "order": 14,
+      "sourceRow": 423
+    },
+    {
+      "id": "n0375",
+      "name": "LIMONGI VIRGINIA",
+      "meta": null,
+      "categoryId": "mejor-conductora-de-variedades",
+      "type": "persona",
+      "order": 15,
+      "sourceRow": 424
+    },
+    {
+      "id": "n0376",
+      "name": "MANZUR ANA LUCÍA",
+      "meta": null,
+      "categoryId": "mejor-conductora-de-variedades",
+      "type": "persona",
+      "order": 16,
+      "sourceRow": 425
+    },
+    {
+      "id": "n0377",
+      "name": "MELENDRES ANA",
+      "meta": null,
+      "categoryId": "mejor-conductora-de-variedades",
+      "type": "persona",
+      "order": 17,
+      "sourceRow": 426
+    },
+    {
+      "id": "n0378",
+      "name": "MONTERO JASÚ",
+      "meta": null,
+      "categoryId": "mejor-conductora-de-variedades",
+      "type": "persona",
+      "order": 18,
+      "sourceRow": 427
+    },
+    {
+      "id": "n0379",
+      "name": "NAVEDA CYNTHIA",
+      "meta": null,
+      "categoryId": "mejor-conductora-de-variedades",
+      "type": "persona",
+      "order": 19,
+      "sourceRow": 428
+    },
+    {
+      "id": "n0380",
+      "name": "PASSAILAIGUE VANESSA",
+      "meta": null,
+      "categoryId": "mejor-conductora-de-variedades",
+      "type": "persona",
+      "order": 20,
+      "sourceRow": 429
+    },
+    {
+      "id": "n0381",
+      "name": "PAZMIÑO GABRIELA",
+      "meta": null,
+      "categoryId": "mejor-conductora-de-variedades",
+      "type": "persona",
+      "order": 21,
+      "sourceRow": 430
+    },
+    {
+      "id": "n0382",
+      "name": "PÉREZ MARÍA FERNANDA",
+      "meta": null,
+      "categoryId": "mejor-conductora-de-variedades",
+      "type": "persona",
+      "order": 22,
+      "sourceRow": 431
+    },
+    {
+      "id": "n0383",
+      "name": "PINCAY MICHELA",
+      "meta": null,
+      "categoryId": "mejor-conductora-de-variedades",
+      "type": "persona",
+      "order": 23,
+      "sourceRow": 432
+    },
+    {
+      "id": "n0384",
+      "name": "ROSILLO WENDY",
+      "meta": null,
+      "categoryId": "mejor-conductora-de-variedades",
+      "type": "persona",
+      "order": 24,
+      "sourceRow": 433
+    },
+    {
+      "id": "n0385",
+      "name": "RUBIRA NICOLE",
+      "meta": null,
+      "categoryId": "mejor-conductora-de-variedades",
+      "type": "persona",
+      "order": 25,
+      "sourceRow": 434
+    },
+    {
+      "id": "n0386",
+      "name": "SABATÉ MARIAN",
+      "meta": null,
+      "categoryId": "mejor-conductora-de-variedades",
+      "type": "persona",
+      "order": 26,
+      "sourceRow": 435
+    },
+    {
+      "id": "n0387",
+      "name": "SALTOS VERÓNICA",
+      "meta": null,
+      "categoryId": "mejor-conductora-de-variedades",
+      "type": "persona",
+      "order": 27,
+      "sourceRow": 436
+    },
+    {
+      "id": "n0388",
+      "name": "TERÁN GISEL",
+      "meta": null,
+      "categoryId": "mejor-conductora-de-variedades",
+      "type": "persona",
+      "order": 28,
+      "sourceRow": 437
+    },
+    {
+      "id": "n0389",
+      "name": "TORRES SILVANA",
+      "meta": null,
+      "categoryId": "mejor-conductora-de-variedades",
+      "type": "persona",
+      "order": 29,
+      "sourceRow": 438
+    },
+    {
+      "id": "n0390",
+      "name": "VALDEZ EMILIANA",
+      "meta": null,
+      "categoryId": "mejor-conductora-de-variedades",
+      "type": "persona",
+      "order": 30,
+      "sourceRow": 439
+    },
+    {
+      "id": "n0391",
+      "name": "VÁSCONEZ ROSAELENA",
+      "meta": null,
+      "categoryId": "mejor-conductora-de-variedades",
+      "type": "persona",
+      "order": 31,
+      "sourceRow": 440
+    },
+    {
+      "id": "n0392",
+      "name": "VITERI MARIELA",
+      "meta": null,
+      "categoryId": "mejor-conductora-de-variedades",
+      "type": "persona",
+      "order": 32,
+      "sourceRow": 441
+    },
+    {
+      "id": "n0393",
+      "name": "WEST DORA",
+      "meta": null,
+      "categoryId": "mejor-conductora-de-variedades",
+      "type": "persona",
+      "order": 33,
+      "sourceRow": 442
+    },
+    {
+      "id": "n0394",
+      "name": "AGÁRRATE",
+      "meta": "TELEPREMIERE",
+      "categoryId": "mejor-programa-de-variedades",
+      "type": "programa",
+      "order": 0,
+      "sourceRow": 446
+    },
+    {
+      "id": "n0395",
+      "name": "AMÉRICA VIVE",
+      "meta": "TELEAMAZONAS",
+      "categoryId": "mejor-programa-de-variedades",
+      "type": "programa",
+      "order": 1,
+      "sourceRow": 447
+    },
+    {
+      "id": "n0396",
+      "name": "CALIENTITOS TV",
+      "meta": null,
+      "categoryId": "mejor-programa-de-variedades",
+      "type": "programa",
+      "order": 2,
+      "sourceRow": 448
+    },
+    {
+      "id": "n0397",
+      "name": "CHEF BIGOTE",
+      "meta": "ECUADOR TV",
+      "categoryId": "mejor-programa-de-variedades",
+      "type": "programa",
+      "order": 3,
+      "sourceRow": 449
+    },
+    {
+      "id": "n0398",
+      "name": "COCINEMOS CON MARIELA",
+      "meta": "MARIELA TV",
+      "categoryId": "mejor-programa-de-variedades",
+      "type": "programa",
+      "order": 4,
+      "sourceRow": 450
+    },
+    {
+      "id": "n0399",
+      "name": "DE CASA EN CASA",
+      "meta": "TC TELEVISIÓN",
+      "categoryId": "mejor-programa-de-variedades",
+      "type": "programa",
+      "order": 5,
+      "sourceRow": 451
+    },
+    {
+      "id": "n0400",
+      "name": "DÍA A DÍA",
+      "meta": "TELEAMAZONAS",
+      "categoryId": "mejor-programa-de-variedades",
+      "type": "programa",
+      "order": 6,
+      "sourceRow": 452
+    },
+    {
+      "id": "n0401",
+      "name": "DOCTOR 7",
+      "meta": "ECUADOR TV",
+      "categoryId": "mejor-programa-de-variedades",
+      "type": "programa",
+      "order": 7,
+      "sourceRow": 453
+    },
+    {
+      "id": "n0402",
+      "name": "CÓMPLICES",
+      "meta": "ETV TELERAMA DIGITAL",
+      "categoryId": "mejor-programa-de-variedades",
+      "type": "programa",
+      "order": 8,
+      "sourceRow": 454
+    },
+    {
+      "id": "n0403",
+      "name": "EL AFTER",
+      "meta": "TELEAMAZONAS",
+      "categoryId": "mejor-programa-de-variedades",
+      "type": "programa",
+      "order": 9,
+      "sourceRow": 455
+    },
+    {
+      "id": "n0404",
+      "name": "EL CLUB DE LA COCINA",
+      "meta": "GAMAVISION",
+      "categoryId": "mejor-programa-de-variedades",
+      "type": "programa",
+      "order": 10,
+      "sourceRow": 456
+    },
+    {
+      "id": "n0405",
+      "name": "EL HUECO DE JONATHAN ESTRADA",
+      "meta": null,
+      "categoryId": "mejor-programa-de-variedades",
+      "type": "programa",
+      "order": 11,
+      "sourceRow": 457
+    },
+    {
+      "id": "n0406",
+      "name": "BUSCADOR EN RED",
+      "meta": "TELEAMAZONAS",
+      "categoryId": "mejor-programa-de-variedades",
+      "type": "programa",
+      "order": 12,
+      "sourceRow": 458
+    },
+    {
+      "id": "n0407",
+      "name": "EL CUENTEO",
+      "meta": "ARMONÍA TV",
+      "categoryId": "mejor-programa-de-variedades",
+      "type": "programa",
+      "order": 13,
+      "sourceRow": 459
+    },
+    {
+      "id": "n0408",
+      "name": "BLN EL REGRESO",
+      "meta": "GAMA",
+      "categoryId": "mejor-programa-de-variedades",
+      "type": "programa",
+      "order": 14,
+      "sourceRow": 460
+    },
+    {
+      "id": "n0409",
+      "name": "EN CONTACTO",
+      "meta": "ECUAVISA",
+      "categoryId": "mejor-programa-de-variedades",
+      "type": "programa",
+      "order": 15,
+      "sourceRow": 461
+    },
+    {
+      "id": "n0410",
+      "name": "ENTRE FLASHES",
+      "meta": "ECUAVISA",
+      "categoryId": "mejor-programa-de-variedades",
+      "type": "programa",
+      "order": 16,
+      "sourceRow": 462
+    },
+    {
+      "id": "n0411",
+      "name": "ESTA ES TU CASA",
+      "meta": null,
+      "categoryId": "mejor-programa-de-variedades",
+      "type": "programa",
+      "order": 17,
+      "sourceRow": 463
+    },
+    {
+      "id": "n0412",
+      "name": "FUULL FARÁNDULA",
+      "meta": null,
+      "categoryId": "mejor-programa-de-variedades",
+      "type": "programa",
+      "order": 18,
+      "sourceRow": 464
+    },
+    {
+      "id": "n0413",
+      "name": "HACIA UN NUEVO ESTILO DE VIDA",
+      "meta": "ECUAVISA",
+      "categoryId": "mejor-programa-de-variedades",
+      "type": "programa",
+      "order": 19,
+      "sourceRow": 465
+    },
+    {
+      "id": "n0414",
+      "name": "HUEVOS FRITOS",
+      "meta": null,
+      "categoryId": "mejor-programa-de-variedades",
+      "type": "programa",
+      "order": 20,
+      "sourceRow": 466
+    },
+    {
+      "id": "n0415",
+      "name": "LOS HACKERS DE LA FARÁNDULA",
+      "meta": "ECUAVISA",
+      "categoryId": "mejor-programa-de-variedades",
+      "type": "programa",
+      "order": 21,
+      "sourceRow": 467
+    },
+    {
+      "id": "n0416",
+      "name": "N´BOGA",
+      "meta": "ETV TELERAMA",
+      "categoryId": "mejor-programa-de-variedades",
+      "type": "programa",
+      "order": 22,
+      "sourceRow": 468
+    },
+    {
+      "id": "n0417",
+      "name": "NO-NOTICIAS",
+      "meta": "TELEAMAZONAS",
+      "categoryId": "mejor-programa-de-variedades",
+      "type": "programa",
+      "order": 23,
+      "sourceRow": 469
+    },
+    {
+      "id": "n0418",
+      "name": "NORRIS VIAJANDO",
+      "meta": null,
+      "categoryId": "mejor-programa-de-variedades",
+      "type": "programa",
+      "order": 24,
+      "sourceRow": 470
+    },
+    {
+      "id": "n0419",
+      "name": "SOY EL MEJOR",
+      "meta": "TC TELEVISIÓN",
+      "categoryId": "mejor-programa-de-variedades",
+      "type": "programa",
+      "order": 25,
+      "sourceRow": 471
+    },
+    {
+      "id": "n0420",
+      "name": "YO ME LLAMO",
+      "meta": "TELEAMAZONAS",
+      "categoryId": "mejor-programa-de-variedades",
+      "type": "programa",
+      "order": 26,
+      "sourceRow": 472
+    },
+    {
+      "id": "n0421",
+      "name": "MASTER CHEF",
+      "meta": "TELEAMAZONAS",
+      "categoryId": "mejor-programa-de-variedades",
+      "type": "programa",
+      "order": 27,
+      "sourceRow": 473
+    },
+    {
+      "id": "n0422",
+      "name": "PANORAMA INTERNACIONAL",
+      "meta": "ECUAVISA",
+      "categoryId": "mejor-programa-de-variedades",
+      "type": "programa",
+      "order": 28,
+      "sourceRow": 474
+    },
+    {
+      "id": "n0423",
+      "name": "ALVAREZ DIEGO (DON DAY)",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "type": "persona",
+      "order": 0,
+      "sourceRow": 480
+    },
+    {
+      "id": "n0424",
+      "name": "ARÁUZ VÍCTOR",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "type": "persona",
+      "order": 1,
+      "sourceRow": 481
+    },
+    {
+      "id": "n0425",
+      "name": "CALLE MARTÍN",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "type": "persona",
+      "order": 2,
+      "sourceRow": 482
+    },
+    {
+      "id": "n0426",
+      "name": "CAMPOZANO JORGE",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "type": "persona",
+      "order": 3,
+      "sourceRow": 483
+    },
+    {
+      "id": "n0427",
+      "name": "ESKANDAR ISSAM",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "type": "persona",
+      "order": 4,
+      "sourceRow": 484
+    },
+    {
+      "id": "n0428",
+      "name": "ESTÉVEZ DANILO",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "type": "persona",
+      "order": 5,
+      "sourceRow": 485
+    },
+    {
+      "id": "n0429",
+      "name": "GALLARDO GABRIEL",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "type": "persona",
+      "order": 6,
+      "sourceRow": 486
+    },
+    {
+      "id": "n0430",
+      "name": "GONZÁLEZ JOSUÉ",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "type": "persona",
+      "order": 7,
+      "sourceRow": 487
+    },
+    {
+      "id": "n0431",
+      "name": "HERRERA ORLANDO",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "type": "persona",
+      "order": 8,
+      "sourceRow": 488
+    },
+    {
+      "id": "n0432",
+      "name": "MOREIRA LEONARDO",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "type": "persona",
+      "order": 9,
+      "sourceRow": 489
+    },
+    {
+      "id": "n0433",
+      "name": "MORENO IÑAKI",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "type": "persona",
+      "order": 10,
+      "sourceRow": 490
+    },
+    {
+      "id": "n0434",
+      "name": "MOROCHO EMERSON",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "type": "persona",
+      "order": 11,
+      "sourceRow": 491
+    },
+    {
+      "id": "n0435",
+      "name": "MURILLO ISIDRO",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "type": "persona",
+      "order": 12,
+      "sourceRow": 492
+    },
+    {
+      "id": "n0436",
+      "name": "NARANJO SANTIAGO",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "type": "persona",
+      "order": 13,
+      "sourceRow": 493
+    },
+    {
+      "id": "n0437",
+      "name": "PÉREZ STALIN",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "type": "persona",
+      "order": 14,
+      "sourceRow": 494
+    },
+    {
+      "id": "n0438",
+      "name": "QUINDE JERSON",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "type": "persona",
+      "order": 15,
+      "sourceRow": 495
+    },
+    {
+      "id": "n0439",
+      "name": "QUIÑÓNEZ ORLANDO",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "type": "persona",
+      "order": 16,
+      "sourceRow": 496
+    },
+    {
+      "id": "n0440",
+      "name": "RÍOS CHRISTIAN",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "type": "persona",
+      "order": 17,
+      "sourceRow": 497
+    },
+    {
+      "id": "n0441",
+      "name": "ROMÁN JUAN CARLOS",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "type": "persona",
+      "order": 18,
+      "sourceRow": 498
+    },
+    {
+      "id": "n0442",
+      "name": "SANTANA RAUL",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "type": "persona",
+      "order": 19,
+      "sourceRow": 499
+    },
+    {
+      "id": "n0443",
+      "name": "ULLOA DIEGO",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "type": "persona",
+      "order": 20,
+      "sourceRow": 500
+    },
+    {
+      "id": "n0444",
+      "name": "ULLOA JORGE",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "type": "persona",
+      "order": 21,
+      "sourceRow": 501
+    },
+    {
+      "id": "n0445",
+      "name": "VIZUETE ALEX",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "type": "persona",
+      "order": 22,
+      "sourceRow": 502
+    },
+    {
+      "id": "n0446",
+      "name": "ARÁUZ NATALIA",
+      "meta": null,
+      "categoryId": "mejor-actriz",
+      "type": "persona",
+      "order": 0,
+      "sourceRow": 506
+    },
+    {
+      "id": "n0447",
+      "name": "CASCANTE CECILIA",
+      "meta": null,
+      "categoryId": "mejor-actriz",
+      "type": "persona",
+      "order": 1,
+      "sourceRow": 507
+    },
+    {
+      "id": "n0448",
+      "name": "CEVALLOS MARÍA EMILIA",
+      "meta": null,
+      "categoryId": "mejor-actriz",
+      "type": "persona",
+      "order": 2,
+      "sourceRow": 508
+    },
+    {
+      "id": "n0449",
+      "name": "GANCHOZO JOMAHIRA",
+      "meta": null,
+      "categoryId": "mejor-actriz",
+      "type": "persona",
+      "order": 3,
+      "sourceRow": 509
+    },
+    {
+      "id": "n0450",
+      "name": "GUERRERO EMMA",
+      "meta": null,
+      "categoryId": "mejor-actriz",
+      "type": "persona",
+      "order": 4,
+      "sourceRow": 510
+    },
+    {
+      "id": "n0451",
+      "name": "MANZO ADRIANA",
+      "meta": null,
+      "categoryId": "mejor-actriz",
+      "type": "persona",
+      "order": 5,
+      "sourceRow": 511
+    },
+    {
+      "id": "n0452",
+      "name": "MIELES GILLIAM",
+      "meta": null,
+      "categoryId": "mejor-actriz",
+      "type": "persona",
+      "order": 6,
+      "sourceRow": 512
+    },
+    {
+      "id": "n0453",
+      "name": "MURILLO MIRIAM",
+      "meta": null,
+      "categoryId": "mejor-actriz",
+      "type": "persona",
+      "order": 7,
+      "sourceRow": 513
+    },
+    {
+      "id": "n0454",
+      "name": "PAREDES ALEJANDRA",
+      "meta": null,
+      "categoryId": "mejor-actriz",
+      "type": "persona",
+      "order": 8,
+      "sourceRow": 514
+    },
+    {
+      "id": "n0455",
+      "name": "PÉREZ MARÍA FERNANDA",
+      "meta": null,
+      "categoryId": "mejor-actriz",
+      "type": "persona",
+      "order": 9,
+      "sourceRow": 515
+    },
+    {
+      "id": "n0456",
+      "name": "RUSSO ERIKA",
+      "meta": null,
+      "categoryId": "mejor-actriz",
+      "type": "persona",
+      "order": 10,
+      "sourceRow": 516
+    },
+    {
+      "id": "n0457",
+      "name": "SALAME VIVIANA",
+      "meta": null,
+      "categoryId": "mejor-actriz",
+      "type": "persona",
+      "order": 11,
+      "sourceRow": 517
+    },
+    {
+      "id": "n0458",
+      "name": "SALEM RENATA",
+      "meta": null,
+      "categoryId": "mejor-actriz",
+      "type": "persona",
+      "order": 12,
+      "sourceRow": 518
+    },
+    {
+      "id": "n0459",
+      "name": "SAMBRANO PAMELA",
+      "meta": null,
+      "categoryId": "mejor-actriz",
+      "type": "persona",
+      "order": 13,
+      "sourceRow": 519
+    },
+    {
+      "id": "n0460",
+      "name": "VALENCIA NATALY",
+      "meta": null,
+      "categoryId": "mejor-actriz",
+      "type": "persona",
+      "order": 14,
+      "sourceRow": 520
+    },
+    {
+      "id": "n0461",
+      "name": "VELIZ FABIOLA",
+      "meta": null,
+      "categoryId": "mejor-actriz",
+      "type": "persona",
+      "order": 15,
+      "sourceRow": 521
+    },
+    {
+      "id": "n0462",
+      "name": "VILLAMAR RAQUEL",
+      "meta": null,
+      "categoryId": "mejor-actriz",
+      "type": "persona",
+      "order": 16,
+      "sourceRow": 522
+    },
+    {
+      "id": "n0463",
+      "name": "Alex Vizuete",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 0,
+      "sourceRow": 528
+    },
+    {
+      "id": "n0464",
+      "name": "Andrea Navarrete",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 1,
+      "sourceRow": 529
+    },
+    {
+      "id": "n0465",
+      "name": "Andrea Rendón",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 2,
+      "sourceRow": 530
+    },
+    {
+      "id": "n0466",
+      "name": "Andreina Bravo",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 3,
+      "sourceRow": 531
+    },
+    {
+      "id": "n0467",
+      "name": "Angela Marolise",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 4,
+      "sourceRow": 532
+    },
+    {
+      "id": "n0468",
+      "name": "Carlos Luis Andrade",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 5,
+      "sourceRow": 533
+    },
+    {
+      "id": "n0469",
+      "name": "Carlos Scavone",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 6,
+      "sourceRow": 534
+    },
+    {
+      "id": "n0470",
+      "name": "Carolina Jaume",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 7,
+      "sourceRow": 535
+    },
+    {
+      "id": "n0471",
+      "name": "Catherine Velasteguí",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 8,
+      "sourceRow": 536
+    },
+    {
+      "id": "n0472",
+      "name": "Cinthya Coppiano",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 9,
+      "sourceRow": 537
+    },
+    {
+      "id": "n0473",
+      "name": "Constanza Báez",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 10,
+      "sourceRow": 538
+    },
+    {
+      "id": "n0474",
+      "name": "David Reinoso",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 11,
+      "sourceRow": 539
+    },
+    {
+      "id": "n0475",
+      "name": "Dayanara Peralta",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 12,
+      "sourceRow": 540
+    },
+    {
+      "id": "n0476",
+      "name": "Denisse Angulo",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 13,
+      "sourceRow": 541
+    },
+    {
+      "id": "n0477",
+      "name": "Diego Spotorno",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 14,
+      "sourceRow": 542
+    },
+    {
+      "id": "n0478",
+      "name": "Diego Ulloa",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 15,
+      "sourceRow": 543
+    },
+    {
+      "id": "n0479",
+      "name": "Dina Muñoz",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 16,
+      "sourceRow": 544
+    },
+    {
+      "id": "n0480",
+      "name": "Don Day",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 17,
+      "sourceRow": 545
+    },
+    {
+      "id": "n0481",
+      "name": "Dora West",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 18,
+      "sourceRow": 546
+    },
+    {
+      "id": "n0482",
+      "name": "Eduardo Andrade",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 19,
+      "sourceRow": 547
+    },
+    {
+      "id": "n0483",
+      "name": "Emilio Pinargote",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 20,
+      "sourceRow": 548
+    },
+    {
+      "id": "n0484",
+      "name": "Emma Guerrero",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 21,
+      "sourceRow": 549
+    },
+    {
+      "id": "n0485",
+      "name": "Erika Valencia",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 22,
+      "sourceRow": 550
+    },
+    {
+      "id": "n0486",
+      "name": "Erika Vélez",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 23,
+      "sourceRow": 551
+    },
+    {
+      "id": "n0487",
+      "name": "Estéfani Espín",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 24,
+      "sourceRow": 552
+    },
+    {
+      "id": "n0488",
+      "name": "Evelyn Vanessa Calderón",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 25,
+      "sourceRow": 553
+    },
+    {
+      "id": "n0489",
+      "name": "Fabiola Véliz",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 26,
+      "sourceRow": 554
+    },
+    {
+      "id": "n0490",
+      "name": "Felipe Crespo",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 27,
+      "sourceRow": 555
+    },
+    {
+      "id": "n0491",
+      "name": "Flor María Palomeque",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 28,
+      "sourceRow": 556
+    },
+    {
+      "id": "n0492",
+      "name": "Gabriela Díaz",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 29,
+      "sourceRow": 557
+    },
+    {
+      "id": "n0493",
+      "name": "Gabriela Pazmiño",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 30,
+      "sourceRow": 558
+    },
+    {
+      "id": "n0494",
+      "name": "Giliam Mieles",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 31,
+      "sourceRow": 559
+    },
+    {
+      "id": "n0495",
+      "name": "Gina López",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 32,
+      "sourceRow": 560
+    },
+    {
+      "id": "n0496",
+      "name": "Henry Bustamante",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 33,
+      "sourceRow": 561
+    },
+    {
+      "id": "n0497",
+      "name": "Irini Meza",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 34,
+      "sourceRow": 562
+    },
+    {
+      "id": "n0498",
+      "name": "Jandino",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 35,
+      "sourceRow": 563
+    },
+    {
+      "id": "n0499",
+      "name": "Jonathan Estrada",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 36,
+      "sourceRow": 564
+    },
+    {
+      "id": "n0500",
+      "name": "Jorge Campozano",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 37,
+      "sourceRow": 565
+    },
+    {
+      "id": "n0501",
+      "name": "Jorge Ulloa",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 38,
+      "sourceRow": 566
+    },
+    {
+      "id": "n0502",
+      "name": "José Urrutia",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 39,
+      "sourceRow": 567
+    },
+    {
+      "id": "n0503",
+      "name": "Joselyn Gallardo",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 40,
+      "sourceRow": 568
+    },
+    {
+      "id": "n0504",
+      "name": "Julián Campos",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 41,
+      "sourceRow": 569
+    },
+    {
+      "id": "n0505",
+      "name": "Katty García",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 42,
+      "sourceRow": 570
+    },
+    {
+      "id": "n0506",
+      "name": "KikeJav",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 43,
+      "sourceRow": 571
+    },
+    {
+      "id": "n0507",
+      "name": "Kimberly Cedeño",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 44,
+      "sourceRow": 572
+    },
+    {
+      "id": "n0508",
+      "name": "Leito Granda",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 45,
+      "sourceRow": 573
+    },
+    {
+      "id": "n0509",
+      "name": "Leonardo Moreira",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 46,
+      "sourceRow": 574
+    },
+    {
+      "id": "n0510",
+      "name": "Mar Rendón",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 47,
+      "sourceRow": 575
+    },
+    {
+      "id": "n0511",
+      "name": "Marcela Ruete",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 48,
+      "sourceRow": 576
+    },
+    {
+      "id": "n0512",
+      "name": "Mare Cevallos",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 49,
+      "sourceRow": 577
+    },
+    {
+      "id": "n0513",
+      "name": "María Fernanda Pérez",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 50,
+      "sourceRow": 578
+    },
+    {
+      "id": "n0514",
+      "name": "María Fernanda Ríos",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 51,
+      "sourceRow": 579
+    },
+    {
+      "id": "n0515",
+      "name": "Marián Sabaté",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 52,
+      "sourceRow": 580
+    },
+    {
+      "id": "n0516",
+      "name": "Mauricio Herrera",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 53,
+      "sourceRow": 581
+    },
+    {
+      "id": "n0517",
+      "name": "Maykel Cedeño",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 54,
+      "sourceRow": 582
+    },
+    {
+      "id": "n0518",
+      "name": "Mayra Jaime",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 55,
+      "sourceRow": 583
+    },
+    {
+      "id": "n0519",
+      "name": "Meliza Yumisaca",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 56,
+      "sourceRow": 584
+    },
+    {
+      "id": "n0520",
+      "name": "Michela Pincay",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 57,
+      "sourceRow": 585
+    },
+    {
+      "id": "n0521",
+      "name": "Nataly Valencia",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 58,
+      "sourceRow": 586
+    },
+    {
+      "id": "n0522",
+      "name": "Raúl Santana",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 59,
+      "sourceRow": 587
+    },
+    {
+      "id": "n0523",
+      "name": "Samantha Grey",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 60,
+      "sourceRow": 588
+    },
+    {
+      "id": "n0524",
+      "name": "Samara Montero",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 61,
+      "sourceRow": 589
+    },
+    {
+      "id": "n0525",
+      "name": "Sofía Caiche",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 62,
+      "sourceRow": 590
+    },
+    {
+      "id": "n0526",
+      "name": "Víctor Aráuz",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 63,
+      "sourceRow": 591
+    },
+    {
+      "id": "n0527",
+      "name": "Virginia Limongi",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 64,
+      "sourceRow": 592
+    },
+    {
+      "id": "n0528",
+      "name": "Yesly Bustamante",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 65,
+      "sourceRow": 593
+    },
+    {
+      "id": "n0529",
+      "name": "Yilda Banchón",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 66,
+      "sourceRow": 594
+    },
+    {
+      "id": "n0530",
+      "name": "Yuribeth Cornejo",
+      "meta": null,
+      "categoryId": "mejor-cuenta-de-instagram-senior",
+      "type": "cuenta",
+      "order": 67,
+      "sourceRow": 595
+    },
+    {
+      "id": "n0531",
+      "name": "ADRIANA NEHME",
+      "meta": "ADRINEHME",
+      "categoryId": "mejor-cuenta-de-instagram-junior",
+      "type": "cuenta",
+      "order": 0,
+      "sourceRow": 602
+    },
+    {
+      "id": "n0532",
+      "name": "ALEX PLÚAS",
+      "meta": "ALESPLUASOFICIAL",
+      "categoryId": "mejor-cuenta-de-instagram-junior",
+      "type": "cuenta",
+      "order": 1,
+      "sourceRow": 603
+    },
+    {
+      "id": "n0533",
+      "name": "ANDY GARCÍA",
+      "meta": "ANDYGARCIATV",
+      "categoryId": "mejor-cuenta-de-instagram-junior",
+      "type": "cuenta",
+      "order": 2,
+      "sourceRow": 604
+    },
+    {
+      "id": "n0534",
+      "name": "CARLOS LOOR",
+      "meta": "CARLOSLOOR02",
+      "categoryId": "mejor-cuenta-de-instagram-junior",
+      "type": "cuenta",
+      "order": 3,
+      "sourceRow": 605
+    },
+    {
+      "id": "n0535",
+      "name": "DAVID NAULA",
+      "meta": "DAVIDNAULAM95",
+      "categoryId": "mejor-cuenta-de-instagram-junior",
+      "type": "cuenta",
+      "order": 4,
+      "sourceRow": 606
+    },
+    {
+      "id": "n0536",
+      "name": "DERIAN MEDINA ANGULO",
+      "meta": "DERIANSMITHS",
+      "categoryId": "mejor-cuenta-de-instagram-junior",
+      "type": "cuenta",
+      "order": 5,
+      "sourceRow": 607
+    },
+    {
+      "id": "n0537",
+      "name": "DIEGO ARCOS",
+      "meta": "DARCOS14",
+      "categoryId": "mejor-cuenta-de-instagram-junior",
+      "type": "cuenta",
+      "order": 6,
+      "sourceRow": 608
+    },
+    {
+      "id": "n0538",
+      "name": "DIEGO CHIANG",
+      "meta": "IAMDICAPO",
+      "categoryId": "mejor-cuenta-de-instagram-junior",
+      "type": "cuenta",
+      "order": 7,
+      "sourceRow": 609
+    },
+    {
+      "id": "n0539",
+      "name": "ELBA GONZÁLEZ",
+      "meta": "ELBAGONZALEZR",
+      "categoryId": "mejor-cuenta-de-instagram-junior",
+      "type": "cuenta",
+      "order": 8,
+      "sourceRow": 610
+    },
+    {
+      "id": "n0540",
+      "name": "ERICK MAURO FLACÓN GRAZZO",
+      "meta": "SOYKACHAFA",
+      "categoryId": "mejor-cuenta-de-instagram-junior",
+      "type": "cuenta",
+      "order": 9,
+      "sourceRow": 611
+    },
+    {
+      "id": "n0541",
+      "name": "FARLY ESPINOZA",
+      "meta": "FARLYESPINOZA",
+      "categoryId": "mejor-cuenta-de-instagram-junior",
+      "type": "cuenta",
+      "order": 10,
+      "sourceRow": 612
+    },
+    {
+      "id": "n0542",
+      "name": "FRIDA CONTRERAS",
+      "meta": "FRIDADCC",
+      "categoryId": "mejor-cuenta-de-instagram-junior",
+      "type": "cuenta",
+      "order": 11,
+      "sourceRow": 613
+    },
+    {
+      "id": "n0543",
+      "name": "GERSON QUINDE",
+      "meta": "GERSON_QUINDE",
+      "categoryId": "mejor-cuenta-de-instagram-junior",
+      "type": "cuenta",
+      "order": 12,
+      "sourceRow": 614
+    },
+    {
+      "id": "n0544",
+      "name": "JOSE ANDRÉS CABALLERO",
+      "meta": "JOSEANDRESCABALLERO",
+      "categoryId": "mejor-cuenta-de-instagram-junior",
+      "type": "cuenta",
+      "order": 13,
+      "sourceRow": 615
+    },
+    {
+      "id": "n0545",
+      "name": "JUAN CARLOS AZPRIÚA",
+      "meta": "JUANCARLOSAIZPRUA",
+      "categoryId": "mejor-cuenta-de-instagram-junior",
+      "type": "cuenta",
+      "order": 14,
+      "sourceRow": 616
+    },
+    {
+      "id": "n0546",
+      "name": "JUAN CARLOS ROMAN",
+      "meta": "JUANCARLOSROMAN",
+      "categoryId": "mejor-cuenta-de-instagram-junior",
+      "type": "cuenta",
+      "order": 15,
+      "sourceRow": 617
+    },
+    {
+      "id": "n0547",
+      "name": "JULIANNE MUSICA",
+      "meta": "JULIANNEMUSICA",
+      "categoryId": "mejor-cuenta-de-instagram-junior",
+      "type": "cuenta",
+      "order": 16,
+      "sourceRow": 618
+    },
+    {
+      "id": "n0548",
+      "name": "KAROL LUCAS",
+      "meta": "KAROL.ETC",
+      "categoryId": "mejor-cuenta-de-instagram-junior",
+      "type": "cuenta",
+      "order": 17,
+      "sourceRow": 619
+    },
+    {
+      "id": "n0549",
+      "name": "LELLY PEREZ",
+      "meta": "_ARLETHOFFICIAL",
+      "categoryId": "mejor-cuenta-de-instagram-junior",
+      "type": "cuenta",
+      "order": 18,
+      "sourceRow": 620
+    },
+    {
+      "id": "n0550",
+      "name": "MARK ALVARADO",
+      "meta": "MARKALVARADOTV",
+      "categoryId": "mejor-cuenta-de-instagram-junior",
+      "type": "cuenta",
+      "order": 19,
+      "sourceRow": 621
+    },
+    {
+      "id": "n0551",
+      "name": "NACHO CHEDDAR",
+      "meta": "NACHOCHEDDAR",
+      "categoryId": "mejor-cuenta-de-instagram-junior",
+      "type": "cuenta",
+      "order": 20,
+      "sourceRow": 622
+    },
+    {
+      "id": "n0552",
+      "name": "NAVILA DIEB",
+      "meta": "NAVILADIEB",
+      "categoryId": "mejor-cuenta-de-instagram-junior",
+      "type": "cuenta",
+      "order": 21,
+      "sourceRow": 623
+    },
+    {
+      "id": "n0553",
+      "name": "OSCAR ANDRÉS SIGUENZA",
+      "meta": "OSCAR IGUENZA30",
+      "categoryId": "mejor-cuenta-de-instagram-junior",
+      "type": "cuenta",
+      "order": 22,
+      "sourceRow": 624
+    },
+    {
+      "id": "n0554",
+      "name": "PAULA LITUMA",
+      "meta": "PAULALITUMA_",
+      "categoryId": "mejor-cuenta-de-instagram-junior",
+      "type": "cuenta",
+      "order": 23,
+      "sourceRow": 625
+    },
+    {
+      "id": "n0555",
+      "name": "PAULO GÓMEZ",
+      "meta": "PAULEXGOMEZ_",
+      "categoryId": "mejor-cuenta-de-instagram-junior",
+      "type": "cuenta",
+      "order": 24,
+      "sourceRow": 626
+    },
+    {
+      "id": "n0556",
+      "name": "PAVLOVA CHARPENTIER",
+      "meta": "PAVLOVACHARPENTIER",
+      "categoryId": "mejor-cuenta-de-instagram-junior",
+      "type": "cuenta",
+      "order": 25,
+      "sourceRow": 627
+    },
+    {
+      "id": "n0557",
+      "name": "RAFAEL LECARO MANRIQUE",
+      "meta": "GENIODEMENTE",
+      "categoryId": "mejor-cuenta-de-instagram-junior",
+      "type": "cuenta",
+      "order": 26,
+      "sourceRow": 628
+    },
+    {
+      "id": "n0558",
+      "name": "SANDY MOREIRA",
+      "meta": "SANDYMOREIRA30",
+      "categoryId": "mejor-cuenta-de-instagram-junior",
+      "type": "cuenta",
+      "order": 27,
+      "sourceRow": 629
+    },
+    {
+      "id": "n0559",
+      "name": "SCARTETT CÓRDOVA",
+      "meta": "SCARLETTCORDOVA9",
+      "categoryId": "mejor-cuenta-de-instagram-junior",
+      "type": "cuenta",
+      "order": 28,
+      "sourceRow": 630
+    },
+    {
+      "id": "n0560",
+      "name": "TOÑO NAVARRETE",
+      "meta": "TONONAVARRETE",
+      "categoryId": "mejor-cuenta-de-instagram-junior",
+      "type": "cuenta",
+      "order": 29,
+      "sourceRow": 631
+    },
+    {
+      "id": "n0561",
+      "name": "VIVIANA SALAME",
+      "meta": "VIVIANASALAME",
+      "categoryId": "mejor-cuenta-de-instagram-junior",
+      "type": "cuenta",
+      "order": 30,
+      "sourceRow": 632
+    },
+    {
+      "id": "n0562",
+      "name": "Catherine Brett",
+      "meta": null,
+      "categoryId": "mejor-youtuber",
+      "type": "cuenta",
+      "order": 0,
+      "sourceRow": 638
+    },
+    {
+      "id": "n0563",
+      "name": "Elgranqenk",
+      "meta": null,
+      "categoryId": "mejor-youtuber",
+      "type": "cuenta",
+      "order": 1,
+      "sourceRow": 639
+    },
+    {
+      "id": "n0564",
+      "name": "Felipe Crespo",
+      "meta": null,
+      "categoryId": "mejor-youtuber",
+      "type": "cuenta",
+      "order": 2,
+      "sourceRow": 640
+    },
+    {
+      "id": "n0565",
+      "name": "FernandoOtv",
+      "meta": null,
+      "categoryId": "mejor-youtuber",
+      "type": "cuenta",
+      "order": 3,
+      "sourceRow": 641
+    },
+    {
+      "id": "n0566",
+      "name": "Gaby Ruiz",
+      "meta": null,
+      "categoryId": "mejor-youtuber",
+      "type": "cuenta",
+      "order": 4,
+      "sourceRow": 642
+    },
+    {
+      "id": "n0567",
+      "name": "Jeffer Valdiviezo",
+      "meta": null,
+      "categoryId": "mejor-youtuber",
+      "type": "cuenta",
+      "order": 5,
+      "sourceRow": 643
+    },
+    {
+      "id": "n0568",
+      "name": "Juanchivox",
+      "meta": null,
+      "categoryId": "mejor-youtuber",
+      "type": "cuenta",
+      "order": 6,
+      "sourceRow": 644
+    },
+    {
+      "id": "n0569",
+      "name": "Kike Jav",
+      "meta": null,
+      "categoryId": "mejor-youtuber",
+      "type": "cuenta",
+      "order": 7,
+      "sourceRow": 645
+    },
+    {
+      "id": "n0570",
+      "name": "Logan y Logan",
+      "meta": null,
+      "categoryId": "mejor-youtuber",
+      "type": "cuenta",
+      "order": 8,
+      "sourceRow": 646
+    },
+    {
+      "id": "n0571",
+      "name": "Manolo TEVE",
+      "meta": null,
+      "categoryId": "mejor-youtuber",
+      "type": "cuenta",
+      "order": 9,
+      "sourceRow": 647
+    },
+    {
+      "id": "n0572",
+      "name": "Marcos Otavalo",
+      "meta": null,
+      "categoryId": "mejor-youtuber",
+      "type": "cuenta",
+      "order": 10,
+      "sourceRow": 648
+    },
+    {
+      "id": "n0573",
+      "name": "Nancy Risol",
+      "meta": null,
+      "categoryId": "mejor-youtuber",
+      "type": "cuenta",
+      "order": 11,
+      "sourceRow": 649
+    },
+    {
+      "id": "n0574",
+      "name": "Raul Alejo",
+      "meta": null,
+      "categoryId": "mejor-youtuber",
+      "type": "cuenta",
+      "order": 12,
+      "sourceRow": 650
+    },
+    {
+      "id": "n0575",
+      "name": "Wallas Da Silva",
+      "meta": null,
+      "categoryId": "mejor-youtuber",
+      "type": "cuenta",
+      "order": 13,
+      "sourceRow": 651
+    },
+    {
+      "id": "n0576",
+      "name": "XDOTES",
+      "meta": null,
+      "categoryId": "mejor-youtuber",
+      "type": "cuenta",
+      "order": 14,
+      "sourceRow": 652
+    },
+    {
+      "id": "n0577",
+      "name": "Antho Tricerri",
+      "meta": "Facebook",
+      "categoryId": "mejor-cuenta-digital-de-dramaticos",
+      "type": "cuenta",
+      "order": 0,
+      "sourceRow": 659
+    },
+    {
+      "id": "n0578",
+      "name": "Marcos Otavalo Reflexiones",
+      "meta": "YouTube",
+      "categoryId": "mejor-cuenta-digital-de-dramaticos",
+      "type": "cuenta",
+      "order": 1,
+      "sourceRow": 660
+    },
+    {
+      "id": "n0579",
+      "name": "Luz María",
+      "meta": "Facebook",
+      "categoryId": "mejor-cuenta-digital-de-dramaticos",
+      "type": "cuenta",
+      "order": 2,
+      "sourceRow": 661
+    },
+    {
+      "id": "n0580",
+      "name": "Aaron Trix",
+      "meta": "TikTok",
+      "categoryId": "mejor-cuenta-digital-de-entretenimiento",
+      "type": "cuenta",
+      "order": 0,
+      "sourceRow": 668
+    },
+    {
+      "id": "n0581",
+      "name": "Alex Plúas Ulloa oficial",
+      "meta": "Facebook",
+      "categoryId": "mejor-cuenta-digital-de-entretenimiento",
+      "type": "cuenta",
+      "order": 1,
+      "sourceRow": 669
+    },
+    {
+      "id": "n0582",
+      "name": "Alex Vizuete",
+      "meta": "Tik Tok",
+      "categoryId": "mejor-cuenta-digital-de-entretenimiento",
+      "type": "cuenta",
+      "order": 2,
+      "sourceRow": 670
+    },
+    {
+      "id": "n0583",
+      "name": "Aron el chiche oficial",
+      "meta": "Facebook",
+      "categoryId": "mejor-cuenta-digital-de-entretenimiento",
+      "type": "cuenta",
+      "order": 3,
+      "sourceRow": 671
+    },
+    {
+      "id": "n0584",
+      "name": "BuBu Buen Humor TV",
+      "meta": "YouTube",
+      "categoryId": "mejor-cuenta-digital-de-entretenimiento",
+      "type": "cuenta",
+      "order": 4,
+      "sourceRow": 672
+    },
+    {
+      "id": "n0585",
+      "name": "Darán viendo",
+      "meta": "YouTube",
+      "categoryId": "mejor-cuenta-digital-de-entretenimiento",
+      "type": "cuenta",
+      "order": 5,
+      "sourceRow": 673
+    },
+    {
+      "id": "n0586",
+      "name": "DeQueVa!",
+      "meta": "YouTube",
+      "categoryId": "mejor-cuenta-digital-de-entretenimiento",
+      "type": "cuenta",
+      "order": 6,
+      "sourceRow": 674
+    },
+    {
+      "id": "n0587",
+      "name": "Eddie Mew",
+      "meta": "Tik Tok",
+      "categoryId": "mejor-cuenta-digital-de-entretenimiento",
+      "type": "cuenta",
+      "order": 7,
+      "sourceRow": 675
+    },
+    {
+      "id": "n0588",
+      "name": "Elba González",
+      "meta": "Tik Tok",
+      "categoryId": "mejor-cuenta-digital-de-entretenimiento",
+      "type": "cuenta",
+      "order": 8,
+      "sourceRow": 676
+    },
+    {
+      "id": "n0589",
+      "name": "Gigi Mieles",
+      "meta": "Tik Tok",
+      "categoryId": "mejor-cuenta-digital-de-entretenimiento",
+      "type": "cuenta",
+      "order": 9,
+      "sourceRow": 677
+    },
+    {
+      "id": "n0590",
+      "name": "Guayaco Producciones",
+      "meta": "Facebook",
+      "categoryId": "mejor-cuenta-digital-de-entretenimiento",
+      "type": "cuenta",
+      "order": 10,
+      "sourceRow": 678
+    },
+    {
+      "id": "n0591",
+      "name": "KWA",
+      "meta": "YouTube",
+      "categoryId": "mejor-cuenta-digital-de-entretenimiento",
+      "type": "cuenta",
+      "order": 11,
+      "sourceRow": 679
+    },
+    {
+      "id": "n0592",
+      "name": "La vecina oficial",
+      "meta": "Tik Tok",
+      "categoryId": "mejor-cuenta-digital-de-entretenimiento",
+      "type": "cuenta",
+      "order": 12,
+      "sourceRow": 680
+    },
+    {
+      "id": "n0593",
+      "name": "Leandro Zambrano",
+      "meta": "Tik Tok",
+      "categoryId": "mejor-cuenta-digital-de-entretenimiento",
+      "type": "cuenta",
+      "order": 13,
+      "sourceRow": 681
+    },
+    {
+      "id": "n0594",
+      "name": "Marcos Otavalo Juegos",
+      "meta": "YouTube",
+      "categoryId": "mejor-cuenta-digital-de-entretenimiento",
+      "type": "cuenta",
+      "order": 14,
+      "sourceRow": 682
+    },
+    {
+      "id": "n0595",
+      "name": "Mariela TV",
+      "meta": "YouTube",
+      "categoryId": "mejor-cuenta-digital-de-entretenimiento",
+      "type": "cuenta",
+      "order": 15,
+      "sourceRow": 683
+    },
+    {
+      "id": "n0596",
+      "name": "Mis pequeños actores",
+      "meta": "YouTube",
+      "categoryId": "mejor-cuenta-digital-de-entretenimiento",
+      "type": "cuenta",
+      "order": 16,
+      "sourceRow": 684
+    },
+    {
+      "id": "n0597",
+      "name": "Palominha Positiva",
+      "meta": "Tik Tok",
+      "categoryId": "mejor-cuenta-digital-de-entretenimiento",
+      "type": "cuenta",
+      "order": 17,
+      "sourceRow": 685
+    },
+    {
+      "id": "n0598",
+      "name": "Soykevin_ec",
+      "meta": "Tik Tok",
+      "categoryId": "mejor-cuenta-digital-de-entretenimiento",
+      "type": "cuenta",
+      "order": 18,
+      "sourceRow": 686
+    },
+    {
+      "id": "n0599",
+      "name": "Si somos",
+      "meta": "Tik Tok",
+      "categoryId": "mejor-cuenta-digital-de-entretenimiento",
+      "type": "cuenta",
+      "order": 19,
+      "sourceRow": 687
+    },
+    {
+      "id": "n0600",
+      "name": "Sorbito de opinión",
+      "meta": "Tik Tok",
+      "categoryId": "mejor-cuenta-digital-de-entretenimiento",
+      "type": "cuenta",
+      "order": 20,
+      "sourceRow": 688
+    }
+  ]
+}

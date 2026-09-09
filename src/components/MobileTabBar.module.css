@@ -1,0 +1,55 @@
+/* Barra inferior de navegación — sólo en móvil, como en el diseño de Stitch. */
+
+.bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 90;
+  display: flex;
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+  background: rgba(4, 7, 17, 0.9);
+  backdrop-filter: blur(22px) saturate(140%);
+  -webkit-backdrop-filter: blur(22px) saturate(140%);
+  border-top: 1px solid var(--hairline-soft);
+}
+
+@media (min-width: 900px) {
+  .bar {
+    display: none;
+  }
+}
+
+.item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+  padding: 0.6rem 0.25rem 0.7rem;
+  color: var(--text-dim);
+  transition: color 0.22s var(--ease);
+}
+
+.itemActive {
+  color: var(--cyan);
+}
+
+.label {
+  font-size: 0.5625rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+/* Espaciador para que el contenido no quede bajo la barra. */
+.spacer {
+  height: calc(4.25rem + env(safe-area-inset-bottom, 0px));
+}
+
+@media (min-width: 900px) {
+  .spacer {
+    display: none;
+  }
+}

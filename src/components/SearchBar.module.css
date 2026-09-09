@@ -1,0 +1,156 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.field {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 3.5rem;
+  border-radius: var(--r-full);
+  background: rgba(255, 255, 255, 0.045);
+  border: 1px solid var(--hairline);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  transition: border-color 0.25s var(--ease), box-shadow 0.25s var(--ease);
+}
+
+.field:focus-within {
+  border-color: rgba(56, 189, 248, 0.65);
+  box-shadow:
+    0 0 0 3px rgba(56, 189, 248, 0.14),
+    0 0 32px -10px rgba(56, 189, 248, 0.6);
+}
+
+.icon {
+  flex: none;
+  margin-left: 1.1rem;
+  color: var(--cyan);
+}
+
+.input {
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+  padding: 0 0.85rem;
+  background: none;
+  border: 0;
+  outline: none;
+  font-size: 0.9375rem;
+  color: var(--text);
+}
+
+.input::placeholder {
+  color: var(--text-dim);
+}
+
+/* El navegador ya ofrece su propia X en type="search"; se oculta para usar la nuestra. */
+.input::-webkit-search-cancel-button {
+  display: none;
+}
+
+.clear {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.7rem;
+  border-radius: var(--r-full);
+  background: rgba(255, 255, 255, 0.07);
+  color: var(--text-muted);
+  transition: color 0.2s var(--ease), background-color 0.2s var(--ease);
+}
+
+.clear:hover {
+  color: var(--text);
+  background: rgba(255, 255, 255, 0.14);
+}
+
+.hint {
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  padding-inline: 0.35rem;
+}
+
+/* --- Filtro de categoría --------------------------------------------------- */
+
+.filter {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.select {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 100%;
+  height: 3rem;
+  padding: 0 2.75rem 0 1.1rem;
+  border-radius: var(--r-full);
+  background: rgba(255, 255, 255, 0.045);
+  border: 1px solid var(--hairline);
+  color: var(--text);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  cursor: pointer;
+  text-overflow: ellipsis;
+  transition: border-color 0.25s var(--ease);
+}
+
+.select:hover {
+  border-color: rgba(226, 232, 240, 0.3);
+}
+
+/* El menú nativo hereda el fondo del sistema: se fuerza el tema oscuro. */
+.select option,
+.select optgroup {
+  background: #0e131f;
+  color: #ffffff;
+}
+
+.selectChevron {
+  position: absolute;
+  right: 1rem;
+  pointer-events: none;
+  color: var(--text-muted);
+}
+
+/* --- Barra de controles ---------------------------------------------------- */
+
+.controls {
+  display: grid;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+@media (min-width: 768px) {
+  .controls {
+    grid-template-columns: minmax(0, 1fr) minmax(14rem, 20rem);
+    align-items: center;
+  }
+}
+
+.summary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin: 1.5rem 0 1rem;
+}
+
+.summaryText {
+  font-family: var(--font-body);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+.summaryStrong {
+  color: var(--text);
+}

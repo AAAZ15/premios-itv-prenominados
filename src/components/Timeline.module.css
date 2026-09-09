@@ -1,0 +1,177 @@
+.timeline {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.stage {
+  position: relative;
+  padding: 1.4rem 1.25rem;
+  border-radius: var(--r-lg);
+  background: var(--glass);
+  border: 1px solid var(--hairline);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  overflow: hidden;
+}
+
+.stage::before {
+  content: '';
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(56, 189, 248, 0.5), transparent);
+}
+
+@media (min-width: 768px) {
+  .stage {
+    padding: 1.75rem 1.75rem;
+  }
+}
+
+.head {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.index {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: var(--r-md);
+  font-family: var(--font-display);
+  font-size: 0.9375rem;
+  font-weight: 900;
+  letter-spacing: 0.02em;
+  color: var(--cyan);
+  background: linear-gradient(150deg, rgba(56, 189, 248, 0.18), rgba(129, 140, 248, 0.08));
+  border: 1px solid rgba(56, 189, 248, 0.28);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.16);
+}
+
+.title {
+  font-size: 1.0625rem;
+  letter-spacing: 0.09em;
+}
+
+.description {
+  margin-top: 0.4rem;
+  color: var(--text-muted);
+  font-size: 0.875rem;
+  line-height: 1.65;
+  max-width: 52ch;
+}
+
+.milestones {
+  display: grid;
+  gap: 0.65rem;
+  margin-top: 1.25rem;
+}
+
+@media (min-width: 560px) {
+  .milestones {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.milestonesSingle {
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 560px) {
+  .milestonesSingle {
+    grid-template-columns: 1fr;
+  }
+}
+
+.milestone {
+  padding: 0.85rem 1rem;
+  border-radius: var(--r-md);
+  background: rgba(255, 255, 255, 0.035);
+  border: 1px solid var(--hairline-soft);
+}
+
+.milestoneLabel {
+  font-size: 0.5625rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+.milestoneDate {
+  margin-top: 0.35rem;
+  font-family: var(--font-display);
+  font-size: 0.9375rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--text);
+}
+
+.milestonePending {
+  color: var(--text-muted);
+  font-weight: 600;
+  letter-spacing: 0.09em;
+}
+
+.pendingDot {
+  display: inline-block;
+  width: 0.4rem;
+  height: 0.4rem;
+  margin-right: 0.5rem;
+  border-radius: 50%;
+  background: var(--cyan);
+  box-shadow: 0 0 10px rgba(56, 189, 248, 0.9);
+  vertical-align: middle;
+  animation: pulse 2.4s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+/* Conector entre etapas. */
+.connector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  padding-block: 0.85rem;
+  color: var(--text-dim);
+}
+
+.connectorLine {
+  width: 1px;
+  height: 1.5rem;
+  background: linear-gradient(180deg, rgba(56, 189, 248, 0.6), rgba(56, 189, 248, 0.06));
+}
+
+.note {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1.75rem;
+  padding: 1rem 1.15rem;
+  border-radius: var(--r-md);
+  background: rgba(255, 255, 255, 0.028);
+  border: 1px solid var(--hairline-soft);
+  color: var(--text-muted);
+  font-size: 0.8125rem;
+  line-height: 1.7;
+}
+
+.noteIcon {
+  flex: none;
+  margin-top: 0.15rem;
+  color: var(--cyan);
+}

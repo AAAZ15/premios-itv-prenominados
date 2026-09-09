@@ -1,0 +1,59 @@
+.heading {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.75rem;
+}
+
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem 1rem;
+}
+
+.titleRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.eyebrow {
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+/* Barrido metálico sobre el título de sección. */
+.sweep {
+  position: relative;
+  padding-top: 0.9rem;
+}
+
+.sweep::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: min(180px, 45%);
+  height: 1px;
+  background: linear-gradient(90deg, var(--cyan), rgba(129, 140, 248, 0.3), transparent);
+}
+
+.action {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--font-body);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--cyan);
+  transition: gap 0.2s var(--ease);
+}
+
+.action:hover {
+  gap: 0.65rem;
+}

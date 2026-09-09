@@ -1,0 +1,154 @@
+/* Listado editorial: denso, legible y rápido de recorrer, tal como pide
+   una lista de cientos de registros. Sin fotografías. */
+
+.list {
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--r-lg);
+  overflow: hidden;
+  border: 1px solid var(--hairline-soft);
+  background: rgba(255, 255, 255, 0.018);
+}
+
+.row {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  width: 100%;
+  padding: 0.9rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid var(--hairline-soft);
+  transition: background-color 0.22s var(--ease);
+}
+
+.list > li:last-child .row {
+  border-bottom: 0;
+}
+
+.rowLink:hover,
+.rowLink:focus-visible {
+  background: rgba(56, 189, 248, 0.07);
+}
+
+/* Filo luminoso a la izquierda al pasar el cursor. */
+.rowLink::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(180deg, var(--cyan), var(--indigo));
+  opacity: 0;
+  transition: opacity 0.22s var(--ease);
+}
+
+.rowLink:hover::before,
+.rowLink:focus-visible::before {
+  opacity: 1;
+}
+
+.index {
+  flex: none;
+  width: 2rem;
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--text-dim);
+  font-variant-numeric: tabular-nums;
+  transition: color 0.22s var(--ease);
+}
+
+.rowLink:hover .index {
+  color: var(--cyan);
+}
+
+.body {
+  display: block;
+  flex: 1;
+  min-width: 0;
+}
+
+.name {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  line-height: 1.35;
+  text-transform: uppercase;
+  color: var(--text);
+  overflow-wrap: anywhere;
+}
+
+@media (min-width: 768px) {
+  .name {
+    font-size: 0.9375rem;
+  }
+}
+
+.mark {
+  background: linear-gradient(180deg, transparent 58%, rgba(56, 189, 248, 0.35) 58%);
+  color: var(--cyan-soft);
+  border-radius: 2px;
+}
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem 0.6rem;
+  margin-top: 0.25rem;
+}
+
+.category {
+  font-size: 0.6875rem;
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.1rem 0.45rem;
+  border-radius: var(--r-full);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--hairline-soft);
+  font-size: 0.5625rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  white-space: nowrap;
+}
+
+.chevron {
+  flex: none;
+  color: var(--text-dim);
+  opacity: 0.55;
+  transition: transform 0.22s var(--ease), color 0.22s var(--ease), opacity 0.22s var(--ease);
+}
+
+.rowLink:hover .chevron {
+  transform: translateX(3px);
+  color: var(--cyan);
+  opacity: 1;
+}
+
+/* --- Cargar más ----------------------------------------------------------- */
+
+.more {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.moreInfo {
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  letter-spacing: 0.04em;
+}
