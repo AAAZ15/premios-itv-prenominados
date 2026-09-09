@@ -1,0 +1,84 @@
+/* Estado de reposo del buscador: qué se puede buscar, sin listar nada. */
+
+.hint {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.9rem;
+  margin-top: 1.5rem;
+  padding: 2.25rem 1.5rem;
+  border-radius: var(--r-lg);
+  background: var(--glass);
+  border: 1px solid var(--hairline-soft);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.icon {
+  display: grid;
+  place-items: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: var(--r-full);
+  color: var(--cyan);
+  background: linear-gradient(150deg, rgba(56, 189, 248, 0.16), rgba(129, 140, 248, 0.08));
+  border: 1px solid rgba(56, 189, 248, 0.24);
+}
+
+.text {
+  max-width: 44ch;
+  color: var(--text-muted);
+  font-size: 0.875rem;
+  line-height: 1.7;
+}
+
+.examplesLabel {
+  margin-top: 0.35rem;
+  font-size: 0.5625rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+.examples {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.45rem;
+}
+
+.example {
+  padding: 0.4rem 0.8rem;
+  border-radius: var(--r-full);
+  background: rgba(255, 255, 255, 0.045);
+  border: 1px solid var(--hairline-soft);
+  font-size: 0.6875rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  transition: color 0.2s var(--ease), border-color 0.2s var(--ease);
+}
+
+.example:hover {
+  color: var(--cyan-soft);
+  border-color: var(--rim);
+}
+
+.browse {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.35rem;
+  font-family: var(--font-body);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--cyan);
+  transition: gap 0.2s var(--ease);
+}
+
+.browse:hover {
+  gap: 0.65rem;
+}

@@ -41,7 +41,7 @@ export default function HomePage() {
             eyebrow="Buscador global"
             title="Busca a tu prenominado"
             id="prenominados-title"
-            lede={`${totals.nominees} registros en ${totals.categories} categorías. Escribe un nombre, canal, programa o cuenta: la búsqueda recorre todas las categorías a la vez.`}
+            lede={`¿Está tu nombre en la lista? Búscalo entre los ${totals.nominees} prenominados: una sola búsqueda recorre las ${totals.categories} categorías a la vez.`}
           />
           <Suspense fallback={null}>
             <DirectoryWithParams />
@@ -56,7 +56,7 @@ export default function HomePage() {
             eyebrow="Explora por categoría"
             title="Categorías"
             id="categorias-title"
-            lede={`${totals.categories} categorías oficiales. Toca una para desplegar su lista completa de prenominados aquí mismo.`}
+            lede={`${totals.categories} categorías oficiales con ${totals.nominees} prenominados. Toca una categoría para ver su lista completa aquí mismo.`}
           />
 
           <ul className={styles.disciplines}>

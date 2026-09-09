@@ -26,7 +26,7 @@ export default function Hero() {
       </p>
 
       <div className={styles.actions}>
-        <a href="#prenominados" className="btn btn--primary">
+        <a href="#categorias" className="btn btn--primary">
           <ArrowDown size={16} />
           Ver prenominados
         </a>

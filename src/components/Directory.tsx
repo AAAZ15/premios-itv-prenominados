@@ -8,6 +8,7 @@ import { tokenize } from '@/lib/text';
 import NomineeList, { LoadMore } from './NomineeList';
 import SearchBar, { CategoryFilter, ControlsBar, ResultsSummary } from './SearchBar';
 import EmptySearchState from './EmptySearchState';
+import IdleHint from './IdleHint';
 
 /** Construye la URL compartible a partir del estado de los filtros. */
 function buildUrl(query: string, categoryId: string): string {
@@ -66,9 +67,16 @@ export default function Directory({
 
   const tokens = useMemo(() => tokenize(query), [query]);
 
+  /**
+   * Sin búsqueda ni filtro NO se lista nada: volcar los 600 registros de golpe
+   * abrumaba la página. Los prenominados se consultan por categoría, en el
+   * acordeón, o buscando aquí.
+   */
+  const active = Boolean(query.trim() || categoryId);
+
   const results = useMemo(
-    () => searchEntries(query, { categoryId: categoryId || null }),
-    [query, categoryId]
+    () => (active ? searchEntries(query, { categoryId: categoryId || null }) : []),
+    [active, query, categoryId]
   );
 
   const items = useMemo(() => results.slice(0, visible), [results, visible]);
@@ -79,50 +87,46 @@ export default function Directory({
   }, []);
 
   const activeCategory = categoryId ? categories.find((c) => c.id === categoryId) : undefined;
-  const hasFilters = Boolean(query.trim() || categoryId);
 
   return (
     <div>
-      <SearchBar
-        value={query}
-        onChange={setQuery}
-        autoFocus={autoFocus}
-        hint="La búsqueda recorre todas las categorías, ignora mayúsculas y acentos."
-      />
+      <SearchBar value={query} onChange={setQuery} autoFocus={autoFocus} />
 
       <ControlsBar>
         <div />
         <CategoryFilter categories={categories} value={categoryId} onChange={setCategoryId} />
       </ControlsBar>
 
-      <ResultsSummary
-        count={results.length}
-        label={
-          activeCategory
-            ? `resultados en ${activeCategory.name}`
-            : query.trim()
-              ? 'resultados en todas las categorías'
-              : 'prenominados en el directorio'
-        }
-        extra={
-          hasFilters ? (
-            <button type="button" className="pill" onClick={reset}>
-              Limpiar filtros
-            </button>
-          ) : undefined
-        }
-      />
-
-      {results.length === 0 ? (
-        <EmptySearchState query={query.trim() || undefined} onReset={reset} />
+      {!active ? (
+        <IdleHint onExample={setQuery} />
       ) : (
         <>
-          <NomineeList items={items} tokens={tokens} showCategory />
-          <LoadMore
-            shown={items.length}
-            total={results.length}
-            onLoadMore={() => setVisible((value) => value + PAGE_SIZE)}
+          <ResultsSummary
+            count={results.length}
+            label={
+              activeCategory
+                ? `resultados en ${activeCategory.name}`
+                : 'resultados en todas las categorías'
+            }
+            extra={
+              <button type="button" className="pill" onClick={reset}>
+                Limpiar búsqueda
+              </button>
+            }
           />
+
+          {results.length === 0 ? (
+            <EmptySearchState query={query.trim() || undefined} onReset={reset} />
+          ) : (
+            <>
+              <NomineeList items={items} tokens={tokens} showCategory />
+              <LoadMore
+                shown={items.length}
+                total={results.length}
+                onLoadMore={() => setVisible((value) => value + PAGE_SIZE)}
+              />
+            </>
+          )}
         </>
       )}
     </div>

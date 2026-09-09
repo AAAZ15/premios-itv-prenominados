@@ -144,7 +144,7 @@ Todo el portal vive en `/`. El menú no navega: desplaza entre secciones.
 | Ancla | Sección |
 |-------|---------|
 | `#inicio` | Hero conmemorativo |
-| `#prenominados` | Buscador global + directorio completo con filtro y carga progresiva |
+| `#prenominados` | Buscador global (con filtro por categoría). **No lista nada hasta que se busca** |
 | `#categorias` | Resumen por disciplina + las 18 categorías en acordeón |
 | `#fechas` | Cronograma del proceso |
 
@@ -201,6 +201,11 @@ administración en el futuro (rutas nuevas + una capa de API), pero **hoy no se
 implementa nada de eso**.
 
 ### Buscador
+
+Con el campo vacío **no se muestra ningún registro**: volcar los 600 de golpe
+abrumaba la página, y los prenominados se consultan por categoría en el
+acordeón. En reposo aparece `IdleHint` con ejemplos de búsqueda; los
+resultados sólo se calculan y se pintan cuando hay texto o categoría elegida.
 
 `src/lib/text.ts` normaliza el texto (minúsculas, sin acentos, ñ→n, sin
 puntuación) y `src/lib/search.ts` busca sobre un índice precalculado que incluye
