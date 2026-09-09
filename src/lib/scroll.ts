@@ -9,6 +9,13 @@
 /** Evento interno: alguien quiere ir a un ancla de la página. */
 export const GOTO_EVENT = 'itv:goto';
 
+/**
+ * Evento interno: se acaba de ordenar un desplazamiento. El indicador de
+ * sección activa lo escucha, porque el evento `scroll` del navegador no basta
+ * para saber dónde termina una animación suave.
+ */
+export const SCROLLED_EVENT = 'itv:scrolled';
+
 /** Prefijo de las anclas de categoría dentro del acordeón. */
 export const CATEGORY_ANCHOR = 'cat-';
 
@@ -30,6 +37,12 @@ export function scrollToId(id: string) {
   const top = element.getBoundingClientRect().top + window.scrollY - headerOffset();
 
   window.scrollTo({ top: Math.max(0, top), behavior: reduced ? 'auto' : 'smooth' });
+
+  // Se avisa al terminar el salto (y por el camino) para refrescar el menú.
+  const notify = () => window.dispatchEvent(new Event(SCROLLED_EVENT));
+  notify();
+  setTimeout(notify, 300);
+  setTimeout(notify, 800);
 }
 
 /**
