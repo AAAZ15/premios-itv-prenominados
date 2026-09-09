@@ -2,7 +2,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import Hero from '@/components/Hero';
 import SectionHeading from '@/components/SectionHeading';
-import { CategoryGrid } from '@/components/CategoryCard';
+import CategoryShowcase from '@/components/CategoryShowcase';
 import HomeSearch from '@/components/HomeSearch';
 import Timeline from '@/components/Timeline';
 import { categories, getDisciplineSummary, totals } from '@/data';
@@ -17,7 +17,9 @@ export const metadata: Metadata = {
 
 export default function HomePage() {
   const disciplines = getDisciplineSummary();
-  const featured = [...categories].sort((a, b) => b.count - a.count).slice(0, 6);
+  // Ordenadas de mayor a menor: las primeras seis se ven de entrada y el resto
+  // se revela con el botón, sin que las ya visibles cambien de sitio.
+  const byVolume = [...categories].sort((a, b) => b.count - a.count);
 
   return (
     <>
@@ -80,13 +82,12 @@ export default function HomePage() {
       <section className="section" aria-labelledby="destacadas-title">
         <div className="container">
           <SectionHeading
-            eyebrow="Las más numerosas"
+            eyebrow={`${totals.categories} categorías oficiales`}
             title="Explora por categoría"
             id="destacadas-title"
-            lede="Cada tarjeta abre la lista completa de prenominados de esa categoría."
-            action={{ href: '/categorias/', label: 'Todas las categorías' }}
+            lede="Ordenadas por número de prenominados. Cada tarjeta abre la lista completa de esa categoría."
           />
-          <CategoryGrid categories={featured} />
+          <CategoryShowcase categories={byVolume} />
         </div>
       </section>
 

@@ -35,7 +35,15 @@ export function CategoryCard({ category }: { category: Category }) {
 
       <span className={styles.body}>
         <span className={styles.name}>{category.name}</span>
-        <span className={styles.discipline}>{category.discipline}</span>
+        <span className={styles.discipline}>
+          {category.discipline}
+          {/* En pantallas estrechas el conteo va aquí, para que el título
+              disponga de todo el ancho de la tarjeta. */}
+          <span className={styles.inlineCount}>
+            {' · '}
+            <b className={styles.inlineCountValue}>{category.count}</b> {label}
+          </span>
+        </span>
       </span>
 
       <span className={styles.side}>
@@ -49,18 +57,34 @@ export function CategoryCard({ category }: { category: Category }) {
   );
 }
 
-export function CategoryGrid({ categories }: { categories: Category[] }) {
+export function CategoryGrid({
+  categories,
+  id,
+  /** Índice a partir del cual las tarjetas aparecen con animación escalonada. */
+  revealFrom,
+}: {
+  categories: Category[];
+  id?: string;
+  revealFrom?: number;
+}) {
   return (
-    <ul className={styles.grid}>
-      {categories.map((category) => (
-        <li key={category.id}>
-          <CategoryCard category={category} />
-        </li>
-      ))}
+    <ul className={styles.grid} id={id}>
+      {categories.map((category, index) => {
+        const reveal = revealFrom !== undefined && index >= revealFrom;
+        return (
+          <li
+            key={category.id}
+            className={reveal ? styles.reveal : undefined}
+            style={
+              reveal
+                ? ({ '--reveal-delay': `${Math.min(index - revealFrom, 8) * 45}ms` } as React.CSSProperties)
+                : undefined
+            }
+          >
+            <CategoryCard category={category} />
+          </li>
+        );
+      })}
     </ul>
   );
-}
-
-export function CategoryGroupTitle({ children }: { children: React.ReactNode }) {
-  return <h3 className={styles.groupTitle}>{children}</h3>;
 }
