@@ -15,7 +15,8 @@ function buildUrl(query: string, categoryId: string): string {
   if (query.trim()) params.set('q', query.trim());
   if (categoryId) params.set('categoria', categoryId);
   const search = params.toString();
-  return `${window.location.pathname}${search ? `?${search}` : ''}`;
+  // Se conserva el hash: en la página única marca la sección o la categoría.
+  return `${window.location.pathname}${search ? `?${search}` : ''}${window.location.hash}`;
 }
 
 interface Props {
@@ -57,7 +58,8 @@ export default function Directory({
   useEffect(() => {
     if (!syncUrl) return;
     const next = buildUrl(query, categoryId);
-    if (next === `${window.location.pathname}${window.location.search}`) return;
+    if (next === `${window.location.pathname}${window.location.search}${window.location.hash}`)
+      return;
     const id = window.setTimeout(() => window.history.replaceState(null, '', next), 350);
     return () => window.clearTimeout(id);
   }, [query, categoryId, syncUrl]);

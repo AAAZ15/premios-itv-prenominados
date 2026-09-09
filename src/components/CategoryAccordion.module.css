@@ -1,46 +1,10 @@
 /* Acordeón de categorías: la lista completa siempre visible, y cada categoría
    se despliega en su sitio sin salir de la página. */
 
-.groups {
-  display: flex;
-  flex-direction: column;
-  gap: 2.25rem;
-}
 
-.group {
-  scroll-margin-top: 6rem;
-}
 
-.groupTitle {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  margin-bottom: 0.9rem;
-  font-family: var(--font-display);
-  font-size: 0.75rem;
-  font-weight: 700;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
-  color: var(--text);
-}
 
-.groupTitle::after {
-  content: '';
-  flex: 1;
-  height: 1px;
-  background: linear-gradient(90deg, rgba(56, 189, 248, 0.4), transparent);
-}
 
-.groupCount {
-  order: 3;
-  flex: none;
-  font-family: var(--font-body);
-  font-size: 0.625rem;
-  font-weight: 600;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--text-dim);
-}
 
 .list {
   display: flex;
@@ -239,36 +203,13 @@
   margin-bottom: 0.9rem;
 }
 
-.panelFoot {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.75rem;
-  margin-top: 0.9rem;
-}
 
 .panelNote {
+  margin-top: 0.85rem;
   font-size: 0.6875rem;
   color: var(--text-dim);
 }
 
-.panelLink {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  font-family: var(--font-body);
-  font-size: 0.6875rem;
-  font-weight: 600;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--cyan);
-  transition: gap 0.2s var(--ease);
-}
-
-.panelLink:hover {
-  gap: 0.65rem;
-}
 
 /* --- Fila de prenominado dentro del panel --------------------------------- */
 
@@ -348,4 +289,71 @@
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--text-dim);
+}
+
+/* --- Revelado de las categorías ocultas ----------------------------------- */
+
+.reveal {
+  animation: reveal 0.42s var(--ease) both;
+  animation-delay: var(--reveal-delay, 0ms);
+}
+
+@keyframes reveal {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* --- Botón «ver todas» ---------------------------------------------------- */
+
+.actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.toggleAll {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.8rem 1.4rem;
+  border-radius: var(--r-full);
+  background: var(--glass);
+  border: 1px solid rgba(226, 232, 240, 0.24);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text);
+  transition:
+    border-color 0.25s var(--ease),
+    background-color 0.25s var(--ease),
+    box-shadow 0.25s var(--ease);
+}
+
+.toggleAll:hover {
+  border-color: var(--rim);
+  background: var(--glass-strong);
+  box-shadow: 0 0 26px -8px rgba(56, 189, 248, 0.5);
+}
+
+.toggleCount {
+  color: var(--cyan-soft);
+}
+
+.toggleArrow {
+  color: var(--cyan);
+  transition: transform 0.32s var(--ease);
+}
+
+.toggleArrowOpen {
+  transform: rotate(180deg);
 }

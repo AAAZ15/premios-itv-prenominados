@@ -111,12 +111,3 @@ export function highlightSegments(
 export function plural(count: number, singular: string, pluralForm: string): string {
   return count === 1 ? singular : pluralForm;
 }
-
-/**
- * Presenta el nombre respetando el original.
- * El Excel usa mayúsculas en la mayoría de categorías; la interfaz aplica
- * `text-transform` por CSS, de modo que el dato nunca se altera.
- */
-export function displayName(name: string): string {
-  return name;
-}

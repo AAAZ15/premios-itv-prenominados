@@ -1,5 +1,4 @@
 import { searchIndex, type IndexedNominee } from '@/data';
-import type { SearchResult } from '@/lib/types';
 import { matchesTokens, scoreMatch, tokenize } from '@/lib/text';
 
 export interface SearchOptions {
@@ -44,33 +43,4 @@ export function searchEntries(query: string, options: SearchOptions = {}): Index
 
   const result = matched.map((m) => m.entry);
   return limit ? result.slice(0, limit) : result;
-}
-
-/**
- * Agrupa los registros por nombre, de modo que una misma persona/cuenta
- * aparezca una sola vez con TODAS sus categorías.
- */
-export function groupByName(entries: IndexedNominee[]): SearchResult[] {
-  const groups = new Map<string, SearchResult>();
-  for (const entry of entries) {
-    const existing = groups.get(entry.nameKey);
-    if (existing) {
-      existing.entries.push({ nominee: entry.nominee, category: entry.category });
-    } else {
-      groups.set(entry.nameKey, {
-        key: entry.nameKey,
-        name: entry.nominee.name,
-        entries: [{ nominee: entry.nominee, category: entry.category }],
-      });
-    }
-  }
-  for (const group of groups.values()) {
-    group.entries.sort((a, b) => a.category.order - b.category.order);
-  }
-  return [...groups.values()];
-}
-
-/** Búsqueda global agrupada por nombre — la que usa la página /buscar. */
-export function searchGrouped(query: string, options: SearchOptions = {}): SearchResult[] {
-  return groupByName(searchEntries(query, { ...options, limit: undefined }));
 }

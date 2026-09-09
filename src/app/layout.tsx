@@ -4,6 +4,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import StageBackdrop from '@/components/StageBackdrop';
 import MobileTabBar, { MobileTabBarSpacer } from '@/components/MobileTabBar';
+import SmoothAnchors from '@/components/SmoothAnchors';
 import { SITE } from '@/data/config';
 import '@/styles/globals.css';
 
@@ -75,6 +76,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <a className="skip-link" href="#contenido">
           Saltar al contenido
         </a>
+        <SmoothAnchors />
         <StageBackdrop />
         <Header />
         <main id="contenido">{children}</main>

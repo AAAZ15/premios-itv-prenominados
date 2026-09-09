@@ -100,13 +100,21 @@ export const TIMELINE: TimelineStage[] = [
   },
 ];
 
-/** Navegación principal (header, footer y barra inferior en mobile). */
+/**
+ * Navegación principal (header, footer y barra inferior en móvil).
+ *
+ * El sitio es de una sola página: cada enlace desplaza hasta su sección.
+ * `id` debe coincidir con el id de la <section> correspondiente.
+ */
 export const NAV_LINKS = [
-  { href: '/', label: 'Inicio' },
-  { href: '/prenominados/', label: 'Prenominados' },
-  { href: '/categorias/', label: 'Categorías' },
-  { href: '/fechas/', label: 'Fechas' },
+  { id: 'inicio', href: '#inicio', label: 'Inicio' },
+  { id: 'prenominados', href: '#prenominados', label: 'Prenominados' },
+  { id: 'categorias', href: '#categorias', label: 'Categorías' },
+  { id: 'fechas', href: '#fechas', label: 'Fechas' },
 ] as const;
+
+/** Prefijo de los anclajes profundos de categoría: #cat-mejor-actriz */
+export const CATEGORY_HASH_PREFIX = 'cat-';
 
 /** Cuántos registros se añaden en cada carga progresiva del listado. */
 export const PAGE_SIZE = 60;

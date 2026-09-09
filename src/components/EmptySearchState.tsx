@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { SearchIcon } from './Icons';
 import styles from './EmptySearchState.module.css';
 
@@ -35,9 +34,9 @@ export default function EmptySearchState({ query, onReset, resetLabel = 'Limpiar
             {resetLabel}
           </button>
         )}
-        <Link href="/categorias/" className="btn btn--ghost">
+        <a href="#categorias" className="btn btn--ghost">
           Ver categorías
-        </Link>
+        </a>
       </div>
     </div>
   );

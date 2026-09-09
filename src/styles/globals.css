@@ -52,6 +52,10 @@
 }
 
 @media (min-width: 768px) {
+  html {
+    scroll-padding-top: 5.5rem;
+  }
+
   :root {
     --pad-x: 1.5rem;
     --section-gap: 4.5rem;
@@ -77,7 +81,12 @@
 
 html {
   -webkit-text-size-adjust: 100%;
+  /* Página única: el menú desplaza entre secciones. */
   scroll-behavior: smooth;
+  /* Compensación del encabezado fijo al saltar a un anclaje. Es el ÚNICO
+     sitio donde se define: añadir además scroll-margin-top a los destinos
+     duplicaría el desplazamiento. */
+  scroll-padding-top: 4.75rem;
 }
 
 @media (prefers-reduced-motion: reduce) {

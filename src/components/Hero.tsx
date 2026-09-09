@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { totals } from '@/data';
 import { ArrowDown, CalendarIcon, FilmIcon } from './Icons';
 import styles from './Hero.module.css';
@@ -27,14 +26,14 @@ export default function Hero() {
       </p>
 
       <div className={styles.actions}>
-        <Link href="/prenominados/" className="btn btn--primary">
+        <a href="#prenominados" className="btn btn--primary">
           <ArrowDown size={16} />
           Ver prenominados
-        </Link>
-        <Link href="/fechas/" className="btn btn--ghost">
+        </a>
+        <a href="#fechas" className="btn btn--ghost">
           <CalendarIcon size={16} />
           Fechas importantes
-        </Link>
+        </a>
       </div>
 
       <dl className={styles.stats}>

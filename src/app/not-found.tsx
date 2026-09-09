@@ -32,7 +32,7 @@ export default function NotFound() {
         <Link href="/" className="btn btn--primary">
           Ir al inicio
         </Link>
-        <Link href="/categorias/" className="btn btn--ghost">
+        <Link href="/#categorias" className="btn btn--ghost">
           Ver categorías
         </Link>
       </div>

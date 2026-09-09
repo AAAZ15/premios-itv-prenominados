@@ -1,5 +1,5 @@
-import Link from 'next/link';
 import { Fragment } from 'react';
+import { CATEGORY_HASH_PREFIX } from '@/data/config';
 import type { Category, Nominee } from '@/lib/types';
 import { highlightSegments } from '@/lib/text';
 import { ChevronRight } from './Icons';
@@ -38,10 +38,10 @@ export function NomineeRow({ item, position, showCategory = true, tokens = [] }:
   const metaLabel = category.metaLabel;
 
   return (
-    <Link
-      href={`/categoria/${category.slug}/`}
+    <a
+      href={`#${CATEGORY_HASH_PREFIX}${category.slug}`}
       className={`${styles.row} ${styles.rowLink}`}
-      aria-label={`${nominee.name} — ${category.name}`}
+      aria-label={`${nominee.name} — ver ${category.name}`}
     >
       <span className={styles.index} aria-hidden="true">
         {String(position).padStart(2, '0')}
@@ -65,7 +65,7 @@ export function NomineeRow({ item, position, showCategory = true, tokens = [] }:
       </span>
 
       <ChevronRight size={16} className={styles.chevron} />
-    </Link>
+    </a>
   );
 }
 

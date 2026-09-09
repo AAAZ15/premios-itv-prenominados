@@ -1,47 +1,6 @@
-.searchPanel {
-  position: relative;
-  padding: 1.5rem 1.25rem;
-  border-radius: var(--r-xl);
-  background: linear-gradient(
-    150deg,
-    rgba(56, 189, 248, 0.07) 0%,
-    rgba(255, 255, 255, 0.028) 45%,
-    rgba(129, 140, 248, 0.05) 100%
-  );
-  border: 1px solid var(--hairline);
-  backdrop-filter: blur(18px);
-  -webkit-backdrop-filter: blur(18px);
-  overflow: hidden;
-}
 
-.searchPanel::before {
-  content: '';
-  position: absolute;
-  inset: 0 0 auto 0;
-  height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(56, 189, 248, 0.6), transparent);
-}
 
-@media (min-width: 768px) {
-  .searchPanel {
-    padding: 2.25rem 2rem;
-  }
-}
 
-.searchTitle {
-  font-size: clamp(1.25rem, 4.5vw, 1.75rem);
-  letter-spacing: 0.07em;
-  text-align: center;
-}
-
-.searchLede {
-  margin: 0.65rem auto 1.5rem;
-  max-width: 44ch;
-  text-align: center;
-  color: var(--text-muted);
-  font-size: 0.875rem;
-  line-height: 1.7;
-}
 
 /* --- Resumen por disciplina ---------------------------------------------- */
 
@@ -75,11 +34,6 @@
   transition: border-color 0.25s var(--ease), background-color 0.25s var(--ease);
 }
 
-.discipline:hover {
-  border-color: var(--rim);
-  background: var(--glass-strong);
-}
-
 .disciplineName {
   display: block;
   font-family: var(--font-display);
@@ -107,15 +61,4 @@
 
 /* --- Bloque de fechas en portada ----------------------------------------- */
 
-.datesPreview {
-  display: grid;
-  gap: 1.5rem;
-}
 
-@media (min-width: 900px) {
-  .datesPreview {
-    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
-    gap: 2.5rem;
-    align-items: start;
-  }
-}

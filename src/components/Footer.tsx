@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { NAV_LINKS, SITE } from '@/data/config';
 import { SparkIcon } from './Icons';
 import styles from './Footer.module.css';
@@ -20,10 +19,10 @@ export default function Footer() {
             </h2>
             <ul className={styles.links}>
               {NAV_LINKS.map((link) => (
-                <li key={link.href}>
-                  <Link href={link.href} className={styles.link}>
+                <li key={link.id}>
+                  <a href={link.href} className={styles.link}>
                     {link.label}
-                  </Link>
+                  </a>
                 </li>
               ))}
             </ul>

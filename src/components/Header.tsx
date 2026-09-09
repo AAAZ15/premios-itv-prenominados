@@ -1,26 +1,17 @@
 'use client';
 
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
 import { useEffect, useId, useState } from 'react';
 import { NAV_LINKS, SITE } from '@/data/config';
 import { ChevronRight, SearchIcon } from './Icons';
+import { useActiveSection } from './useActiveSection';
 import styles from './Header.module.css';
 
-function isActive(pathname: string, href: string): boolean {
-  if (href === '/') return pathname === '/';
-  return pathname.startsWith(href.replace(/\/$/, ''));
-}
+const SECTION_IDS = NAV_LINKS.map((link) => link.id);
 
 export default function Header() {
-  const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const panelId = useId();
-
-  // Cierra el menú al navegar.
-  useEffect(() => {
-    setOpen(false);
-  }, [pathname]);
+  const active = useActiveSection(SECTION_IDS);
 
   // Cierra con Escape.
   useEffect(() => {
@@ -35,7 +26,7 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={`container ${styles.inner}`}>
-        <Link href="/" className={styles.brand} aria-label={`${SITE.name} ${SITE.edition} — Inicio`}>
+        <a href="#inicio" className={styles.brand} aria-label={`${SITE.name} ${SITE.edition} — Inicio`}>
           <span className={styles.emblem} aria-hidden="true">
             <span className={styles.emblemText}>30</span>
           </span>
@@ -43,28 +34,25 @@ export default function Header() {
             <span className={styles.brandName}>Premios ITV</span>
             <span className={styles.brandEdition}>30 Años</span>
           </span>
-        </Link>
+        </a>
 
         <nav className={styles.nav} aria-label="Navegación principal">
-          {NAV_LINKS.map((link) => {
-            const active = isActive(pathname, link.href);
-            return (
-              <Link
-                key={link.href}
-                href={link.href}
-                className={`${styles.navLink} ${active ? styles.navLinkActive : ''}`}
-                aria-current={active ? 'page' : undefined}
-              >
-                {link.label}
-              </Link>
-            );
-          })}
+          {NAV_LINKS.map((link) => (
+            <a
+              key={link.id}
+              href={link.href}
+              className={`${styles.navLink} ${active === link.id ? styles.navLinkActive : ''}`}
+              aria-current={active === link.id ? 'true' : undefined}
+            >
+              {link.label}
+            </a>
+          ))}
         </nav>
 
         <div className={styles.actions}>
-          <Link href="/buscar/" className={styles.searchAction} aria-label="Buscar prenominados">
+          <a href="#prenominados" className={styles.searchAction} aria-label="Ir al buscador">
             <SearchIcon size={17} />
-          </Link>
+          </a>
 
           <button
             type="button"
@@ -87,21 +75,21 @@ export default function Header() {
         <div className={styles.panel} id={panelId}>
           <nav className="container" aria-label="Navegación móvil">
             <ul className={styles.panelList}>
-              {NAV_LINKS.map((link) => {
-                const active = isActive(pathname, link.href);
-                return (
-                  <li key={link.href}>
-                    <Link
-                      href={link.href}
-                      className={`${styles.panelLink} ${active ? styles.panelLinkActive : ''}`}
-                      aria-current={active ? 'page' : undefined}
-                    >
-                      {link.label}
-                      <ChevronRight size={16} className={styles.panelChevron} />
-                    </Link>
-                  </li>
-                );
-              })}
+              {NAV_LINKS.map((link) => (
+                <li key={link.id}>
+                  <a
+                    href={link.href}
+                    className={`${styles.panelLink} ${
+                      active === link.id ? styles.panelLinkActive : ''
+                    }`}
+                    aria-current={active === link.id ? 'true' : undefined}
+                    onClick={() => setOpen(false)}
+                  >
+                    {link.label}
+                    <ChevronRight size={16} className={styles.panelChevron} />
+                  </a>
+                </li>
+              ))}
             </ul>
           </nav>
         </div>

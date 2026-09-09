@@ -4,7 +4,7 @@ import type { Metadata } from 'next';
 import NomineeList from '@/components/NomineeList';
 import { ChevronLeft, ChevronRight, GridIcon } from '@/components/Icons';
 import { categories, getCategory, getCategoryNeighbours, getNominees } from '@/data';
-import { SITE } from '@/data/config';
+import { CATEGORY_HASH_PREFIX, SITE } from '@/data/config';
 import { plural } from '@/lib/text';
 import styles from './page.module.css';
 
@@ -61,7 +61,7 @@ export default async function CategoriaPage({ params }: PageProps) {
         <span className={styles.breadcrumbSep} aria-hidden="true">
           /
         </span>
-        <Link href="/categorias/">Categorías</Link>
+        <Link href="/#categorias">Categorías</Link>
         <span className={styles.breadcrumbSep} aria-hidden="true">
           /
         </span>
@@ -108,9 +108,12 @@ export default async function CategoriaPage({ params }: PageProps) {
           <span className={styles.pagerEmpty} />
         )}
 
-        <Link href="/categorias/" className={styles.pagerCenter}>
+        <Link
+          href={`/#${CATEGORY_HASH_PREFIX}${category.slug}`}
+          className={styles.pagerCenter}
+        >
           <GridIcon size={15} />
-          Volver a categorías
+          Ver en el portal
         </Link>
 
         {next ? (

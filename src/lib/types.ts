@@ -42,10 +42,3 @@ export interface DataMeta {
   totalCategories: number;
   totalNominees: number;
 }
-
-/** Un mismo nombre agrupado con todas las categorías en las que aparece. */
-export interface SearchResult {
-  key: string;
-  name: string;
-  entries: { nominee: Nominee; category: Category }[];
-}

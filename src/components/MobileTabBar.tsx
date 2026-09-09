@@ -1,45 +1,41 @@
 'use client';
 
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import { NAV_LINKS } from '@/data/config';
 import { CalendarIcon, GridIcon, HomeIcon, ListIcon } from './Icons';
+import { useActiveSection } from './useActiveSection';
 import styles from './MobileTabBar.module.css';
 
-const TABS = [
-  { href: '/', label: 'Inicio', Icon: HomeIcon },
-  { href: '/prenominados/', label: 'Prenominados', Icon: ListIcon },
-  { href: '/categorias/', label: 'Categorías', Icon: GridIcon },
-  { href: '/fechas/', label: 'Fechas', Icon: CalendarIcon },
-];
+const ICONS = {
+  inicio: HomeIcon,
+  prenominados: ListIcon,
+  categorias: GridIcon,
+  fechas: CalendarIcon,
+} as const;
+
+const SECTION_IDS = NAV_LINKS.map((link) => link.id);
 
 export function MobileTabBarSpacer() {
   return <div className={styles.spacer} aria-hidden="true" />;
 }
 
 export default function MobileTabBar() {
-  const pathname = usePathname();
-
-  const isActive = (href: string) =>
-    href === '/'
-      ? pathname === '/'
-      : pathname.startsWith(href.replace(/\/$/, '')) ||
-        // Una categoría concreta mantiene activo el apartado «Categorías».
-        (href === '/categorias/' && pathname.startsWith('/categoria/'));
+  const active = useActiveSection(SECTION_IDS);
 
   return (
     <nav className={styles.bar} aria-label="Navegación rápida">
-      {TABS.map(({ href, label, Icon }) => {
-        const active = isActive(href);
+      {NAV_LINKS.map((link) => {
+        const Icon = ICONS[link.id];
+        const isActive = active === link.id;
         return (
-          <Link
-            key={href}
-            href={href}
-            className={`${styles.item} ${active ? styles.itemActive : ''}`}
-            aria-current={active ? 'page' : undefined}
+          <a
+            key={link.id}
+            href={link.href}
+            className={`${styles.item} ${isActive ? styles.itemActive : ''}`}
+            aria-current={isActive ? 'true' : undefined}
           >
             <Icon size={20} />
-            <span className={styles.label}>{label}</span>
-          </Link>
+            <span className={styles.label}>{link.label}</span>
+          </a>
         );
       })}
     </nav>

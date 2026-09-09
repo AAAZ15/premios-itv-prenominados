@@ -7,14 +7,13 @@ export const dynamic = 'force-static';
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
 
-  const staticRoutes = ['/', '/prenominados/', '/categorias/', '/buscar/', '/fechas/'].map(
-    (route) => ({
-      url: `${SITE.url}${route}`,
-      lastModified: now,
-      changeFrequency: 'weekly' as const,
-      priority: route === '/' ? 1 : 0.8,
-    })
-  );
+  // El portal es una página única; las secciones son anclajes de la misma URL.
+  const home = {
+    url: `${SITE.url}/`,
+    lastModified: now,
+    changeFrequency: 'weekly' as const,
+    priority: 1,
+  };
 
   const categoryRoutes = categories.map((category) => ({
     url: `${SITE.url}/categoria/${category.slug}/`,
@@ -23,5 +22,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticRoutes, ...categoryRoutes];
+  return [home, ...categoryRoutes];
 }
