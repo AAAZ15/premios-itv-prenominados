@@ -48,10 +48,21 @@ export function useActiveSection(ids: readonly string[]): string {
     window.addEventListener('scroll', update, { passive: true });
     window.addEventListener('resize', update);
     window.addEventListener(SCROLLED_EVENT, update);
+
+    /**
+     * El alto de la página cambia después de cargar —el directorio monta sus
+     * filas, las tipografías entran, el acordeón se despliega— y eso mueve las
+     * secciones sin que haya ningún `scroll`. Sin esto, un clic en el menú
+     * justo tras abrir la página dejaba marcada la sección equivocada.
+     */
+    const observer = new ResizeObserver(update);
+    observer.observe(document.body);
+
     return () => {
       window.removeEventListener('scroll', update);
       window.removeEventListener('resize', update);
       window.removeEventListener(SCROLLED_EVENT, update);
+      observer.disconnect();
     };
   }, [ids]);
 
