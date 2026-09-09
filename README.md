@@ -3,6 +3,8 @@
 Aplicación web pública para **consultar** la lista oficial de prenominados de los
 Premios ITV: categorías, listado completo, buscador global y cronograma.
 
+**En vivo:** https://aaaz15.github.io/premios-itv-prenominados/
+
 > **No es una plataforma de votación.** No incluye botones de votar, formularios,
 > conteos, rankings, resultados, autenticación ni registro de usuarios.
 
@@ -36,8 +38,32 @@ npx serve out -p 4400
 
 ### Despliegue
 
-`npm run build` produce HTML estático en `out/`, sin servidor. Se puede subir tal
-cual a Netlify, Vercel, Cloudflare Pages, S3 o cualquier hosting con Apache/Nginx.
+`npm run build` produce HTML estático en `out/`, sin servidor: sirve para
+GitHub Pages, Netlify, Vercel, Cloudflare Pages, S3 o Apache/Nginx.
+
+**Publicación actual — GitHub Pages, automática.** Cada `git push` a `main`
+dispara `.github/workflows/deploy.yml`, que compila y publica en
+https://aaaz15.github.io/premios-itv-prenominados/. No hay que hacer nada más:
+
+```bash
+git add -A && git commit -m "…" && git push
+```
+
+Dos variables de entorno controlan dónde vive el sitio (las fija el workflow;
+en local no hacen falta):
+
+| Variable | Para qué |
+|----------|----------|
+| `NEXT_PUBLIC_BASE_PATH` | Subcarpeta desde la que se sirve. GitHub Pages usa `/premios-itv-prenominados`. Vacío = raíz del dominio. |
+| `NEXT_PUBLIC_SITE_URL` | Dominio para `canonical`, Open Graph y sitemap. |
+
+**Al pasar al dominio definitivo** (`www.premiositv.com`): deja ambas variables
+sin definir —los valores por defecto ya apuntan ahí— y borra `public/_headers`
+y el bloque `[[headers]]` de `netlify.toml` para levantar el `noindex`.
+
+> El despliegue en Netlify quedó bloqueado por el límite de créditos de la
+> cuenta (`Skipped due to account credit usage exceeded`); el proyecto
+> `premios-itv-prenominados` está creado y configurado por si se retoma.
 
 ---
 
