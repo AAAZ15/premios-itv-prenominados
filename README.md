@@ -120,20 +120,31 @@ Todo lo que cambia con frecuencia vive en **`src/data/config.ts`**:
 - `NAV_LINKS` — el menú.
 - `PAGE_SIZE` — cuántos registros añade cada «Cargar más».
 
-### Publicar las fechas
+### Cronograma
 
-Los archivos entregados no incluyen el cronograma de la edición 30 Años, así que
-las fechas se muestran como **«Por confirmar»**. Para publicarlas basta editar
-`EVENT_DATES`:
+Las fechas del proceso están confirmadas en `EVENT_DATES`:
+
+| Hito | Fecha |
+|------|-------|
+| Primera etapa · inicio | 28 de septiembre de 2026 |
+| Primera etapa · cierre | 18 de octubre de 2026 |
+| Segunda etapa · inicio | 19 de octubre de 2026 |
+| Segunda etapa · cierre | 17 de noviembre de 2026 |
+| Ceremonia | 17 de noviembre de 2026, 8:00 pm |
+
+Para cambiar cualquiera basta editar ese objeto; la interfaz formatea sola en
+español y no hay que tocar componentes ni estilos:
 
 ```ts
-firstStageStart: { date: '2026-10-15', status: 'confirmed' },
+firstStageEnd: { date: '2026-10-20', status: 'confirmed' },
+eventDate:     { date: '2026-11-17', time: '20:00', status: 'confirmed' },
 ```
 
-`status: 'confirmed'` + `date` en ISO (`YYYY-MM-DD`) → se formatea solo en
-español. Si prefieres un texto libre, añade `dateLabel: 'Del 15 al 30 de octubre'`.
-Mientras `status` sea `'pending'`, la interfaz muestra el marcador y el aviso al
-pie del cronograma. No hay que tocar ningún componente ni estilo.
+- `date` en ISO (`YYYY-MM-DD`).
+- `time` opcional, `HH:MM` en 24 h; se muestra bajo la fecha.
+- `dateLabel` opcional para un texto libre (`'Del 15 al 30 de octubre'`).
+- `status: 'pending'` vuelve a mostrar «Por confirmar» e ignora `date`; si
+  todas quedan pendientes reaparece el aviso al pie del cronograma.
 
 ---
 

@@ -119,6 +119,16 @@
   letter-spacing: 0.09em;
 }
 
+.milestoneTime {
+  margin-top: 0.2rem;
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--cyan);
+}
+
 .pendingDot {
   display: inline-block;
   width: 0.4rem;

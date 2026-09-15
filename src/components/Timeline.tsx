@@ -3,22 +3,32 @@ import { ArrowDown, CalendarIcon } from './Icons';
 import styles from './Timeline.module.css';
 
 /** Formatea una fecha ISO a texto largo en español; nunca inventa datos. */
-function formatDate(entry: EventDate): { text: string; pending: boolean } {
-  if (entry.status !== 'confirmed') return { text: 'Por confirmar', pending: true };
-  if (entry.dateLabel) return { text: entry.dateLabel, pending: false };
-  if (!entry.date) return { text: 'Por confirmar', pending: true };
+function formatDate(entry: EventDate): { text: string; time: string | null; pending: boolean } {
+  if (entry.status !== 'confirmed') return { text: 'Por confirmar', time: null, pending: true };
+  if (entry.dateLabel) return { text: entry.dateLabel, time: entry.time ?? null, pending: false };
+  if (!entry.date) return { text: 'Por confirmar', time: null, pending: true };
 
   const parsed = new Date(`${entry.date}T12:00:00`);
-  if (Number.isNaN(parsed.getTime())) return { text: entry.date, pending: false };
+  if (Number.isNaN(parsed.getTime())) {
+    return { text: entry.date, time: entry.time ?? null, pending: false };
+  }
 
-  return {
-    text: new Intl.DateTimeFormat('es-EC', {
-      day: 'numeric',
-      month: 'long',
-      year: 'numeric',
-    }).format(parsed),
-    pending: false,
-  };
+  const text = new Intl.DateTimeFormat('es-EC', {
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+  }).format(parsed);
+
+  // La hora se escribe a mano: Intl daría «8 p. m.» en es-EC.
+  let time: string | null = null;
+  if (entry.time) {
+    const [hours, minutes] = entry.time.split(':').map(Number);
+    const suffix = hours < 12 ? 'am' : 'pm';
+    const hour12 = hours % 12 === 0 ? 12 : hours % 12;
+    time = minutes ? `${hour12}:${String(minutes).padStart(2, '0')} ${suffix}` : `${hour12}:00 ${suffix}`;
+  }
+
+  return { text, time, pending: false };
 }
 
 export const hasConfirmedDates = Object.values(EVENT_DATES).some(
@@ -48,7 +58,7 @@ export default function Timeline() {
                 }`}
               >
                 {stage.milestones.map((milestone) => {
-                  const { text, pending } = formatDate(EVENT_DATES[milestone.key]);
+                  const { text, time, pending } = formatDate(EVENT_DATES[milestone.key]);
                   return (
                     <div className={styles.milestone} key={milestone.key}>
                       <p className={styles.milestoneLabel}>{milestone.label}</p>
@@ -60,6 +70,7 @@ export default function Timeline() {
                         {pending && <span className={styles.pendingDot} aria-hidden="true" />}
                         {text}
                       </p>
+                      {time && <p className={styles.milestoneTime}>{time}</p>}
                     </div>
                   );
                 })}

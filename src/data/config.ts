@@ -29,21 +29,21 @@ export const SITE = {
 /**
  * FECHAS DEL PROCESO
  * ---------------------------------------------------------------------------
- * Los archivos entregados NO contienen el cronograma de votación de la
- * edición 30 Años, por lo que estas fechas quedan como marcadores.
+ * Para cambiar una fecha basta editar este objeto: la interfaz la formatea
+ * sola en español y no hay que tocar ningún componente ni estilo.
  *
- * Para publicarlas:
- *   1. Cambiar `status` a 'confirmed'.
- *   2. Escribir `date` en formato ISO (YYYY-MM-DD) — se formatea solo.
- *      (Si se prefiere un texto libre, usar `dateLabel`.)
- *
- * Mientras `status` sea 'pending', la interfaz muestra «Por confirmar».
+ *   date       ISO 'YYYY-MM-DD'.
+ *   time       opcional, 'HH:MM' en 24 h. Se muestra tras la fecha.
+ *   dateLabel  opcional, texto libre que sustituye al formato automático.
+ *   status     'pending' muestra «Por confirmar» e ignora `date`.
  */
 export type DateStatus = 'pending' | 'confirmed';
 
 export interface EventDate {
   /** ISO 'YYYY-MM-DD'. Ignorado si status es 'pending'. */
   date: string | null;
+  /** Hora en formato 'HH:MM' (24 h), si el hito tiene hora fija. */
+  time?: string;
   /** Texto libre opcional que reemplaza al formato automático. */
   dateLabel?: string;
   status: DateStatus;
@@ -53,11 +53,12 @@ export const EVENT_DATES: Record<
   'firstStageStart' | 'firstStageEnd' | 'secondStageStart' | 'secondStageEnd' | 'eventDate',
   EventDate
 > = {
-  firstStageStart: { date: null, status: 'pending' },
-  firstStageEnd: { date: null, status: 'pending' },
-  secondStageStart: { date: null, status: 'pending' },
-  secondStageEnd: { date: null, status: 'pending' },
-  eventDate: { date: null, status: 'pending' },
+  firstStageStart: { date: '2026-09-28', status: 'confirmed' },
+  firstStageEnd: { date: '2026-10-18', status: 'confirmed' },
+  secondStageStart: { date: '2026-10-19', status: 'confirmed' },
+  secondStageEnd: { date: '2026-11-17', status: 'confirmed' },
+  // La segunda etapa cierra el mismo día de la ceremonia.
+  eventDate: { date: '2026-11-17', time: '20:00', status: 'confirmed' },
 };
 
 export interface TimelineStage {
