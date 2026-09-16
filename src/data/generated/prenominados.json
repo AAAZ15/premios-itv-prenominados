@@ -1,9 +1,9 @@
 {
   "meta": {
-    "source": "Nominados oficiales PREMIOS ITV 2023 (1).xlsx",
-    "generatedAt": "2026-09-16T15:43:56.041Z",
+    "source": "Lista de premios ITV 2026.xlsx",
+    "generatedAt": "2026-09-16T18:22:30.626Z",
     "totalCategories": 19,
-    "totalNominees": 462
+    "totalNominees": 728
   },
   "categories": [
     {
@@ -15,9 +15,9 @@
       "discipline": "Noticias",
       "entryType": "persona",
       "metaLabel": null,
-      "sourceCategory": "MEJOR PRESENTADOR DE NOTICIAS",
+      "sourceCategory": "MEJOR PRESENTADOR DE INFORMACIÓN, NOTICIAS E INVESTIGACIÓN",
       "sourceRow": 3,
-      "count": 27
+      "count": 21
     },
     {
       "id": "mejor-presentadora-de-informacion-noticias-e-investigacion",
@@ -28,9 +28,9 @@
       "discipline": "Noticias",
       "entryType": "persona",
       "metaLabel": null,
-      "sourceCategory": "MEJOR PRESENTADORA DE NOTICIAS",
-      "sourceRow": 33,
-      "count": 30
+      "sourceCategory": "MEJOR PRESENTADORA DE INFORMACIÓN, NOTICIAS E INVESTIGACIÓN",
+      "sourceRow": 26,
+      "count": 31
     },
     {
       "id": "mejor-reportero-a-de-noticias",
@@ -42,8 +42,8 @@
       "entryType": "persona",
       "metaLabel": null,
       "sourceCategory": "MEJOR REPORTERO/A DE NOTICIAS",
-      "sourceRow": 67,
-      "count": 83
+      "sourceRow": 59,
+      "count": 92
     },
     {
       "id": "mejor-medio-digital-de-informacion",
@@ -54,9 +54,9 @@
       "discipline": "Noticias",
       "entryType": "medio",
       "metaLabel": "Plataforma",
-      "sourceCategory": "MEJOR CUENTA INFORMATIVA DIGITAL",
-      "sourceRow": 153,
-      "count": 22
+      "sourceCategory": "MEJOR MEDIO DIGITAL DE INFORMACIÓN",
+      "sourceRow": 154,
+      "count": 27
     },
     {
       "id": "mejor-narrador-deportivo",
@@ -68,8 +68,8 @@
       "entryType": "persona",
       "metaLabel": null,
       "sourceCategory": "MEJOR NARRADOR DEPORTIVO",
-      "sourceRow": 181,
-      "count": 34
+      "sourceRow": 183,
+      "count": 49
     },
     {
       "id": "mejor-comunicador-de-deportes",
@@ -80,9 +80,9 @@
       "discipline": "Deportes",
       "entryType": "persona",
       "metaLabel": null,
-      "sourceCategory": "MEJOR COMENTARISTA DEPORTIVO (MASCULINO)",
-      "sourceRow": 220,
-      "count": 83
+      "sourceCategory": "MEJOR COMUNICADOR DE DEPORTES",
+      "sourceRow": 234,
+      "count": 115
     },
     {
       "id": "mejor-comunicadora-de-deportes",
@@ -93,9 +93,9 @@
       "discipline": "Deportes",
       "entryType": "persona",
       "metaLabel": null,
-      "sourceCategory": "MEJOR COMENTARISTA DEPORTIVO (MUJERES)",
-      "sourceRow": 307,
-      "count": 30
+      "sourceCategory": "MEJOR COMUNICADORA DE DEPORTES",
+      "sourceRow": 351,
+      "count": 40
     },
     {
       "id": "mejor-cuenta-digital-de-deportes",
@@ -107,8 +107,8 @@
       "entryType": "cuenta",
       "metaLabel": "Plataforma",
       "sourceCategory": "MEJOR CUENTA DIGITAL DE DEPORTES",
-      "sourceRow": 341,
-      "count": 16
+      "sourceRow": 393,
+      "count": 26
     },
     {
       "id": "mejor-conductor-de-programas-de-variedades",
@@ -120,8 +120,8 @@
       "entryType": "persona",
       "metaLabel": null,
       "sourceCategory": "MEJOR CONDUCTOR DE VARIEDADES",
-      "sourceRow": 370,
-      "count": 34
+      "sourceRow": 421,
+      "count": 32
     },
     {
       "id": "mejor-conductora-de-programas-de-variedades",
@@ -133,8 +133,8 @@
       "entryType": "persona",
       "metaLabel": null,
       "sourceCategory": "MEJOR CONDUCTORA DE VARIEDADES",
-      "sourceRow": 407,
-      "count": 34
+      "sourceRow": 455,
+      "count": 38
     },
     {
       "id": "mejor-programa-de-variedades",
@@ -146,8 +146,8 @@
       "entryType": "programa",
       "metaLabel": "Canal",
       "sourceCategory": "MEJOR PROGRAMA DE VARIEDADES",
-      "sourceRow": 444,
-      "count": 29
+      "sourceRow": 495,
+      "count": 42
     },
     {
       "id": "mejor-animador-de-programa-de-concursos",
@@ -158,9 +158,9 @@
       "discipline": "Concursos",
       "entryType": "persona",
       "metaLabel": null,
-      "sourceCategory": null,
-      "sourceRow": null,
-      "count": 0
+      "sourceCategory": "MEJOR ANIMADOR DE PROGRAMA DE CONCURSOS",
+      "sourceRow": 539,
+      "count": 4
     },
     {
       "id": "mejor-animadora-de-programa-de-concursos",
@@ -171,9 +171,9 @@
       "discipline": "Concursos",
       "entryType": "persona",
       "metaLabel": null,
-      "sourceCategory": null,
-      "sourceRow": null,
-      "count": 0
+      "sourceCategory": "MEJOR ANIMADORA DE PROGRAMA DE CONCURSOS",
+      "sourceRow": 545,
+      "count": 5
     },
     {
       "id": "mejor-programa-de-concursos",
@@ -184,9 +184,9 @@
       "discipline": "Concursos",
       "entryType": "programa",
       "metaLabel": "Canal",
-      "sourceCategory": null,
-      "sourceRow": null,
-      "count": 0
+      "sourceCategory": "MEJOR PROGRAMA DE CONCURSOS",
+      "sourceRow": 552,
+      "count": 6
     },
     {
       "id": "mejor-actor",
@@ -198,8 +198,8 @@
       "entryType": "persona",
       "metaLabel": null,
       "sourceCategory": "MEJOR ACTOR",
-      "sourceRow": 478,
-      "count": 23
+      "sourceRow": 560,
+      "count": 44
     },
     {
       "id": "mejor-actriz",
@@ -211,8 +211,8 @@
       "entryType": "persona",
       "metaLabel": null,
       "sourceCategory": "MEJOR ACTRIZ",
-      "sourceRow": 504,
-      "count": 17
+      "sourceRow": 606,
+      "count": 21
     },
     {
       "id": "mejor-creador-de-contenido-de-instagram",
@@ -223,9 +223,9 @@
       "discipline": "Digital",
       "entryType": "cuenta",
       "metaLabel": "Usuario",
-      "sourceCategory": null,
-      "sourceRow": null,
-      "count": 0
+      "sourceCategory": "MEJOR CREADOR DE CONTENIDO DE INSTAGRAM",
+      "sourceRow": 629,
+      "count": 76
     },
     {
       "id": "mejor-tiktoker",
@@ -236,9 +236,9 @@
       "discipline": "Digital",
       "entryType": "cuenta",
       "metaLabel": "Usuario",
-      "sourceCategory": null,
-      "sourceRow": null,
-      "count": 0
+      "sourceCategory": "MEJOR TIKTOKER",
+      "sourceRow": 707,
+      "count": 32
     },
     {
       "id": "mejor-creador-de-contenido-empresarial",
@@ -248,10 +248,10 @@
       "description": "Destaca y premia a empresas, marcas o instituciones de cualquier rubro que gestionan contenido propio en redes sociales, sea con equipo interno o una agencia. Se consideran a quienes hayan producido contenido consistente durante el año 2026, no una campaña puntual o aislada, y que tengan al menos 65.000 seguidores en la plataforma principal (Instagram o TikTok).",
       "discipline": "Digital",
       "entryType": "cuenta",
-      "metaLabel": "Usuario",
-      "sourceCategory": null,
-      "sourceRow": null,
-      "count": 0
+      "metaLabel": "Cuenta",
+      "sourceCategory": "MEJOR CREADOR DE CONTENIDO EMPRESARIAL",
+      "sourceRow": 741,
+      "count": 27
     }
   ],
   "nominees": [
@@ -261,23 +261,23 @@
       "meta": null,
       "categoryId": "mejor-presentador-de-informacion-noticias-e-investigacion",
       "order": 0,
-      "sourceRow": 5
+      "sourceRow": 4
     },
     {
       "id": "n0002",
-      "name": "ALVAREZ WANDEMBERG ROBERTO",
+      "name": "ÁLVAREZ WANDEMBERG ROBERTO",
       "meta": null,
       "categoryId": "mejor-presentador-de-informacion-noticias-e-investigacion",
       "order": 1,
-      "sourceRow": 6
+      "sourceRow": 5
     },
     {
       "id": "n0003",
-      "name": "AREVALO JOSÉ LUIS",
+      "name": "ARÉVALO JOSÉ LUIS",
       "meta": null,
       "categoryId": "mejor-presentador-de-informacion-noticias-e-investigacion",
       "order": 2,
-      "sourceRow": 7
+      "sourceRow": 6
     },
     {
       "id": "n0004",
@@ -285,7 +285,7 @@
       "meta": null,
       "categoryId": "mejor-presentador-de-informacion-noticias-e-investigacion",
       "order": 3,
-      "sourceRow": 8
+      "sourceRow": 7
     },
     {
       "id": "n0005",
@@ -293,1090 +293,1122 @@
       "meta": null,
       "categoryId": "mejor-presentador-de-informacion-noticias-e-investigacion",
       "order": 4,
-      "sourceRow": 9
+      "sourceRow": 8
     },
     {
       "id": "n0006",
-      "name": "BAQUERIZO RODOLFO",
+      "name": "BONE ÁNGEL",
       "meta": null,
       "categoryId": "mejor-presentador-de-informacion-noticias-e-investigacion",
       "order": 5,
-      "sourceRow": 10
+      "sourceRow": 9
     },
     {
       "id": "n0007",
-      "name": "BONE ANGEL",
+      "name": "CHALCO KEVIN",
       "meta": null,
       "categoryId": "mejor-presentador-de-informacion-noticias-e-investigacion",
       "order": 6,
-      "sourceRow": 11
+      "sourceRow": 10
     },
     {
       "id": "n0008",
-      "name": "BOSCÁN ANDERSSON",
+      "name": "COELLO PAÚL",
       "meta": null,
       "categoryId": "mejor-presentador-de-informacion-noticias-e-investigacion",
       "order": 7,
-      "sourceRow": 12
+      "sourceRow": 11
     },
     {
       "id": "n0009",
-      "name": "CARRERA JONNATHAN",
+      "name": "CONTRERAS ADRIÁN",
       "meta": null,
       "categoryId": "mejor-presentador-de-informacion-noticias-e-investigacion",
       "order": 8,
-      "sourceRow": 13
+      "sourceRow": 12
     },
     {
       "id": "n0010",
-      "name": "CARRIÓN ANDRÉS",
-      "meta": null,
-      "categoryId": "mejor-presentador-de-informacion-noticias-e-investigacion",
-      "order": 9,
-      "sourceRow": 14
-    },
-    {
-      "id": "n0011",
-      "name": "CORREA FERNANDO",
-      "meta": null,
-      "categoryId": "mejor-presentador-de-informacion-noticias-e-investigacion",
-      "order": 10,
-      "sourceRow": 15
-    },
-    {
-      "id": "n0012",
-      "name": "DELGADO JOSÉ",
-      "meta": null,
-      "categoryId": "mejor-presentador-de-informacion-noticias-e-investigacion",
-      "order": 11,
-      "sourceRow": 16
-    },
-    {
-      "id": "n0013",
       "name": "ESCOBAR JORGE",
       "meta": null,
       "categoryId": "mejor-presentador-de-informacion-noticias-e-investigacion",
-      "order": 12,
-      "sourceRow": 17
+      "order": 9,
+      "sourceRow": 13
     },
     {
-      "id": "n0014",
+      "id": "n0011",
+      "name": "ESPINOZA FELIPE",
+      "meta": null,
+      "categoryId": "mejor-presentador-de-informacion-noticias-e-investigacion",
+      "order": 10,
+      "sourceRow": 14
+    },
+    {
+      "id": "n0012",
       "name": "ESTEVEZ CARLOS",
       "meta": null,
       "categoryId": "mejor-presentador-de-informacion-noticias-e-investigacion",
-      "order": 13,
-      "sourceRow": 18
+      "order": 11,
+      "sourceRow": 15
     },
     {
-      "id": "n0015",
-      "name": "HERNÁNDEZ RAFAEL",
-      "meta": null,
-      "categoryId": "mejor-presentador-de-informacion-noticias-e-investigacion",
-      "order": 14,
-      "sourceRow": 19
-    },
-    {
-      "id": "n0016",
+      "id": "n0013",
       "name": "JIMÉNEZ PEDRO",
       "meta": null,
       "categoryId": "mejor-presentador-de-informacion-noticias-e-investigacion",
-      "order": 15,
-      "sourceRow": 20
+      "order": 12,
+      "sourceRow": 16
     },
     {
-      "id": "n0017",
+      "id": "n0014",
       "name": "JUNGBLUTH ANDRÉS",
       "meta": null,
       "categoryId": "mejor-presentador-de-informacion-noticias-e-investigacion",
-      "order": 16,
-      "sourceRow": 21
+      "order": 13,
+      "sourceRow": 17
     },
     {
-      "id": "n0018",
-      "name": "NEGRETE JORGE",
-      "meta": null,
-      "categoryId": "mejor-presentador-de-informacion-noticias-e-investigacion",
-      "order": 17,
-      "sourceRow": 22
-    },
-    {
-      "id": "n0019",
-      "name": "PAREDES FREDDY",
-      "meta": null,
-      "categoryId": "mejor-presentador-de-informacion-noticias-e-investigacion",
-      "order": 18,
-      "sourceRow": 23
-    },
-    {
-      "id": "n0020",
+      "id": "n0015",
       "name": "PÉREZ MILTON",
       "meta": null,
       "categoryId": "mejor-presentador-de-informacion-noticias-e-investigacion",
-      "order": 19,
-      "sourceRow": 24
+      "order": 14,
+      "sourceRow": 18
     },
     {
-      "id": "n0021",
+      "id": "n0016",
       "name": "PINOARGOTE QUIROZ ALFREDO",
       "meta": null,
       "categoryId": "mejor-presentador-de-informacion-noticias-e-investigacion",
-      "order": 20,
-      "sourceRow": 25
+      "order": 15,
+      "sourceRow": 19
     },
     {
-      "id": "n0022",
-      "name": "RUIZ LUIS ANTONIO",
+      "id": "n0017",
+      "name": "RENDÓN JORGE",
       "meta": null,
       "categoryId": "mejor-presentador-de-informacion-noticias-e-investigacion",
-      "order": 21,
-      "sourceRow": 26
+      "order": 16,
+      "sourceRow": 20
     },
     {
-      "id": "n0023",
+      "id": "n0018",
+      "name": "RODRÍGUEZ JUAN MIGUEL",
+      "meta": null,
+      "categoryId": "mejor-presentador-de-informacion-noticias-e-investigacion",
+      "order": 17,
+      "sourceRow": 21
+    },
+    {
+      "id": "n0019",
       "name": "SACOTO CARLOS",
       "meta": null,
       "categoryId": "mejor-presentador-de-informacion-noticias-e-investigacion",
-      "order": 22,
-      "sourceRow": 27
+      "order": 18,
+      "sourceRow": 22
     },
     {
-      "id": "n0024",
+      "id": "n0020",
       "name": "SAMANIEGO HERNÁN",
       "meta": null,
       "categoryId": "mejor-presentador-de-informacion-noticias-e-investigacion",
-      "order": 23,
-      "sourceRow": 28
+      "order": 19,
+      "sourceRow": 23
     },
     {
-      "id": "n0025",
-      "name": "SEGARRA JAVIER",
+      "id": "n0021",
+      "name": "SPER JORGE",
       "meta": null,
       "categoryId": "mejor-presentador-de-informacion-noticias-e-investigacion",
-      "order": 24,
-      "sourceRow": 29
+      "order": 20,
+      "sourceRow": 24
     },
     {
-      "id": "n0026",
-      "name": "VELA FABRICIO",
-      "meta": null,
-      "categoryId": "mejor-presentador-de-informacion-noticias-e-investigacion",
-      "order": 25,
-      "sourceRow": 30
-    },
-    {
-      "id": "n0027",
-      "name": "VERA CARLOS",
-      "meta": null,
-      "categoryId": "mejor-presentador-de-informacion-noticias-e-investigacion",
-      "order": 26,
-      "sourceRow": 31
-    },
-    {
-      "id": "n0028",
-      "name": "ACOSTA MARÍA GRAZZIA",
+      "id": "n0022",
+      "name": "ALVIA NOHA",
       "meta": null,
       "categoryId": "mejor-presentadora-de-informacion-noticias-e-investigacion",
       "order": 0,
-      "sourceRow": 35
+      "sourceRow": 27
     },
     {
-      "id": "n0029",
-      "name": "ARCENTALES CARLA",
+      "id": "n0023",
+      "name": "ARIAS ESTEFANÍA",
       "meta": null,
       "categoryId": "mejor-presentadora-de-informacion-noticias-e-investigacion",
       "order": 1,
-      "sourceRow": 36
+      "sourceRow": 28
     },
     {
-      "id": "n0030",
-      "name": "BAER GABRIELA",
-      "meta": null,
-      "categoryId": "mejor-presentadora-de-informacion-noticias-e-investigacion",
-      "order": 2,
-      "sourceRow": 37
-    },
-    {
-      "id": "n0031",
-      "name": "BAYONA GISSELLA",
-      "meta": null,
-      "categoryId": "mejor-presentadora-de-informacion-noticias-e-investigacion",
-      "order": 3,
-      "sourceRow": 38
-    },
-    {
-      "id": "n0032",
-      "name": "BERMEO ADRIANA",
-      "meta": null,
-      "categoryId": "mejor-presentadora-de-informacion-noticias-e-investigacion",
-      "order": 4,
-      "sourceRow": 39
-    },
-    {
-      "id": "n0033",
+      "id": "n0024",
       "name": "BERMEO ANALY",
       "meta": null,
       "categoryId": "mejor-presentadora-de-informacion-noticias-e-investigacion",
-      "order": 5,
-      "sourceRow": 40
+      "order": 2,
+      "sourceRow": 29
     },
     {
-      "id": "n0034",
+      "id": "n0025",
       "name": "BERMEO SASKIA",
       "meta": null,
       "categoryId": "mejor-presentadora-de-informacion-noticias-e-investigacion",
-      "order": 6,
-      "sourceRow": 41
+      "order": 3,
+      "sourceRow": 30
     },
     {
-      "id": "n0035",
-      "name": "CARMIGNIANI MARÍA ISABEL",
-      "meta": null,
-      "categoryId": "mejor-presentadora-de-informacion-noticias-e-investigacion",
-      "order": 7,
-      "sourceRow": 42
-    },
-    {
-      "id": "n0036",
+      "id": "n0026",
       "name": "DÁVALOS MARÍA CARIDAD",
       "meta": null,
       "categoryId": "mejor-presentadora-de-informacion-noticias-e-investigacion",
-      "order": 8,
-      "sourceRow": 43
+      "order": 4,
+      "sourceRow": 31
     },
     {
-      "id": "n0037",
+      "id": "n0027",
       "name": "DE LEBED MARÍA ISABEL",
       "meta": null,
       "categoryId": "mejor-presentadora-de-informacion-noticias-e-investigacion",
-      "order": 9,
-      "sourceRow": 44
+      "order": 5,
+      "sourceRow": 32
     },
     {
-      "id": "n0038",
-      "name": "DELGADILLO LUISA",
-      "meta": null,
-      "categoryId": "mejor-presentadora-de-informacion-noticias-e-investigacion",
-      "order": 10,
-      "sourceRow": 45
-    },
-    {
-      "id": "n0039",
+      "id": "n0028",
       "name": "ESPÍN ESTEFANI",
       "meta": null,
       "categoryId": "mejor-presentadora-de-informacion-noticias-e-investigacion",
-      "order": 11,
-      "sourceRow": 46
+      "order": 6,
+      "sourceRow": 33
     },
     {
-      "id": "n0040",
-      "name": "FILELLA VANESSA",
+      "id": "n0029",
+      "name": "ESTRADA ANAIS",
       "meta": null,
       "categoryId": "mejor-presentadora-de-informacion-noticias-e-investigacion",
-      "order": 12,
-      "sourceRow": 47
+      "order": 7,
+      "sourceRow": 34
     },
     {
-      "id": "n0041",
-      "name": "GUTIÉRREZ MARÍA DEL ROSARIO",
+      "id": "n0030",
+      "name": "GRANDA MARÍA MERCEDES",
       "meta": null,
       "categoryId": "mejor-presentadora-de-informacion-noticias-e-investigacion",
-      "order": 13,
-      "sourceRow": 48
+      "order": 8,
+      "sourceRow": 35
     },
     {
-      "id": "n0042",
+      "id": "n0031",
+      "name": "JARAMILLO MARILIN",
+      "meta": null,
+      "categoryId": "mejor-presentadora-de-informacion-noticias-e-investigacion",
+      "order": 9,
+      "sourceRow": 36
+    },
+    {
+      "id": "n0032",
+      "name": "JIMBO CAZAR ANDREA",
+      "meta": null,
+      "categoryId": "mejor-presentadora-de-informacion-noticias-e-investigacion",
+      "order": 10,
+      "sourceRow": 37
+    },
+    {
+      "id": "n0033",
       "name": "LEÓN DIANA",
       "meta": null,
       "categoryId": "mejor-presentadora-de-informacion-noticias-e-investigacion",
-      "order": 14,
-      "sourceRow": 49
+      "order": 11,
+      "sourceRow": 38
     },
     {
-      "id": "n0043",
-      "name": "LOOR TANIA",
+      "id": "n0034",
+      "name": "LOOREN TANIA ALEJANDRA",
       "meta": null,
       "categoryId": "mejor-presentadora-de-informacion-noticias-e-investigacion",
-      "order": 15,
-      "sourceRow": 50
+      "order": 12,
+      "sourceRow": 39
     },
     {
-      "id": "n0044",
+      "id": "n0035",
       "name": "MELLA CAROLINA",
       "meta": null,
       "categoryId": "mejor-presentadora-de-informacion-noticias-e-investigacion",
-      "order": 16,
-      "sourceRow": 51
+      "order": 13,
+      "sourceRow": 40
     },
     {
-      "id": "n0045",
-      "name": "MENA VALERIA",
-      "meta": null,
-      "categoryId": "mejor-presentadora-de-informacion-noticias-e-investigacion",
-      "order": 17,
-      "sourceRow": 52
-    },
-    {
-      "id": "n0046",
+      "id": "n0036",
       "name": "MORA SAMANTHA",
       "meta": null,
       "categoryId": "mejor-presentadora-de-informacion-noticias-e-investigacion",
-      "order": 18,
-      "sourceRow": 53
+      "order": 14,
+      "sourceRow": 41
     },
     {
-      "id": "n0047",
+      "id": "n0037",
+      "name": "NAVEDA CYNTHIA",
+      "meta": null,
+      "categoryId": "mejor-presentadora-de-informacion-noticias-e-investigacion",
+      "order": 15,
+      "sourceRow": 42
+    },
+    {
+      "id": "n0038",
+      "name": "OLIVERO VERÓNICA",
+      "meta": null,
+      "categoryId": "mejor-presentadora-de-informacion-noticias-e-investigacion",
+      "order": 16,
+      "sourceRow": 43
+    },
+    {
+      "id": "n0039",
+      "name": "PASSAILAIGUE VANESSA",
+      "meta": null,
+      "categoryId": "mejor-presentadora-de-informacion-noticias-e-investigacion",
+      "order": 17,
+      "sourceRow": 44
+    },
+    {
+      "id": "n0040",
       "name": "PERALTA ADRIANA",
       "meta": null,
       "categoryId": "mejor-presentadora-de-informacion-noticias-e-investigacion",
-      "order": 19,
-      "sourceRow": 54
+      "order": 18,
+      "sourceRow": 45
     },
     {
-      "id": "n0048",
+      "id": "n0041",
       "name": "PINOARGOTE VERA MARÍA JOSÉ",
       "meta": null,
       "categoryId": "mejor-presentadora-de-informacion-noticias-e-investigacion",
-      "order": 20,
-      "sourceRow": 55
+      "order": 19,
+      "sourceRow": 46
     },
     {
-      "id": "n0049",
+      "id": "n0042",
       "name": "PROAÑO MARÍA ALEJANDRA",
       "meta": null,
       "categoryId": "mejor-presentadora-de-informacion-noticias-e-investigacion",
-      "order": 21,
-      "sourceRow": 56
+      "order": 20,
+      "sourceRow": 47
     },
     {
-      "id": "n0050",
-      "name": "QUIÑÓNEZ HELEN",
+      "id": "n0043",
+      "name": "SALA CARLA",
+      "meta": null,
+      "categoryId": "mejor-presentadora-de-informacion-noticias-e-investigacion",
+      "order": 21,
+      "sourceRow": 48
+    },
+    {
+      "id": "n0044",
+      "name": "SAMANIEGO ANDREA",
       "meta": null,
       "categoryId": "mejor-presentadora-de-informacion-noticias-e-investigacion",
       "order": 22,
-      "sourceRow": 57
+      "sourceRow": 49
     },
     {
-      "id": "n0051",
+      "id": "n0045",
       "name": "SUASNAVAS MARÍA FERNANDA",
       "meta": null,
       "categoryId": "mejor-presentadora-de-informacion-noticias-e-investigacion",
       "order": 23,
-      "sourceRow": 58
+      "sourceRow": 50
     },
     {
-      "id": "n0052",
-      "name": "VALAREZO LIZ",
+      "id": "n0046",
+      "name": "VACA ESTEFANIA",
       "meta": null,
       "categoryId": "mejor-presentadora-de-informacion-noticias-e-investigacion",
       "order": 24,
-      "sourceRow": 59
+      "sourceRow": 51
     },
     {
-      "id": "n0053",
-      "name": "VÁSCONEZ ROSA ELENA",
+      "id": "n0047",
+      "name": "VALAREZO LIZ",
       "meta": null,
       "categoryId": "mejor-presentadora-de-informacion-noticias-e-investigacion",
       "order": 25,
+      "sourceRow": 52
+    },
+    {
+      "id": "n0048",
+      "name": "VÁSCONEZ ROSA ELENA",
+      "meta": null,
+      "categoryId": "mejor-presentadora-de-informacion-noticias-e-investigacion",
+      "order": 26,
+      "sourceRow": 53
+    },
+    {
+      "id": "n0049",
+      "name": "VELÁSQUEZ VILLACÍS MÓNICA",
+      "meta": null,
+      "categoryId": "mejor-presentadora-de-informacion-noticias-e-investigacion",
+      "order": 27,
+      "sourceRow": 54
+    },
+    {
+      "id": "n0050",
+      "name": "VERA KATTY",
+      "meta": null,
+      "categoryId": "mejor-presentadora-de-informacion-noticias-e-investigacion",
+      "order": 28,
+      "sourceRow": 55
+    },
+    {
+      "id": "n0051",
+      "name": "VILLALVA VALERIE",
+      "meta": null,
+      "categoryId": "mejor-presentadora-de-informacion-noticias-e-investigacion",
+      "order": 29,
+      "sourceRow": 56
+    },
+    {
+      "id": "n0052",
+      "name": "VINTIMILLA PAOLA",
+      "meta": null,
+      "categoryId": "mejor-presentadora-de-informacion-noticias-e-investigacion",
+      "order": 30,
+      "sourceRow": 57
+    },
+    {
+      "id": "n0053",
+      "name": "AGUAS PATRICIO",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "order": 0,
       "sourceRow": 60
     },
     {
       "id": "n0054",
-      "name": "VERA KATTY",
-      "meta": null,
-      "categoryId": "mejor-presentadora-de-informacion-noticias-e-investigacion",
-      "order": 26,
-      "sourceRow": 61
-    },
-    {
-      "id": "n0055",
-      "name": "VERA MARTINA",
-      "meta": null,
-      "categoryId": "mejor-presentadora-de-informacion-noticias-e-investigacion",
-      "order": 27,
-      "sourceRow": 62
-    },
-    {
-      "id": "n0056",
-      "name": "VILLALVA VALERIE",
-      "meta": null,
-      "categoryId": "mejor-presentadora-de-informacion-noticias-e-investigacion",
-      "order": 28,
-      "sourceRow": 63
-    },
-    {
-      "id": "n0057",
-      "name": "VINTIMILLA PAOLA",
-      "meta": null,
-      "categoryId": "mejor-presentadora-de-informacion-noticias-e-investigacion",
-      "order": 29,
-      "sourceRow": 64
-    },
-    {
-      "id": "n0058",
-      "name": "AIZPRUA JUAN CARLOS",
-      "meta": null,
-      "categoryId": "mejor-reportero-a-de-noticias",
-      "order": 0,
-      "sourceRow": 69
-    },
-    {
-      "id": "n0059",
       "name": "AGUILAR TITI",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 1,
-      "sourceRow": 70
+      "sourceRow": 61
     },
     {
-      "id": "n0060",
-      "name": "ALCÍVAR RICARDO",
+      "id": "n0055",
+      "name": "AIZPRÚA JUAN CARLOS",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 2,
-      "sourceRow": 71
+      "sourceRow": 62
     },
     {
-      "id": "n0061",
-      "name": "ANDRES SALAZAR",
-      "meta": null,
-      "categoryId": "mejor-reportero-a-de-noticias",
-      "order": 3,
-      "sourceRow": 72
-    },
-    {
-      "id": "n0062",
+      "id": "n0056",
       "name": "ARIAS ESTEFANÍA",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
+      "order": 3,
+      "sourceRow": 63
+    },
+    {
+      "id": "n0057",
+      "name": "BÁEZ ANDREA",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
       "order": 4,
-      "sourceRow": 73
+      "sourceRow": 64
     },
     {
-      "id": "n0063",
-      "name": "ARTIEDA LENIN",
-      "meta": null,
-      "categoryId": "mejor-reportero-a-de-noticias",
-      "order": 5,
-      "sourceRow": 74
-    },
-    {
-      "id": "n0064",
-      "name": "BAEZ ANDREA",
-      "meta": null,
-      "categoryId": "mejor-reportero-a-de-noticias",
-      "order": 6,
-      "sourceRow": 75
-    },
-    {
-      "id": "n0065",
+      "id": "n0058",
       "name": "BAQUERIZO STALYN",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
-      "order": 7,
-      "sourceRow": 76
+      "order": 5,
+      "sourceRow": 65
     },
     {
-      "id": "n0066",
+      "id": "n0059",
       "name": "BARBERÁN SOLEDAD",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
-      "order": 8,
-      "sourceRow": 77
+      "order": 6,
+      "sourceRow": 66
     },
     {
-      "id": "n0067",
+      "id": "n0060",
       "name": "BERMEO ADRIANA",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
-      "order": 9,
-      "sourceRow": 78
+      "order": 7,
+      "sourceRow": 67
     },
     {
-      "id": "n0068",
+      "id": "n0061",
       "name": "BERMEO SASKYA",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
-      "order": 10,
-      "sourceRow": 79
+      "order": 8,
+      "sourceRow": 68
     },
     {
-      "id": "n0069",
-      "name": "BOADA ALE",
+      "id": "n0062",
+      "name": "BOADA ALEJANDRA",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "order": 9,
+      "sourceRow": 69
+    },
+    {
+      "id": "n0063",
+      "name": "CADENA ROBERTO",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "order": 10,
+      "sourceRow": 70
+    },
+    {
+      "id": "n0064",
+      "name": "CAGUANO KAREN",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 11,
-      "sourceRow": 80
+      "sourceRow": 71
     },
     {
-      "id": "n0070",
-      "name": "BRYAN JIMENEZ",
+      "id": "n0065",
+      "name": "CAÑIZARES ANA MARÍA",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 12,
-      "sourceRow": 81
+      "sourceRow": 72
     },
     {
-      "id": "n0071",
-      "name": "CAROLINA PIMENTEL",
+      "id": "n0066",
+      "name": "CARPIO MARÍA",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 13,
-      "sourceRow": 82
+      "sourceRow": 73
     },
     {
-      "id": "n0072",
-      "name": "CARPIO MARIA",
-      "meta": null,
-      "categoryId": "mejor-reportero-a-de-noticias",
-      "order": 14,
-      "sourceRow": 83
-    },
-    {
-      "id": "n0073",
+      "id": "n0067",
       "name": "CEVALLOS BERNARDA",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
-      "order": 15,
-      "sourceRow": 84
+      "order": 14,
+      "sourceRow": 74
     },
     {
-      "id": "n0074",
-      "name": "COELLO PAUL",
+      "id": "n0068",
+      "name": "CEVALLOS JOHANNA",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "order": 15,
+      "sourceRow": 75
+    },
+    {
+      "id": "n0069",
+      "name": "CHACON MARÍA GRACIA",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 16,
-      "sourceRow": 85
+      "sourceRow": 76
     },
     {
-      "id": "n0075",
-      "name": "CRUZATTY RICARDO",
+      "id": "n0070",
+      "name": "CLAVIJO LUCÍA",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 17,
-      "sourceRow": 86
+      "sourceRow": 77
     },
     {
-      "id": "n0076",
-      "name": "CUENCA DIEGO",
+      "id": "n0071",
+      "name": "COELLO PAÚL",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 18,
-      "sourceRow": 87
+      "sourceRow": 78
+    },
+    {
+      "id": "n0072",
+      "name": "CORONEL MARÍA DEL ROCÍO",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "order": 19,
+      "sourceRow": 79
+    },
+    {
+      "id": "n0073",
+      "name": "CRUZ ISAÍAS",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "order": 20,
+      "sourceRow": 80
+    },
+    {
+      "id": "n0074",
+      "name": "CRUZATTY RICARDO",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "order": 21,
+      "sourceRow": 81
+    },
+    {
+      "id": "n0075",
+      "name": "CUENCA DIEGO",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "order": 22,
+      "sourceRow": 82
+    },
+    {
+      "id": "n0076",
+      "name": "CUEVA ALEJANDRA",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "order": 23,
+      "sourceRow": 83
     },
     {
       "id": "n0077",
       "name": "DELGADO JOSÉ",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
-      "order": 19,
-      "sourceRow": 88
+      "order": 24,
+      "sourceRow": 84
     },
     {
       "id": "n0078",
       "name": "DELGADO KARLA",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
-      "order": 20,
-      "sourceRow": 89
+      "order": 25,
+      "sourceRow": 85
     },
     {
       "id": "n0079",
-      "name": "DUEÑAS CELESTE",
-      "meta": null,
-      "categoryId": "mejor-reportero-a-de-noticias",
-      "order": 21,
-      "sourceRow": 90
-    },
-    {
-      "id": "n0080",
-      "name": "DUEÑAS HENRY",
-      "meta": null,
-      "categoryId": "mejor-reportero-a-de-noticias",
-      "order": 22,
-      "sourceRow": 91
-    },
-    {
-      "id": "n0081",
       "name": "ESCOBAR JORGE",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
-      "order": 23,
-      "sourceRow": 92
-    },
-    {
-      "id": "n0082",
-      "name": "EZCURRA FERNANDO",
-      "meta": null,
-      "categoryId": "mejor-reportero-a-de-noticias",
-      "order": 24,
-      "sourceRow": 93
-    },
-    {
-      "id": "n0083",
-      "name": "FELIX CASTELLANOS",
-      "meta": null,
-      "categoryId": "mejor-reportero-a-de-noticias",
-      "order": 25,
-      "sourceRow": 94
-    },
-    {
-      "id": "n0084",
-      "name": "FILELLA VANESSA",
-      "meta": null,
-      "categoryId": "mejor-reportero-a-de-noticias",
       "order": 26,
-      "sourceRow": 95
+      "sourceRow": 86
     },
     {
-      "id": "n0085",
-      "name": "FLORES LEONARDO",
+      "id": "n0080",
+      "name": "ESCOBAR LIZETH",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 27,
-      "sourceRow": 96
+      "sourceRow": 87
     },
     {
-      "id": "n0086",
-      "name": "GARCES FRANCISCO",
+      "id": "n0081",
+      "name": "FLORES LEONARDO",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 28,
-      "sourceRow": 97
+      "sourceRow": 88
     },
     {
-      "id": "n0087",
-      "name": "GARCIA CATALINA",
+      "id": "n0082",
+      "name": "GARCÍA AMBAR",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 29,
-      "sourceRow": 98
+      "sourceRow": 89
     },
     {
-      "id": "n0088",
-      "name": "GARCIA JORGE",
+      "id": "n0083",
+      "name": "GARCÍA CATALINA",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 30,
-      "sourceRow": 99
+      "sourceRow": 90
     },
     {
-      "id": "n0089",
-      "name": "GONZÁLEZ MERLIS",
+      "id": "n0084",
+      "name": "GARCÍA JORGE",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 31,
-      "sourceRow": 100
+      "sourceRow": 91
     },
     {
-      "id": "n0090",
-      "name": "GOYES RASHEL",
+      "id": "n0085",
+      "name": "GARCÍA ODALIS",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 32,
-      "sourceRow": 101
+      "sourceRow": 92
     },
     {
-      "id": "n0091",
-      "name": "GRANDA MARÍA MERCEDES",
+      "id": "n0086",
+      "name": "GONCALVES MARÍA BELÉN",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 33,
-      "sourceRow": 102
+      "sourceRow": 93
     },
     {
-      "id": "n0092",
+      "id": "n0087",
       "name": "GRANJA BESSI",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 34,
-      "sourceRow": 103
+      "sourceRow": 94
     },
     {
-      "id": "n0093",
-      "name": "GURUMENDI CARLOS JULIO",
+      "id": "n0088",
+      "name": "GUEVARA CAMILA",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 35,
-      "sourceRow": 104
+      "sourceRow": 95
     },
     {
-      "id": "n0094",
-      "name": "HARO KAREN",
+      "id": "n0089",
+      "name": "GURUMENDI CARLOS JULIO",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 36,
-      "sourceRow": 105
+      "sourceRow": 96
     },
     {
-      "id": "n0095",
-      "name": "HEREDIA LUISA MARÍA",
+      "id": "n0090",
+      "name": "HARO KAREN",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 37,
-      "sourceRow": 106
+      "sourceRow": 97
     },
     {
-      "id": "n0096",
-      "name": "HIDALGO CRISTHIAN",
+      "id": "n0091",
+      "name": "HEREDIA LUISA MARÍA",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 38,
-      "sourceRow": 107
+      "sourceRow": 98
     },
     {
-      "id": "n0097",
-      "name": "HIGUERA HERNAN",
+      "id": "n0092",
+      "name": "HERRERA MELISSA",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 39,
-      "sourceRow": 108
+      "sourceRow": 99
     },
     {
-      "id": "n0098",
-      "name": "JAZMIN SOLIS",
+      "id": "n0093",
+      "name": "HIGUERA HERNÁN",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 40,
-      "sourceRow": 109
+      "sourceRow": 100
     },
     {
-      "id": "n0099",
-      "name": "JIMENEZ PEDRO",
+      "id": "n0094",
+      "name": "JACOME JAIRO",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 41,
-      "sourceRow": 110
+      "sourceRow": 101
     },
     {
-      "id": "n0100",
-      "name": "LIZETH ESCOBAR",
+      "id": "n0095",
+      "name": "JARAMILLO GUSTAVO",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 42,
-      "sourceRow": 111
+      "sourceRow": 102
     },
     {
-      "id": "n0101",
-      "name": "MARCHELLE LUIGI",
+      "id": "n0096",
+      "name": "JARAMILLO MARILIN",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 43,
-      "sourceRow": 112
+      "sourceRow": 103
     },
     {
-      "id": "n0102",
-      "name": "MENDOZA JOSUE",
+      "id": "n0097",
+      "name": "JIMÉNEZ NATHALIE",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 44,
-      "sourceRow": 113
+      "sourceRow": 104
     },
     {
-      "id": "n0103",
-      "name": "MERIZALDE BELÉN",
+      "id": "n0098",
+      "name": "KUHN PAULA",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 45,
-      "sourceRow": 114
+      "sourceRow": 105
     },
     {
-      "id": "n0104",
-      "name": "MONROY DAYANA",
+      "id": "n0099",
+      "name": "LARREA MACARENA",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 46,
-      "sourceRow": 115
+      "sourceRow": 106
     },
     {
-      "id": "n0105",
-      "name": "MONTILLA PAMELA",
+      "id": "n0100",
+      "name": "LIMA JEIMY",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 47,
-      "sourceRow": 116
+      "sourceRow": 107
     },
     {
-      "id": "n0106",
-      "name": "MORA SAMANTHA",
+      "id": "n0101",
+      "name": "MANCHENO BRIGETTE",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 48,
-      "sourceRow": 117
+      "sourceRow": 108
     },
     {
-      "id": "n0107",
-      "name": "MORÁN MAITHE",
+      "id": "n0102",
+      "name": "MERIZALDE BELÉN",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 49,
-      "sourceRow": 118
+      "sourceRow": 109
     },
     {
-      "id": "n0108",
-      "name": "NARANJO SANTIAGO",
+      "id": "n0103",
+      "name": "MERLO DANIEL",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 50,
-      "sourceRow": 119
+      "sourceRow": 110
     },
     {
-      "id": "n0109",
-      "name": "NEGRETE JORGE",
+      "id": "n0104",
+      "name": "MORA SAMANTHA",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 51,
-      "sourceRow": 120
+      "sourceRow": 111
     },
     {
-      "id": "n0110",
-      "name": "OCHOA MERLIN",
+      "id": "n0105",
+      "name": "MORALES JOSÉ",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 52,
-      "sourceRow": 121
+      "sourceRow": 112
     },
     {
-      "id": "n0111",
-      "name": "OLIVERO VERÓNICA",
+      "id": "n0106",
+      "name": "MORÁN MAITHE",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 53,
-      "sourceRow": 122
+      "sourceRow": 113
     },
     {
-      "id": "n0112",
-      "name": "PALACIOS ANA MARÍA",
+      "id": "n0107",
+      "name": "MORENO AMY",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 54,
-      "sourceRow": 123
+      "sourceRow": 114
     },
     {
-      "id": "n0113",
-      "name": "PERALTA ADRIANA",
+      "id": "n0108",
+      "name": "NAVEDA CYNTHIA",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 55,
-      "sourceRow": 124
+      "sourceRow": 115
     },
     {
-      "id": "n0114",
-      "name": "PIZA CHARLIE",
+      "id": "n0109",
+      "name": "OBANDO JEREMY",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 56,
-      "sourceRow": 125
+      "sourceRow": 116
     },
     {
-      "id": "n0115",
-      "name": "RAMOS JOHANNA",
+      "id": "n0110",
+      "name": "OCHOA MERLYN",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 57,
-      "sourceRow": 126
+      "sourceRow": 117
     },
     {
-      "id": "n0116",
-      "name": "RASHEL GOYES",
+      "id": "n0111",
+      "name": "PAZ STEPHY",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 58,
-      "sourceRow": 127
+      "sourceRow": 118
     },
     {
-      "id": "n0117",
-      "name": "RODAS JACQUELINE",
+      "id": "n0112",
+      "name": "PERALTA ADRIANA",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 59,
-      "sourceRow": 128
+      "sourceRow": 119
     },
     {
-      "id": "n0118",
-      "name": "RODRÍGUEZ ABDÓN",
+      "id": "n0113",
+      "name": "PESANTES MARÍA MERCEDES",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 60,
-      "sourceRow": 129
+      "sourceRow": 120
     },
     {
-      "id": "n0119",
-      "name": "ROJAS ADRIANA",
+      "id": "n0114",
+      "name": "PICO MILLY",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 61,
-      "sourceRow": 130
+      "sourceRow": 121
     },
     {
-      "id": "n0120",
-      "name": "SACOTO CARLOS",
+      "id": "n0115",
+      "name": "PIMENTEL CAROLINA",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 62,
-      "sourceRow": 131
+      "sourceRow": 122
     },
     {
-      "id": "n0121",
-      "name": "SALAZAR JORGE",
+      "id": "n0116",
+      "name": "PIZA CHARLIE",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 63,
-      "sourceRow": 132
+      "sourceRow": 124
     },
     {
-      "id": "n0122",
-      "name": "SALAZAR LUCCIOLA",
+      "id": "n0117",
+      "name": "RAMOS JOHANNA",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 64,
-      "sourceRow": 133
+      "sourceRow": 125
     },
     {
-      "id": "n0123",
-      "name": "SANTANA FABIOLA",
+      "id": "n0118",
+      "name": "ROBLES VANESSA",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 65,
-      "sourceRow": 134
+      "sourceRow": 126
     },
     {
-      "id": "n0124",
-      "name": "SANTANA KARLA",
+      "id": "n0119",
+      "name": "RODAS JACQUELINE",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 66,
-      "sourceRow": 135
+      "sourceRow": 127
     },
     {
-      "id": "n0125",
-      "name": "SAONA JULIO CESAR",
+      "id": "n0120",
+      "name": "RODRÍGUEZ ABDÓN",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 67,
-      "sourceRow": 136
+      "sourceRow": 128
     },
     {
-      "id": "n0126",
-      "name": "SEBASTIAN ORTIZ",
+      "id": "n0121",
+      "name": "RODRÍGUEZ ERAZO LEONEL",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 68,
-      "sourceRow": 137
+      "sourceRow": 129
     },
     {
-      "id": "n0127",
-      "name": "SINGUEL ASTRID",
+      "id": "n0122",
+      "name": "ROGRÍGUEZ JUAN MIGUEL",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 69,
-      "sourceRow": 138
+      "sourceRow": 130
     },
     {
-      "id": "n0128",
-      "name": "SOLÓRZANO ISMENIA",
+      "id": "n0123",
+      "name": "ROJAS ADRIANA",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 70,
-      "sourceRow": 139
+      "sourceRow": 131
     },
     {
-      "id": "n0129",
-      "name": "SOTO MARTÍN",
+      "id": "n0124",
+      "name": "SABELLY CARRERA MIA",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 71,
-      "sourceRow": 140
+      "sourceRow": 132
     },
     {
-      "id": "n0130",
-      "name": "SPER JORGE",
+      "id": "n0125",
+      "name": "SACOTO CARLOS",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 72,
-      "sourceRow": 141
+      "sourceRow": 133
     },
     {
-      "id": "n0131",
-      "name": "SUÁREZ ILIANA",
+      "id": "n0126",
+      "name": "SANTANA FABIOLA",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 73,
-      "sourceRow": 142
+      "sourceRow": 134
     },
     {
-      "id": "n0132",
-      "name": "TUTIVÉN PAÚL",
+      "id": "n0127",
+      "name": "SANTANA KARLA",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 74,
-      "sourceRow": 143
+      "sourceRow": 135
     },
     {
-      "id": "n0133",
-      "name": "VALENCIA DANIELA",
+      "id": "n0128",
+      "name": "SAONA JULIO CÉSAR",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 75,
-      "sourceRow": 144
+      "sourceRow": 136
     },
     {
-      "id": "n0134",
-      "name": "VARGAS ALEX",
+      "id": "n0129",
+      "name": "SINGRE ASTRID",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 76,
-      "sourceRow": 145
+      "sourceRow": 137
     },
     {
-      "id": "n0135",
-      "name": "VÁSCONEZ ROSA ELENA",
+      "id": "n0130",
+      "name": "SOLÍS JAZMÍN",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 77,
-      "sourceRow": 146
+      "sourceRow": 138
     },
     {
-      "id": "n0136",
-      "name": "VILLALVA VALERI",
+      "id": "n0131",
+      "name": "SOLÓRZANO ISMENIA",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 78,
-      "sourceRow": 147
+      "sourceRow": 139
     },
     {
-      "id": "n0137",
-      "name": "YEPEZ FAUSTO",
+      "id": "n0132",
+      "name": "SPER JORGE",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 79,
-      "sourceRow": 148
+      "sourceRow": 140
     },
     {
-      "id": "n0138",
-      "name": "YONG WILLIAM",
+      "id": "n0133",
+      "name": "TUTIVÉN PAÚL",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 80,
-      "sourceRow": 149
+      "sourceRow": 141
     },
     {
-      "id": "n0139",
-      "name": "ZAMORA EMILIO",
+      "id": "n0134",
+      "name": "UTRERAS MARIA FERNANDA",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 81,
-      "sourceRow": 150
+      "sourceRow": 142
     },
     {
-      "id": "n0140",
-      "name": "ZAPATA BELÉN",
+      "id": "n0135",
+      "name": "VALENCIA DANIELA",
       "meta": null,
       "categoryId": "mejor-reportero-a-de-noticias",
       "order": 82,
-      "sourceRow": 151
+      "sourceRow": 143
+    },
+    {
+      "id": "n0136",
+      "name": "VARGAS ALEX",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "order": 83,
+      "sourceRow": 144
+    },
+    {
+      "id": "n0137",
+      "name": "VÁSCONEZ ROSA ELENA",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "order": 84,
+      "sourceRow": 145
+    },
+    {
+      "id": "n0138",
+      "name": "VERA ERICKA",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "order": 85,
+      "sourceRow": 146
+    },
+    {
+      "id": "n0139",
+      "name": "VILLACIS MISHELL",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "order": 86,
+      "sourceRow": 147
+    },
+    {
+      "id": "n0140",
+      "name": "VILLALVA VALERI",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "order": 87,
+      "sourceRow": 148
     },
     {
       "id": "n0141",
+      "name": "WEIR SOFÍA",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "order": 88,
+      "sourceRow": 149
+    },
+    {
+      "id": "n0142",
+      "name": "YÉPEZ FAUSTO",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "order": 89,
+      "sourceRow": 150
+    },
+    {
+      "id": "n0143",
+      "name": "ZAMORA EMILIO",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "order": 90,
+      "sourceRow": 151
+    },
+    {
+      "id": "n0144",
+      "name": "ZAPATA BELÉN",
+      "meta": null,
+      "categoryId": "mejor-reportero-a-de-noticias",
+      "order": 91,
+      "sourceRow": 152
+    },
+    {
+      "id": "n0145",
       "name": "ALDIA",
       "meta": null,
       "categoryId": "mejor-medio-digital-de-informacion",
@@ -1384,7 +1416,7 @@
       "sourceRow": 155
     },
     {
-      "id": "n0142",
+      "id": "n0146",
       "name": "CANAL TV DIGITAL",
       "meta": null,
       "categoryId": "mejor-medio-digital-de-informacion",
@@ -1392,7 +1424,7 @@
       "sourceRow": 156
     },
     {
-      "id": "n0143",
+      "id": "n0147",
       "name": "DIARIO EL COMERCIO",
       "meta": null,
       "categoryId": "mejor-medio-digital-de-informacion",
@@ -1400,7 +1432,7 @@
       "sourceRow": 157
     },
     {
-      "id": "n0144",
+      "id": "n0148",
       "name": "DIARIO EL MERCURIO",
       "meta": null,
       "categoryId": "mejor-medio-digital-de-informacion",
@@ -1408,7 +1440,7 @@
       "sourceRow": 158
     },
     {
-      "id": "n0145",
+      "id": "n0149",
       "name": "DIARIO EL TELÉGRAFO",
       "meta": null,
       "categoryId": "mejor-medio-digital-de-informacion",
@@ -1416,7 +1448,7 @@
       "sourceRow": 159
     },
     {
-      "id": "n0146",
+      "id": "n0150",
       "name": "DIARIO EXPRESO",
       "meta": null,
       "categoryId": "mejor-medio-digital-de-informacion",
@@ -1424,7 +1456,7 @@
       "sourceRow": 160
     },
     {
-      "id": "n0147",
+      "id": "n0151",
       "name": "DIARIO EXTRA",
       "meta": null,
       "categoryId": "mejor-medio-digital-de-informacion",
@@ -1432,2524 +1464,4620 @@
       "sourceRow": 161
     },
     {
-      "id": "n0148",
-      "name": "ECUADORINMEDIATO",
+      "id": "n0152",
+      "name": "ECUADOR.TV",
       "meta": null,
       "categoryId": "mejor-medio-digital-de-informacion",
       "order": 7,
       "sourceRow": 162
     },
     {
-      "id": "n0149",
+      "id": "n0153",
       "name": "ECUAVISA NOTICIAS",
-      "meta": "Instagram",
+      "meta": null,
       "categoryId": "mejor-medio-digital-de-informacion",
       "order": 8,
       "sourceRow": 163
     },
     {
-      "id": "n0150",
-      "name": "EL DIARIO MANABITA",
+      "id": "n0154",
+      "name": "EL NOTICIERO TC",
       "meta": null,
       "categoryId": "mejor-medio-digital-de-informacion",
       "order": 9,
       "sourceRow": 164
     },
     {
-      "id": "n0151",
-      "name": "EL NOTICIERO TC",
+      "id": "n0155",
+      "name": "EL UNIVERSO",
       "meta": null,
       "categoryId": "mejor-medio-digital-de-informacion",
       "order": 10,
       "sourceRow": 165
     },
     {
-      "id": "n0152",
-      "name": "EL UNIVERSO",
+      "id": "n0156",
+      "name": "EMERGENCIAS EC",
       "meta": null,
       "categoryId": "mejor-medio-digital-de-informacion",
       "order": 11,
       "sourceRow": 166
     },
     {
-      "id": "n0153",
-      "name": "LA DATA",
+      "id": "n0157",
+      "name": "FM MUNDO",
       "meta": null,
       "categoryId": "mejor-medio-digital-de-informacion",
       "order": 12,
       "sourceRow": 167
     },
     {
-      "id": "n0154",
-      "name": "LA HISTORIA",
+      "id": "n0158",
+      "name": "GAMAVISION ECUADOR",
       "meta": null,
       "categoryId": "mejor-medio-digital-de-informacion",
       "order": 13,
       "sourceRow": 168
     },
     {
-      "id": "n0155",
-      "name": "LA HORA ECUADOR",
+      "id": "n0159",
+      "name": "LA DATA",
       "meta": null,
       "categoryId": "mejor-medio-digital-de-informacion",
       "order": 14,
       "sourceRow": 169
     },
     {
-      "id": "n0156",
-      "name": "LA POSTA EC",
+      "id": "n0160",
+      "name": "LA HORA ECUADOR",
       "meta": null,
       "categoryId": "mejor-medio-digital-de-informacion",
       "order": 15,
       "sourceRow": 170
     },
     {
-      "id": "n0157",
-      "name": "METRO ECUADOR",
+      "id": "n0161",
+      "name": "LA POSTA EC",
       "meta": null,
       "categoryId": "mejor-medio-digital-de-informacion",
       "order": 16,
       "sourceRow": 171
     },
     {
-      "id": "n0158",
-      "name": "PRIMICIAS",
+      "id": "n0162",
+      "name": "METRO ECUADOR",
       "meta": null,
       "categoryId": "mejor-medio-digital-de-informacion",
       "order": 17,
       "sourceRow": 172
     },
     {
-      "id": "n0159",
-      "name": "RADIO CENTRO",
+      "id": "n0163",
+      "name": "PRIMICIAS",
       "meta": null,
       "categoryId": "mejor-medio-digital-de-informacion",
       "order": 18,
       "sourceRow": 173
     },
     {
-      "id": "n0160",
-      "name": "RADIO DINÁMICA ECUADOR",
+      "id": "n0164",
+      "name": "RADIO CENTRO",
       "meta": null,
       "categoryId": "mejor-medio-digital-de-informacion",
       "order": 19,
       "sourceRow": 174
     },
     {
-      "id": "n0161",
-      "name": "RADIO SUCRE",
+      "id": "n0165",
+      "name": "RADIO ELITE",
       "meta": null,
       "categoryId": "mejor-medio-digital-de-informacion",
       "order": 20,
       "sourceRow": 175
     },
     {
-      "id": "n0162",
-      "name": "ÚLTIMA HORA ECUADOR",
+      "id": "n0166",
+      "name": "REVISTA VISTAZO",
       "meta": null,
       "categoryId": "mejor-medio-digital-de-informacion",
       "order": 21,
       "sourceRow": 176
     },
     {
-      "id": "n0163",
+      "id": "n0167",
+      "name": "SIN CORBATA CON KEVIN CHALCO",
+      "meta": null,
+      "categoryId": "mejor-medio-digital-de-informacion",
+      "order": 22,
+      "sourceRow": 177
+    },
+    {
+      "id": "n0168",
+      "name": "SUCRE NOTICIAS",
+      "meta": null,
+      "categoryId": "mejor-medio-digital-de-informacion",
+      "order": 23,
+      "sourceRow": 178
+    },
+    {
+      "id": "n0169",
+      "name": "TVC ECUADOR",
+      "meta": null,
+      "categoryId": "mejor-medio-digital-de-informacion",
+      "order": 24,
+      "sourceRow": 179
+    },
+    {
+      "id": "n0170",
+      "name": "ÚLTIMA HORA ECUADOR",
+      "meta": null,
+      "categoryId": "mejor-medio-digital-de-informacion",
+      "order": 25,
+      "sourceRow": 180
+    },
+    {
+      "id": "n0171",
+      "name": "WE NEWS",
+      "meta": null,
+      "categoryId": "mejor-medio-digital-de-informacion",
+      "order": 26,
+      "sourceRow": 181
+    },
+    {
+      "id": "n0172",
       "name": "ALVARADO JAIME ANTONIO",
       "meta": null,
       "categoryId": "mejor-narrador-deportivo",
       "order": 0,
-      "sourceRow": 183
-    },
-    {
-      "id": "n0164",
-      "name": "ANDINO EDUARDO",
-      "meta": null,
-      "categoryId": "mejor-narrador-deportivo",
-      "order": 1,
       "sourceRow": 184
     },
     {
-      "id": "n0165",
-      "name": "ARÉVALO JOSÉ LUIS",
+      "id": "n0173",
+      "name": "ALVAREZ CÉSAR MANUEL",
       "meta": null,
       "categoryId": "mejor-narrador-deportivo",
-      "order": 2,
+      "order": 1,
       "sourceRow": 185
     },
     {
-      "id": "n0166",
-      "name": "ARROYO CÉSAR",
+      "id": "n0174",
+      "name": "ANDINO EDUARDO",
       "meta": null,
       "categoryId": "mejor-narrador-deportivo",
-      "order": 3,
+      "order": 2,
       "sourceRow": 186
     },
     {
-      "id": "n0167",
-      "name": "BENAVIDES ANDRÉS",
+      "id": "n0175",
+      "name": "ARÉVALO JOSÉ LUIS",
       "meta": null,
       "categoryId": "mejor-narrador-deportivo",
-      "order": 4,
+      "order": 3,
       "sourceRow": 187
     },
     {
-      "id": "n0168",
-      "name": "BORBOR UFREDO",
+      "id": "n0176",
+      "name": "ARROYO CÉSAR",
       "meta": null,
       "categoryId": "mejor-narrador-deportivo",
-      "order": 5,
+      "order": 4,
       "sourceRow": 188
     },
     {
-      "id": "n0169",
-      "name": "CEVALLOS JHONATAN",
+      "id": "n0177",
+      "name": "AULESTIA ANDRÉS",
       "meta": null,
       "categoryId": "mejor-narrador-deportivo",
-      "order": 6,
+      "order": 5,
       "sourceRow": 189
     },
     {
-      "id": "n0170",
-      "name": "DÁVILA JAVIER JR.",
+      "id": "n0178",
+      "name": "BAILÓN CARLOS LUIS",
       "meta": null,
       "categoryId": "mejor-narrador-deportivo",
-      "order": 7,
+      "order": 6,
       "sourceRow": 190
     },
     {
-      "id": "n0171",
-      "name": "ESPAÑA GERARDO",
+      "id": "n0179",
+      "name": "BENAVIDES ANDRÉS",
       "meta": null,
       "categoryId": "mejor-narrador-deportivo",
-      "order": 8,
+      "order": 7,
       "sourceRow": 191
     },
     {
-      "id": "n0172",
-      "name": "GALLARDO FABIÁN",
+      "id": "n0180",
+      "name": "BORBOR UFREDO",
       "meta": null,
       "categoryId": "mejor-narrador-deportivo",
-      "order": 9,
+      "order": 8,
       "sourceRow": 192
     },
     {
-      "id": "n0173",
-      "name": "GILER EDUARDO",
+      "id": "n0181",
+      "name": "BRITO ÁNGEL",
       "meta": null,
       "categoryId": "mejor-narrador-deportivo",
-      "order": 10,
+      "order": 9,
       "sourceRow": 193
     },
     {
-      "id": "n0174",
-      "name": "GÓMEZ ALBERTO",
+      "id": "n0182",
+      "name": "DÁVILA JAVIER JR.",
       "meta": null,
       "categoryId": "mejor-narrador-deportivo",
-      "order": 11,
+      "order": 10,
       "sourceRow": 194
     },
     {
-      "id": "n0175",
-      "name": "HIDALGO FREDY",
+      "id": "n0183",
+      "name": "ERAS LUIS FERNANDO",
       "meta": null,
       "categoryId": "mejor-narrador-deportivo",
-      "order": 12,
+      "order": 11,
       "sourceRow": 195
     },
     {
-      "id": "n0176",
-      "name": "JÁCOME LUIS EDUARDO",
+      "id": "n0184",
+      "name": "ESPAÑA GERARDO",
       "meta": null,
       "categoryId": "mejor-narrador-deportivo",
-      "order": 13,
+      "order": 12,
       "sourceRow": 196
     },
     {
-      "id": "n0177",
-      "name": "LANATA BENNY",
+      "id": "n0185",
+      "name": "ESPINOSA JORGE",
       "meta": null,
       "categoryId": "mejor-narrador-deportivo",
-      "order": 14,
+      "order": 13,
       "sourceRow": 197
     },
     {
-      "id": "n0178",
-      "name": "LASO ALFONSO",
+      "id": "n0186",
+      "name": "FLORES DIEGO",
       "meta": null,
       "categoryId": "mejor-narrador-deportivo",
-      "order": 15,
+      "order": 14,
       "sourceRow": 198
     },
     {
-      "id": "n0179",
-      "name": "LOOR NÉSTOR",
+      "id": "n0187",
+      "name": "GALLARDO FABIÁN",
       "meta": null,
       "categoryId": "mejor-narrador-deportivo",
-      "order": 16,
+      "order": 15,
       "sourceRow": 199
     },
     {
-      "id": "n0180",
-      "name": "MELO DIEGO",
+      "id": "n0188",
+      "name": "GILER EDUARDO",
       "meta": null,
       "categoryId": "mejor-narrador-deportivo",
-      "order": 17,
+      "order": 16,
       "sourceRow": 200
     },
     {
-      "id": "n0181",
-      "name": "MERA PEPE",
+      "id": "n0189",
+      "name": "GÓMEZ ALBERTO",
       "meta": null,
       "categoryId": "mejor-narrador-deportivo",
-      "order": 18,
+      "order": 17,
       "sourceRow": 201
     },
     {
-      "id": "n0182",
-      "name": "MORALES CHRISTIAN",
+      "id": "n0190",
+      "name": "GÓMEZ MIGUEL",
       "meta": null,
       "categoryId": "mejor-narrador-deportivo",
-      "order": 19,
+      "order": 18,
       "sourceRow": 202
     },
     {
-      "id": "n0183",
-      "name": "MUÑÓZ ANDRÉS",
+      "id": "n0191",
+      "name": "GUARANGA PATRICIO",
       "meta": null,
       "categoryId": "mejor-narrador-deportivo",
-      "order": 20,
+      "order": 19,
       "sourceRow": 203
     },
     {
-      "id": "n0184",
-      "name": "NAVAS DANIEL",
+      "id": "n0192",
+      "name": "HIDALGO FREDDY",
       "meta": null,
       "categoryId": "mejor-narrador-deportivo",
-      "order": 21,
+      "order": 20,
       "sourceRow": 204
     },
     {
-      "id": "n0185",
-      "name": "NOVOA ROBIN",
+      "id": "n0193",
+      "name": "JÁCOME LUIS EDUARDO",
       "meta": null,
       "categoryId": "mejor-narrador-deportivo",
-      "order": 22,
+      "order": 21,
       "sourceRow": 205
     },
     {
-      "id": "n0186",
-      "name": "OÑA ROBERTO",
+      "id": "n0194",
+      "name": "LANATA BENNY",
       "meta": null,
       "categoryId": "mejor-narrador-deportivo",
-      "order": 23,
+      "order": 22,
       "sourceRow": 206
     },
     {
-      "id": "n0187",
-      "name": "PEÑAFIEL JORGE EDUARDO",
+      "id": "n0195",
+      "name": "LASO ALFONSO",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "order": 23,
+      "sourceRow": 207
+    },
+    {
+      "id": "n0196",
+      "name": "LOOR NÉSTOR",
       "meta": null,
       "categoryId": "mejor-narrador-deportivo",
       "order": 24,
       "sourceRow": 208
     },
     {
-      "id": "n0188",
-      "name": "PORTILLA OSCAR",
+      "id": "n0197",
+      "name": "MARCHÁN MATTEW",
       "meta": null,
       "categoryId": "mejor-narrador-deportivo",
       "order": 25,
       "sourceRow": 209
     },
     {
-      "id": "n0189",
-      "name": "RIVERA FRANCISCO",
+      "id": "n0198",
+      "name": "MELO DIEGO",
       "meta": null,
       "categoryId": "mejor-narrador-deportivo",
       "order": 26,
       "sourceRow": 210
     },
     {
-      "id": "n0190",
-      "name": "RIVERA JUAN CARLOS",
+      "id": "n0199",
+      "name": "MOLINA ALEXANDER",
       "meta": null,
       "categoryId": "mejor-narrador-deportivo",
       "order": 27,
       "sourceRow": 211
     },
     {
-      "id": "n0191",
-      "name": "ROBALINO JERRY",
+      "id": "n0200",
+      "name": "MONCADA FERNANDO",
       "meta": null,
       "categoryId": "mejor-narrador-deportivo",
       "order": 28,
       "sourceRow": 212
     },
     {
-      "id": "n0192",
-      "name": "RUIZ WALTER",
+      "id": "n0201",
+      "name": "MORALES CHRISTIAN",
       "meta": null,
       "categoryId": "mejor-narrador-deportivo",
       "order": 29,
       "sourceRow": 213
     },
     {
-      "id": "n0193",
-      "name": "SALTOS ERICK",
+      "id": "n0202",
+      "name": "MORALES STALIN",
       "meta": null,
       "categoryId": "mejor-narrador-deportivo",
       "order": 30,
       "sourceRow": 214
     },
     {
-      "id": "n0194",
-      "name": "VELOZ DANIELA",
+      "id": "n0203",
+      "name": "MUÑÓZ ANDRÉS",
       "meta": null,
       "categoryId": "mejor-narrador-deportivo",
       "order": 31,
       "sourceRow": 215
     },
     {
-      "id": "n0195",
-      "name": "VILLAMARÍN ANDRÉS",
+      "id": "n0204",
+      "name": "NAVAS DANIEL",
       "meta": null,
       "categoryId": "mejor-narrador-deportivo",
       "order": 32,
       "sourceRow": 216
     },
     {
-      "id": "n0196",
-      "name": "ZEDEÑO DUVAL",
+      "id": "n0205",
+      "name": "NOVOA ROBIN",
       "meta": null,
       "categoryId": "mejor-narrador-deportivo",
       "order": 33,
       "sourceRow": 217
     },
     {
-      "id": "n0197",
+      "id": "n0206",
+      "name": "OÑA ROBERTO",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "order": 34,
+      "sourceRow": 218
+    },
+    {
+      "id": "n0207",
+      "name": "PEÑAFIEL JORGE EDUARDO",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "order": 35,
+      "sourceRow": 219
+    },
+    {
+      "id": "n0208",
+      "name": "PILCO LUIS",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "order": 36,
+      "sourceRow": 220
+    },
+    {
+      "id": "n0209",
+      "name": "PINEDA WISTON",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "order": 37,
+      "sourceRow": 221
+    },
+    {
+      "id": "n0210",
+      "name": "PORTILLA OSCAR",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "order": 38,
+      "sourceRow": 222
+    },
+    {
+      "id": "n0211",
+      "name": "ROBALINO JERRY",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "order": 39,
+      "sourceRow": 223
+    },
+    {
+      "id": "n0212",
+      "name": "RODRÍGUEZ ERAZO LEONEL",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "order": 40,
+      "sourceRow": 224
+    },
+    {
+      "id": "n0213",
+      "name": "ROJAS CARLOS ALFONSO",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "order": 41,
+      "sourceRow": 225
+    },
+    {
+      "id": "n0214",
+      "name": "RUIZ WALTER",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "order": 42,
+      "sourceRow": 226
+    },
+    {
+      "id": "n0215",
+      "name": "SALTOS ERICK",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "order": 43,
+      "sourceRow": 227
+    },
+    {
+      "id": "n0216",
+      "name": "SÁNCHEZ SAMIR",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "order": 44,
+      "sourceRow": 228
+    },
+    {
+      "id": "n0217",
+      "name": "TOBAR JOSEPH",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "order": 45,
+      "sourceRow": 229
+    },
+    {
+      "id": "n0218",
+      "name": "VELOZ DANIELA",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "order": 46,
+      "sourceRow": 230
+    },
+    {
+      "id": "n0219",
+      "name": "VILLAMARÍN ANDRÉS",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "order": 47,
+      "sourceRow": 231
+    },
+    {
+      "id": "n0220",
+      "name": "ZEDEÑO DUVAL",
+      "meta": null,
+      "categoryId": "mejor-narrador-deportivo",
+      "order": 48,
+      "sourceRow": 232
+    },
+    {
+      "id": "n0221",
       "name": "ACONDA SEBASTIÁN",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
       "order": 0,
-      "sourceRow": 222
+      "sourceRow": 235
     },
     {
-      "id": "n0198",
+      "id": "n0222",
       "name": "AGUINAGA ALEX",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
       "order": 1,
-      "sourceRow": 223
+      "sourceRow": 236
     },
     {
-      "id": "n0199",
+      "id": "n0223",
       "name": "ALVARADO JOEL",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
       "order": 2,
-      "sourceRow": 224
-    },
-    {
-      "id": "n0200",
-      "name": "ARCOS DIEGO",
-      "meta": null,
-      "categoryId": "mejor-comunicador-de-deportes",
-      "order": 3,
-      "sourceRow": 225
-    },
-    {
-      "id": "n0201",
-      "name": "ARGUELLO CARLOS XAVIER",
-      "meta": null,
-      "categoryId": "mejor-comunicador-de-deportes",
-      "order": 4,
-      "sourceRow": 226
-    },
-    {
-      "id": "n0202",
-      "name": "ÁVILA ESTEBAN",
-      "meta": null,
-      "categoryId": "mejor-comunicador-de-deportes",
-      "order": 5,
-      "sourceRow": 227
-    },
-    {
-      "id": "n0203",
-      "name": "AVILÉS RAÚL",
-      "meta": null,
-      "categoryId": "mejor-comunicador-de-deportes",
-      "order": 6,
-      "sourceRow": 228
-    },
-    {
-      "id": "n0204",
-      "name": "BARCOS RÓMULO",
-      "meta": null,
-      "categoryId": "mejor-comunicador-de-deportes",
-      "order": 7,
-      "sourceRow": 229
-    },
-    {
-      "id": "n0205",
-      "name": "BASANTES SERGIO",
-      "meta": null,
-      "categoryId": "mejor-comunicador-de-deportes",
-      "order": 8,
-      "sourceRow": 230
-    },
-    {
-      "id": "n0206",
-      "name": "BONAFONT ROBERTO",
-      "meta": null,
-      "categoryId": "mejor-comunicador-de-deportes",
-      "order": 9,
-      "sourceRow": 231
-    },
-    {
-      "id": "n0207",
-      "name": "BORBOR UFREDO",
-      "meta": null,
-      "categoryId": "mejor-comunicador-de-deportes",
-      "order": 10,
-      "sourceRow": 232
-    },
-    {
-      "id": "n0208",
-      "name": "BRIONES STALIN",
-      "meta": null,
-      "categoryId": "mejor-comunicador-de-deportes",
-      "order": 11,
-      "sourceRow": 233
-    },
-    {
-      "id": "n0209",
-      "name": "BUCARAM SANTIAGO",
-      "meta": null,
-      "categoryId": "mejor-comunicador-de-deportes",
-      "order": 12,
-      "sourceRow": 234
-    },
-    {
-      "id": "n0210",
-      "name": "BUSTAMANTE LUIS",
-      "meta": null,
-      "categoryId": "mejor-comunicador-de-deportes",
-      "order": 13,
-      "sourceRow": 235
-    },
-    {
-      "id": "n0211",
-      "name": "CAGUANA ANDRÉS",
-      "meta": null,
-      "categoryId": "mejor-comunicador-de-deportes",
-      "order": 14,
-      "sourceRow": 236
-    },
-    {
-      "id": "n0212",
-      "name": "CANESSA MARIO",
-      "meta": null,
-      "categoryId": "mejor-comunicador-de-deportes",
-      "order": 15,
       "sourceRow": 237
     },
     {
-      "id": "n0213",
-      "name": "CEVALLOS JOSÉ FRANCISCO",
+      "id": "n0224",
+      "name": "ÁLVAREZ CÉSAR MANUEL",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 16,
+      "order": 3,
       "sourceRow": 238
     },
     {
-      "id": "n0214",
-      "name": "COELLO XAVIER",
+      "id": "n0225",
+      "name": "ARCOS DIEGO",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 17,
+      "order": 4,
       "sourceRow": 239
     },
     {
-      "id": "n0215",
-      "name": "CORNEJO BRYAN",
+      "id": "n0226",
+      "name": "ARÉVALO JOSE LUIS",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 18,
+      "order": 5,
       "sourceRow": 240
     },
     {
-      "id": "n0216",
-      "name": "CORNEJO PATRICIO",
+      "id": "n0227",
+      "name": "ARGUELLO CARLOS XAVIER",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 19,
+      "order": 6,
       "sourceRow": 241
     },
     {
-      "id": "n0217",
-      "name": "CRESPO JOSE CARLOS",
+      "id": "n0228",
+      "name": "AROSEMENA ROGELIO",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 20,
+      "order": 7,
       "sourceRow": 242
     },
     {
-      "id": "n0218",
-      "name": "DÁVILA WILLIAM",
+      "id": "n0229",
+      "name": "AULESTIA ANDRÉS",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 21,
+      "order": 8,
       "sourceRow": 243
     },
     {
-      "id": "n0219",
-      "name": "DECKER SEBASTIAN",
+      "id": "n0230",
+      "name": "ÁVILA ESTEBAN",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 22,
+      "order": 9,
       "sourceRow": 244
     },
     {
-      "id": "n0220",
-      "name": "DREER ESTEBAN",
+      "id": "n0231",
+      "name": "AVILÉS RAÚL",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 23,
+      "order": 10,
       "sourceRow": 245
     },
     {
-      "id": "n0221",
-      "name": "DUEÑAS STEFFANO",
+      "id": "n0232",
+      "name": "BASANTES SERGIO",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 24,
+      "order": 11,
       "sourceRow": 246
     },
     {
-      "id": "n0222",
-      "name": "ENDARA MICHAEL",
+      "id": "n0233",
+      "name": "BERMUDEZ FUNE KEVIN",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 25,
+      "order": 12,
       "sourceRow": 247
     },
     {
-      "id": "n0223",
-      "name": "ESPINOZA ANDRÉS",
+      "id": "n0234",
+      "name": "BONAFONT ROBERTO",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 26,
+      "order": 13,
       "sourceRow": 248
     },
     {
-      "id": "n0224",
-      "name": "FIGUEROA GUSTAVO",
+      "id": "n0235",
+      "name": "BORBOR UFREDO",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 27,
+      "order": 14,
       "sourceRow": 249
     },
     {
-      "id": "n0225",
-      "name": "FORLÁN RICHARD",
+      "id": "n0236",
+      "name": "BRIONES STALIN",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 28,
+      "order": 15,
       "sourceRow": 250
     },
     {
-      "id": "n0226",
-      "name": "GALLARDO GERMÁN",
+      "id": "n0237",
+      "name": "BUCARAM SANTIAGO",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 29,
+      "order": 16,
       "sourceRow": 251
     },
     {
-      "id": "n0227",
-      "name": "GALVEZ CARLOS",
+      "id": "n0238",
+      "name": "BUCHELI XAVIER",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 30,
+      "order": 17,
       "sourceRow": 252
     },
     {
-      "id": "n0228",
-      "name": "GARCÍA JEANCARLO",
+      "id": "n0239",
+      "name": "BUSTAMANTE LUIS",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 31,
+      "order": 18,
       "sourceRow": 253
     },
     {
-      "id": "n0229",
-      "name": "GARCÍA MANUEL",
+      "id": "n0240",
+      "name": "CAGUANA ANDRÉS",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 32,
+      "order": 19,
       "sourceRow": 254
     },
     {
-      "id": "n0230",
-      "name": "GAVICA JOSE",
+      "id": "n0241",
+      "name": "CAMPOS DAVID",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 33,
+      "order": 20,
       "sourceRow": 255
     },
     {
-      "id": "n0231",
-      "name": "GUEVARA FERNANDO",
+      "id": "n0242",
+      "name": "CANESSA MARIO",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 34,
+      "order": 21,
       "sourceRow": 256
     },
     {
-      "id": "n0232",
-      "name": "GUSCHMER ANDRÉS",
+      "id": "n0243",
+      "name": "CANTOS MAURICIO",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 35,
+      "order": 22,
       "sourceRow": 257
     },
     {
-      "id": "n0233",
-      "name": "HARB ALFONSO",
+      "id": "n0244",
+      "name": "CASTAÑEDA KATHERINE",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 36,
+      "order": 23,
       "sourceRow": 258
     },
     {
-      "id": "n0234",
-      "name": "HIDALGO FREDY",
+      "id": "n0245",
+      "name": "CEVALLOS ALEX",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 37,
+      "order": 24,
       "sourceRow": 259
     },
     {
-      "id": "n0235",
-      "name": "ILLINGWORTH ANDRÉS",
+      "id": "n0246",
+      "name": "CEVALLOS JOSÉ FRANCISCO",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 38,
+      "order": 25,
       "sourceRow": 260
     },
     {
-      "id": "n0236",
-      "name": "JACOME LUIS",
+      "id": "n0247",
+      "name": "CEVALLOS LINCOLM",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 39,
+      "order": 26,
       "sourceRow": 261
     },
     {
-      "id": "n0237",
-      "name": "KLIMOWICZ JAVIER",
+      "id": "n0248",
+      "name": "COELLO XAVIER",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 40,
+      "order": 27,
       "sourceRow": 262
     },
     {
-      "id": "n0238",
-      "name": "LASALVIA JORGE",
+      "id": "n0249",
+      "name": "CORNEJO BRYAN",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 41,
+      "order": 28,
       "sourceRow": 263
     },
     {
-      "id": "n0239",
-      "name": "LÓPEZ MARCO",
+      "id": "n0250",
+      "name": "CORNEJO PATRICIO",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 42,
+      "order": 29,
       "sourceRow": 264
     },
     {
-      "id": "n0240",
-      "name": "MAGALLANES ARTURO",
+      "id": "n0251",
+      "name": "CRESPO JOSE CARLOS",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 43,
+      "order": 30,
       "sourceRow": 265
     },
     {
-      "id": "n0241",
-      "name": "MARCHELLE LUIGI",
+      "id": "n0252",
+      "name": "DÁVILA WILLIAM",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 44,
+      "order": 31,
       "sourceRow": 266
     },
     {
-      "id": "n0242",
-      "name": "MELO DIEGO",
+      "id": "n0253",
+      "name": "DE LA TORRE MARTÍN",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 45,
+      "order": 32,
       "sourceRow": 267
     },
     {
-      "id": "n0243",
-      "name": "MENDOZA LIGNER",
+      "id": "n0254",
+      "name": "DECKER SEBASTIAN",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 46,
+      "order": 33,
       "sourceRow": 268
     },
     {
-      "id": "n0244",
-      "name": "MIGUELES JOSÉ LUIS",
+      "id": "n0255",
+      "name": "DELGADO LUIS MIGUEL",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 47,
+      "order": 34,
       "sourceRow": 269
     },
     {
-      "id": "n0245",
-      "name": "MOLESTINA CARLOS ALBERTO",
+      "id": "n0256",
+      "name": "DREER ESTEBAN",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 48,
+      "order": 35,
       "sourceRow": 270
     },
     {
-      "id": "n0246",
-      "name": "MOLESTINA FRANCISCO",
+      "id": "n0257",
+      "name": "DUEÑAS STEFFANO",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 49,
+      "order": 36,
       "sourceRow": 271
     },
     {
-      "id": "n0247",
-      "name": "MOLESTINA JOSE",
+      "id": "n0258",
+      "name": "ENDARA MICHAEL",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 50,
+      "order": 37,
       "sourceRow": 272
     },
     {
-      "id": "n0248",
-      "name": "MONDAINI MARCOS",
+      "id": "n0259",
+      "name": "ERAS LUIS FERNANDO",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 51,
+      "order": 38,
       "sourceRow": 273
     },
     {
-      "id": "n0249",
-      "name": "MORALES CARLOS",
+      "id": "n0260",
+      "name": "ESCOBAR CHRISTIAN",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 52,
+      "order": 39,
       "sourceRow": 274
     },
     {
-      "id": "n0250",
-      "name": "MORALES RAMÓN",
+      "id": "n0261",
+      "name": "ESPINOZA ANDRÉS",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 53,
+      "order": 40,
       "sourceRow": 275
     },
     {
-      "id": "n0251",
-      "name": "MORENO BYRON",
+      "id": "n0262",
+      "name": "FARAH ASPIAZU XAVIER",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 54,
+      "order": 41,
       "sourceRow": 276
     },
     {
-      "id": "n0252",
-      "name": "MUÑOZ VITO",
+      "id": "n0263",
+      "name": "FERNÁNDEZ JOHN JAIRO",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 55,
+      "order": 42,
       "sourceRow": 277
     },
     {
-      "id": "n0253",
-      "name": "NAVARRO GUSTAVO",
+      "id": "n0264",
+      "name": "FIGUEROA GUSTAVO",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 56,
+      "order": 43,
       "sourceRow": 278
     },
     {
-      "id": "n0254",
-      "name": "NAVAS DANIEL",
+      "id": "n0265",
+      "name": "FREIRE BARRERA RAMÓN",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 57,
+      "order": 44,
       "sourceRow": 279
     },
     {
-      "id": "n0255",
-      "name": "NAVAS STÉFANO",
+      "id": "n0266",
+      "name": "GALARRAGA JAIME",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 58,
+      "order": 45,
       "sourceRow": 280
     },
     {
-      "id": "n0256",
-      "name": "NOGALED SEBASTIÁN",
+      "id": "n0267",
+      "name": "GALLARDO GERMÁN",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 59,
+      "order": 46,
       "sourceRow": 281
     },
     {
-      "id": "n0257",
-      "name": "PAULSON ANDRÉS",
+      "id": "n0268",
+      "name": "GALVEZ CARLOS",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 60,
+      "order": 47,
       "sourceRow": 282
     },
     {
-      "id": "n0258",
-      "name": "PÉNDOLA RICARDO",
+      "id": "n0269",
+      "name": "GARCÉS GARCÉS LUIS",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 61,
+      "order": 48,
       "sourceRow": 283
     },
     {
-      "id": "n0259",
-      "name": "PONCE ANDRES",
+      "id": "n0270",
+      "name": "GARCÍA JEANCARLO",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 62,
+      "order": 49,
       "sourceRow": 284
     },
     {
-      "id": "n0260",
-      "name": "QUIMÍS IVÁN",
+      "id": "n0271",
+      "name": "GARCÍA MANUEL",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 63,
+      "order": 50,
       "sourceRow": 285
     },
     {
-      "id": "n0261",
-      "name": "QUIÑÓNEZ PEDRO",
+      "id": "n0272",
+      "name": "GAVICA JOSÉ",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 64,
+      "order": 51,
       "sourceRow": 286
     },
     {
-      "id": "n0262",
-      "name": "RODRÍGUEZ MARIANO",
+      "id": "n0273",
+      "name": "GUANGASI ALEXIS",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 65,
+      "order": 52,
       "sourceRow": 287
     },
     {
-      "id": "n0263",
-      "name": "ROJAS LUIS ANDRÉ",
+      "id": "n0274",
+      "name": "GUEVARA FERNANDO",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 66,
+      "order": 53,
       "sourceRow": 288
     },
     {
-      "id": "n0264",
-      "name": "ROSALES FELIX",
+      "id": "n0275",
+      "name": "HARB ALFONSO",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 67,
+      "order": 54,
       "sourceRow": 289
     },
     {
-      "id": "n0265",
-      "name": "RUIZ JAVIER",
+      "id": "n0276",
+      "name": "HERNÁNDEZ MOREIRA JOE",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 68,
+      "order": 55,
       "sourceRow": 290
     },
     {
-      "id": "n0266",
-      "name": "SÁNCHEZ JORGE",
+      "id": "n0277",
+      "name": "HIDALGO FREDDY",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 69,
+      "order": 56,
       "sourceRow": 291
     },
     {
-      "id": "n0267",
-      "name": "SÁNCHEZ WASHINGTON",
+      "id": "n0278",
+      "name": "ILLINGWORTH ANDRÉS",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 70,
+      "order": 57,
       "sourceRow": 292
     },
     {
-      "id": "n0268",
-      "name": "SIERRA OMAR",
+      "id": "n0279",
+      "name": "INTRIAGO ALFREDO",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 71,
+      "order": 58,
       "sourceRow": 293
     },
     {
-      "id": "n0269",
-      "name": "SUÁREZ KEVIN",
+      "id": "n0280",
+      "name": "JACOME LUIS",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 72,
+      "order": 59,
       "sourceRow": 294
     },
     {
-      "id": "n0270",
-      "name": "URRUTIA PATRICIO",
+      "id": "n0281",
+      "name": "KENING ALEJANDRO",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 73,
+      "order": 60,
       "sourceRow": 295
     },
     {
-      "id": "n0271",
-      "name": "VARGAS JOSÉ MIGUEL",
+      "id": "n0282",
+      "name": "KLIMOWICZ JAVIER",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 74,
+      "order": 61,
       "sourceRow": 296
     },
     {
-      "id": "n0272",
-      "name": "VELA ANIBAL",
+      "id": "n0283",
+      "name": "LASALVIA JORGE",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 75,
+      "order": 62,
       "sourceRow": 297
     },
     {
-      "id": "n0273",
-      "name": "VERDESOTO KEVIN",
+      "id": "n0284",
+      "name": "LÓPEZ MARCO",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 76,
+      "order": 63,
       "sourceRow": 298
     },
     {
-      "id": "n0274",
-      "name": "VILLAMARÍN ANDRÉS",
+      "id": "n0285",
+      "name": "MAGALLANES ARTURO",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 77,
+      "order": 64,
       "sourceRow": 299
     },
     {
-      "id": "n0275",
-      "name": "VINCES RONALD",
+      "id": "n0286",
+      "name": "MARCHELLE LUIGI",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 78,
+      "order": 65,
       "sourceRow": 300
     },
     {
-      "id": "n0276",
-      "name": "VIZCAÍNO FABIÁN",
+      "id": "n0287",
+      "name": "MATUTE IVÁN",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 79,
+      "order": 66,
       "sourceRow": 301
     },
     {
-      "id": "n0277",
-      "name": "ZAPATA LUIS",
+      "id": "n0288",
+      "name": "MELO DIEGO",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 80,
+      "order": 67,
       "sourceRow": 302
     },
     {
-      "id": "n0278",
-      "name": "ZEDEÑO DUVAL",
+      "id": "n0289",
+      "name": "MENDOZA LIGNER",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 81,
+      "order": 68,
       "sourceRow": 303
     },
     {
-      "id": "n0279",
-      "name": "ZEVALLOS XAVIER",
+      "id": "n0290",
+      "name": "MIGUELES JOSÉ LUIS",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
-      "order": 82,
+      "order": 69,
       "sourceRow": 304
     },
     {
-      "id": "n0280",
+      "id": "n0291",
+      "name": "MOLESTINA CARLOS ALBERTO",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 70,
+      "sourceRow": 305
+    },
+    {
+      "id": "n0292",
+      "name": "MOLESTINA FRANCISCO",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 71,
+      "sourceRow": 306
+    },
+    {
+      "id": "n0293",
+      "name": "MOLESTINA JOSE ALBERTO",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 72,
+      "sourceRow": 307
+    },
+    {
+      "id": "n0294",
+      "name": "MONDAINI MARCOS",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 73,
+      "sourceRow": 308
+    },
+    {
+      "id": "n0295",
+      "name": "MONTALVO AGUIRRE GUIDO",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 74,
+      "sourceRow": 309
+    },
+    {
+      "id": "n0296",
+      "name": "MORALES CARLOS VÍCTOR",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 75,
+      "sourceRow": 310
+    },
+    {
+      "id": "n0297",
+      "name": "MORALES RAMÓN",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 76,
+      "sourceRow": 311
+    },
+    {
+      "id": "n0298",
+      "name": "MORENO BYRON",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 77,
+      "sourceRow": 312
+    },
+    {
+      "id": "n0299",
+      "name": "MUÑOZ CARLOS ANDRÉS",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 78,
+      "sourceRow": 313
+    },
+    {
+      "id": "n0300",
+      "name": "MUÑOZ VITO",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 79,
+      "sourceRow": 314
+    },
+    {
+      "id": "n0301",
+      "name": "NAVARRO GUSTAVO",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 80,
+      "sourceRow": 315
+    },
+    {
+      "id": "n0302",
+      "name": "NAVAS DANIEL",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 81,
+      "sourceRow": 316
+    },
+    {
+      "id": "n0303",
+      "name": "NAVAS STÉFANO",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 82,
+      "sourceRow": 317
+    },
+    {
+      "id": "n0304",
+      "name": "OÑA ROBERTO",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 83,
+      "sourceRow": 318
+    },
+    {
+      "id": "n0305",
+      "name": "PALACIOS ROBERTO",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 84,
+      "sourceRow": 319
+    },
+    {
+      "id": "n0306",
+      "name": "PAULSON ANDRÉS",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 85,
+      "sourceRow": 320
+    },
+    {
+      "id": "n0307",
+      "name": "PAZMIÑO DENIS",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 86,
+      "sourceRow": 321
+    },
+    {
+      "id": "n0308",
+      "name": "PÉNDOLA RICARDO",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 87,
+      "sourceRow": 322
+    },
+    {
+      "id": "n0309",
+      "name": "PERALTA JOSÉ",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 88,
+      "sourceRow": 323
+    },
+    {
+      "id": "n0310",
+      "name": "PONCE ANDRÉS",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 89,
+      "sourceRow": 324
+    },
+    {
+      "id": "n0311",
+      "name": "QUIÑÓNEZ PEDRO",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 90,
+      "sourceRow": 325
+    },
+    {
+      "id": "n0312",
+      "name": "RAMOS YORDY",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 91,
+      "sourceRow": 326
+    },
+    {
+      "id": "n0313",
+      "name": "REGULO DE MORA JORGE",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 92,
+      "sourceRow": 327
+    },
+    {
+      "id": "n0314",
+      "name": "REINOSO DANIEL",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 93,
+      "sourceRow": 328
+    },
+    {
+      "id": "n0315",
+      "name": "ROJAS CARLOS ALFONSO",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 94,
+      "sourceRow": 329
+    },
+    {
+      "id": "n0316",
+      "name": "RUEDA JUAN FRANCISCO",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 95,
+      "sourceRow": 330
+    },
+    {
+      "id": "n0317",
+      "name": "RUIZ JAVIER",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 96,
+      "sourceRow": 331
+    },
+    {
+      "id": "n0318",
+      "name": "SAAVEDRA JOAQUÍN",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 97,
+      "sourceRow": 332
+    },
+    {
+      "id": "n0319",
+      "name": "SÁNCHEZ JORGE",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 98,
+      "sourceRow": 333
+    },
+    {
+      "id": "n0320",
+      "name": "SÁNCHEZ WASHINGTON",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 99,
+      "sourceRow": 334
+    },
+    {
+      "id": "n0321",
+      "name": "SCHUBERTH SUING",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 100,
+      "sourceRow": 335
+    },
+    {
+      "id": "n0322",
+      "name": "SEGOVIA XAVIER",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 101,
+      "sourceRow": 336
+    },
+    {
+      "id": "n0323",
+      "name": "SOLÓRZANO GABRIEL",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 102,
+      "sourceRow": 337
+    },
+    {
+      "id": "n0324",
+      "name": "STRACUZZI ALDO",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 103,
+      "sourceRow": 338
+    },
+    {
+      "id": "n0325",
+      "name": "SUÁREZ KEVIN",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 104,
+      "sourceRow": 339
+    },
+    {
+      "id": "n0326",
+      "name": "TINOCO EDGAR",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 105,
+      "sourceRow": 340
+    },
+    {
+      "id": "n0327",
+      "name": "URRUTIA PATRICIO",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 106,
+      "sourceRow": 341
+    },
+    {
+      "id": "n0328",
+      "name": "VALERO ANDRADE ABRAHAM",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 107,
+      "sourceRow": 342
+    },
+    {
+      "id": "n0329",
+      "name": "VANONI JOHNNY",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 108,
+      "sourceRow": 343
+    },
+    {
+      "id": "n0330",
+      "name": "VELA HANNIBAL",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 109,
+      "sourceRow": 344
+    },
+    {
+      "id": "n0331",
+      "name": "VERA JEAN FRANCO",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 110,
+      "sourceRow": 345
+    },
+    {
+      "id": "n0332",
+      "name": "VERDESOTO KEVIN",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 111,
+      "sourceRow": 346
+    },
+    {
+      "id": "n0333",
+      "name": "VILLAMARÍN ANDRÉS",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 112,
+      "sourceRow": 347
+    },
+    {
+      "id": "n0334",
+      "name": "ZEDEÑO DUVAL",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 113,
+      "sourceRow": 348
+    },
+    {
+      "id": "n0335",
+      "name": "ZEVALLOS XAVIER",
+      "meta": null,
+      "categoryId": "mejor-comunicador-de-deportes",
+      "order": 114,
+      "sourceRow": 349
+    },
+    {
+      "id": "n0336",
       "name": "ALCÍVAR GABRIELA",
       "meta": null,
       "categoryId": "mejor-comunicadora-de-deportes",
       "order": 0,
-      "sourceRow": 309
-    },
-    {
-      "id": "n0281",
-      "name": "ALFARO FLORENCIA",
-      "meta": null,
-      "categoryId": "mejor-comunicadora-de-deportes",
-      "order": 1,
-      "sourceRow": 310
-    },
-    {
-      "id": "n0282",
-      "name": "ALVARADO KRISTY",
-      "meta": null,
-      "categoryId": "mejor-comunicadora-de-deportes",
-      "order": 2,
-      "sourceRow": 311
-    },
-    {
-      "id": "n0283",
-      "name": "ARIAS GUADALUPE",
-      "meta": null,
-      "categoryId": "mejor-comunicadora-de-deportes",
-      "order": 3,
-      "sourceRow": 312
-    },
-    {
-      "id": "n0284",
-      "name": "AYALA CARLA",
-      "meta": null,
-      "categoryId": "mejor-comunicadora-de-deportes",
-      "order": 4,
-      "sourceRow": 313
-    },
-    {
-      "id": "n0285",
-      "name": "BAYAS MAYRA",
-      "meta": null,
-      "categoryId": "mejor-comunicadora-de-deportes",
-      "order": 5,
-      "sourceRow": 314
-    },
-    {
-      "id": "n0286",
-      "name": "CALDERÓN JOHANNA",
-      "meta": null,
-      "categoryId": "mejor-comunicadora-de-deportes",
-      "order": 6,
-      "sourceRow": 315
-    },
-    {
-      "id": "n0287",
-      "name": "CHEVEZ MERCEDES",
-      "meta": null,
-      "categoryId": "mejor-comunicadora-de-deportes",
-      "order": 7,
-      "sourceRow": 316
-    },
-    {
-      "id": "n0288",
-      "name": "CHONG NATHALY",
-      "meta": null,
-      "categoryId": "mejor-comunicadora-de-deportes",
-      "order": 8,
-      "sourceRow": 317
-    },
-    {
-      "id": "n0289",
-      "name": "DÁVILA KAROLINA",
-      "meta": null,
-      "categoryId": "mejor-comunicadora-de-deportes",
-      "order": 9,
-      "sourceRow": 318
-    },
-    {
-      "id": "n0290",
-      "name": "DE LA TORRE XIOMARA",
-      "meta": null,
-      "categoryId": "mejor-comunicadora-de-deportes",
-      "order": 10,
-      "sourceRow": 319
-    },
-    {
-      "id": "n0291",
-      "name": "DIAZ MARIELA",
-      "meta": null,
-      "categoryId": "mejor-comunicadora-de-deportes",
-      "order": 11,
-      "sourceRow": 320
-    },
-    {
-      "id": "n0292",
-      "name": "FLORES MARIA JOSE",
-      "meta": null,
-      "categoryId": "mejor-comunicadora-de-deportes",
-      "order": 12,
-      "sourceRow": 321
-    },
-    {
-      "id": "n0293",
-      "name": "GAVILANES MAJO",
-      "meta": null,
-      "categoryId": "mejor-comunicadora-de-deportes",
-      "order": 13,
-      "sourceRow": 322
-    },
-    {
-      "id": "n0294",
-      "name": "GONZÁLEZ FANNY",
-      "meta": null,
-      "categoryId": "mejor-comunicadora-de-deportes",
-      "order": 14,
-      "sourceRow": 323
-    },
-    {
-      "id": "n0295",
-      "name": "IGLESIAS ANTONELLA",
-      "meta": null,
-      "categoryId": "mejor-comunicadora-de-deportes",
-      "order": 15,
-      "sourceRow": 324
-    },
-    {
-      "id": "n0296",
-      "name": "JURADO GABY",
-      "meta": null,
-      "categoryId": "mejor-comunicadora-de-deportes",
-      "order": 16,
-      "sourceRow": 325
-    },
-    {
-      "id": "n0297",
-      "name": "MELENDRES ANA",
-      "meta": null,
-      "categoryId": "mejor-comunicadora-de-deportes",
-      "order": 17,
-      "sourceRow": 326
-    },
-    {
-      "id": "n0298",
-      "name": "MENA VALERIA",
-      "meta": null,
-      "categoryId": "mejor-comunicadora-de-deportes",
-      "order": 18,
-      "sourceRow": 327
-    },
-    {
-      "id": "n0299",
-      "name": "MENESES SYLVIA",
-      "meta": null,
-      "categoryId": "mejor-comunicadora-de-deportes",
-      "order": 19,
-      "sourceRow": 328
-    },
-    {
-      "id": "n0300",
-      "name": "RODRIGUEZ SOLEDAD",
-      "meta": null,
-      "categoryId": "mejor-comunicadora-de-deportes",
-      "order": 20,
-      "sourceRow": 329
-    },
-    {
-      "id": "n0301",
-      "name": "SERRANO JOSSELINE",
-      "meta": null,
-      "categoryId": "mejor-comunicadora-de-deportes",
-      "order": 21,
-      "sourceRow": 330
-    },
-    {
-      "id": "n0302",
-      "name": "VARELES ERIIKA",
-      "meta": null,
-      "categoryId": "mejor-comunicadora-de-deportes",
-      "order": 22,
-      "sourceRow": 331
-    },
-    {
-      "id": "n0303",
-      "name": "VARGAS VANESSA",
-      "meta": null,
-      "categoryId": "mejor-comunicadora-de-deportes",
-      "order": 23,
-      "sourceRow": 332
-    },
-    {
-      "id": "n0304",
-      "name": "VASCO ANALI",
-      "meta": null,
-      "categoryId": "mejor-comunicadora-de-deportes",
-      "order": 24,
-      "sourceRow": 333
-    },
-    {
-      "id": "n0305",
-      "name": "VELOZ DANIELA",
-      "meta": null,
-      "categoryId": "mejor-comunicadora-de-deportes",
-      "order": 25,
-      "sourceRow": 334
-    },
-    {
-      "id": "n0306",
-      "name": "VERA DANIELA",
-      "meta": null,
-      "categoryId": "mejor-comunicadora-de-deportes",
-      "order": 26,
-      "sourceRow": 335
-    },
-    {
-      "id": "n0307",
-      "name": "VERA JOCELYN",
-      "meta": null,
-      "categoryId": "mejor-comunicadora-de-deportes",
-      "order": 27,
-      "sourceRow": 336
-    },
-    {
-      "id": "n0308",
-      "name": "VILLACRÉS RAHAB",
-      "meta": null,
-      "categoryId": "mejor-comunicadora-de-deportes",
-      "order": 28,
-      "sourceRow": 337
-    },
-    {
-      "id": "n0309",
-      "name": "VILLALVA VALERIE",
-      "meta": null,
-      "categoryId": "mejor-comunicadora-de-deportes",
-      "order": 29,
-      "sourceRow": 338
-    },
-    {
-      "id": "n0310",
-      "name": "ANDRÉS GARZÓN VEGA",
-      "meta": "Tik Tok",
-      "categoryId": "mejor-cuenta-digital-de-deportes",
-      "order": 0,
-      "sourceRow": 343
-    },
-    {
-      "id": "n0311",
-      "name": "APUGOL",
-      "meta": "Tik Tok",
-      "categoryId": "mejor-cuenta-digital-de-deportes",
-      "order": 1,
-      "sourceRow": 344
-    },
-    {
-      "id": "n0312",
-      "name": "DIBLU TV DIGITAL",
-      "meta": "YouTube",
-      "categoryId": "mejor-cuenta-digital-de-deportes",
-      "order": 2,
-      "sourceRow": 345
-    },
-    {
-      "id": "n0313",
-      "name": "DIRECT FÚTBOL",
-      "meta": "Instagram",
-      "categoryId": "mejor-cuenta-digital-de-deportes",
-      "order": 3,
-      "sourceRow": 346
-    },
-    {
-      "id": "n0314",
-      "name": "EL CANAL DEL FÚTBOL",
-      "meta": "Instagram",
-      "categoryId": "mejor-cuenta-digital-de-deportes",
-      "order": 4,
-      "sourceRow": 347
-    },
-    {
-      "id": "n0315",
-      "name": "FANBOLEROS",
-      "meta": "Instagram",
-      "categoryId": "mejor-cuenta-digital-de-deportes",
-      "order": 5,
-      "sourceRow": 348
-    },
-    {
-      "id": "n0316",
-      "name": "FÚTBOL ECUADOR",
-      "meta": "Instagram",
-      "categoryId": "mejor-cuenta-digital-de-deportes",
-      "order": 6,
-      "sourceRow": 349
-    },
-    {
-      "id": "n0317",
-      "name": "FÚTBOL FEMENINO MÁS",
-      "meta": "Facebook",
-      "categoryId": "mejor-cuenta-digital-de-deportes",
-      "order": 7,
-      "sourceRow": 350
-    },
-    {
-      "id": "n0318",
-      "name": "GOLTV Ecuador",
-      "meta": "Instagram",
-      "categoryId": "mejor-cuenta-digital-de-deportes",
-      "order": 8,
-      "sourceRow": 351
-    },
-    {
-      "id": "n0319",
-      "name": "IDOLO TV",
-      "meta": "Instagram",
-      "categoryId": "mejor-cuenta-digital-de-deportes",
-      "order": 9,
       "sourceRow": 352
     },
     {
-      "id": "n0320",
-      "name": "MARCA90EC",
-      "meta": "Instagram",
-      "categoryId": "mejor-cuenta-digital-de-deportes",
-      "order": 10,
+      "id": "n0337",
+      "name": "ALCÍVAR QUIMÍ ANDREA",
+      "meta": null,
+      "categoryId": "mejor-comunicadora-de-deportes",
+      "order": 1,
       "sourceRow": 353
     },
     {
-      "id": "n0321",
-      "name": "RADIO CARAVANA",
-      "meta": "X",
-      "categoryId": "mejor-cuenta-digital-de-deportes",
-      "order": 11,
+      "id": "n0338",
+      "name": "ALFARO MORENO FLORENCIA",
+      "meta": null,
+      "categoryId": "mejor-comunicadora-de-deportes",
+      "order": 2,
       "sourceRow": 354
     },
     {
-      "id": "n0322",
-      "name": "SE MOVIÓ EL BALÓN",
-      "meta": "Tik Tok",
-      "categoryId": "mejor-cuenta-digital-de-deportes",
-      "order": 12,
+      "id": "n0339",
+      "name": "ALMEIDA CARLA",
+      "meta": null,
+      "categoryId": "mejor-comunicadora-de-deportes",
+      "order": 3,
       "sourceRow": 355
     },
     {
-      "id": "n0323",
-      "name": "SEGMENTO FÚTBOL",
-      "meta": "Instagram",
-      "categoryId": "mejor-cuenta-digital-de-deportes",
-      "order": 13,
+      "id": "n0340",
+      "name": "ALVARADO KRISTY",
+      "meta": null,
+      "categoryId": "mejor-comunicadora-de-deportes",
+      "order": 4,
       "sourceRow": 356
     },
     {
-      "id": "n0324",
-      "name": "STUDIO FÚTBOL",
-      "meta": "Instagram",
-      "categoryId": "mejor-cuenta-digital-de-deportes",
-      "order": 14,
+      "id": "n0341",
+      "name": "ARIAS GUADALUPE",
+      "meta": null,
+      "categoryId": "mejor-comunicadora-de-deportes",
+      "order": 5,
       "sourceRow": 357
     },
     {
-      "id": "n0325",
-      "name": "TC DEPORTES",
-      "meta": "Instagram",
-      "categoryId": "mejor-cuenta-digital-de-deportes",
-      "order": 15,
+      "id": "n0342",
+      "name": "AYALA CARLA",
+      "meta": null,
+      "categoryId": "mejor-comunicadora-de-deportes",
+      "order": 6,
       "sourceRow": 358
     },
     {
-      "id": "n0326",
+      "id": "n0343",
+      "name": "BAYAS MAYRA",
+      "meta": null,
+      "categoryId": "mejor-comunicadora-de-deportes",
+      "order": 7,
+      "sourceRow": 359
+    },
+    {
+      "id": "n0344",
+      "name": "BONILLA PAULA",
+      "meta": null,
+      "categoryId": "mejor-comunicadora-de-deportes",
+      "order": 8,
+      "sourceRow": 360
+    },
+    {
+      "id": "n0345",
+      "name": "CALDERÓN JOHANNA",
+      "meta": null,
+      "categoryId": "mejor-comunicadora-de-deportes",
+      "order": 9,
+      "sourceRow": 361
+    },
+    {
+      "id": "n0346",
+      "name": "CAVANNA ORELLANA DOMENICA",
+      "meta": null,
+      "categoryId": "mejor-comunicadora-de-deportes",
+      "order": 10,
+      "sourceRow": 362
+    },
+    {
+      "id": "n0347",
+      "name": "CENTENO JOSELYN",
+      "meta": null,
+      "categoryId": "mejor-comunicadora-de-deportes",
+      "order": 11,
+      "sourceRow": 363
+    },
+    {
+      "id": "n0348",
+      "name": "CHÉVEZ MERCEDES",
+      "meta": null,
+      "categoryId": "mejor-comunicadora-de-deportes",
+      "order": 12,
+      "sourceRow": 364
+    },
+    {
+      "id": "n0349",
+      "name": "CHONG NATHALY",
+      "meta": null,
+      "categoryId": "mejor-comunicadora-de-deportes",
+      "order": 13,
+      "sourceRow": 365
+    },
+    {
+      "id": "n0350",
+      "name": "COBOS NATHALY",
+      "meta": null,
+      "categoryId": "mejor-comunicadora-de-deportes",
+      "order": 14,
+      "sourceRow": 366
+    },
+    {
+      "id": "n0351",
+      "name": "DÁVILA KAROLINA",
+      "meta": null,
+      "categoryId": "mejor-comunicadora-de-deportes",
+      "order": 15,
+      "sourceRow": 367
+    },
+    {
+      "id": "n0352",
+      "name": "DE LA TORRE XIOMARA",
+      "meta": null,
+      "categoryId": "mejor-comunicadora-de-deportes",
+      "order": 16,
+      "sourceRow": 368
+    },
+    {
+      "id": "n0353",
+      "name": "FLORES MARÍA JOSÉ",
+      "meta": null,
+      "categoryId": "mejor-comunicadora-de-deportes",
+      "order": 17,
+      "sourceRow": 369
+    },
+    {
+      "id": "n0354",
+      "name": "GAVILANES MAJO",
+      "meta": null,
+      "categoryId": "mejor-comunicadora-de-deportes",
+      "order": 18,
+      "sourceRow": 370
+    },
+    {
+      "id": "n0355",
+      "name": "GONZÁLEZ DOMÉNICA",
+      "meta": null,
+      "categoryId": "mejor-comunicadora-de-deportes",
+      "order": 19,
+      "sourceRow": 371
+    },
+    {
+      "id": "n0356",
+      "name": "GONZÁLEZ FANNY",
+      "meta": null,
+      "categoryId": "mejor-comunicadora-de-deportes",
+      "order": 20,
+      "sourceRow": 372
+    },
+    {
+      "id": "n0357",
+      "name": "IGLESIAS ANTONELLA",
+      "meta": null,
+      "categoryId": "mejor-comunicadora-de-deportes",
+      "order": 21,
+      "sourceRow": 373
+    },
+    {
+      "id": "n0358",
+      "name": "INGA EMMY",
+      "meta": null,
+      "categoryId": "mejor-comunicadora-de-deportes",
+      "order": 22,
+      "sourceRow": 374
+    },
+    {
+      "id": "n0359",
+      "name": "JIMÉNEZ JULISSA",
+      "meta": null,
+      "categoryId": "mejor-comunicadora-de-deportes",
+      "order": 23,
+      "sourceRow": 375
+    },
+    {
+      "id": "n0360",
+      "name": "JURADO GABY",
+      "meta": null,
+      "categoryId": "mejor-comunicadora-de-deportes",
+      "order": 24,
+      "sourceRow": 376
+    },
+    {
+      "id": "n0361",
+      "name": "MALDONADO MARIAPAZ",
+      "meta": null,
+      "categoryId": "mejor-comunicadora-de-deportes",
+      "order": 25,
+      "sourceRow": 377
+    },
+    {
+      "id": "n0362",
+      "name": "MANOSALVAS NADIA",
+      "meta": null,
+      "categoryId": "mejor-comunicadora-de-deportes",
+      "order": 26,
+      "sourceRow": 378
+    },
+    {
+      "id": "n0363",
+      "name": "MELENDRES ANA",
+      "meta": null,
+      "categoryId": "mejor-comunicadora-de-deportes",
+      "order": 27,
+      "sourceRow": 379
+    },
+    {
+      "id": "n0364",
+      "name": "MENDOZA ALLISSON",
+      "meta": null,
+      "categoryId": "mejor-comunicadora-de-deportes",
+      "order": 28,
+      "sourceRow": 380
+    },
+    {
+      "id": "n0365",
+      "name": "MONTALVO ANDREA",
+      "meta": null,
+      "categoryId": "mejor-comunicadora-de-deportes",
+      "order": 29,
+      "sourceRow": 381
+    },
+    {
+      "id": "n0366",
+      "name": "OCAÑA BIANCA",
+      "meta": null,
+      "categoryId": "mejor-comunicadora-de-deportes",
+      "order": 30,
+      "sourceRow": 382
+    },
+    {
+      "id": "n0367",
+      "name": "PÉREZ SONIA",
+      "meta": null,
+      "categoryId": "mejor-comunicadora-de-deportes",
+      "order": 31,
+      "sourceRow": 383
+    },
+    {
+      "id": "n0368",
+      "name": "RENDÓN ROMINA",
+      "meta": null,
+      "categoryId": "mejor-comunicadora-de-deportes",
+      "order": 32,
+      "sourceRow": 384
+    },
+    {
+      "id": "n0369",
+      "name": "RODRÍGUEZ SOLEDAD",
+      "meta": null,
+      "categoryId": "mejor-comunicadora-de-deportes",
+      "order": 33,
+      "sourceRow": 385
+    },
+    {
+      "id": "n0370",
+      "name": "TORRES GABY",
+      "meta": null,
+      "categoryId": "mejor-comunicadora-de-deportes",
+      "order": 34,
+      "sourceRow": 386
+    },
+    {
+      "id": "n0371",
+      "name": "VARELES ERICKA",
+      "meta": null,
+      "categoryId": "mejor-comunicadora-de-deportes",
+      "order": 35,
+      "sourceRow": 387
+    },
+    {
+      "id": "n0372",
+      "name": "VASCO ANALI",
+      "meta": null,
+      "categoryId": "mejor-comunicadora-de-deportes",
+      "order": 36,
+      "sourceRow": 388
+    },
+    {
+      "id": "n0373",
+      "name": "VELOZ DANIELA",
+      "meta": null,
+      "categoryId": "mejor-comunicadora-de-deportes",
+      "order": 37,
+      "sourceRow": 389
+    },
+    {
+      "id": "n0374",
+      "name": "VERA JOCELYN",
+      "meta": null,
+      "categoryId": "mejor-comunicadora-de-deportes",
+      "order": 38,
+      "sourceRow": 390
+    },
+    {
+      "id": "n0375",
+      "name": "VILLACRÉS RAHAB",
+      "meta": null,
+      "categoryId": "mejor-comunicadora-de-deportes",
+      "order": 39,
+      "sourceRow": 391
+    },
+    {
+      "id": "n0376",
+      "name": "APUGOL",
+      "meta": null,
+      "categoryId": "mejor-cuenta-digital-de-deportes",
+      "order": 0,
+      "sourceRow": 394
+    },
+    {
+      "id": "n0377",
+      "name": "AZUL ELÉCTRICO",
+      "meta": null,
+      "categoryId": "mejor-cuenta-digital-de-deportes",
+      "order": 1,
+      "sourceRow": 395
+    },
+    {
+      "id": "n0378",
+      "name": "COPA ECUADOR",
+      "meta": null,
+      "categoryId": "mejor-cuenta-digital-de-deportes",
+      "order": 2,
+      "sourceRow": 396
+    },
+    {
+      "id": "n0379",
+      "name": "DEPORVITO",
+      "meta": null,
+      "categoryId": "mejor-cuenta-digital-de-deportes",
+      "order": 3,
+      "sourceRow": 397
+    },
+    {
+      "id": "n0380",
+      "name": "DEUNA",
+      "meta": null,
+      "categoryId": "mejor-cuenta-digital-de-deportes",
+      "order": 4,
+      "sourceRow": 398
+    },
+    {
+      "id": "n0381",
+      "name": "DIBLU TV DIGITAL",
+      "meta": null,
+      "categoryId": "mejor-cuenta-digital-de-deportes",
+      "order": 5,
+      "sourceRow": 399
+    },
+    {
+      "id": "n0382",
+      "name": "DIRECT FÚTBOL",
+      "meta": null,
+      "categoryId": "mejor-cuenta-digital-de-deportes",
+      "order": 6,
+      "sourceRow": 400
+    },
+    {
+      "id": "n0383",
+      "name": "DSPORTSec 🇪🇨",
+      "meta": null,
+      "categoryId": "mejor-cuenta-digital-de-deportes",
+      "order": 7,
+      "sourceRow": 401
+    },
+    {
+      "id": "n0384",
+      "name": "ECUAGOL",
+      "meta": null,
+      "categoryId": "mejor-cuenta-digital-de-deportes",
+      "order": 8,
+      "sourceRow": 402
+    },
+    {
+      "id": "n0385",
+      "name": "EL CANAL DEL FÚTBOL",
+      "meta": null,
+      "categoryId": "mejor-cuenta-digital-de-deportes",
+      "order": 9,
+      "sourceRow": 403
+    },
+    {
+      "id": "n0386",
+      "name": "ESTADIOEC",
+      "meta": null,
+      "categoryId": "mejor-cuenta-digital-de-deportes",
+      "order": 10,
+      "sourceRow": 404
+    },
+    {
+      "id": "n0387",
+      "name": "FANBOLEROS_EC",
+      "meta": null,
+      "categoryId": "mejor-cuenta-digital-de-deportes",
+      "order": 11,
+      "sourceRow": 405
+    },
+    {
+      "id": "n0388",
+      "name": "FÚTBOL ECUADOR",
+      "meta": null,
+      "categoryId": "mejor-cuenta-digital-de-deportes",
+      "order": 12,
+      "sourceRow": 406
+    },
+    {
+      "id": "n0389",
+      "name": "GOLTV",
+      "meta": null,
+      "categoryId": "mejor-cuenta-digital-de-deportes",
+      "order": 13,
+      "sourceRow": 407
+    },
+    {
+      "id": "n0390",
+      "name": "HAVOLINE DEPORTIVO",
+      "meta": null,
+      "categoryId": "mejor-cuenta-digital-de-deportes",
+      "order": 14,
+      "sourceRow": 408
+    },
+    {
+      "id": "n0391",
+      "name": "HINCHA AMARILLO",
+      "meta": null,
+      "categoryId": "mejor-cuenta-digital-de-deportes",
+      "order": 15,
+      "sourceRow": 409
+    },
+    {
+      "id": "n0392",
+      "name": "IDOLO TV",
+      "meta": null,
+      "categoryId": "mejor-cuenta-digital-de-deportes",
+      "order": 16,
+      "sourceRow": 410
+    },
+    {
+      "id": "n0393",
+      "name": "MARCA90EC",
+      "meta": null,
+      "categoryId": "mejor-cuenta-digital-de-deportes",
+      "order": 17,
+      "sourceRow": 411
+    },
+    {
+      "id": "n0394",
+      "name": "PASAPORTE A LA GLORIA",
+      "meta": null,
+      "categoryId": "mejor-cuenta-digital-de-deportes",
+      "order": 18,
+      "sourceRow": 412
+    },
+    {
+      "id": "n0395",
+      "name": "PASIÓN TORERA",
+      "meta": null,
+      "categoryId": "mejor-cuenta-digital-de-deportes",
+      "order": 19,
+      "sourceRow": 413
+    },
+    {
+      "id": "n0396",
+      "name": "RADIO CARAVANA",
+      "meta": null,
+      "categoryId": "mejor-cuenta-digital-de-deportes",
+      "order": 20,
+      "sourceRow": 414
+    },
+    {
+      "id": "n0397",
+      "name": "RADIODIBLUFM",
+      "meta": null,
+      "categoryId": "mejor-cuenta-digital-de-deportes",
+      "order": 21,
+      "sourceRow": 415
+    },
+    {
+      "id": "n0398",
+      "name": "RCD SPORTS",
+      "meta": null,
+      "categoryId": "mejor-cuenta-digital-de-deportes",
+      "order": 22,
+      "sourceRow": 416
+    },
+    {
+      "id": "n0399",
+      "name": "SEGMENTO FÚTBOL",
+      "meta": null,
+      "categoryId": "mejor-cuenta-digital-de-deportes",
+      "order": 23,
+      "sourceRow": 417
+    },
+    {
+      "id": "n0400",
+      "name": "STUDIO FÚTBOL",
+      "meta": null,
+      "categoryId": "mejor-cuenta-digital-de-deportes",
+      "order": 24,
+      "sourceRow": 418
+    },
+    {
+      "id": "n0401",
+      "name": "TC DEPORTES",
+      "meta": null,
+      "categoryId": "mejor-cuenta-digital-de-deportes",
+      "order": 25,
+      "sourceRow": 419
+    },
+    {
+      "id": "n0402",
       "name": "ALBUJA MARCO",
       "meta": null,
       "categoryId": "mejor-conductor-de-programas-de-variedades",
       "order": 0,
-      "sourceRow": 372
+      "sourceRow": 422
     },
     {
-      "id": "n0327",
-      "name": "ALTAMIRANO MAURICIO",
+      "id": "n0403",
+      "name": "ARAUZ VICTOR LA MICHY",
       "meta": null,
       "categoryId": "mejor-conductor-de-programas-de-variedades",
       "order": 1,
-      "sourceRow": 373
+      "sourceRow": 423
     },
     {
-      "id": "n0328",
-      "name": "ANDRADE EDUARDO",
-      "meta": null,
-      "categoryId": "mejor-conductor-de-programas-de-variedades",
-      "order": 2,
-      "sourceRow": 374
-    },
-    {
-      "id": "n0329",
-      "name": "ARAUZ VICTOR",
-      "meta": null,
-      "categoryId": "mejor-conductor-de-programas-de-variedades",
-      "order": 3,
-      "sourceRow": 375
-    },
-    {
-      "id": "n0330",
+      "id": "n0404",
       "name": "ARÉVALO JOSÉ",
       "meta": null,
       "categoryId": "mejor-conductor-de-programas-de-variedades",
-      "order": 4,
-      "sourceRow": 376
+      "order": 2,
+      "sourceRow": 424
     },
     {
-      "id": "n0331",
-      "name": "ARROYO PATRICIO",
-      "meta": null,
-      "categoryId": "mejor-conductor-de-programas-de-variedades",
-      "order": 5,
-      "sourceRow": 377
-    },
-    {
-      "id": "n0332",
+      "id": "n0405",
       "name": "BARAHONA ANGELLO",
       "meta": null,
       "categoryId": "mejor-conductor-de-programas-de-variedades",
-      "order": 6,
-      "sourceRow": 378
+      "order": 3,
+      "sourceRow": 425
     },
     {
-      "id": "n0333",
+      "id": "n0406",
       "name": "BUSTAMANTE HENRY",
       "meta": null,
       "categoryId": "mejor-conductor-de-programas-de-variedades",
-      "order": 7,
-      "sourceRow": 379
+      "order": 4,
+      "sourceRow": 426
     },
     {
-      "id": "n0334",
+      "id": "n0407",
+      "name": "CAMPANA FELIPE (CHEF)",
+      "meta": null,
+      "categoryId": "mejor-conductor-de-programas-de-variedades",
+      "order": 5,
+      "sourceRow": 427
+    },
+    {
+      "id": "n0408",
+      "name": "CAMPOS JULIÁN",
+      "meta": null,
+      "categoryId": "mejor-conductor-de-programas-de-variedades",
+      "order": 6,
+      "sourceRow": 428
+    },
+    {
+      "id": "n0409",
       "name": "CASTRO SANTIAGO",
       "meta": null,
       "categoryId": "mejor-conductor-de-programas-de-variedades",
-      "order": 8,
-      "sourceRow": 380
+      "order": 7,
+      "sourceRow": 429
     },
     {
-      "id": "n0335",
-      "name": "CAVIEDES ARTURO",
+      "id": "n0410",
+      "name": "COELLO DANILO",
+      "meta": null,
+      "categoryId": "mejor-conductor-de-programas-de-variedades",
+      "order": 8,
+      "sourceRow": 430
+    },
+    {
+      "id": "n0411",
+      "name": "CONSTANTE SEBASTIÁN",
       "meta": null,
       "categoryId": "mejor-conductor-de-programas-de-variedades",
       "order": 9,
-      "sourceRow": 381
+      "sourceRow": 431
     },
     {
-      "id": "n0336",
-      "name": "DELGADO ISAAC",
+      "id": "n0412",
+      "name": "DELGADO FRANCISCO",
       "meta": null,
       "categoryId": "mejor-conductor-de-programas-de-variedades",
       "order": 10,
-      "sourceRow": 382
+      "sourceRow": 432
     },
     {
-      "id": "n0337",
-      "name": "DREER ESTEBAN",
+      "id": "n0413",
+      "name": "DUBOIS JALAL",
       "meta": null,
       "categoryId": "mejor-conductor-de-programas-de-variedades",
       "order": 11,
-      "sourceRow": 383
+      "sourceRow": 433
     },
     {
-      "id": "n0338",
+      "id": "n0414",
       "name": "ESTRADA JONATHAN",
       "meta": null,
       "categoryId": "mejor-conductor-de-programas-de-variedades",
       "order": 12,
-      "sourceRow": 384
+      "sourceRow": 434
     },
     {
-      "id": "n0339",
-      "name": "FARINA RONALD",
+      "id": "n0415",
+      "name": "FÉLIX SEBASTIÁN \"CEVICHE\"",
       "meta": null,
       "categoryId": "mejor-conductor-de-programas-de-variedades",
       "order": 13,
-      "sourceRow": 385
+      "sourceRow": 435
     },
     {
-      "id": "n0340",
-      "name": "GUSCHMER ANDRÉS",
-      "meta": null,
-      "categoryId": "mejor-conductor-de-programas-de-variedades",
-      "order": 14,
-      "sourceRow": 386
-    },
-    {
-      "id": "n0341",
-      "name": "GUZMÁN ALBERTO",
-      "meta": null,
-      "categoryId": "mejor-conductor-de-programas-de-variedades",
-      "order": 15,
-      "sourceRow": 387
-    },
-    {
-      "id": "n0342",
+      "id": "n0416",
       "name": "HEREDIA JORGE",
       "meta": null,
       "categoryId": "mejor-conductor-de-programas-de-variedades",
-      "order": 16,
-      "sourceRow": 388
+      "order": 14,
+      "sourceRow": 436
     },
     {
-      "id": "n0343",
+      "id": "n0417",
       "name": "HOFFMANN DIETER",
       "meta": null,
       "categoryId": "mejor-conductor-de-programas-de-variedades",
-      "order": 17,
-      "sourceRow": 389
+      "order": 15,
+      "sourceRow": 437
     },
     {
-      "id": "n0344",
-      "name": "JARAMILLO ESTEBAN (ABE)",
+      "id": "n0418",
+      "name": "IZQUIERO RENIER",
+      "meta": null,
+      "categoryId": "mejor-conductor-de-programas-de-variedades",
+      "order": 16,
+      "sourceRow": 438
+    },
+    {
+      "id": "n0419",
+      "name": "LOGAN Y LOGAN",
+      "meta": null,
+      "categoryId": "mejor-conductor-de-programas-de-variedades",
+      "order": 17,
+      "sourceRow": 439
+    },
+    {
+      "id": "n0420",
+      "name": "MELENDRES ALBERTO",
       "meta": null,
       "categoryId": "mejor-conductor-de-programas-de-variedades",
       "order": 18,
-      "sourceRow": 390
+      "sourceRow": 440
     },
     {
-      "id": "n0345",
-      "name": "MATAMOROS CARLOS JOSÉ",
+      "id": "n0421",
+      "name": "NAVAS CRISTHIAN",
       "meta": null,
       "categoryId": "mejor-conductor-de-programas-de-variedades",
       "order": 19,
-      "sourceRow": 391
+      "sourceRow": 441
     },
     {
-      "id": "n0346",
-      "name": "MORÁN DENILSON",
+      "id": "n0422",
+      "name": "NORRIS CRISTHIAN",
       "meta": null,
       "categoryId": "mejor-conductor-de-programas-de-variedades",
       "order": 20,
-      "sourceRow": 392
+      "sourceRow": 442
     },
     {
-      "id": "n0347",
-      "name": "NACIPUCHA SAMUEL",
+      "id": "n0423",
+      "name": "PELLACINI ANDRÉS",
       "meta": null,
       "categoryId": "mejor-conductor-de-programas-de-variedades",
       "order": 21,
-      "sourceRow": 393
+      "sourceRow": 443
     },
     {
-      "id": "n0348",
-      "name": "NIETO CARLOS",
+      "id": "n0424",
+      "name": "PIMENTEL XAVIER",
       "meta": null,
       "categoryId": "mejor-conductor-de-programas-de-variedades",
       "order": 22,
-      "sourceRow": 394
+      "sourceRow": 444
     },
     {
-      "id": "n0349",
-      "name": "NORRIS CHRISTIAN",
-      "meta": null,
-      "categoryId": "mejor-conductor-de-programas-de-variedades",
-      "order": 23,
-      "sourceRow": 395
-    },
-    {
-      "id": "n0350",
+      "id": "n0425",
       "name": "PINOARGOTE QUIROZ ALFREDO",
       "meta": null,
       "categoryId": "mejor-conductor-de-programas-de-variedades",
-      "order": 24,
-      "sourceRow": 396
+      "order": 23,
+      "sourceRow": 445
     },
     {
-      "id": "n0351",
-      "name": "PIMENTEL ZAVIER",
+      "id": "n0426",
+      "name": "PLUAS ÁLEX",
+      "meta": null,
+      "categoryId": "mejor-conductor-de-programas-de-variedades",
+      "order": 24,
+      "sourceRow": 446
+    },
+    {
+      "id": "n0427",
+      "name": "QUEZADA LEONARDO \"LAZITO\"",
       "meta": null,
       "categoryId": "mejor-conductor-de-programas-de-variedades",
       "order": 25,
-      "sourceRow": 397
+      "sourceRow": 447
     },
     {
-      "id": "n0352",
-      "name": "QUEZADA LEONARDO",
+      "id": "n0428",
+      "name": "QUIÑÓNEZ ORLANDO",
       "meta": null,
       "categoryId": "mejor-conductor-de-programas-de-variedades",
       "order": 26,
-      "sourceRow": 398
+      "sourceRow": 448
     },
     {
-      "id": "n0353",
-      "name": "QUINTERO PONCHO",
+      "id": "n0429",
+      "name": "ROMÁN JUAN CARLOS",
       "meta": null,
       "categoryId": "mejor-conductor-de-programas-de-variedades",
       "order": 27,
-      "sourceRow": 399
+      "sourceRow": 449
     },
     {
-      "id": "n0354",
+      "id": "n0430",
       "name": "ROSERO DANILO",
       "meta": null,
       "categoryId": "mejor-conductor-de-programas-de-variedades",
       "order": 28,
-      "sourceRow": 400
+      "sourceRow": 450
     },
     {
-      "id": "n0355",
-      "name": "URRUTIA JOSÉ",
+      "id": "n0431",
+      "name": "SCAVONE CARLOS",
       "meta": null,
       "categoryId": "mejor-conductor-de-programas-de-variedades",
       "order": 29,
-      "sourceRow": 401
+      "sourceRow": 451
     },
     {
-      "id": "n0356",
-      "name": "VÁSQUEZ REINALDO",
+      "id": "n0432",
+      "name": "URRUTIA JOSÉ",
       "meta": null,
       "categoryId": "mejor-conductor-de-programas-de-variedades",
       "order": 30,
-      "sourceRow": 402
+      "sourceRow": 452
     },
     {
-      "id": "n0357",
-      "name": "VIDÁN ESTÉBAN",
-      "meta": null,
-      "categoryId": "mejor-conductor-de-programas-de-variedades",
-      "order": 31,
-      "sourceRow": 403
-    },
-    {
-      "id": "n0358",
+      "id": "n0433",
       "name": "VIZUETE ALEX",
       "meta": null,
       "categoryId": "mejor-conductor-de-programas-de-variedades",
-      "order": 32,
-      "sourceRow": 404
+      "order": 31,
+      "sourceRow": 453
     },
     {
-      "id": "n0359",
-      "name": "ZEA DANIEL",
-      "meta": null,
-      "categoryId": "mejor-conductor-de-programas-de-variedades",
-      "order": 33,
-      "sourceRow": 405
-    },
-    {
-      "id": "n0360",
+      "id": "n0434",
       "name": "AGUIRRE CAROLINA",
       "meta": null,
       "categoryId": "mejor-conductora-de-programas-de-variedades",
       "order": 0,
-      "sourceRow": 409
+      "sourceRow": 456
     },
     {
-      "id": "n0361",
-      "name": "ANGULO DENISSE",
-      "meta": null,
-      "categoryId": "mejor-conductora-de-programas-de-variedades",
-      "order": 1,
-      "sourceRow": 410
-    },
-    {
-      "id": "n0362",
+      "id": "n0435",
       "name": "ARCE AURA",
       "meta": null,
       "categoryId": "mejor-conductora-de-programas-de-variedades",
-      "order": 2,
-      "sourceRow": 411
+      "order": 1,
+      "sourceRow": 457
     },
     {
-      "id": "n0363",
-      "name": "BARREIRO KARIN",
+      "id": "n0436",
+      "name": "BARBERAN SOLEDAD",
+      "meta": null,
+      "categoryId": "mejor-conductora-de-programas-de-variedades",
+      "order": 2,
+      "sourceRow": 458
+    },
+    {
+      "id": "n0437",
+      "name": "BOADA ALEJANDRA",
       "meta": null,
       "categoryId": "mejor-conductora-de-programas-de-variedades",
       "order": 3,
-      "sourceRow": 412
+      "sourceRow": 459
     },
     {
-      "id": "n0364",
-      "name": "DIAZ GABY",
+      "id": "n0438",
+      "name": "CAICHE SOFIA",
       "meta": null,
       "categoryId": "mejor-conductora-de-programas-de-variedades",
       "order": 4,
-      "sourceRow": 413
+      "sourceRow": 460
     },
     {
-      "id": "n0365",
-      "name": "GAETE JACQUELINE",
+      "id": "n0439",
+      "name": "CEDEÑO LISSETTE",
       "meta": null,
       "categoryId": "mejor-conductora-de-programas-de-variedades",
       "order": 5,
-      "sourceRow": 414
+      "sourceRow": 461
     },
     {
-      "id": "n0366",
-      "name": "GALLARDO LEONELA",
+      "id": "n0440",
+      "name": "CHIRIBOGA NEBRASKA",
       "meta": null,
       "categoryId": "mejor-conductora-de-programas-de-variedades",
       "order": 6,
-      "sourceRow": 415
+      "sourceRow": 462
     },
     {
-      "id": "n0367",
-      "name": "GALVEZ TABATA",
+      "id": "n0441",
+      "name": "DÍAZ GABRIELA",
       "meta": null,
       "categoryId": "mejor-conductora-de-programas-de-variedades",
       "order": 7,
-      "sourceRow": 416
+      "sourceRow": 463
     },
     {
-      "id": "n0368",
-      "name": "GANCHOZO JOMAHIRA",
+      "id": "n0442",
+      "name": "DÍAZ MARIELA",
       "meta": null,
       "categoryId": "mejor-conductora-de-programas-de-variedades",
       "order": 8,
-      "sourceRow": 417
+      "sourceRow": 464
     },
     {
-      "id": "n0369",
-      "name": "GUERRERO SORAYA",
+      "id": "n0443",
+      "name": "ESPINOZA MELANIE",
       "meta": null,
       "categoryId": "mejor-conductora-de-programas-de-variedades",
       "order": 9,
-      "sourceRow": 418
+      "sourceRow": 465
     },
     {
-      "id": "n0370",
-      "name": "GUITIERREZ MARIA",
+      "id": "n0444",
+      "name": "GALLARDO JOSELYN",
       "meta": null,
       "categoryId": "mejor-conductora-de-programas-de-variedades",
       "order": 10,
-      "sourceRow": 419
+      "sourceRow": 466
     },
     {
-      "id": "n0371",
-      "name": "GUTIERRÉZ VALERIA",
+      "id": "n0445",
+      "name": "GANCHOZO JOMAHIRA",
       "meta": null,
       "categoryId": "mejor-conductora-de-programas-de-variedades",
       "order": 11,
-      "sourceRow": 420
+      "sourceRow": 467
     },
     {
-      "id": "n0372",
-      "name": "JACHO LARISA",
+      "id": "n0446",
+      "name": "GREY SAMANTHA",
       "meta": null,
       "categoryId": "mejor-conductora-de-programas-de-variedades",
       "order": 12,
-      "sourceRow": 421
+      "sourceRow": 468
     },
     {
-      "id": "n0373",
-      "name": "JAUME CAROLINA",
+      "id": "n0447",
+      "name": "GUERRERO EMMA",
       "meta": null,
       "categoryId": "mejor-conductora-de-programas-de-variedades",
       "order": 13,
-      "sourceRow": 422
+      "sourceRow": 469
     },
     {
-      "id": "n0374",
-      "name": "JIMBO CAZAR ANDREA",
+      "id": "n0448",
+      "name": "GUITIÉRREZ MARÍA DEL ROSARIO",
       "meta": null,
       "categoryId": "mejor-conductora-de-programas-de-variedades",
       "order": 14,
-      "sourceRow": 423
+      "sourceRow": 470
     },
     {
-      "id": "n0375",
-      "name": "LIMONGI VIRGINIA",
+      "id": "n0449",
+      "name": "GUTIÉRREZ VALERIA",
       "meta": null,
       "categoryId": "mejor-conductora-de-programas-de-variedades",
       "order": 15,
-      "sourceRow": 424
+      "sourceRow": 471
     },
     {
-      "id": "n0376",
-      "name": "MANZUR ANA LUCÍA",
+      "id": "n0450",
+      "name": "GUZMÁN GABRIELA",
       "meta": null,
       "categoryId": "mejor-conductora-de-programas-de-variedades",
       "order": 16,
-      "sourceRow": 425
+      "sourceRow": 472
     },
     {
-      "id": "n0377",
-      "name": "MELENDRES ANA",
+      "id": "n0451",
+      "name": "MACÍAS LUISA",
       "meta": null,
       "categoryId": "mejor-conductora-de-programas-de-variedades",
       "order": 17,
-      "sourceRow": 426
+      "sourceRow": 473
     },
     {
-      "id": "n0378",
-      "name": "MONTERO JASÚ",
+      "id": "n0452",
+      "name": "MENA VALERIA",
       "meta": null,
       "categoryId": "mejor-conductora-de-programas-de-variedades",
       "order": 18,
-      "sourceRow": 427
+      "sourceRow": 474
     },
     {
-      "id": "n0379",
-      "name": "NAVEDA CYNTHIA",
+      "id": "n0453",
+      "name": "MONTERO JASÚ",
       "meta": null,
       "categoryId": "mejor-conductora-de-programas-de-variedades",
       "order": 19,
-      "sourceRow": 428
+      "sourceRow": 475
     },
     {
-      "id": "n0380",
-      "name": "PASSAILAIGUE VANESSA",
+      "id": "n0454",
+      "name": "MOSCOSO ANTONELLA",
       "meta": null,
       "categoryId": "mejor-conductora-de-programas-de-variedades",
       "order": 20,
-      "sourceRow": 429
+      "sourceRow": 476
     },
     {
-      "id": "n0381",
-      "name": "PAZMIÑO GABRIELA",
+      "id": "n0455",
+      "name": "PACHECO MARIA MERCEDES",
       "meta": null,
       "categoryId": "mejor-conductora-de-programas-de-variedades",
       "order": 21,
-      "sourceRow": 430
+      "sourceRow": 477
     },
     {
-      "id": "n0382",
-      "name": "PÉREZ MARÍA FERNANDA",
+      "id": "n0456",
+      "name": "PARRALES PIN DANIELA EVELYN",
       "meta": null,
       "categoryId": "mejor-conductora-de-programas-de-variedades",
       "order": 22,
-      "sourceRow": 431
+      "sourceRow": 478
     },
     {
-      "id": "n0383",
-      "name": "PINCAY MICHELA",
+      "id": "n0457",
+      "name": "PAZMIÑO GABRIELA",
       "meta": null,
       "categoryId": "mejor-conductora-de-programas-de-variedades",
       "order": 23,
-      "sourceRow": 432
+      "sourceRow": 479
     },
     {
-      "id": "n0384",
-      "name": "ROSILLO WENDY",
+      "id": "n0458",
+      "name": "PINCAY MICHELA",
       "meta": null,
       "categoryId": "mejor-conductora-de-programas-de-variedades",
       "order": 24,
-      "sourceRow": 433
+      "sourceRow": 480
     },
     {
-      "id": "n0385",
-      "name": "RUBIRA NICOLE",
+      "id": "n0459",
+      "name": "ROMERO MARISOL",
       "meta": null,
       "categoryId": "mejor-conductora-de-programas-de-variedades",
       "order": 25,
-      "sourceRow": 434
+      "sourceRow": 481
     },
     {
-      "id": "n0386",
-      "name": "SABATÉ MARIAN",
+      "id": "n0460",
+      "name": "ROSILLO WENDY",
       "meta": null,
       "categoryId": "mejor-conductora-de-programas-de-variedades",
       "order": 26,
-      "sourceRow": 435
+      "sourceRow": 482
     },
     {
-      "id": "n0387",
-      "name": "SALTOS VERÓNICA",
+      "id": "n0461",
+      "name": "SABATÉ MARIAN",
       "meta": null,
       "categoryId": "mejor-conductora-de-programas-de-variedades",
       "order": 27,
-      "sourceRow": 436
+      "sourceRow": 483
     },
     {
-      "id": "n0388",
-      "name": "TERÁN GISEL",
+      "id": "n0462",
+      "name": "SALEM RENATA",
       "meta": null,
       "categoryId": "mejor-conductora-de-programas-de-variedades",
       "order": 28,
-      "sourceRow": 437
+      "sourceRow": 484
     },
     {
-      "id": "n0389",
-      "name": "TORRES SILVANA",
+      "id": "n0463",
+      "name": "STRENGE ÚRSULA",
       "meta": null,
       "categoryId": "mejor-conductora-de-programas-de-variedades",
       "order": 29,
-      "sourceRow": 438
+      "sourceRow": 485
     },
     {
-      "id": "n0390",
-      "name": "VALDEZ EMILIANA",
+      "id": "n0464",
+      "name": "TABACCHI DOMÉNICA",
       "meta": null,
       "categoryId": "mejor-conductora-de-programas-de-variedades",
       "order": 30,
-      "sourceRow": 439
+      "sourceRow": 486
     },
     {
-      "id": "n0391",
-      "name": "VÁSCONEZ ROSAELENA",
+      "id": "n0465",
+      "name": "TABACCHI GIOVANNA",
       "meta": null,
       "categoryId": "mejor-conductora-de-programas-de-variedades",
       "order": 31,
-      "sourceRow": 440
+      "sourceRow": 487
     },
     {
-      "id": "n0392",
-      "name": "VITERI MARIELA",
+      "id": "n0466",
+      "name": "TORRES SILVANA",
       "meta": null,
       "categoryId": "mejor-conductora-de-programas-de-variedades",
       "order": 32,
-      "sourceRow": 441
+      "sourceRow": 488
     },
     {
-      "id": "n0393",
-      "name": "WEST DORA",
+      "id": "n0467",
+      "name": "VÁSCONEZ ROSAELENA",
       "meta": null,
       "categoryId": "mejor-conductora-de-programas-de-variedades",
       "order": 33,
-      "sourceRow": 442
+      "sourceRow": 489
     },
     {
-      "id": "n0394",
-      "name": "AGÁRRATE",
-      "meta": "TELEPREMIERE",
+      "id": "n0468",
+      "name": "VITERI MARIELA",
+      "meta": null,
+      "categoryId": "mejor-conductora-de-programas-de-variedades",
+      "order": 34,
+      "sourceRow": 490
+    },
+    {
+      "id": "n0469",
+      "name": "WEST DORA",
+      "meta": null,
+      "categoryId": "mejor-conductora-de-programas-de-variedades",
+      "order": 35,
+      "sourceRow": 491
+    },
+    {
+      "id": "n0470",
+      "name": "ZAMBRANO LEONELA",
+      "meta": null,
+      "categoryId": "mejor-conductora-de-programas-de-variedades",
+      "order": 36,
+      "sourceRow": 492
+    },
+    {
+      "id": "n0471",
+      "name": "ZAMBRANO MILY",
+      "meta": null,
+      "categoryId": "mejor-conductora-de-programas-de-variedades",
+      "order": 37,
+      "sourceRow": 493
+    },
+    {
+      "id": "n0472",
+      "name": "5G",
+      "meta": "PODCAST MARCA 90",
       "categoryId": "mejor-programa-de-variedades",
       "order": 0,
-      "sourceRow": 446
+      "sourceRow": 496
     },
     {
-      "id": "n0395",
+      "id": "n0473",
       "name": "AMÉRICA VIVE",
       "meta": "TELEAMAZONAS",
       "categoryId": "mejor-programa-de-variedades",
       "order": 1,
-      "sourceRow": 447
+      "sourceRow": 497
     },
     {
-      "id": "n0396",
-      "name": "CALIENTITOS TV",
-      "meta": null,
+      "id": "n0474",
+      "name": "ARMONÍA",
+      "meta": "WUAN+.TV",
       "categoryId": "mejor-programa-de-variedades",
       "order": 2,
-      "sourceRow": 448
+      "sourceRow": 498
     },
     {
-      "id": "n0397",
-      "name": "CHEF BIGOTE",
-      "meta": "ECUADOR TV",
+      "id": "n0475",
+      "name": "BAJO LA LUNA",
+      "meta": "WE CANAL",
       "categoryId": "mejor-programa-de-variedades",
       "order": 3,
-      "sourceRow": 449
+      "sourceRow": 499
     },
     {
-      "id": "n0398",
+      "id": "n0476",
+      "name": "BUENOS DÍAS TVC",
+      "meta": "TVC",
+      "categoryId": "mejor-programa-de-variedades",
+      "order": 4,
+      "sourceRow": 500
+    },
+    {
+      "id": "n0477",
+      "name": "CALIENTITOS TV",
+      "meta": "FACEBOOK",
+      "categoryId": "mejor-programa-de-variedades",
+      "order": 5,
+      "sourceRow": 501
+    },
+    {
+      "id": "n0478",
+      "name": "CALIENTITOSTV4K",
+      "meta": null,
+      "categoryId": "mejor-programa-de-variedades",
+      "order": 6,
+      "sourceRow": 502
+    },
+    {
+      "id": "n0479",
+      "name": "CAMBIO DE PLANES",
+      "meta": "MARCA 90",
+      "categoryId": "mejor-programa-de-variedades",
+      "order": 7,
+      "sourceRow": 503
+    },
+    {
+      "id": "n0480",
       "name": "COCINEMOS CON MARIELA",
       "meta": "MARIELA TV",
       "categoryId": "mejor-programa-de-variedades",
-      "order": 4,
-      "sourceRow": 450
+      "order": 8,
+      "sourceRow": 504
     },
     {
-      "id": "n0399",
+      "id": "n0481",
+      "name": "D'MENTE ABIERTA",
+      "meta": "PODCAST",
+      "categoryId": "mejor-programa-de-variedades",
+      "order": 9,
+      "sourceRow": 505
+    },
+    {
+      "id": "n0482",
       "name": "DE CASA EN CASA",
       "meta": "TC TELEVISIÓN",
       "categoryId": "mejor-programa-de-variedades",
-      "order": 5,
-      "sourceRow": 451
+      "order": 10,
+      "sourceRow": 506
     },
     {
-      "id": "n0400",
+      "id": "n0483",
       "name": "DÍA A DÍA",
       "meta": "TELEAMAZONAS",
       "categoryId": "mejor-programa-de-variedades",
-      "order": 6,
-      "sourceRow": 452
+      "order": 11,
+      "sourceRow": 507
     },
     {
-      "id": "n0401",
-      "name": "DOCTOR 7",
-      "meta": "ECUADOR TV",
+      "id": "n0484",
+      "name": "DOS GENERACIONES",
+      "meta": "PODCAST",
       "categoryId": "mejor-programa-de-variedades",
-      "order": 7,
-      "sourceRow": 453
+      "order": 12,
+      "sourceRow": 508
     },
     {
-      "id": "n0402",
-      "name": "CÓMPLICES",
-      "meta": "ETV TELERAMA DIGITAL",
-      "categoryId": "mejor-programa-de-variedades",
-      "order": 8,
-      "sourceRow": 454
-    },
-    {
-      "id": "n0403",
+      "id": "n0485",
       "name": "EL AFTER",
       "meta": "TELEAMAZONAS",
       "categoryId": "mejor-programa-de-variedades",
-      "order": 9,
-      "sourceRow": 455
+      "order": 13,
+      "sourceRow": 509
     },
     {
-      "id": "n0404",
-      "name": "EL CLUB DE LA COCINA",
-      "meta": "GAMAVISION",
-      "categoryId": "mejor-programa-de-variedades",
-      "order": 10,
-      "sourceRow": 456
-    },
-    {
-      "id": "n0405",
-      "name": "EL HUECO DE JONATHAN ESTRADA",
-      "meta": null,
-      "categoryId": "mejor-programa-de-variedades",
-      "order": 11,
-      "sourceRow": 457
-    },
-    {
-      "id": "n0406",
-      "name": "BUSCADOR EN RED",
+      "id": "n0486",
+      "name": "EL BUSCADOR EN RED",
       "meta": "TELEAMAZONAS",
       "categoryId": "mejor-programa-de-variedades",
-      "order": 12,
-      "sourceRow": 458
-    },
-    {
-      "id": "n0407",
-      "name": "EL CUENTEO",
-      "meta": "ARMONÍA TV",
-      "categoryId": "mejor-programa-de-variedades",
-      "order": 13,
-      "sourceRow": 459
-    },
-    {
-      "id": "n0408",
-      "name": "BLN EL REGRESO",
-      "meta": "GAMA",
-      "categoryId": "mejor-programa-de-variedades",
       "order": 14,
-      "sourceRow": 460
+      "sourceRow": 510
     },
     {
-      "id": "n0409",
+      "id": "n0487",
+      "name": "EL HUECO DE JONATHAN ESTRADA",
+      "meta": "BUBU_BUENHUMORTV (Youtube)",
+      "categoryId": "mejor-programa-de-variedades",
+      "order": 15,
+      "sourceRow": 511
+    },
+    {
+      "id": "n0488",
+      "name": "EL PABELLÓN",
+      "meta": null,
+      "categoryId": "mejor-programa-de-variedades",
+      "order": 16,
+      "sourceRow": 512
+    },
+    {
+      "id": "n0489",
+      "name": "EL TEAM",
+      "meta": "PODCAST MARCA 90",
+      "categoryId": "mejor-programa-de-variedades",
+      "order": 17,
+      "sourceRow": 513
+    },
+    {
+      "id": "n0490",
       "name": "EN CONTACTO",
       "meta": "ECUAVISA",
       "categoryId": "mejor-programa-de-variedades",
-      "order": 15,
-      "sourceRow": 461
-    },
-    {
-      "id": "n0410",
-      "name": "ENTRE FLASHES",
-      "meta": "ECUAVISA",
-      "categoryId": "mejor-programa-de-variedades",
-      "order": 16,
-      "sourceRow": 462
-    },
-    {
-      "id": "n0411",
-      "name": "ESTA ES TU CASA",
-      "meta": null,
-      "categoryId": "mejor-programa-de-variedades",
-      "order": 17,
-      "sourceRow": 463
-    },
-    {
-      "id": "n0412",
-      "name": "FUULL FARÁNDULA",
-      "meta": null,
-      "categoryId": "mejor-programa-de-variedades",
       "order": 18,
-      "sourceRow": 464
+      "sourceRow": 514
     },
     {
-      "id": "n0413",
-      "name": "HACIA UN NUEVO ESTILO DE VIDA",
-      "meta": "ECUAVISA",
+      "id": "n0491",
+      "name": "EN CORTO",
+      "meta": "TELEAMAZONAS",
       "categoryId": "mejor-programa-de-variedades",
       "order": 19,
-      "sourceRow": 465
+      "sourceRow": 515
     },
     {
-      "id": "n0414",
-      "name": "HUEVOS FRITOS",
+      "id": "n0492",
+      "name": "ENLACE RCD",
       "meta": null,
       "categoryId": "mejor-programa-de-variedades",
       "order": 20,
-      "sourceRow": 466
+      "sourceRow": 516
     },
     {
-      "id": "n0415",
-      "name": "LOS HACKERS DE LA FARÁNDULA",
+      "id": "n0493",
+      "name": "ENTRE FLASHES",
       "meta": "ECUAVISA",
       "categoryId": "mejor-programa-de-variedades",
       "order": 21,
-      "sourceRow": 467
+      "sourceRow": 517
     },
     {
-      "id": "n0416",
-      "name": "N´BOGA",
-      "meta": "ETV TELERAMA",
+      "id": "n0494",
+      "name": "ESTA MAÑANA",
+      "meta": "TELEAMAZONAS",
       "categoryId": "mejor-programa-de-variedades",
       "order": 22,
-      "sourceRow": 468
+      "sourceRow": 518
     },
     {
-      "id": "n0417",
+      "id": "n0495",
+      "name": "FOCUS - LA HORA",
+      "meta": "PODCAST",
+      "categoryId": "mejor-programa-de-variedades",
+      "order": 23,
+      "sourceRow": 519
+    },
+    {
+      "id": "n0496",
+      "name": "FORBES ECUADOR",
+      "meta": "PODCAST",
+      "categoryId": "mejor-programa-de-variedades",
+      "order": 24,
+      "sourceRow": 520
+    },
+    {
+      "id": "n0497",
+      "name": "FULL FARÁNDULA",
+      "meta": "VITOTVO CANAL 15 XTRIM / YOUTUBE",
+      "categoryId": "mejor-programa-de-variedades",
+      "order": 25,
+      "sourceRow": 521
+    },
+    {
+      "id": "n0498",
+      "name": "FÚTBOL SIN CASSETTE",
+      "meta": null,
+      "categoryId": "mejor-programa-de-variedades",
+      "order": 26,
+      "sourceRow": 522
+    },
+    {
+      "id": "n0499",
+      "name": "HACIA UN NUEVO ESTILO DE VIDA",
+      "meta": "ECUAVISA",
+      "categoryId": "mejor-programa-de-variedades",
+      "order": 27,
+      "sourceRow": 523
+    },
+    {
+      "id": "n0500",
+      "name": "HOY",
+      "meta": "VITOTVO CANAL 15 XTRIM / YOUTUBE",
+      "categoryId": "mejor-programa-de-variedades",
+      "order": 28,
+      "sourceRow": 524
+    },
+    {
+      "id": "n0501",
+      "name": "HUEVOS FRITOS",
+      "meta": "CANAL ARMONÍA TV (Youtube)",
+      "categoryId": "mejor-programa-de-variedades",
+      "order": 29,
+      "sourceRow": 525
+    },
+    {
+      "id": "n0502",
+      "name": "HUMITO 90",
+      "meta": "POSCAST MARCA 90",
+      "categoryId": "mejor-programa-de-variedades",
+      "order": 30,
+      "sourceRow": 526
+    },
+    {
+      "id": "n0503",
+      "name": "LA MICHY EN...",
+      "meta": "PODCAST MARCA 90",
+      "categoryId": "mejor-programa-de-variedades",
+      "order": 31,
+      "sourceRow": 527
+    },
+    {
+      "id": "n0504",
+      "name": "LA REACCIÓN",
+      "meta": "PODCAST MARCA 90",
+      "categoryId": "mejor-programa-de-variedades",
+      "order": 32,
+      "sourceRow": 528
+    },
+    {
+      "id": "n0505",
+      "name": "LANZANDO VENENO",
+      "meta": "STAR PRIDE",
+      "categoryId": "mejor-programa-de-variedades",
+      "order": 33,
+      "sourceRow": 529
+    },
+    {
+      "id": "n0506",
+      "name": "LOS HACKERS DEL ESPECTÁCULO",
+      "meta": "ECUAVISA",
+      "categoryId": "mejor-programa-de-variedades",
+      "order": 34,
+      "sourceRow": 530
+    },
+    {
+      "id": "n0507",
+      "name": "LOS HUMILDES",
+      "meta": "PODCAST MARCA 90",
+      "categoryId": "mejor-programa-de-variedades",
+      "order": 35,
+      "sourceRow": 531
+    },
+    {
+      "id": "n0508",
       "name": "NO-NOTICIAS",
       "meta": "TELEAMAZONAS",
       "categoryId": "mejor-programa-de-variedades",
-      "order": 23,
-      "sourceRow": 469
+      "order": 36,
+      "sourceRow": 532
     },
     {
-      "id": "n0418",
-      "name": "NORRIS VIAJANDO",
-      "meta": null,
+      "id": "n0509",
+      "name": "NOTICIAS DE LA MAÑANA",
+      "meta": "RTS",
       "categoryId": "mejor-programa-de-variedades",
-      "order": 24,
-      "sourceRow": 470
+      "order": 37,
+      "sourceRow": 533
     },
     {
-      "id": "n0419",
-      "name": "SOY EL MEJOR",
-      "meta": "TC TELEVISIÓN",
-      "categoryId": "mejor-programa-de-variedades",
-      "order": 25,
-      "sourceRow": 471
-    },
-    {
-      "id": "n0420",
-      "name": "YO ME LLAMO",
-      "meta": "TELEAMAZONAS",
-      "categoryId": "mejor-programa-de-variedades",
-      "order": 26,
-      "sourceRow": 472
-    },
-    {
-      "id": "n0421",
-      "name": "MASTER CHEF",
-      "meta": "TELEAMAZONAS",
-      "categoryId": "mejor-programa-de-variedades",
-      "order": 27,
-      "sourceRow": 473
-    },
-    {
-      "id": "n0422",
+      "id": "n0510",
       "name": "PANORAMA INTERNACIONAL",
       "meta": "ECUAVISA",
       "categoryId": "mejor-programa-de-variedades",
-      "order": 28,
-      "sourceRow": 474
+      "order": 38,
+      "sourceRow": 534
     },
     {
-      "id": "n0423",
-      "name": "ALVAREZ DIEGO (DON DAY)",
+      "id": "n0511",
+      "name": "PUNTO Y APARTE",
+      "meta": "PODCAST DE MARCA 90",
+      "categoryId": "mejor-programa-de-variedades",
+      "order": 39,
+      "sourceRow": 535
+    },
+    {
+      "id": "n0512",
+      "name": "SORBITO DE OPINIÓN",
+      "meta": null,
+      "categoryId": "mejor-programa-de-variedades",
+      "order": 40,
+      "sourceRow": 536
+    },
+    {
+      "id": "n0513",
+      "name": "UN SHOW EN 4",
+      "meta": "PODCAST",
+      "categoryId": "mejor-programa-de-variedades",
+      "order": 41,
+      "sourceRow": 537
+    },
+    {
+      "id": "n0514",
+      "name": "ARÁUZ VÍCTOR",
+      "meta": null,
+      "categoryId": "mejor-animador-de-programa-de-concursos",
+      "order": 0,
+      "sourceRow": 540
+    },
+    {
+      "id": "n0515",
+      "name": "FARINA RONALD",
+      "meta": null,
+      "categoryId": "mejor-animador-de-programa-de-concursos",
+      "order": 1,
+      "sourceRow": 541
+    },
+    {
+      "id": "n0516",
+      "name": "HEREDIA JORGE",
+      "meta": null,
+      "categoryId": "mejor-animador-de-programa-de-concursos",
+      "order": 2,
+      "sourceRow": 542
+    },
+    {
+      "id": "n0517",
+      "name": "MATAMOROS CARLOS JOSÉ",
+      "meta": null,
+      "categoryId": "mejor-animador-de-programa-de-concursos",
+      "order": 3,
+      "sourceRow": 543
+    },
+    {
+      "id": "n0518",
+      "name": "ANGULO DENISSE",
+      "meta": null,
+      "categoryId": "mejor-animadora-de-programa-de-concursos",
+      "order": 0,
+      "sourceRow": 546
+    },
+    {
+      "id": "n0519",
+      "name": "BARREIRO KARIN",
+      "meta": null,
+      "categoryId": "mejor-animadora-de-programa-de-concursos",
+      "order": 1,
+      "sourceRow": 547
+    },
+    {
+      "id": "n0520",
+      "name": "LIMONGI VIRGINIA",
+      "meta": null,
+      "categoryId": "mejor-animadora-de-programa-de-concursos",
+      "order": 2,
+      "sourceRow": 548
+    },
+    {
+      "id": "n0521",
+      "name": "ORELLANA ANGELA",
+      "meta": null,
+      "categoryId": "mejor-animadora-de-programa-de-concursos",
+      "order": 3,
+      "sourceRow": 549
+    },
+    {
+      "id": "n0522",
+      "name": "VALDEZ EMILIANA",
+      "meta": null,
+      "categoryId": "mejor-animadora-de-programa-de-concursos",
+      "order": 4,
+      "sourceRow": 550
+    },
+    {
+      "id": "n0523",
+      "name": "100 ECUATORIANOS DICEN",
+      "meta": "TELEAMAZONAS",
+      "categoryId": "mejor-programa-de-concursos",
+      "order": 0,
+      "sourceRow": 553
+    },
+    {
+      "id": "n0524",
+      "name": "AHORA CAIGO",
+      "meta": "TELEAMAZONAS",
+      "categoryId": "mejor-programa-de-concursos",
+      "order": 1,
+      "sourceRow": 554
+    },
+    {
+      "id": "n0525",
+      "name": "BLN LA COMPETENCIA",
+      "meta": "OROMAR TV",
+      "categoryId": "mejor-programa-de-concursos",
+      "order": 2,
+      "sourceRow": 555
+    },
+    {
+      "id": "n0526",
+      "name": "COMBATE",
+      "meta": "RTS",
+      "categoryId": "mejor-programa-de-concursos",
+      "order": 3,
+      "sourceRow": 556
+    },
+    {
+      "id": "n0527",
+      "name": "MASTER CHEF",
+      "meta": "TELEAMAZONAS",
+      "categoryId": "mejor-programa-de-concursos",
+      "order": 4,
+      "sourceRow": 557
+    },
+    {
+      "id": "n0528",
+      "name": "SOY EL MEJOR",
+      "meta": "TC TELEVISIÓN",
+      "categoryId": "mejor-programa-de-concursos",
+      "order": 5,
+      "sourceRow": 558
+    },
+    {
+      "id": "n0529",
+      "name": "ARANDA JORGE",
       "meta": null,
       "categoryId": "mejor-actor",
       "order": 0,
-      "sourceRow": 480
+      "sourceRow": 561
     },
     {
-      "id": "n0424",
+      "id": "n0530",
       "name": "ARÁUZ VÍCTOR",
       "meta": null,
       "categoryId": "mejor-actor",
       "order": 1,
-      "sourceRow": 481
+      "sourceRow": 562
     },
     {
-      "id": "n0425",
+      "id": "n0531",
+      "name": "BONILLA FRANK",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "order": 2,
+      "sourceRow": 563
+    },
+    {
+      "id": "n0532",
+      "name": "CABALLERO JOSE",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "order": 3,
+      "sourceRow": 564
+    },
+    {
+      "id": "n0533",
+      "name": "CALDERÓN NEY",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "order": 4,
+      "sourceRow": 565
+    },
+    {
+      "id": "n0534",
       "name": "CALLE MARTÍN",
       "meta": null,
       "categoryId": "mejor-actor",
-      "order": 2,
-      "sourceRow": 482
+      "order": 5,
+      "sourceRow": 566
     },
     {
-      "id": "n0426",
+      "id": "n0535",
       "name": "CAMPOZANO JORGE",
       "meta": null,
       "categoryId": "mejor-actor",
-      "order": 3,
-      "sourceRow": 483
+      "order": 6,
+      "sourceRow": 567
     },
     {
-      "id": "n0427",
-      "name": "ESKANDAR ISSAM",
+      "id": "n0536",
+      "name": "DELGADO TOMÁS",
       "meta": null,
       "categoryId": "mejor-actor",
-      "order": 4,
-      "sourceRow": 484
+      "order": 7,
+      "sourceRow": 568
     },
     {
-      "id": "n0428",
-      "name": "ESTÉVEZ DANILO",
+      "id": "n0537",
+      "name": "DÍAZ JESÚS",
       "meta": null,
       "categoryId": "mejor-actor",
-      "order": 5,
-      "sourceRow": 485
+      "order": 8,
+      "sourceRow": 569
     },
     {
-      "id": "n0429",
+      "id": "n0538",
+      "name": "DUCHELY MARCO",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "order": 9,
+      "sourceRow": 570
+    },
+    {
+      "id": "n0539",
+      "name": "ESPAÑA HENRY",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "order": 10,
+      "sourceRow": 571
+    },
+    {
+      "id": "n0540",
+      "name": "ESTEVES DANILO",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "order": 11,
+      "sourceRow": 572
+    },
+    {
+      "id": "n0541",
+      "name": "FALCÓN MAURO \"KACHAFA\"",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "order": 12,
+      "sourceRow": 573
+    },
+    {
+      "id": "n0542",
       "name": "GALLARDO GABRIEL",
       "meta": null,
       "categoryId": "mejor-actor",
-      "order": 6,
-      "sourceRow": 486
-    },
-    {
-      "id": "n0430",
-      "name": "GONZÁLEZ JOSUÉ",
-      "meta": null,
-      "categoryId": "mejor-actor",
-      "order": 7,
-      "sourceRow": 487
-    },
-    {
-      "id": "n0431",
-      "name": "HERRERA ORLANDO",
-      "meta": null,
-      "categoryId": "mejor-actor",
-      "order": 8,
-      "sourceRow": 488
-    },
-    {
-      "id": "n0432",
-      "name": "MOREIRA LEONARDO",
-      "meta": null,
-      "categoryId": "mejor-actor",
-      "order": 9,
-      "sourceRow": 489
-    },
-    {
-      "id": "n0433",
-      "name": "MORENO IÑAKI",
-      "meta": null,
-      "categoryId": "mejor-actor",
-      "order": 10,
-      "sourceRow": 490
-    },
-    {
-      "id": "n0434",
-      "name": "MOROCHO EMERSON",
-      "meta": null,
-      "categoryId": "mejor-actor",
-      "order": 11,
-      "sourceRow": 491
-    },
-    {
-      "id": "n0435",
-      "name": "MURILLO ISIDRO",
-      "meta": null,
-      "categoryId": "mejor-actor",
-      "order": 12,
-      "sourceRow": 492
-    },
-    {
-      "id": "n0436",
-      "name": "NARANJO SANTIAGO",
-      "meta": null,
-      "categoryId": "mejor-actor",
       "order": 13,
-      "sourceRow": 493
+      "sourceRow": 574
     },
     {
-      "id": "n0437",
-      "name": "PÉREZ STALIN",
+      "id": "n0543",
+      "name": "GÁLVEZ FERNANDO",
       "meta": null,
       "categoryId": "mejor-actor",
       "order": 14,
-      "sourceRow": 494
+      "sourceRow": 575
     },
     {
-      "id": "n0438",
-      "name": "QUINDE JERSON",
+      "id": "n0544",
+      "name": "GARCÍA JOSÉ",
       "meta": null,
       "categoryId": "mejor-actor",
       "order": 15,
-      "sourceRow": 495
+      "sourceRow": 576
     },
     {
-      "id": "n0439",
-      "name": "QUIÑÓNEZ ORLANDO",
+      "id": "n0545",
+      "name": "GARCÍA LUIS FERNANDO",
       "meta": null,
       "categoryId": "mejor-actor",
       "order": 16,
-      "sourceRow": 496
+      "sourceRow": 577
     },
     {
-      "id": "n0440",
-      "name": "RÍOS CHRISTIAN",
+      "id": "n0546",
+      "name": "GARZÓN ANDRÉS",
       "meta": null,
       "categoryId": "mejor-actor",
       "order": 17,
-      "sourceRow": 497
+      "sourceRow": 578
     },
     {
-      "id": "n0441",
-      "name": "ROMÁN JUAN CARLOS",
+      "id": "n0547",
+      "name": "GOMEZ NEXAR",
       "meta": null,
       "categoryId": "mejor-actor",
       "order": 18,
-      "sourceRow": 498
+      "sourceRow": 579
     },
     {
-      "id": "n0442",
-      "name": "SANTANA RAUL",
+      "id": "n0548",
+      "name": "HERRERA ORLANDO",
       "meta": null,
       "categoryId": "mejor-actor",
       "order": 19,
-      "sourceRow": 499
+      "sourceRow": 580
     },
     {
-      "id": "n0443",
-      "name": "ULLOA DIEGO",
+      "id": "n0549",
+      "name": "LARREA JONINO",
       "meta": null,
       "categoryId": "mejor-actor",
       "order": 20,
-      "sourceRow": 500
+      "sourceRow": 581
     },
     {
-      "id": "n0444",
-      "name": "ULLOA JORGE",
+      "id": "n0550",
+      "name": "LENNYN GUIMPELEVICH",
       "meta": null,
       "categoryId": "mejor-actor",
       "order": 21,
-      "sourceRow": 501
+      "sourceRow": 582
     },
     {
-      "id": "n0445",
-      "name": "VIZUETE ALEX",
+      "id": "n0551",
+      "name": "MAQUILÓN CHRISTIAN",
       "meta": null,
       "categoryId": "mejor-actor",
       "order": 22,
-      "sourceRow": 502
+      "sourceRow": 583
     },
     {
-      "id": "n0446",
-      "name": "ARÁUZ NATALIA",
+      "id": "n0552",
+      "name": "MARURI EDUARDO",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "order": 23,
+      "sourceRow": 584
+    },
+    {
+      "id": "n0553",
+      "name": "MOREIRA LEONARDO",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "order": 24,
+      "sourceRow": 585
+    },
+    {
+      "id": "n0554",
+      "name": "MOROCHO EMERSON",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "order": 25,
+      "sourceRow": 586
+    },
+    {
+      "id": "n0555",
+      "name": "NAVAS STEFANO",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "order": 26,
+      "sourceRow": 587
+    },
+    {
+      "id": "n0556",
+      "name": "PERAZA ADRIÁN",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "order": 27,
+      "sourceRow": 588
+    },
+    {
+      "id": "n0557",
+      "name": "QUINDE GERSON",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "order": 28,
+      "sourceRow": 589
+    },
+    {
+      "id": "n0558",
+      "name": "REINOSO DAVID",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "order": 29,
+      "sourceRow": 590
+    },
+    {
+      "id": "n0559",
+      "name": "ROMÁN JUAN CARLOS",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "order": 30,
+      "sourceRow": 591
+    },
+    {
+      "id": "n0560",
+      "name": "RUALES PABLO",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "order": 31,
+      "sourceRow": 592
+    },
+    {
+      "id": "n0561",
+      "name": "SEGURA OSWALDO",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "order": 32,
+      "sourceRow": 593
+    },
+    {
+      "id": "n0562",
+      "name": "SPOTORNO DIEGO",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "order": 33,
+      "sourceRow": 594
+    },
+    {
+      "id": "n0563",
+      "name": "STEVE MICHAEL",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "order": 34,
+      "sourceRow": 595
+    },
+    {
+      "id": "n0564",
+      "name": "TAMARIZ JAIME",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "order": 35,
+      "sourceRow": 596
+    },
+    {
+      "id": "n0565",
+      "name": "TAMAYO SEBASTIÁN",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "order": 36,
+      "sourceRow": 597
+    },
+    {
+      "id": "n0566",
+      "name": "TAPIA FABIÁN",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "order": 37,
+      "sourceRow": 598
+    },
+    {
+      "id": "n0567",
+      "name": "VELASTEGUI RICARDO",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "order": 38,
+      "sourceRow": 599
+    },
+    {
+      "id": "n0568",
+      "name": "VERA ISMAEL",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "order": 39,
+      "sourceRow": 600
+    },
+    {
+      "id": "n0569",
+      "name": "VERA ISRAEL",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "order": 40,
+      "sourceRow": 601
+    },
+    {
+      "id": "n0570",
+      "name": "VERA JOHANN",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "order": 41,
+      "sourceRow": 602
+    },
+    {
+      "id": "n0571",
+      "name": "VILLARROEL FERNANDO",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "order": 42,
+      "sourceRow": 603
+    },
+    {
+      "id": "n0572",
+      "name": "VIZUETE ALEX",
+      "meta": null,
+      "categoryId": "mejor-actor",
+      "order": 43,
+      "sourceRow": 604
+    },
+    {
+      "id": "n0573",
+      "name": "AURA GLORIA",
       "meta": null,
       "categoryId": "mejor-actriz",
       "order": 0,
-      "sourceRow": 506
+      "sourceRow": 607
     },
     {
-      "id": "n0447",
-      "name": "CASCANTE CECILIA",
+      "id": "n0574",
+      "name": "BRUNO CARLA",
       "meta": null,
       "categoryId": "mejor-actriz",
       "order": 1,
-      "sourceRow": 507
+      "sourceRow": 608
     },
     {
-      "id": "n0448",
-      "name": "CEVALLOS MARÍA EMILIA",
+      "id": "n0575",
+      "name": "CAICHE SOFÍA",
       "meta": null,
       "categoryId": "mejor-actriz",
       "order": 2,
-      "sourceRow": 508
+      "sourceRow": 609
     },
     {
-      "id": "n0449",
-      "name": "GANCHOZO JOMAHIRA",
+      "id": "n0576",
+      "name": "CASCANTE CECILIA",
       "meta": null,
       "categoryId": "mejor-actriz",
       "order": 3,
-      "sourceRow": 509
+      "sourceRow": 610
     },
     {
-      "id": "n0450",
-      "name": "GUERRERO EMMA",
+      "id": "n0577",
+      "name": "CEDEÑO PALOMA",
       "meta": null,
       "categoryId": "mejor-actriz",
       "order": 4,
-      "sourceRow": 510
+      "sourceRow": 611
     },
     {
-      "id": "n0451",
-      "name": "MANZO ADRIANA",
+      "id": "n0578",
+      "name": "COELLO RUTH",
       "meta": null,
       "categoryId": "mejor-actriz",
       "order": 5,
-      "sourceRow": 511
+      "sourceRow": 612
     },
     {
-      "id": "n0452",
-      "name": "MIELES GILLIAM",
+      "id": "n0579",
+      "name": "COLOMA FÁTIMA",
       "meta": null,
       "categoryId": "mejor-actriz",
       "order": 6,
-      "sourceRow": 512
+      "sourceRow": 613
     },
     {
-      "id": "n0453",
-      "name": "MURILLO MIRIAM",
+      "id": "n0580",
+      "name": "CORDOVA SCARLETT",
       "meta": null,
       "categoryId": "mejor-actriz",
       "order": 7,
-      "sourceRow": 513
+      "sourceRow": 614
     },
     {
-      "id": "n0454",
-      "name": "PAREDES ALEJANDRA",
+      "id": "n0581",
+      "name": "DONGGILIO MARÍA GRATZIA",
       "meta": null,
       "categoryId": "mejor-actriz",
       "order": 8,
-      "sourceRow": 514
+      "sourceRow": 615
     },
     {
-      "id": "n0455",
-      "name": "PÉREZ MARÍA FERNANDA",
+      "id": "n0582",
+      "name": "GALLARDO JOSELYN",
       "meta": null,
       "categoryId": "mejor-actriz",
       "order": 9,
-      "sourceRow": 515
+      "sourceRow": 616
     },
     {
-      "id": "n0456",
-      "name": "RUSSO ERIKA",
+      "id": "n0583",
+      "name": "GARCÉS CONNY",
       "meta": null,
       "categoryId": "mejor-actriz",
       "order": 10,
-      "sourceRow": 516
+      "sourceRow": 617
     },
     {
-      "id": "n0457",
-      "name": "SALAME VIVIANA",
+      "id": "n0584",
+      "name": "GÓMEZ MARÍA KARLA",
       "meta": null,
       "categoryId": "mejor-actriz",
       "order": 11,
-      "sourceRow": 517
+      "sourceRow": 618
     },
     {
-      "id": "n0458",
-      "name": "SALEM RENATA",
+      "id": "n0585",
+      "name": "GONZÁLEZ ELBA",
       "meta": null,
       "categoryId": "mejor-actriz",
       "order": 12,
-      "sourceRow": 518
+      "sourceRow": 619
     },
     {
-      "id": "n0459",
-      "name": "SAMBRANO PAMELA",
+      "id": "n0586",
+      "name": "MIELES GILLIAM",
       "meta": null,
       "categoryId": "mejor-actriz",
       "order": 13,
-      "sourceRow": 519
+      "sourceRow": 620
     },
     {
-      "id": "n0460",
-      "name": "VALENCIA NATALY",
+      "id": "n0587",
+      "name": "MURILLO MIRIAM",
       "meta": null,
       "categoryId": "mejor-actriz",
       "order": 14,
-      "sourceRow": 520
+      "sourceRow": 621
     },
     {
-      "id": "n0461",
-      "name": "VELIZ FABIOLA",
+      "id": "n0588",
+      "name": "PALOMEQUE FLOR MARÍA",
       "meta": null,
       "categoryId": "mejor-actriz",
       "order": 15,
-      "sourceRow": 521
+      "sourceRow": 622
     },
     {
-      "id": "n0462",
-      "name": "VILLAMAR RAQUEL",
+      "id": "n0589",
+      "name": "ROMERO ALLISON",
       "meta": null,
       "categoryId": "mejor-actriz",
       "order": 16,
-      "sourceRow": 522
+      "sourceRow": 623
+    },
+    {
+      "id": "n0590",
+      "name": "RUETE MARCELA",
+      "meta": null,
+      "categoryId": "mejor-actriz",
+      "order": 17,
+      "sourceRow": 624
+    },
+    {
+      "id": "n0591",
+      "name": "SALAME VIVIANA",
+      "meta": null,
+      "categoryId": "mejor-actriz",
+      "order": 18,
+      "sourceRow": 625
+    },
+    {
+      "id": "n0592",
+      "name": "VARGAS JACQUELINE",
+      "meta": null,
+      "categoryId": "mejor-actriz",
+      "order": 19,
+      "sourceRow": 626
+    },
+    {
+      "id": "n0593",
+      "name": "VELASTEGUÍ CATHERINE",
+      "meta": null,
+      "categoryId": "mejor-actriz",
+      "order": 20,
+      "sourceRow": 627
+    },
+    {
+      "id": "n0594",
+      "name": "Alex Vizuete",
+      "meta": "@alexvizuete",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 0,
+      "sourceRow": 630
+    },
+    {
+      "id": "n0595",
+      "name": "Andrea Navarrete",
+      "meta": "@andreanmakeup",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 1,
+      "sourceRow": 631
+    },
+    {
+      "id": "n0596",
+      "name": "Andrea Rendón",
+      "meta": "@rendonandrea",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 2,
+      "sourceRow": 632
+    },
+    {
+      "id": "n0597",
+      "name": "Andreina Bravo",
+      "meta": "@andreinabravoo",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 3,
+      "sourceRow": 633
+    },
+    {
+      "id": "n0598",
+      "name": "Carlos Luis Andrade",
+      "meta": "@carlosluisandradeoficial",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 4,
+      "sourceRow": 634
+    },
+    {
+      "id": "n0599",
+      "name": "Carlos Scavone",
+      "meta": "@carlosscavone",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 5,
+      "sourceRow": 635
+    },
+    {
+      "id": "n0600",
+      "name": "Carolina Jaume",
+      "meta": "@carolinajaume",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 6,
+      "sourceRow": 636
+    },
+    {
+      "id": "n0601",
+      "name": "Catherine Velasteguí",
+      "meta": "@cathvelastegui",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 7,
+      "sourceRow": 637
+    },
+    {
+      "id": "n0602",
+      "name": "Catrina Tala",
+      "meta": "@turcacat",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 8,
+      "sourceRow": 638
+    },
+    {
+      "id": "n0603",
+      "name": "Cinthya Coppiano",
+      "meta": "@coppianocinthya",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 9,
+      "sourceRow": 639
+    },
+    {
+      "id": "n0604",
+      "name": "Constanza Báez",
+      "meta": "@constanzabaezjalil",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 10,
+      "sourceRow": 640
+    },
+    {
+      "id": "n0605",
+      "name": "David Reinoso",
+      "meta": "@davichoreinoso",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 11,
+      "sourceRow": 641
+    },
+    {
+      "id": "n0606",
+      "name": "Dayanara Peralta",
+      "meta": "@dayanaraoficial",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 12,
+      "sourceRow": 642
+    },
+    {
+      "id": "n0607",
+      "name": "Denisse Angulo",
+      "meta": "@dnisangulo",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 13,
+      "sourceRow": 643
+    },
+    {
+      "id": "n0608",
+      "name": "Diego Spotorno",
+      "meta": "@diegosportorno",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 14,
+      "sourceRow": 644
+    },
+    {
+      "id": "n0609",
+      "name": "Diego Ulloa",
+      "meta": "@diego_ulloa_a",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 15,
+      "sourceRow": 645
+    },
+    {
+      "id": "n0610",
+      "name": "Dina Muñoz",
+      "meta": "@dinamunozok",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 16,
+      "sourceRow": 646
+    },
+    {
+      "id": "n0611",
+      "name": "Don Day",
+      "meta": "@donday_eldiamante",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 17,
+      "sourceRow": 647
+    },
+    {
+      "id": "n0612",
+      "name": "Dora West",
+      "meta": "@yosoydorawest",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 18,
+      "sourceRow": 648
+    },
+    {
+      "id": "n0613",
+      "name": "Eduardo Andrade",
+      "meta": "@eduandradej",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 19,
+      "sourceRow": 649
+    },
+    {
+      "id": "n0614",
+      "name": "Elba González",
+      "meta": "@elbagonzalezr",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 20,
+      "sourceRow": 650
+    },
+    {
+      "id": "n0615",
+      "name": "Emilio Pinargote",
+      "meta": "@emiliopinargoteoficial",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 21,
+      "sourceRow": 651
+    },
+    {
+      "id": "n0616",
+      "name": "Emma Guerrero",
+      "meta": "@emmaguerreoficial",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 22,
+      "sourceRow": 652
+    },
+    {
+      "id": "n0617",
+      "name": "Erika Valencia",
+      "meta": "@lanegraerika",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 23,
+      "sourceRow": 653
+    },
+    {
+      "id": "n0618",
+      "name": "Erika Vélez",
+      "meta": "@erikavelez",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 24,
+      "sourceRow": 654
+    },
+    {
+      "id": "n0619",
+      "name": "Estéfani Espín",
+      "meta": "@estefiespin",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 25,
+      "sourceRow": 655
+    },
+    {
+      "id": "n0620",
+      "name": "Evelyn Vanessa Calderón",
+      "meta": "@evelynvcalderon",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 26,
+      "sourceRow": 656
+    },
+    {
+      "id": "n0621",
+      "name": "Fabiola Véliz",
+      "meta": "@fabiolaveliz",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 27,
+      "sourceRow": 657
+    },
+    {
+      "id": "n0622",
+      "name": "Felipe Crespo",
+      "meta": "@lococrespo",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 28,
+      "sourceRow": 658
+    },
+    {
+      "id": "n0623",
+      "name": "Flor María Palomeque",
+      "meta": "@flor_mpalomeque",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 29,
+      "sourceRow": 659
+    },
+    {
+      "id": "n0624",
+      "name": "Gabriela Díaz",
+      "meta": "@gabydiazaragon",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 30,
+      "sourceRow": 660
+    },
+    {
+      "id": "n0625",
+      "name": "Gabriela Pazmiño",
+      "meta": "@gabrielapazminop",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 31,
+      "sourceRow": 661
+    },
+    {
+      "id": "n0626",
+      "name": "Gala Alvear",
+      "meta": "@galalvear",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 32,
+      "sourceRow": 662
+    },
+    {
+      "id": "n0627",
+      "name": "Giliam Mieles",
+      "meta": "@miel.mieles",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 33,
+      "sourceRow": 663
+    },
+    {
+      "id": "n0628",
+      "name": "Gina López",
+      "meta": "@ginaalopeez",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 34,
+      "sourceRow": 664
+    },
+    {
+      "id": "n0629",
+      "name": "Henry Bustamante",
+      "meta": "@henrybustamant",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 35,
+      "sourceRow": 665
+    },
+    {
+      "id": "n0630",
+      "name": "Irini Meza",
+      "meta": "@irinimeza",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 36,
+      "sourceRow": 666
+    },
+    {
+      "id": "n0631",
+      "name": "Jandino",
+      "meta": "@jandino",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 37,
+      "sourceRow": 667
+    },
+    {
+      "id": "n0632",
+      "name": "Jonathan Estrada",
+      "meta": "@jonathanpeb",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 38,
+      "sourceRow": 668
+    },
+    {
+      "id": "n0633",
+      "name": "Jorge Campozano",
+      "meta": "@jorgecampozanoc",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 39,
+      "sourceRow": 669
+    },
+    {
+      "id": "n0634",
+      "name": "Jorge Ulloa",
+      "meta": "@jorgeulloaaa",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 40,
+      "sourceRow": 670
+    },
+    {
+      "id": "n0635",
+      "name": "José Andrés Caballero",
+      "meta": "@joseandrescaballero",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 41,
+      "sourceRow": 671
+    },
+    {
+      "id": "n0636",
+      "name": "José Urrutia",
+      "meta": "@urrutia1981",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 42,
+      "sourceRow": 672
+    },
+    {
+      "id": "n0637",
+      "name": "Joselyn Gallardo",
+      "meta": "@joselyn_gallardo",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 43,
+      "sourceRow": 673
+    },
+    {
+      "id": "n0638",
+      "name": "Juan Carlos Aizprúa",
+      "meta": "@juancarlosaizprua",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 44,
+      "sourceRow": 674
+    },
+    {
+      "id": "n0639",
+      "name": "Julián Campos",
+      "meta": "@juliancamposl",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 45,
+      "sourceRow": 675
+    },
+    {
+      "id": "n0640",
+      "name": "Katty García",
+      "meta": "@kattygarcia",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 46,
+      "sourceRow": 676
+    },
+    {
+      "id": "n0641",
+      "name": "KikeJav",
+      "meta": "@kikejav",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 47,
+      "sourceRow": 677
+    },
+    {
+      "id": "n0642",
+      "name": "Kimberly Cedeño",
+      "meta": "@kimberlycedenoc",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 48,
+      "sourceRow": 678
+    },
+    {
+      "id": "n0643",
+      "name": "Leonardo Moreira",
+      "meta": "@elchinomoreira",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 49,
+      "sourceRow": 679
+    },
+    {
+      "id": "n0644",
+      "name": "Leonella Granda",
+      "meta": "@leitogranda",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 50,
+      "sourceRow": 680
+    },
+    {
+      "id": "n0645",
+      "name": "Luciana Guschmer",
+      "meta": "@luguschmer",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 51,
+      "sourceRow": 681
+    },
+    {
+      "id": "n0646",
+      "name": "Mar Rendón",
+      "meta": "@marrendonmusica",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 52,
+      "sourceRow": 682
+    },
+    {
+      "id": "n0647",
+      "name": "Marcela Ruete",
+      "meta": "@marcelaruete",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 53,
+      "sourceRow": 683
+    },
+    {
+      "id": "n0648",
+      "name": "Mare Cevallos",
+      "meta": "@marecevallos",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 54,
+      "sourceRow": 684
+    },
+    {
+      "id": "n0649",
+      "name": "María Fernanda Pérez",
+      "meta": "@maferperezrivera",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 55,
+      "sourceRow": 685
+    },
+    {
+      "id": "n0650",
+      "name": "María Fernanda Ríos",
+      "meta": "@mariafernandariosoficial",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 56,
+      "sourceRow": 686
+    },
+    {
+      "id": "n0651",
+      "name": "Marián Sabaté",
+      "meta": "@mariansabatemoran",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 57,
+      "sourceRow": 687
+    },
+    {
+      "id": "n0652",
+      "name": "Mark Alvarado",
+      "meta": "@markalvaradotv",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 58,
+      "sourceRow": 688
+    },
+    {
+      "id": "n0653",
+      "name": "Mauricio Herrera",
+      "meta": "@mauricioherreratv",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 59,
+      "sourceRow": 689
+    },
+    {
+      "id": "n0654",
+      "name": "Maykel Cedeño",
+      "meta": "@maykel_oficial",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 60,
+      "sourceRow": 690
+    },
+    {
+      "id": "n0655",
+      "name": "Mayra Jaime",
+      "meta": "@mayrajoficial",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 61,
+      "sourceRow": 691
+    },
+    {
+      "id": "n0656",
+      "name": "Meliza Yumisaca",
+      "meta": "@meliza_yumisaca",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 62,
+      "sourceRow": 692
+    },
+    {
+      "id": "n0657",
+      "name": "Michela Pincay",
+      "meta": "@michelapinbu",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 63,
+      "sourceRow": 693
+    },
+    {
+      "id": "n0658",
+      "name": "Nataly Valencia",
+      "meta": "@natalyvalencia.v",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 64,
+      "sourceRow": 694
+    },
+    {
+      "id": "n0659",
+      "name": "Raúl Santana",
+      "meta": "@raulalejosantana47",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 65,
+      "sourceRow": 695
+    },
+    {
+      "id": "n0660",
+      "name": "Samantha Grey",
+      "meta": "@samathagreyb",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 66,
+      "sourceRow": 696
+    },
+    {
+      "id": "n0661",
+      "name": "Samara Montero",
+      "meta": "@samara_montero",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 67,
+      "sourceRow": 697
+    },
+    {
+      "id": "n0662",
+      "name": "Scarlett Córdova",
+      "meta": "@scarlettcordova9",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 68,
+      "sourceRow": 698
+    },
+    {
+      "id": "n0663",
+      "name": "Sofía Caiche",
+      "meta": "@sofiacaiche",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 69,
+      "sourceRow": 699
+    },
+    {
+      "id": "n0664",
+      "name": "Víctor Aráuz",
+      "meta": "@vkarauz",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 70,
+      "sourceRow": 700
+    },
+    {
+      "id": "n0665",
+      "name": "Virginia Limongi",
+      "meta": "@virginialimongis",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 71,
+      "sourceRow": 701
+    },
+    {
+      "id": "n0666",
+      "name": "Viviana Salame",
+      "meta": "@vivianasalame",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 72,
+      "sourceRow": 702
+    },
+    {
+      "id": "n0667",
+      "name": "Yesly Bustamante",
+      "meta": "@yeslybustamanteok",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 73,
+      "sourceRow": 703
+    },
+    {
+      "id": "n0668",
+      "name": "Yilda Banchón",
+      "meta": "@yildaoficial",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 74,
+      "sourceRow": 704
+    },
+    {
+      "id": "n0669",
+      "name": "Yuribeth Cornejo",
+      "meta": "@yuribethcornejo",
+      "categoryId": "mejor-creador-de-contenido-de-instagram",
+      "order": 75,
+      "sourceRow": 705
+    },
+    {
+      "id": "n0670",
+      "name": "aarontrix",
+      "meta": null,
+      "categoryId": "mejor-tiktoker",
+      "order": 0,
+      "sourceRow": 708
+    },
+    {
+      "id": "n0671",
+      "name": "adrian siup",
+      "meta": null,
+      "categoryId": "mejor-tiktoker",
+      "order": 1,
+      "sourceRow": 709
+    },
+    {
+      "id": "n0672",
+      "name": "alexvizuete93",
+      "meta": null,
+      "categoryId": "mejor-tiktoker",
+      "order": 2,
+      "sourceRow": 710
+    },
+    {
+      "id": "n0673",
+      "name": "anderssonboscan",
+      "meta": null,
+      "categoryId": "mejor-tiktoker",
+      "order": 3,
+      "sourceRow": 711
+    },
+    {
+      "id": "n0674",
+      "name": "annyborja1",
+      "meta": null,
+      "categoryId": "mejor-tiktoker",
+      "order": 4,
+      "sourceRow": 712
+    },
+    {
+      "id": "n0675",
+      "name": "anthonnyswagg",
+      "meta": null,
+      "categoryId": "mejor-tiktoker",
+      "order": 5,
+      "sourceRow": 713
+    },
+    {
+      "id": "n0676",
+      "name": "busta_brothers",
+      "meta": null,
+      "categoryId": "mejor-tiktoker",
+      "order": 6,
+      "sourceRow": 714
+    },
+    {
+      "id": "n0677",
+      "name": "christexo",
+      "meta": null,
+      "categoryId": "mejor-tiktoker",
+      "order": 7,
+      "sourceRow": 715
+    },
+    {
+      "id": "n0678",
+      "name": "dayanaraoficialm",
+      "meta": null,
+      "categoryId": "mejor-tiktoker",
+      "order": 8,
+      "sourceRow": 716
+    },
+    {
+      "id": "n0679",
+      "name": "domenicakk trix",
+      "meta": null,
+      "categoryId": "mejor-tiktoker",
+      "order": 9,
+      "sourceRow": 717
+    },
+    {
+      "id": "n0680",
+      "name": "edumarurip",
+      "meta": null,
+      "categoryId": "mejor-tiktoker",
+      "order": 10,
+      "sourceRow": 718
+    },
+    {
+      "id": "n0681",
+      "name": "eindry_",
+      "meta": null,
+      "categoryId": "mejor-tiktoker",
+      "order": 11,
+      "sourceRow": 719
+    },
+    {
+      "id": "n0682",
+      "name": "elbitalamanabita5",
+      "meta": null,
+      "categoryId": "mejor-tiktoker",
+      "order": 12,
+      "sourceRow": 720
+    },
+    {
+      "id": "n0683",
+      "name": "elcuy.ec",
+      "meta": null,
+      "categoryId": "mejor-tiktoker",
+      "order": 13,
+      "sourceRow": 721
+    },
+    {
+      "id": "n0684",
+      "name": "ginaalopeez",
+      "meta": null,
+      "categoryId": "mejor-tiktoker",
+      "order": 14,
+      "sourceRow": 722
+    },
+    {
+      "id": "n0685",
+      "name": "indiskovar",
+      "meta": null,
+      "categoryId": "mejor-tiktoker",
+      "order": 15,
+      "sourceRow": 723
+    },
+    {
+      "id": "n0686",
+      "name": "irinitrix",
+      "meta": null,
+      "categoryId": "mejor-tiktoker",
+      "order": 16,
+      "sourceRow": 724
+    },
+    {
+      "id": "n0687",
+      "name": "israelvera",
+      "meta": null,
+      "categoryId": "mejor-tiktoker",
+      "order": 17,
+      "sourceRow": 725
+    },
+    {
+      "id": "n0688",
+      "name": "ivanandresfarah",
+      "meta": null,
+      "categoryId": "mejor-tiktoker",
+      "order": 18,
+      "sourceRow": 726
+    },
+    {
+      "id": "n0689",
+      "name": "jandino",
+      "meta": null,
+      "categoryId": "mejor-tiktoker",
+      "order": 19,
+      "sourceRow": 727
+    },
+    {
+      "id": "n0690",
+      "name": "jonathanpeb",
+      "meta": null,
+      "categoryId": "mejor-tiktoker",
+      "order": 20,
+      "sourceRow": 728
+    },
+    {
+      "id": "n0691",
+      "name": "jonino larrea",
+      "meta": null,
+      "categoryId": "mejor-tiktoker",
+      "order": 21,
+      "sourceRow": 729
+    },
+    {
+      "id": "n0692",
+      "name": "kevinrubio_oficial",
+      "meta": null,
+      "categoryId": "mejor-tiktoker",
+      "order": 22,
+      "sourceRow": 730
+    },
+    {
+      "id": "n0693",
+      "name": "kevlexd",
+      "meta": null,
+      "categoryId": "mejor-tiktoker",
+      "order": 23,
+      "sourceRow": 731
+    },
+    {
+      "id": "n0694",
+      "name": "maferperezrivera",
+      "meta": null,
+      "categoryId": "mejor-tiktoker",
+      "order": 24,
+      "sourceRow": 732
+    },
+    {
+      "id": "n0695",
+      "name": "melissaendara",
+      "meta": null,
+      "categoryId": "mejor-tiktoker",
+      "order": 25,
+      "sourceRow": 733
+    },
+    {
+      "id": "n0696",
+      "name": "michaelsteve",
+      "meta": null,
+      "categoryId": "mejor-tiktoker",
+      "order": 26,
+      "sourceRow": 734
+    },
+    {
+      "id": "n0697",
+      "name": "miel.mieles",
+      "meta": null,
+      "categoryId": "mejor-tiktoker",
+      "order": 27,
+      "sourceRow": 735
+    },
+    {
+      "id": "n0698",
+      "name": "mofletv",
+      "meta": null,
+      "categoryId": "mejor-tiktoker",
+      "order": 28,
+      "sourceRow": 736
+    },
+    {
+      "id": "n0699",
+      "name": "samiaalva",
+      "meta": null,
+      "categoryId": "mejor-tiktoker",
+      "order": 29,
+      "sourceRow": 737
+    },
+    {
+      "id": "n0700",
+      "name": "stechell",
+      "meta": null,
+      "categoryId": "mejor-tiktoker",
+      "order": 30,
+      "sourceRow": 738
+    },
+    {
+      "id": "n0701",
+      "name": "yildabanchon",
+      "meta": null,
+      "categoryId": "mejor-tiktoker",
+      "order": 31,
+      "sourceRow": 739
+    },
+    {
+      "id": "n0702",
+      "name": "ALMACENES TÍA",
+      "meta": "@almacenestiaoficial 480k tik tok",
+      "categoryId": "mejor-creador-de-contenido-empresarial",
+      "order": 0,
+      "sourceRow": 742
+    },
+    {
+      "id": "n0703",
+      "name": "BANCO GUAYAQUIL",
+      "meta": "@bancoguayaquil 184k instagram",
+      "categoryId": "mejor-creador-de-contenido-empresarial",
+      "order": 1,
+      "sourceRow": 743
+    },
+    {
+      "id": "n0704",
+      "name": "BANCO PICHINCHA",
+      "meta": "@bancopichincha 205k instagram",
+      "categoryId": "mejor-creador-de-contenido-empresarial",
+      "order": 2,
+      "sourceRow": 744
+    },
+    {
+      "id": "n0705",
+      "name": "BENDITO",
+      "meta": "@creoenbendito 186k Instagram",
+      "categoryId": "mejor-creador-de-contenido-empresarial",
+      "order": 3,
+      "sourceRow": 745
+    },
+    {
+      "id": "n0706",
+      "name": "CC BITES",
+      "meta": "@ccbites.ec 87k instagram",
+      "categoryId": "mejor-creador-de-contenido-empresarial",
+      "order": 4,
+      "sourceRow": 746
+    },
+    {
+      "id": "n0707",
+      "name": "CHEF BOSS",
+      "meta": "@chefboss.ec 137k instagram",
+      "categoryId": "mejor-creador-de-contenido-empresarial",
+      "order": 5,
+      "sourceRow": 747
+    },
+    {
+      "id": "n0708",
+      "name": "CODICIA",
+      "meta": "@porpuracodicia 131K instagram",
+      "categoryId": "mejor-creador-de-contenido-empresarial",
+      "order": 6,
+      "sourceRow": 748
+    },
+    {
+      "id": "n0709",
+      "name": "COLINEAL",
+      "meta": "@colineal 191k instagram",
+      "categoryId": "mejor-creador-de-contenido-empresarial",
+      "order": 7,
+      "sourceRow": 749
+    },
+    {
+      "id": "n0710",
+      "name": "DEPRATI",
+      "meta": "@deprati 591k instagram",
+      "categoryId": "mejor-creador-de-contenido-empresarial",
+      "order": 8,
+      "sourceRow": 750
+    },
+    {
+      "id": "n0711",
+      "name": "DGMOTORS",
+      "meta": "@dgmotorstaller 112,2k Tiktok",
+      "categoryId": "mejor-creador-de-contenido-empresarial",
+      "order": 9,
+      "sourceRow": 751
+    },
+    {
+      "id": "n0712",
+      "name": "DULCE ANTOJO",
+      "meta": "@dulceantojoec 200k intagram",
+      "categoryId": "mejor-creador-de-contenido-empresarial",
+      "order": 10,
+      "sourceRow": 752
+    },
+    {
+      "id": "n0713",
+      "name": "EL CALDERO MAGICO",
+      "meta": "@elcalderomagico.ec 68,1k tik tok",
+      "categoryId": "mejor-creador-de-contenido-empresarial",
+      "order": 11,
+      "sourceRow": 753
+    },
+    {
+      "id": "n0714",
+      "name": "ETAFASHION",
+      "meta": "@etafashion 296k tik tok",
+      "categoryId": "mejor-creador-de-contenido-empresarial",
+      "order": 12,
+      "sourceRow": 754
+    },
+    {
+      "id": "n0715",
+      "name": "FYBECA",
+      "meta": "@fybeca 87.5k tik tok",
+      "categoryId": "mejor-creador-de-contenido-empresarial",
+      "order": 13,
+      "sourceRow": 755
+    },
+    {
+      "id": "n0716",
+      "name": "INDUVALLAS",
+      "meta": "@induvallas 211,2k tik tok",
+      "categoryId": "mejor-creador-de-contenido-empresarial",
+      "order": 14,
+      "sourceRow": 756
+    },
+    {
+      "id": "n0717",
+      "name": "JOSÉ EL CAPITÁN CANGREJO",
+      "meta": "@capicangrejo 80,2k tik tok",
+      "categoryId": "mejor-creador-de-contenido-empresarial",
+      "order": 15,
+      "sourceRow": 757
+    },
+    {
+      "id": "n0718",
+      "name": "KFC ECUADOR",
+      "meta": "@kfcecuador 383k instagram",
+      "categoryId": "mejor-creador-de-contenido-empresarial",
+      "order": 16,
+      "sourceRow": 758
+    },
+    {
+      "id": "n0719",
+      "name": "LA COSTEÑITA",
+      "meta": "@LACOSTEÑITA_EC 72.1K TIKTOK",
+      "categoryId": "mejor-creador-de-contenido-empresarial",
+      "order": 17,
+      "sourceRow": 759
+    },
+    {
+      "id": "n0720",
+      "name": "MAMA ADITA",
+      "meta": "@mamaadita_ec 154k instagram",
+      "categoryId": "mejor-creador-de-contenido-empresarial",
+      "order": 18,
+      "sourceRow": 760
+    },
+    {
+      "id": "n0721",
+      "name": "MC DONALDS ECUADOR",
+      "meta": "@mcdonalds.ec 332k instagram",
+      "categoryId": "mejor-creador-de-contenido-empresarial",
+      "order": 19,
+      "sourceRow": 761
+    },
+    {
+      "id": "n0722",
+      "name": "MOROTTO",
+      "meta": "@morotto.ec 108k Instagram",
+      "categoryId": "mejor-creador-de-contenido-empresarial",
+      "order": 20,
+      "sourceRow": 762
+    },
+    {
+      "id": "n0723",
+      "name": "MOTELES EXTASIS",
+      "meta": "@motelesextasis 129k instagram",
+      "categoryId": "mejor-creador-de-contenido-empresarial",
+      "order": 21,
+      "sourceRow": 763
+    },
+    {
+      "id": "n0724",
+      "name": "RUKITO",
+      "meta": "@rukito_gd 614k instagram",
+      "categoryId": "mejor-creador-de-contenido-empresarial",
+      "order": 22,
+      "sourceRow": 764
+    },
+    {
+      "id": "n0725",
+      "name": "SMASH BY FOODVERSE",
+      "meta": "@smash.ec 166K instagram",
+      "categoryId": "mejor-creador-de-contenido-empresarial",
+      "order": 23,
+      "sourceRow": 765
+    },
+    {
+      "id": "n0726",
+      "name": "SWEET AND COFFEE",
+      "meta": "@sweetandcoffee 422k instagram",
+      "categoryId": "mejor-creador-de-contenido-empresarial",
+      "order": 24,
+      "sourceRow": 766
+    },
+    {
+      "id": "n0727",
+      "name": "THE SMART ROLL",
+      "meta": "@thesmartroll 131k instagram",
+      "categoryId": "mejor-creador-de-contenido-empresarial",
+      "order": 25,
+      "sourceRow": 767
+    },
+    {
+      "id": "n0728",
+      "name": "TOMAHAWK",
+      "meta": "@tomahawkecu 115k Instagram",
+      "categoryId": "mejor-creador-de-contenido-empresarial",
+      "order": 26,
+      "sourceRow": 768
     }
   ]
 }

@@ -85,27 +85,29 @@ entrada quedan fuera de la web, y `npm run data` las enumera en el reporte.
 
 Para actualizar: se edita ese archivo y se ejecuta `npm run data && npm run build`.
 
-### Estado actual (catálogo 2026 vs. Excel 2023)
+### Estado actual
 
 | | |
 |---|---|
-| Categorías publicadas | 19 |
-| Prenominados publicados | 462 |
-| Renombradas respecto al Excel | 7 |
-| Nuevas, aún sin prenominados | 6 |
-| Categorías del Excel excluidas | 5 (138 prenominados) |
+| Libro fuente | `Lista de premios ITV 2026.xlsx` |
+| Categorías publicadas | 19 (todas con prenominados) |
+| Prenominados publicados | 728 |
+| Nombres distintos | 691 |
 
-Las excluidas son *Instagram Senior*, *Instagram Junior*, *YouTuber*, *Cuenta
-Digital de Dramáticos* y *Cuenta Digital de Entretenimiento*: el catálogo 2026
-no las contempla. Sus prenominados dejan de publicarse; siguen en el Excel y
-volverían solos si alguna entrada del catálogo los reclamara como `fuenteExcel`.
+Todas las categorías del catálogo tienen origen en el libro y ninguna categoría
+del libro queda fuera. Dos se publican con el nombre del documento de
+descripciones, que difiere del libro: *Mejor Conductor / Conductora de
+**Programas de** Variedades*.
 
 ## Fuente de datos
 
-- **Archivo:** `Nominados oficiales PREMIOS ITV 2023 (1).xlsx`, hoja `Hoja1`.
-- **Estructura original:** una sola columna de nombres, con los encabezados de
-  categoría (`MEJOR …`) intercalados entre bloques. La columna C guarda, según la
-  categoría, el **canal**, la **plataforma** o el **usuario**.
+- **Archivo:** el que declare `LIBRO_PRENOMINADOS` en el catálogo; hoy
+  `Lista de premios ITV 2026.xlsx`.
+- **Estructura:** una columna de nombres con los encabezados de categoría
+  (`MEJOR …`) intercalados entre bloques, y a su derecha el **canal**, la
+  **plataforma**, el **usuario** o la **cuenta**, según la categoría.
+- La columna de los nombres **se detecta sola** (la edición 2023 usaba la A y la
+  de 2026 la B), igual que la hoja: se lee la primera del libro.
 
 `scripts/build-data.mjs` la convierte en una estructura limpia:
 

@@ -20,7 +20,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import * as XLSX from 'xlsx';
-import { CATALOGO_2026 } from './catalogo-2026.mjs';
+import { CATALOGO_2026, LIBRO_PRENOMINADOS } from './catalogo-2026.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
@@ -35,6 +35,11 @@ function resolveSource() {
   if (process.env.ITV_XLSX) return process.env.ITV_XLSX;
 
   const parent = path.resolve(ROOT, '..');
+
+  // El que el catálogo declara, si está.
+  const esperado = path.join(parent, LIBRO_PRENOMINADOS);
+  if (fs.existsSync(esperado)) return esperado;
+
   const candidates = fs
     .readdirSync(parent)
     .filter((f) => /\.xlsx?$/i.test(f) && !f.startsWith('~$'))
@@ -113,13 +118,30 @@ function parseWorkbook(file) {
       continue;
     }
 
+    // La columna de los nombres cambia entre ediciones (2023 usa A, 2026 usa B):
+    // se elige aquella donde aparecen más encabezados «MEJOR …».
+    const headerHits = [];
+    for (const row of rows) {
+      (row || []).forEach((cell, col) => {
+        if (isCategoryHeader(clean(cell))) headerHits[col] = (headerHits[col] ?? 0) + 1;
+      });
+    }
+    const nameCol = headerHits.reduce(
+      (best, hits, col) => (hits > (headerHits[best] ?? 0) ? col : best),
+      0
+    );
+    const metaCol = nameCol + 1;
+    if (nameCol !== 0) {
+      notes.push(`Hoja "${sheetName}": los nombres están en la columna ${nameCol + 1}.`);
+    }
+
     let current = null;
     const seenInCategory = new Map(); // normalizado -> fila original
 
     for (let i = 0; i < rows.length; i++) {
       const row = rows[i] || [];
-      const name = clean(row[0]);
-      const metaRaw = clean(row[2]) || clean(row[1]); // col C, con col B como respaldo
+      const name = clean(row[nameCol]);
+      const metaRaw = clean(row[metaCol]);
       const rowNumber = i + 1;
 
       if (!name) continue;

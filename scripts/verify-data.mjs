@@ -16,7 +16,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import * as XLSX from 'xlsx';
-import { CATALOGO_2026 } from './catalogo-2026.mjs';
+import { CATALOGO_2026, LIBRO_PRENOMINADOS } from './catalogo-2026.mjs';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
 
@@ -30,6 +30,10 @@ function resolveSource() {
   if (process.env.ITV_XLSX) return process.env.ITV_XLSX;
 
   const parent = path.resolve(ROOT, '..');
+
+  const esperado = path.join(parent, LIBRO_PRENOMINADOS);
+  if (fs.existsSync(esperado)) return esperado;
+
   const candidates = fs
     .readdirSync(parent)
     .filter((f) => /\.xlsx?$/i.test(f) && !f.startsWith('~$'))
@@ -45,13 +49,22 @@ console.log(`· Fuente: ${SOURCE}`);
 
 /* ------------- 1) Recuento independiente desde el Excel ------------------ */
 const wb = XLSX.read(fs.readFileSync(SOURCE), { type: 'buffer' });
-const rows = XLSX.utils.sheet_to_json(wb.Sheets['Hoja1'], { header: 1, defval: '' });
+// Primera hoja, y la columna donde de verdad están los encabezados «MEJOR …».
+const rows = XLSX.utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]], { header: 1, defval: '' });
+
+const hits = [];
+for (const row of rows) {
+  (row || []).forEach((cell, col) => {
+    if (/^MEJOR/i.test(String(cell ?? '').trim())) hits[col] = (hits[col] ?? 0) + 1;
+  });
+}
+const nameCol = hits.reduce((best, n, col) => (n > (hits[best] ?? 0) ? col : best), 0);
 
 const excel = new Map();
 let actual = null;
 let vistos = new Set();
 for (const r of rows) {
-  const v = String(r[0] ?? '').trim();
+  const v = String(r[nameCol] ?? '').trim();
   if (!v) continue;
   if (/^MEJOR/i.test(v)) {
     actual = v;
@@ -123,10 +136,15 @@ CATALOGO_2026.forEach((entry, index) => {
     return;
   }
   const html = fs.readFileSync(file, 'utf8');
-  const ausentes = publicados.filter((n) => {
-    const esc = n.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/'/g, '&#x27;');
-    return !html.includes(esc) && !html.includes(n);
-  });
+  // El HTML escapa &, <, ' y también las comillas dobles (&quot;), que aparecen
+  // en apodos como FÉLIX SEBASTIÁN "CEVICHE".
+  const escapar = (n) =>
+    n
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#x27;');
+  const ausentes = publicados.filter((n) => !html.includes(escapar(n)) && !html.includes(n));
   if (ausentes.length) {
     problems.push(`${cat.slug}: no aparecen en el HTML ${JSON.stringify(ausentes)}`);
   }

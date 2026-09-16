@@ -15,10 +15,13 @@
  *   npm run data && npm run build
  */
 
+/** Libro oficial de prenominados que espera este catálogo. */
+export const LIBRO_PRENOMINADOS = 'Lista de premios ITV 2026.xlsx';
+
 export const CATALOGO_2026 = [
   {
     nombre: 'MEJOR PRESENTADOR DE INFORMACIÓN, NOTICIAS E INVESTIGACIÓN',
-    fuenteExcel: 'MEJOR PRESENTADOR DE NOTICIAS',
+    fuenteExcel: 'MEJOR PRESENTADOR DE INFORMACIÓN, NOTICIAS E INVESTIGACIÓN',
     disciplina: 'Noticias',
     tipo: 'persona',
     etiquetaMeta: null,
@@ -29,7 +32,7 @@ export const CATALOGO_2026 = [
   },
   {
     nombre: 'MEJOR PRESENTADORA DE INFORMACIÓN, NOTICIAS E INVESTIGACIÓN',
-    fuenteExcel: 'MEJOR PRESENTADORA DE NOTICIAS',
+    fuenteExcel: 'MEJOR PRESENTADORA DE INFORMACIÓN, NOTICIAS E INVESTIGACIÓN',
     disciplina: 'Noticias',
     tipo: 'persona',
     etiquetaMeta: null,
@@ -51,7 +54,7 @@ export const CATALOGO_2026 = [
   },
   {
     nombre: 'MEJOR MEDIO DIGITAL DE INFORMACIÓN',
-    fuenteExcel: 'MEJOR CUENTA INFORMATIVA DIGITAL',
+    fuenteExcel: 'MEJOR MEDIO DIGITAL DE INFORMACIÓN',
     disciplina: 'Noticias',
     tipo: 'medio',
     etiquetaMeta: 'Plataforma',
@@ -74,7 +77,7 @@ export const CATALOGO_2026 = [
   },
   {
     nombre: 'MEJOR COMUNICADOR DE DEPORTES',
-    fuenteExcel: 'MEJOR COMENTARISTA DEPORTIVO (MASCULINO)',
+    fuenteExcel: 'MEJOR COMUNICADOR DE DEPORTES',
     disciplina: 'Deportes',
     tipo: 'persona',
     etiquetaMeta: null,
@@ -85,7 +88,7 @@ export const CATALOGO_2026 = [
   },
   {
     nombre: 'MEJOR COMUNICADORA DE DEPORTES',
-    fuenteExcel: 'MEJOR COMENTARISTA DEPORTIVO (MUJERES)',
+    fuenteExcel: 'MEJOR COMUNICADORA DE DEPORTES',
     disciplina: 'Deportes',
     tipo: 'persona',
     etiquetaMeta: null,
@@ -108,6 +111,8 @@ export const CATALOGO_2026 = [
   },
   {
     nombre: 'MEJOR CONDUCTOR DE PROGRAMAS DE VARIEDADES',
+    // El libro 2026 la titula «MEJOR CONDUCTOR DE VARIEDADES»; el documento de
+    // descripciones, «…DE PROGRAMAS DE VARIEDADES». Se publica este último.
     fuenteExcel: 'MEJOR CONDUCTOR DE VARIEDADES',
     disciplina: 'Variedades',
     tipo: 'persona',
@@ -119,6 +124,7 @@ export const CATALOGO_2026 = [
   },
   {
     nombre: 'MEJOR CONDUCTORA DE PROGRAMAS DE VARIEDADES',
+    // Misma discrepancia de título que la categoría masculina.
     fuenteExcel: 'MEJOR CONDUCTORA DE VARIEDADES',
     disciplina: 'Variedades',
     tipo: 'persona',
@@ -142,7 +148,7 @@ export const CATALOGO_2026 = [
   },
   {
     nombre: 'MEJOR ANIMADOR DE PROGRAMA DE CONCURSOS',
-    fuenteExcel: null,
+    fuenteExcel: 'MEJOR ANIMADOR DE PROGRAMA DE CONCURSOS',
     disciplina: 'Concursos',
     tipo: 'persona',
     etiquetaMeta: null,
@@ -154,7 +160,7 @@ export const CATALOGO_2026 = [
   },
   {
     nombre: 'MEJOR ANIMADORA DE PROGRAMA DE CONCURSOS',
-    fuenteExcel: null,
+    fuenteExcel: 'MEJOR ANIMADORA DE PROGRAMA DE CONCURSOS',
     disciplina: 'Concursos',
     tipo: 'persona',
     etiquetaMeta: null,
@@ -165,7 +171,7 @@ export const CATALOGO_2026 = [
   },
   {
     nombre: 'MEJOR PROGRAMA DE CONCURSOS',
-    fuenteExcel: null,
+    fuenteExcel: 'MEJOR PROGRAMA DE CONCURSOS',
     disciplina: 'Concursos',
     tipo: 'programa',
     etiquetaMeta: 'Canal',
@@ -198,12 +204,8 @@ export const CATALOGO_2026 = [
       'cada historia enriquecen la experiencia audiovisual.',
   },
   {
-    // NUEVA. En el Excel de 2023 había DOS categorías de Instagram (Senior y
-    // Junior) y aquí sólo hay una, con un mínimo de 250.000 seguidores que
-    // aquellas no exigían. Volcar sus prenominados aquí metería gente que
-    // quizá no califica, así que nace vacía a la espera del listado 2026.
     nombre: 'MEJOR CREADOR DE CONTENIDO DE INSTAGRAM',
-    fuenteExcel: null,
+    fuenteExcel: 'MEJOR CREADOR DE CONTENIDO DE INSTAGRAM',
     disciplina: 'Digital',
     tipo: 'cuenta',
     etiquetaMeta: 'Usuario',
@@ -215,7 +217,7 @@ export const CATALOGO_2026 = [
   },
   {
     nombre: 'MEJOR TIKTOKER',
-    fuenteExcel: null,
+    fuenteExcel: 'MEJOR TIKTOKER',
     disciplina: 'Digital',
     tipo: 'cuenta',
     etiquetaMeta: 'Usuario',
@@ -227,10 +229,10 @@ export const CATALOGO_2026 = [
   },
   {
     nombre: 'MEJOR CREADOR DE CONTENIDO EMPRESARIAL',
-    fuenteExcel: null,
+    fuenteExcel: 'MEJOR CREADOR DE CONTENIDO EMPRESARIAL',
     disciplina: 'Digital',
     tipo: 'cuenta',
-    etiquetaMeta: 'Usuario',
+    etiquetaMeta: 'Cuenta',
     descripcion:
       'Destaca y premia a empresas, marcas o instituciones de cualquier rubro que gestionan ' +
       'contenido propio en redes sociales, sea con equipo interno o una agencia. Se consideran a ' +
