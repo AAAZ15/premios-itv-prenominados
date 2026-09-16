@@ -62,3 +62,17 @@
 /* --- Bloque de fechas en portada ----------------------------------------- */
 
 
+
+/* Condición general de nominación, común a todas las categorías. */
+.requirement {
+  margin-bottom: 1.75rem;
+  padding: 1rem 1.15rem;
+  border-radius: var(--r-md);
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--hairline-soft);
+  border-left: 2px solid rgba(226, 232, 240, 0.35);
+  max-width: 78ch;
+  color: var(--text-muted);
+  font-size: 0.8125rem;
+  line-height: 1.75;
+}

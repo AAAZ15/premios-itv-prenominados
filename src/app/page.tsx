@@ -7,6 +7,7 @@ import CategoryAccordion from '@/components/CategoryAccordion';
 import Timeline from '@/components/Timeline';
 import { categories, getDisciplineSummary, totals } from '@/data';
 import { SITE } from '@/data/config';
+import { NOMINATION_REQUIREMENT } from '@/data/descriptions';
 import styles from './page.module.css';
 
 export const metadata: Metadata = {
@@ -58,6 +59,8 @@ export default function HomePage() {
             id="categorias-title"
             lede={`${totals.categories} categorías oficiales con ${totals.nominees} prenominados. Toca una categoría para ver su lista completa aquí mismo.`}
           />
+
+          <p className={styles.requirement}>{NOMINATION_REQUIREMENT}</p>
 
           <ul className={styles.disciplines}>
             {disciplines.map((group) => (

@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useId, useState } from 'react';
 import { getNominees } from '@/data';
+import { getCategoryDescription } from '@/data/descriptions';
 import { CATEGORY_HASH_PREFIX } from '@/data/config';
 import { GOTO_EVENT, scrollToIdAfterRender } from '@/lib/scroll';
 import type { Category } from '@/lib/types';
@@ -35,10 +36,13 @@ function Panel({
   id: string;
 }) {
   const nominees = getNominees(category.id);
+  const description = getCategoryDescription(category.slug);
 
   return (
     <div className={styles.panel} id={id} role="region" aria-labelledby={labelledBy}>
       <hr className={`rule ${styles.panelRule}`} />
+
+      {description && <p className={styles.panelDescription}>{description}</p>}
 
       <ul className={styles.rows}>
         {nominees.map((nominee, index) => (

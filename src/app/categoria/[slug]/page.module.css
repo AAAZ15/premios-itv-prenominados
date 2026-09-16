@@ -208,3 +208,29 @@
   font-size: 0.6875rem;
   color: var(--text-dim);
 }
+
+/* Descripción oficial de la categoría. */
+.description {
+  margin-top: 1.5rem;
+  padding: 1.1rem 1.25rem;
+  border-radius: var(--r-md);
+  background: rgba(56, 189, 248, 0.05);
+  border-left: 2px solid rgba(56, 189, 248, 0.45);
+  max-width: 78ch;
+  color: var(--text-muted);
+  font-size: 0.9375rem;
+  line-height: 1.75;
+}
+
+/* Condición general de nominación. */
+.requirement {
+  margin-top: 2rem;
+  padding: 1rem 1.15rem;
+  border-radius: var(--r-md);
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--hairline-soft);
+  max-width: 78ch;
+  color: var(--text-dim);
+  font-size: 0.75rem;
+  line-height: 1.75;
+}

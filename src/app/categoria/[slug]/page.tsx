@@ -5,6 +5,7 @@ import NomineeList from '@/components/NomineeList';
 import { ChevronLeft, ChevronRight, GridIcon } from '@/components/Icons';
 import { categories, getCategory, getCategoryNeighbours, getNominees } from '@/data';
 import { CATEGORY_HASH_PREFIX, SITE } from '@/data/config';
+import { getCategoryDescription, NOMINATION_REQUIREMENT } from '@/data/descriptions';
 import { plural } from '@/lib/text';
 import styles from './page.module.css';
 
@@ -26,11 +27,15 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     .toLocaleLowerCase('es')
     .replace(/(^|[\s(/])([a-záéíóúñ])/g, (_, prefix: string, letter: string) => prefix + letter.toLocaleUpperCase('es'));
 
-  const description = `${category.count} ${plural(
-    category.count,
-    'prenominado',
-    'prenominados'
-  ).toLowerCase()} en la categoría ${category.name} de los ${SITE.name} ${SITE.edition}.`;
+  // La descripción oficial describe mejor la categoría que un simple conteo.
+  const official = getCategoryDescription(category.slug);
+  const description =
+    official ??
+    `${category.count} ${plural(
+      category.count,
+      'prenominado',
+      'prenominados'
+    ).toLowerCase()} en la categoría ${category.name} de los ${SITE.name} ${SITE.edition}.`;
 
   return {
     title,
@@ -84,6 +89,10 @@ export default async function CategoriaPage({ params }: PageProps) {
         </div>
       </header>
 
+      {getCategoryDescription(category.slug) && (
+        <p className={styles.description}>{getCategoryDescription(category.slug)}</p>
+      )}
+
       <section className={styles.listSection} aria-labelledby="listado-title">
         <div className={styles.listHead}>
           <h2 className={`section-title ${styles.listTitle}`} id="listado-title">
@@ -94,6 +103,8 @@ export default async function CategoriaPage({ params }: PageProps) {
 
         <NomineeList items={items} showCategory={false} />
       </section>
+
+      <p className={styles.requirement}>{NOMINATION_REQUIREMENT}</p>
 
       <nav className={styles.pager} aria-label="Navegación entre categorías">
         {previous ? (

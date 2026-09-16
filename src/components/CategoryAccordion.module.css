@@ -204,6 +204,18 @@
 }
 
 
+/* Descripción oficial de la categoría, encima del listado. */
+.panelDescription {
+  margin-bottom: 1rem;
+  padding: 0.9rem 1rem;
+  border-radius: var(--r-md);
+  background: rgba(56, 189, 248, 0.05);
+  border-left: 2px solid rgba(56, 189, 248, 0.45);
+  color: var(--text-muted);
+  font-size: 0.8125rem;
+  line-height: 1.7;
+}
+
 .panelNote {
   margin-top: 0.85rem;
   font-size: 0.6875rem;
