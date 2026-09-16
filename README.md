@@ -190,6 +190,49 @@ eventDate:     { date: '2026-11-17', time: '20:00', status: 'confirmed' },
 
 ---
 
+## Formulario de nominación
+
+Réplica del WPForms del sitio original, en `src/components/NominationForm.tsx`.
+Sirve para revisar diseño y campos antes de migrar; **en WordPress se sustituye
+por el shortcode de WPForms**.
+
+### Campos — equivalencia con WPForms
+
+| `name` aquí | Etiqueta | Tipo WPForms | Obligatorio |
+|-------------|----------|--------------|-------------|
+| `nominado` | Nombre del nominado | Single Line Text | Sí |
+| `medio` | Medio donde se desenvuelve el nominado | Single Line Text | Sí |
+| `categoria` | Categoría | Dropdown (19 opciones) | Sí |
+| `email` | Correo electrónico del nominador | Email | Sí |
+| `comentario` | Comentario o mensaje | Paragraph Text | No |
+
+El desplegable **no se escribe a mano**: se genera desde `CATALOGO_2026`, así
+que nunca se desincroniza de las categorías publicadas. En WPForms hay que
+copiar las 19 opciones a mano, y **volver a copiarlas si el catálogo cambia**:
+para obtener la lista lista para pegar,
+
+```bash
+node -e "import('./scripts/catalogo-2026.mjs').then(m=>console.log(m.CATALOGO_2026.map(c=>c.nombre).join('\n')))"
+```
+
+### Configuración
+
+En `src/data/config.ts`, `NOMINATION_FORM`:
+
+| Campo | Para qué |
+|-------|----------|
+| `enabled` | `false` oculta la sección entera cuando cierre el plazo |
+| `endpoint` | URL de envío. `null` = vista previa |
+| `deadlineLabel` | Fecha límite que se muestra bajo el botón |
+| `email` | Canal oficial mientras no haya endpoint |
+
+**Con `endpoint: null` el formulario no finge enviar**: valida, y al pulsar
+Enviar avisa de que el envío no está conectado y da el correo oficial. Se
+prefirió esto a un éxito falso, que perdería candidaturas en silencio.
+
+Para que funcione en esta versión sin WordPress basta apuntar `endpoint` a un
+servicio que acepte `FormData` por POST (Formspree, Basin, la REST de WPForms).
+
 ## Estructura: una sola página
 
 Todo el portal vive en `/`. El menú no navega: desplaza entre secciones.
@@ -198,7 +241,8 @@ Todo el portal vive en `/`. El menú no navega: desplaza entre secciones.
 |-------|---------|
 | `#inicio` | Hero conmemorativo |
 | `#prenominados` | Buscador global (con filtro por categoría). **No lista nada hasta que se busca** |
-| `#categorias` | Resumen por disciplina + las 18 categorías en acordeón |
+| `#categorias` | Resumen por disciplina + las 19 categorías en acordeón |
+| `#nominar` | Formulario para proponer candidaturas |
 | `#fechas` | Cronograma del proceso |
 
 `#cat-<slug>` es un ancla profunda: abre esa categoría del acordeón y desplaza

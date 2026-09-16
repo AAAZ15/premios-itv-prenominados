@@ -1,7 +1,7 @@
 'use client';
 
 import { NAV_LINKS } from '@/data/config';
-import { CalendarIcon, GridIcon, HomeIcon, ListIcon } from './Icons';
+import { CalendarIcon, GridIcon, HomeIcon, ListIcon, StarIcon } from './Icons';
 import { useActiveSection } from './useActiveSection';
 import styles from './MobileTabBar.module.css';
 
@@ -9,6 +9,7 @@ const ICONS = {
   inicio: HomeIcon,
   prenominados: ListIcon,
   categorias: GridIcon,
+  nominar: StarIcon,
   fechas: CalendarIcon,
 } as const;
 

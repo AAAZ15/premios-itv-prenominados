@@ -1,0 +1,177 @@
+/* Formulario de nominación — misma estética de cristal que el resto del portal. */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.35rem;
+  padding: 1.5rem 1.25rem;
+  border-radius: var(--r-xl);
+  background: linear-gradient(
+    150deg,
+    rgba(56, 189, 248, 0.06) 0%,
+    rgba(255, 255, 255, 0.028) 50%,
+    rgba(129, 140, 248, 0.05) 100%
+  );
+  border: 1px solid var(--hairline);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+}
+
+@media (min-width: 768px) {
+  .form {
+    padding: 2.25rem 2rem;
+  }
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+}
+
+.etiqueta {
+  margin-bottom: 0.5rem;
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text);
+}
+
+.obligatorio {
+  color: var(--cyan);
+}
+
+.input,
+.textarea,
+.select {
+  width: 100%;
+  padding: 0.85rem 1rem;
+  border-radius: var(--r-md);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--hairline);
+  color: var(--text);
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  transition: border-color 0.25s var(--ease), box-shadow 0.25s var(--ease);
+}
+
+.input::placeholder,
+.textarea::placeholder {
+  color: var(--text-dim);
+}
+
+.input:focus,
+.textarea:focus,
+.select:focus {
+  outline: none;
+  border-color: rgba(56, 189, 248, 0.65);
+  box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.14);
+}
+
+/* El navegador marca en rojo sólo tras un intento de envío. */
+.input:user-invalid,
+.textarea:user-invalid,
+.select:user-invalid {
+  border-color: rgba(255, 180, 171, 0.7);
+}
+
+.textarea {
+  min-height: 7rem;
+  resize: vertical;
+}
+
+.selectWrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.select {
+  appearance: none;
+  -webkit-appearance: none;
+  padding-right: 2.75rem;
+  cursor: pointer;
+}
+
+/* El menú nativo hereda el tema del sistema: se fuerza el oscuro. */
+.select option {
+  background: #0e131f;
+  color: #ffffff;
+}
+
+.selectChevron {
+  position: absolute;
+  right: 1rem;
+  pointer-events: none;
+  color: var(--text-muted);
+}
+
+.ayuda {
+  margin-top: 0.45rem;
+  font-size: 0.75rem;
+  line-height: 1.6;
+  color: var(--text-dim);
+}
+
+.pie {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.85rem 1.25rem;
+  margin-top: 0.25rem;
+}
+
+.plazo {
+  font-size: 0.75rem;
+  line-height: 1.6;
+  color: var(--text-dim);
+}
+
+.error {
+  padding: 0.85rem 1rem;
+  border-radius: var(--r-md);
+  background: rgba(147, 0, 10, 0.18);
+  border: 1px solid rgba(255, 180, 171, 0.35);
+  color: #ffdad6;
+  font-size: 0.8125rem;
+  line-height: 1.65;
+}
+
+/* --- Confirmación -------------------------------------------------------- */
+
+.exito {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.85rem;
+  padding: 2.75rem 1.5rem;
+  border-radius: var(--r-xl);
+  background: var(--glass);
+  border: 1px solid rgba(56, 189, 248, 0.32);
+  box-shadow: 0 0 34px -14px rgba(56, 189, 248, 0.4);
+}
+
+.exitoIcono {
+  display: grid;
+  place-items: center;
+  width: 3.25rem;
+  height: 3.25rem;
+  border-radius: var(--r-full);
+  color: var(--cyan);
+  background: linear-gradient(150deg, rgba(56, 189, 248, 0.2), rgba(129, 140, 248, 0.1));
+  border: 1px solid rgba(56, 189, 248, 0.3);
+}
+
+.exitoTitulo {
+  font-size: 1rem;
+  letter-spacing: 0.1em;
+}
+
+.exitoTexto {
+  max-width: 44ch;
+  color: var(--text-muted);
+  font-size: 0.875rem;
+  line-height: 1.7;
+}

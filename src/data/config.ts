@@ -120,6 +120,27 @@ export const TIMELINE: TimelineStage[] = [
 ];
 
 /**
+ * FORMULARIO DE NOMINACIÓN
+ * ---------------------------------------------------------------------------
+ * Réplica del WPForms del sitio original. En WordPress este bloque se sustituye
+ * por el shortcode de WPForms; aquí sirve para revisar el diseño, los campos y
+ * la lista de categorías, que se genera sola desde el catálogo.
+ *
+ *   endpoint  URL a la que se envía (REST de WPForms, Formspree, etc.).
+ *             `null` = vista previa: el formulario se muestra pero avisa de que
+ *             el envío todavía no está conectado y ofrece el correo oficial.
+ *   enabled   `false` oculta la sección entera cuando cierre el plazo.
+ */
+export const NOMINATION_FORM = {
+  enabled: true,
+  endpoint: null as string | null,
+  /** Fecha límite para proponer candidatos, tal como la anuncia ITV. */
+  deadlineLabel: '28 de septiembre de 2026',
+  /** Canal oficial mientras el envío no esté conectado. */
+  email: 'premios@itv.edu.ec',
+} as const;
+
+/**
  * Navegación principal (header, footer y barra inferior en móvil).
  *
  * El sitio es de una sola página: cada enlace desplaza hasta su sección.
@@ -129,6 +150,7 @@ export const NAV_LINKS = [
   { id: 'inicio', href: '#inicio', label: 'Inicio' },
   { id: 'prenominados', href: '#prenominados', label: 'Prenominados' },
   { id: 'categorias', href: '#categorias', label: 'Categorías' },
+  { id: 'nominar', href: '#nominar', label: 'Nominar' },
   { id: 'fechas', href: '#fechas', label: 'Fechas' },
 ] as const;
 

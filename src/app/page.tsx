@@ -6,9 +6,11 @@ import DirectoryWithParams from '@/components/DirectoryWithParams';
 import CategoryAccordion from '@/components/CategoryAccordion';
 import Timeline from '@/components/Timeline';
 import StructuredData from '@/components/StructuredData';
+import NominationForm from '@/components/NominationForm';
 import { categories, getDisciplineSummary, totals } from '@/data';
 import { SITE } from '@/data/config';
 import { NOMINATION_REQUIREMENT } from '@/data/descriptions';
+import { NOMINATION_FORM } from '@/data/config';
 import styles from './page.module.css';
 
 export const metadata: Metadata = {
@@ -83,6 +85,21 @@ export default function HomePage() {
           <CategoryAccordion categories={categories} />
         </div>
       </section>
+
+      {/* ----------------------------- Nominar ---------------------------- */}
+      {NOMINATION_FORM.enabled && (
+        <section id="nominar" className="section">
+          <div className="container container--narrow">
+            <SectionHeading
+              eyebrow="Propón una candidatura"
+              title="Nominación"
+              id="nominar-title"
+              lede="¿Falta alguien en la lista? Envía su nombre y el equipo de los Premios ITV revisará la propuesta."
+            />
+            <NominationForm />
+          </div>
+        </section>
+      )}
 
       {/* ------------------------------ Fechas ---------------------------- */}
       <section id="fechas" className="section">
