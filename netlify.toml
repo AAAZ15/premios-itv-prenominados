@@ -2,11 +2,6 @@
   command = "npm run build"
   publish = "out"
 
-# ---------------------------------------------------------------------------
-# VISTA PREVIA: se pide a los buscadores que NO indexen este despliegue.
-# Al publicar de forma definitiva, borra este bloque (y public/_headers).
-# ---------------------------------------------------------------------------
-[[headers]]
-  for = "/*"
-  [headers.values]
-    X-Robots-Tag = "noindex, nofollow"
+# La vista previa se bloquea con NEXT_PUBLIC_NOINDEX=1 (meta robots + robots.txt),
+# que funciona en cualquier hosting. El bloque [[headers]] anterior sólo servía
+# en Netlify y daba una falsa sensación de protección en GitHub Pages.

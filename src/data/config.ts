@@ -11,6 +11,19 @@
  */
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.premiositv.com';
 
+/**
+ * Bloqueo de indexación. Se activa en los despliegues de vista previa para que
+ * Google no indexe una copia en un dominio que no es el definitivo y acabe
+ * compitiendo con él.
+ *
+ * OJO: el archivo `public/_headers` NO funciona en GitHub Pages, que ignora esa
+ * convención de Netlify. Lo que sí respetan todos los buscadores es la etiqueta
+ * `<meta name="robots">` y el `robots.txt`, y es lo que se usa aquí.
+ *
+ * Para publicar en el dominio definitivo: no definir NEXT_PUBLIC_NOINDEX.
+ */
+export const NOINDEX = process.env.NEXT_PUBLIC_NOINDEX === '1';
+
 export const SITE = {
   name: 'Premios ITV',
   edition: '30 Años',

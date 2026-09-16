@@ -57,9 +57,16 @@ en local no hacen falta):
 | `NEXT_PUBLIC_BASE_PATH` | Subcarpeta desde la que se sirve. GitHub Pages usa `/premios-itv-prenominados`. Vacío = raíz del dominio. |
 | `NEXT_PUBLIC_SITE_URL` | Dominio para `canonical`, Open Graph y sitemap. |
 
-**Al pasar al dominio definitivo** (`www.premiositv.com`): deja ambas variables
-sin definir —los valores por defecto ya apuntan ahí— y borra `public/_headers`
-y el bloque `[[headers]]` de `netlify.toml` para levantar el `noindex`.
+| `NEXT_PUBLIC_NOINDEX` | `1` bloquea la indexación (meta robots + robots.txt, y el sitemap se vacía). Lo usa el flujo de GitHub Pages para que la vista previa no compita con el dominio final. |
+
+**Al pasar al dominio definitivo** (`www.premiositv.com`): deja las tres
+variables sin definir —los valores por defecto ya apuntan ahí y la indexación
+se activa sola— y añade redirecciones 301 desde las URLs de GitHub Pages.
+
+> El archivo `public/_headers` que había antes **no servía de nada**: es una
+> convención de Netlify y GitHub Pages la ignora, así que el `noindex` que se
+> creía activo nunca lo estuvo. Por eso ahora se hace con `<meta name="robots">`
+> y `robots.txt`, que respetan todos los buscadores y todos los hostings.
 
 > El despliegue en Netlify quedó bloqueado por el límite de créditos de la
 > cuenta (`Skipped due to account credit usage exceeded`); el proyecto

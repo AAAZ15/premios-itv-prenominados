@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import StageBackdrop from '@/components/StageBackdrop';
 import MobileTabBar, { MobileTabBarSpacer } from '@/components/MobileTabBar';
 import SmoothAnchors from '@/components/SmoothAnchors';
-import { SITE } from '@/data/config';
+import { NOINDEX, SITE } from '@/data/config';
 import '@/styles/globals.css';
 
 const montserrat = Montserrat({
@@ -52,7 +52,9 @@ export const metadata: Metadata = {
     title: `Prenominados | ${SITE.name} ${SITE.edition}`,
     description: SITE.description,
   },
-  robots: { index: true, follow: true },
+  robots: NOINDEX
+    ? { index: false, follow: false, nocache: true }
+    : { index: true, follow: true },
 };
 
 export const viewport: Viewport = {

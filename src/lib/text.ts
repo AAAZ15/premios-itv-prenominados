@@ -12,15 +12,27 @@ export function normalizeText(input: string): string {
     .replace(/[\u0300-\u036f]/g, '')
     .replace(/[´`'’]/g, '')
     .replace(/[^a-z0-9ñ]+/g, ' ')
+    // ñ→n para que «munoz» encuentre «MUÑOZ». Ver `tokenize`: una consulta que
+    // sólo sea «ñ» se descarta, porque si no equivaldría a buscar «n».
     .replace(/ñ/g, 'n')
     .replace(/\s+/g, ' ')
     .trim();
 }
 
-/** Divide la consulta en términos; todos deben coincidir (AND). */
+/** Longitud mínima de un término para que filtre. */
+export const MIN_QUERY_LENGTH = 2;
+
+/**
+ * Divide la consulta en términos; todos deben coincidir (AND).
+ *
+ * Se descartan los términos de un solo carácter: devolvían casi todo el
+ * directorio (una «a» daba 720 de 728) y, por la conversión ñ→n, una «ñ»
+ * sola acababa buscando «n» y devolvía 682 resultados.
+ */
 export function tokenize(query: string): string[] {
   const normalized = normalizeText(query);
-  return normalized ? normalized.split(' ').filter(Boolean) : [];
+  if (!normalized) return [];
+  return normalized.split(' ').filter((t) => t.length >= MIN_QUERY_LENGTH);
 }
 
 /**

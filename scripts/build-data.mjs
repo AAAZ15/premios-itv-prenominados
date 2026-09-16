@@ -20,7 +20,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import * as XLSX from 'xlsx';
-import { CATALOGO_2026, LIBRO_PRENOMINADOS } from './catalogo-2026.mjs';
+import { CATALOGO_2026, GRAFIAS, GRAFIAS_SIN_RESOLVER, LIBRO_PRENOMINADOS } from './catalogo-2026.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
@@ -103,6 +103,7 @@ function parseWorkbook(file) {
   const wb = XLSX.read(fs.readFileSync(file), { type: 'buffer' });
   const warnings = [];
   const notes = [];
+  const unificados = [];
   const categories = [];
   const nominees = [];
   const orphanRows = [];
@@ -178,10 +179,16 @@ function parseWorkbook(file) {
       }
       seenInCategory.set(key, rowNumber);
 
+      // Unificación de grafías declarada en el catálogo.
+      const publicado = GRAFIAS[name] ?? name;
+      if (publicado !== name) {
+        unificados.push(`«${name}» → «${publicado}» (fila ${rowNumber}, ${current.name})`);
+      }
+
       nomineeId += 1;
       nominees.push({
         id: `n${String(nomineeId).padStart(4, '0')}`,
-        name,
+        name: publicado,
         meta: metaRaw || null,
         categoryId: current.id,
         type: current.entryType,
@@ -192,7 +199,7 @@ function parseWorkbook(file) {
     }
   }
 
-  return { categories, nominees, warnings, notes, orphanRows };
+  return { categories, nominees, warnings, notes, unificados, orphanRows };
 }
 
 /* -------------------------------------------------------------------------- */
@@ -267,7 +274,7 @@ function main() {
   console.log(`· Fuente: ${SOURCE}`);
 
   const parsed = parseWorkbook(SOURCE);
-  const { categories, nominees, warnings, notes, orphanRows } = parsed;
+  const { categories, nominees, warnings, notes, unificados, orphanRows } = parsed;
   const { issues, similar } = validate(parsed);
   // `issues` recoge además los desajustes entre el catálogo y el Excel.
 
@@ -390,6 +397,12 @@ function main() {
   );
   section('Duplicados exactos omitidos', warnings, 'Ninguno.');
   section('Notas del archivo', notes, 'Sin notas.');
+  section('Grafías unificadas (declaradas en el catálogo)', unificados, 'Ninguna.');
+  section(
+    'Discrepancias SIN resolver — requieren decisión humana',
+    GRAFIAS_SIN_RESOLVER,
+    'Ninguna.'
+  );
   section('Problemas de estructura', issues, 'Ninguno.');
   section(
     'Posibles inconsistencias de escritura (NO corregidas — revisar manualmente)',
@@ -432,6 +445,7 @@ function main() {
   console.log(`✔ data-report.md`);
   if (warnings.length) console.log(`⚠ ${warnings.length} duplicado(s) exacto(s) omitido(s)`);
   if (similar.length) console.log(`⚠ ${similar.length} posible(s) inconsistencia(s) de escritura`);
+  if (unificados.length) console.log(`· ${unificados.length} grafía(s) unificada(s)`);
 }
 
 main();

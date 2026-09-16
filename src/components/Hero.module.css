@@ -5,6 +5,9 @@
   align-items: center;
   text-align: center;
   padding-block: 3rem 3.5rem;
+  /* El halo `.spot` mide 130% a propósito. Se recorta aquí para no depender de
+     `body { overflow-x: hidden }`, que puede no aplicarse dentro de un tema. */
+  overflow: hidden;
 }
 
 @media (min-width: 768px) {
@@ -87,6 +90,27 @@
   font-size: 1rem;
   line-height: 1.75;
   animation: rise 0.7s 0.24s var(--ease) both;
+}
+
+.strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
+/* Aviso: la página no recoge votos. */
+.notice {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin-top: 1rem;
+  padding: 0.5rem 0.9rem;
+  border-radius: var(--r-full);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--hairline-soft);
+  color: var(--text-dim);
+  font-size: 0.75rem;
+  line-height: 1.5;
+  animation: rise 0.7s 0.27s var(--ease) both;
 }
 
 .actions {

@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "Lista de premios ITV 2026.xlsx",
-    "generatedAt": "2026-09-16T18:22:30.626Z",
+    "generatedAt": "2026-09-16T18:51:09.056Z",
     "totalCategories": 19,
     "totalNominees": 728
   },
@@ -1633,7 +1633,7 @@
     },
     {
       "id": "n0173",
-      "name": "ALVAREZ CÉSAR MANUEL",
+      "name": "ÁLVAREZ CÉSAR MANUEL",
       "meta": null,
       "categoryId": "mejor-narrador-deportivo",
       "order": 1,
@@ -2057,7 +2057,7 @@
     },
     {
       "id": "n0226",
-      "name": "ARÉVALO JOSE LUIS",
+      "name": "ARÉVALO JOSÉ LUIS",
       "meta": null,
       "categoryId": "mejor-comunicador-de-deportes",
       "order": 5,
@@ -3737,7 +3737,7 @@
     },
     {
       "id": "n0436",
-      "name": "BARBERAN SOLEDAD",
+      "name": "BARBERÁN SOLEDAD",
       "meta": null,
       "categoryId": "mejor-conductora-de-programas-de-variedades",
       "order": 2,
@@ -3753,7 +3753,7 @@
     },
     {
       "id": "n0438",
-      "name": "CAICHE SOFIA",
+      "name": "CAICHE SOFÍA",
       "meta": null,
       "categoryId": "mejor-conductora-de-programas-de-variedades",
       "order": 4,
@@ -4689,7 +4689,7 @@
     },
     {
       "id": "n0555",
-      "name": "NAVAS STEFANO",
+      "name": "NAVAS STÉFANO",
       "meta": null,
       "categoryId": "mejor-actor",
       "order": 26,
@@ -5761,7 +5761,7 @@
     },
     {
       "id": "n0689",
-      "name": "jandino",
+      "name": "Jandino",
       "meta": null,
       "categoryId": "mejor-tiktoker",
       "order": 19,

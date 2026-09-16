@@ -5,7 +5,11 @@
   position: fixed;
   inset: 0;
   z-index: -1;
+  /* Los haces sobresalen a propósito; se recortan AQUÍ y no en `body`, para
+     que el fondo no genere scroll horizontal si este componente acaba dentro
+     de otro contenedor (por ejemplo, una plantilla de WordPress). */
   overflow: hidden;
+  contain: layout paint;
   pointer-events: none;
   background:
     radial-gradient(ellipse 120% 70% at 50% -10%, rgba(56, 189, 248, 0.16), transparent 62%),

@@ -1,7 +1,7 @@
 # Reporte de datos — Prenominados Premios ITV
 
 - **Archivo fuente:** `Lista de premios ITV 2026.xlsx`
-- **Generado:** 2026-09-16T18:22:30.629Z
+- **Generado:** 2026-09-16T18:51:09.058Z
 - **Categorías:** 19
 - **Registros de prenominados:** 728
 
@@ -42,6 +42,20 @@
 
 _Sin notas._
 
+## Grafías unificadas (declaradas en el catálogo)
+
+- «ALVAREZ CÉSAR MANUEL» → «ÁLVAREZ CÉSAR MANUEL» (fila 185, MEJOR NARRADOR DEPORTIVO)
+- «ARÉVALO JOSE LUIS» → «ARÉVALO JOSÉ LUIS» (fila 240, MEJOR COMUNICADOR DE DEPORTES)
+- «BARBERAN SOLEDAD» → «BARBERÁN SOLEDAD» (fila 458, MEJOR CONDUCTORA DE VARIEDADES)
+- «CAICHE SOFIA» → «CAICHE SOFÍA» (fila 460, MEJOR CONDUCTORA DE VARIEDADES)
+- «NAVAS STEFANO» → «NAVAS STÉFANO» (fila 587, MEJOR ACTOR)
+- «jandino» → «Jandino» (fila 727, MEJOR TIKTOKER)
+
+## Discrepancias SIN resolver — requieren decisión humana
+
+- AIZPRUA JUAN CARLOS / AIZPRÚA JUAN CARLOS
+- VERA ISMAEL / VERA ISRAEL
+
 ## Problemas de estructura
 
 _Ninguno._
@@ -76,7 +90,7 @@ _Ninguna._
 - BARBERÁN SOLEDAD → mejor-reportero-a-de-noticias, mejor-conductora-de-variedades
 - BOADA ALEJANDRA → mejor-reportero-a-de-noticias, mejor-conductora-de-variedades
 - RODRÍGUEZ ERAZO LEONEL → mejor-reportero-a-de-noticias, mejor-narrador-deportivo
-- ALVAREZ CÉSAR MANUEL → mejor-narrador-deportivo, mejor-comunicador-de-deportes
+- ÁLVAREZ CÉSAR MANUEL → mejor-narrador-deportivo, mejor-comunicador-de-deportes
 - AULESTIA ANDRÉS → mejor-narrador-deportivo, mejor-comunicador-de-deportes
 - BORBOR UFREDO → mejor-narrador-deportivo, mejor-comunicador-de-deportes
 - ERAS LUIS FERNANDO → mejor-narrador-deportivo, mejor-comunicador-de-deportes
@@ -92,7 +106,7 @@ _Ninguna._
 - HEREDIA JORGE → mejor-conductor-de-variedades, mejor-animador-de-programa-de-concursos
 - ROMÁN JUAN CARLOS → mejor-conductor-de-variedades, mejor-actor
 - VIZUETE ALEX → mejor-conductor-de-variedades, mejor-actor
-- CAICHE SOFIA → mejor-conductora-de-variedades, mejor-actriz
+- CAICHE SOFÍA → mejor-conductora-de-variedades, mejor-actriz
 - GALLARDO JOSELYN → mejor-conductora-de-variedades, mejor-actriz
 - ARÁUZ VÍCTOR → mejor-animador-de-programa-de-concursos, mejor-actor
 - Jandino → mejor-creador-de-contenido-de-instagram, mejor-tiktoker

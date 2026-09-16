@@ -4,7 +4,7 @@ import { useCallback, useEffect, useMemo, useState } from 'react';
 import { categories } from '@/data';
 import { PAGE_SIZE } from '@/data/config';
 import { searchEntries } from '@/lib/search';
-import { tokenize } from '@/lib/text';
+import { MIN_QUERY_LENGTH, tokenize } from '@/lib/text';
 import NomineeList, { LoadMore } from './NomineeList';
 import SearchBar, { CategoryFilter, ControlsBar, ResultsSummary } from './SearchBar';
 import EmptySearchState from './EmptySearchState';
@@ -68,11 +68,17 @@ export default function Directory({
   const tokens = useMemo(() => tokenize(query), [query]);
 
   /**
-   * Sin búsqueda ni filtro NO se lista nada: volcar los 600 registros de golpe
+   * Sin búsqueda ni filtro NO se lista nada: volcar los 728 registros de golpe
    * abrumaba la página. Los prenominados se consultan por categoría, en el
    * acordeón, o buscando aquí.
+   *
+   * Una consulta demasiado corta tampoco filtra —`tokenize` la descarta— así
+   * que se trata como «todavía no hay búsqueda» y se avisa, en lugar de
+   * devolver el directorio entero.
    */
-  const active = Boolean(query.trim() || categoryId);
+  const escrito = query.trim();
+  const demasiadoCorta = escrito.length > 0 && tokens.length === 0;
+  const active = Boolean((escrito && !demasiadoCorta) || categoryId);
 
   const results = useMemo(
     () => (active ? searchEntries(query, { categoryId: categoryId || null }) : []),
@@ -98,7 +104,7 @@ export default function Directory({
       </ControlsBar>
 
       {!active ? (
-        <IdleHint onExample={setQuery} />
+        <IdleHint demasiadoCorta={demasiadoCorta} />
       ) : (
         <>
           <ResultsSummary

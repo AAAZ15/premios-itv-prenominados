@@ -69,6 +69,11 @@
 }
 
 .link {
+  /* 24px de alto mínimo: criterio 2.5.8 «Target Size (Minimum)» de WCAG 2.2 AA. */
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
+  padding-block: 0.25rem;
   font-size: 0.875rem;
   color: var(--text-muted);
   transition: color 0.2s var(--ease);
@@ -92,6 +97,7 @@
 .site {
   display: inline-flex;
   align-items: center;
+  min-height: 24px;
   gap: 0.5rem;
   font-family: var(--font-display);
   font-size: 0.75rem;

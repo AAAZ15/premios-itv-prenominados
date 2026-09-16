@@ -58,7 +58,9 @@ export default function Header() {
             type="button"
             className={styles.burger}
             aria-expanded={open}
-            aria-controls={panelId}
+            // Sólo se referencia el panel cuando existe: apuntar a un id
+            // ausente es un error de ARIA.
+            aria-controls={open ? panelId : undefined}
             aria-label={open ? 'Cerrar menú' : 'Abrir menú'}
             onClick={() => setOpen((value) => !value)}
           >

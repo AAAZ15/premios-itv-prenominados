@@ -33,37 +33,9 @@
   line-height: 1.7;
 }
 
-.examplesLabel {
-  margin-top: 0.35rem;
-  font-size: 0.5625rem;
-  font-weight: 600;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: var(--text-dim);
-}
 
-.examples {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.45rem;
-}
 
-.example {
-  padding: 0.4rem 0.8rem;
-  border-radius: var(--r-full);
-  background: rgba(255, 255, 255, 0.045);
-  border: 1px solid var(--hairline-soft);
-  font-size: 0.6875rem;
-  font-weight: 500;
-  color: var(--text-muted);
-  transition: color 0.2s var(--ease), border-color 0.2s var(--ease);
-}
 
-.example:hover {
-  color: var(--cyan-soft);
-  border-color: var(--rim);
-}
 
 .browse {
   display: inline-flex;

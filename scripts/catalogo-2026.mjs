@@ -242,6 +242,49 @@ export const CATALOGO_2026 = [
   },
 ];
 
+/**
+ * UNIFICACIÓN DE GRAFÍAS
+ * ===========================================================================
+ * En el libro oficial, siete personas aparecen escritas de dos formas según la
+ * categoría. El buscador las encuentra igual (normaliza acentos), pero el
+ * público veía la incoherencia. Aquí se fija la forma que se publica.
+ *
+ * Sólo se corrige lo que la ortografía española resuelve sin ambigüedad. Las
+ * dudas reales se dejan como están y `npm run data` las reporta.
+ *
+ *   clave  = grafía que aparece en el libro y se sustituye
+ *   valor  = grafía que se publica
+ */
+export const GRAFIAS = {
+  // «José» es aguda terminada en vocal: lleva tilde.
+  'ARÉVALO JOSE LUIS': 'ARÉVALO JOSÉ LUIS',
+  // «Barberán» es aguda terminada en n: lleva tilde.
+  'BARBERAN SOLEDAD': 'BARBERÁN SOLEDAD',
+  // «Álvarez» es esdrújula: lleva tilde.
+  'ALVAREZ CÉSAR MANUEL': 'ÁLVAREZ CÉSAR MANUEL',
+  // «Stéfano» es esdrújula: lleva tilde.
+  'NAVAS STEFANO': 'NAVAS STÉFANO',
+  // «Sofía» lleva tilde por el hiato.
+  'CAICHE SOFIA': 'CAICHE SOFÍA',
+  // Nombre propio: mayúscula inicial, como en el resto de su categoría.
+  'jandino': 'Jandino',
+};
+
+/**
+ * Discrepancias que NO se tocan porque exigen una decisión humana:
+ *
+ *   AIZPRUA JUAN CARLOS ⟷ AIZPRÚA JUAN CARLOS
+ *     La acentuación depende de si se pronuncia con hiato. Ambas formas son
+ *     defendibles; hay que preguntarle a la persona.
+ *
+ *   VERA ISMAEL ⟷ VERA ISRAEL  (ambos en Mejor Actor)
+ *     Pueden ser dos personas distintas o una errata.
+ */
+export const GRAFIAS_SIN_RESOLVER = [
+  'AIZPRUA JUAN CARLOS / AIZPRÚA JUAN CARLOS',
+  'VERA ISMAEL / VERA ISRAEL',
+];
+
 /** Condición general de nominación, común a todas las categorías. */
 export const REQUISITO_NOMINACION =
   'Es requisito para ser nominado en todas las categorías que esté ejerciendo su ' +

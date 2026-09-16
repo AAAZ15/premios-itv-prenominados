@@ -5,6 +5,7 @@ import SectionHeading from '@/components/SectionHeading';
 import DirectoryWithParams from '@/components/DirectoryWithParams';
 import CategoryAccordion from '@/components/CategoryAccordion';
 import Timeline from '@/components/Timeline';
+import StructuredData from '@/components/StructuredData';
 import { categories, getDisciplineSummary, totals } from '@/data';
 import { SITE } from '@/data/config';
 import { NOMINATION_REQUIREMENT } from '@/data/descriptions';
@@ -27,6 +28,8 @@ export default function HomePage() {
 
   return (
     <>
+      <StructuredData />
+
       {/* ------------------------------ Inicio ---------------------------- */}
       <section id="inicio">
         <div className="container">

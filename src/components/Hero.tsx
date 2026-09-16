@@ -21,8 +21,13 @@ export default function Hero() {
       <p className={`pill ${styles.kicker}`}>Lista oficial de prenominados</p>
 
       <p className={styles.lede}>
-        Conoce a los prenominados de los Premios ITV. Explora las categorías, busca a tu talento,
-        programa, medio o cuenta digital favorita y consulta el cronograma del proceso.
+        Los <strong className={styles.strong}>prenominados</strong> son las candidaturas admitidas
+        en cada categoría, el paso previo a los nominados oficiales. Busca a tu talento, programa,
+        medio o cuenta digital y consulta el cronograma.
+      </p>
+
+      <p className={styles.notice}>
+        Esta página es solo informativa: aquí se consulta la lista, no se vota.
       </p>
 
       <div className={styles.actions}>

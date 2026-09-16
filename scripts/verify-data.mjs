@@ -16,7 +16,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import * as XLSX from 'xlsx';
-import { CATALOGO_2026, LIBRO_PRENOMINADOS } from './catalogo-2026.mjs';
+import { CATALOGO_2026, GRAFIAS, LIBRO_PRENOMINADOS } from './catalogo-2026.mjs';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
 
@@ -76,7 +76,8 @@ for (const r of rows) {
   const key = v.toLowerCase();
   if (vistos.has(key)) continue; // duplicado exacto, igual que en el generador
   vistos.add(key);
-  excel.get(actual).push(v);
+  // Se compara contra la grafía que el catálogo manda publicar.
+  excel.get(actual).push(GRAFIAS[v] ?? v);
 }
 
 /* ------------------------ 2) Lo realmente publicado ---------------------- */
