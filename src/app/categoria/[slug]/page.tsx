@@ -5,7 +5,7 @@ import NomineeList from '@/components/NomineeList';
 import { ChevronLeft, ChevronRight, GridIcon } from '@/components/Icons';
 import { categories, getCategory, getCategoryNeighbours, getNominees } from '@/data';
 import { CATEGORY_HASH_PREFIX, SITE } from '@/data/config';
-import { getCategoryDescription, NOMINATION_REQUIREMENT } from '@/data/descriptions';
+import { NOMINATION_REQUIREMENT } from '@/data/descriptions';
 import { plural } from '@/lib/text';
 import styles from './page.module.css';
 
@@ -28,14 +28,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     .replace(/(^|[\s(/])([a-záéíóúñ])/g, (_, prefix: string, letter: string) => prefix + letter.toLocaleUpperCase('es'));
 
   // La descripción oficial describe mejor la categoría que un simple conteo.
-  const official = getCategoryDescription(category.slug);
-  const description =
-    official ??
-    `${category.count} ${plural(
-      category.count,
-      'prenominado',
-      'prenominados'
-    ).toLowerCase()} en la categoría ${category.name} de los ${SITE.name} ${SITE.edition}.`;
+  const description = category.description;
 
   return {
     title,
@@ -82,26 +75,32 @@ export default async function CategoriaPage({ params }: PageProps) {
         <h1 className={styles.title}>{category.name}</h1>
         <div className={styles.badges}>
           <span className="pill pill--accent">
-            {category.count} {label}
+            {category.count === 0 ? 'Próximamente' : `${category.count} ${label}`}
           </span>
           <span className="pill">{category.discipline}</span>
           {category.metaLabel && <span className="pill">Incluye {category.metaLabel}</span>}
         </div>
       </header>
 
-      {getCategoryDescription(category.slug) && (
-        <p className={styles.description}>{getCategoryDescription(category.slug)}</p>
-      )}
+      <p className={styles.description}>{category.description}</p>
 
       <section className={styles.listSection} aria-labelledby="listado-title">
         <div className={styles.listHead}>
           <h2 className={`section-title ${styles.listTitle}`} id="listado-title">
             Listado de prenominados
           </h2>
-          <p className={styles.listNote}>Orden según la lista oficial.</p>
+          {items.length > 0 && (
+            <p className={styles.listNote}>Orden según la lista oficial.</p>
+          )}
         </div>
 
-        <NomineeList items={items} showCategory={false} />
+        {items.length === 0 ? (
+          <p className={styles.empty}>
+            Todavía no hay prenominados publicados en esta categoría.
+          </p>
+        ) : (
+          <NomineeList items={items} showCategory={false} />
+        )}
       </section>
 
       <p className={styles.requirement}>{NOMINATION_REQUIREMENT}</p>

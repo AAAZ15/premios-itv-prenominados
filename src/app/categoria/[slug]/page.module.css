@@ -234,3 +234,15 @@
   font-size: 0.75rem;
   line-height: 1.75;
 }
+
+/* Categoría del catálogo que todavía no tiene prenominados. */
+.empty {
+  padding: 2rem 1.25rem;
+  border-radius: var(--r-md);
+  background: rgba(255, 255, 255, 0.025);
+  border: 1px dashed var(--hairline);
+  text-align: center;
+  color: var(--text-dim);
+  font-size: 0.875rem;
+  line-height: 1.7;
+}

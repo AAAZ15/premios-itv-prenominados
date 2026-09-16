@@ -2,12 +2,11 @@
 
 import { useCallback, useEffect, useId, useState } from 'react';
 import { getNominees } from '@/data';
-import { getCategoryDescription } from '@/data/descriptions';
 import { CATEGORY_HASH_PREFIX } from '@/data/config';
 import { GOTO_EVENT, scrollToIdAfterRender } from '@/lib/scroll';
 import type { Category } from '@/lib/types';
 import { plural } from '@/lib/text';
-import { ChevronDown, FilmIcon, GridIcon, ListIcon, SparkIcon, StarIcon } from './Icons';
+import { ChevronDown, FilmIcon, GridIcon, ListIcon, SparkIcon, StarIcon, TrophyIcon } from './Icons';
 import styles from './CategoryAccordion.module.css';
 
 function DisciplineIcon({ discipline }: { discipline: Category['discipline'] }) {
@@ -18,6 +17,8 @@ function DisciplineIcon({ discipline }: { discipline: Category['discipline'] }) 
       return <StarIcon size={18} />;
     case 'Variedades':
       return <SparkIcon size={18} />;
+    case 'Concursos':
+      return <TrophyIcon size={18} />;
     case 'Dramáticos':
       return <FilmIcon size={18} />;
     default:
@@ -36,14 +37,18 @@ function Panel({
   id: string;
 }) {
   const nominees = getNominees(category.id);
-  const description = getCategoryDescription(category.slug);
 
   return (
     <div className={styles.panel} id={id} role="region" aria-labelledby={labelledBy}>
       <hr className={`rule ${styles.panelRule}`} />
 
-      {description && <p className={styles.panelDescription}>{description}</p>}
+      <p className={styles.panelDescription}>{category.description}</p>
 
+      {nominees.length === 0 ? (
+        <p className={styles.panelEmpty}>
+          Todavía no hay prenominados publicados en esta categoría.
+        </p>
+      ) : (
       <ul className={styles.rows}>
         {nominees.map((nominee, index) => (
           <li key={nominee.id}>
@@ -63,11 +68,14 @@ function Panel({
           </li>
         ))}
       </ul>
+      )}
 
-      <p className={styles.panelNote}>
-        {category.count} {plural(category.count, 'prenominado', 'prenominados')} · orden según la
-        lista oficial.
-      </p>
+      {nominees.length > 0 && (
+        <p className={styles.panelNote}>
+          {category.count} {plural(category.count, 'prenominado', 'prenominados')} · orden según la
+          lista oficial.
+        </p>
+      )}
     </div>
   );
 }
@@ -140,6 +148,7 @@ export default function CategoryAccordion({ categories, initialCount = 6 }: Prop
           const open = openId === category.id;
           const headerId = `${baseId}-h-${category.id}`;
           const panelId = `${baseId}-p-${category.id}`;
+          const vacia = category.count === 0;
           const label = plural(category.count, 'Prenominado', 'Prenominados');
           const reveal = expanded && index >= initialCount;
 
@@ -180,15 +189,27 @@ export default function CategoryAccordion({ categories, initialCount = 6 }: Prop
                           título disponga de todo el ancho. */}
                       <span className={styles.inlineCount}>
                         {' · '}
-                        <b className={styles.inlineCountValue}>{category.count}</b> {label}
+                        {vacia ? (
+                          <b className={styles.inlineCountValue}>Próximamente</b>
+                        ) : (
+                          <>
+                            <b className={styles.inlineCountValue}>{category.count}</b> {label}
+                          </>
+                        )}
                       </span>
                     </span>
                   </span>
 
                   <span className={styles.side}>
-                    <span className={styles.count}>
-                      <span className={styles.countValue}>{category.count}</span>
-                      <span className={styles.countLabel}>{label}</span>
+                    <span className={`${styles.count} ${vacia ? styles.countEmpty : ''}`}>
+                      {vacia ? (
+                        <span className={styles.countSoon}>Próximamente</span>
+                      ) : (
+                        <>
+                          <span className={styles.countValue}>{category.count}</span>
+                          <span className={styles.countLabel}>{label}</span>
+                        </>
+                      )}
                     </span>
                     <ChevronDown
                       size={18}

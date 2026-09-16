@@ -22,9 +22,8 @@ export const metadata: Metadata = {
  */
 export default function HomePage() {
   const disciplines = getDisciplineSummary();
-  // De mayor a menor: las primeras seis se ven de entrada en el acordeón y el
-  // resto se revela con la flecha, sin que las visibles cambien de sitio.
-  const byVolume = [...categories].sort((a, b) => b.count - a.count);
+  // Orden oficial del catálogo 2026: agrupa por disciplina y es el que ITV
+  // publica. `categories` ya viene ordenado por ese criterio.
 
   return (
     <>
@@ -57,7 +56,7 @@ export default function HomePage() {
             eyebrow="Explora por categoría"
             title="Categorías"
             id="categorias-title"
-            lede={`${totals.categories} categorías oficiales con ${totals.nominees} prenominados. Toca una categoría para ver su lista completa aquí mismo.`}
+            lede={`${totals.categories} categorías oficiales. Toca una categoría para ver su descripción y su lista completa de prenominados aquí mismo.`}
           />
 
           <p className={styles.requirement}>{NOMINATION_REQUIREMENT}</p>
@@ -78,7 +77,7 @@ export default function HomePage() {
             ))}
           </ul>
 
-          <CategoryAccordion categories={byVolume} />
+          <CategoryAccordion categories={categories} />
         </div>
       </section>
 

@@ -4,6 +4,7 @@ export type Discipline =
   | 'Noticias'
   | 'Deportes'
   | 'Variedades'
+  | 'Concursos'
   | 'Dramáticos'
   | 'Digital'
   | 'Otras';
@@ -14,9 +15,13 @@ export interface Category {
   /** Nombre exacto tal como aparece en el Excel oficial. */
   name: string;
   order: number;
-  /** Fila del archivo fuente (trazabilidad). */
-  sourceRow: number;
-  /** Agrupación derivada del nombre de la categoría (no viene del Excel). */
+  /** Descripción oficial de la categoría (catálogo 2026). */
+  description: string;
+  /** Categoría del Excel de la que salen sus prenominados; null si es nueva. */
+  sourceCategory: string | null;
+  /** Fila del archivo fuente; null si la categoría todavía no tiene origen. */
+  sourceRow: number | null;
+  /** Agrupación para la interfaz, definida en el catálogo. */
   discipline: Discipline;
   entryType: EntryType;
   /** Qué significa el campo `meta` de sus prenominados: «Canal», «Plataforma»… */

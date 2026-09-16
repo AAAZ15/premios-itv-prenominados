@@ -107,6 +107,17 @@ export const StarIcon = (p: IconProps) => (
   </Base>
 );
 
+export const TrophyIcon = (p: IconProps) => (
+  <Base {...p}>
+    <path d="M7 4h10v5a5 5 0 0 1-10 0z" />
+    <path d="M7 5.5H4.5v1.5a3 3 0 0 0 3 3" />
+    <path d="M17 5.5h2.5V7a3 3 0 0 1-3 3" />
+    <path d="M12 14v3.5" />
+    <path d="M8.5 20.5h7" />
+    <path d="M9.5 20.5c0-1.7 1.1-3 2.5-3s2.5 1.3 2.5 3" />
+  </Base>
+);
+
 /** Emblema conmemorativo: película + destello. */
 export const FilmIcon = (p: IconProps) => (
   <Base {...p}>

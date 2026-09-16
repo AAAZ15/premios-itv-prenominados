@@ -67,6 +67,39 @@ y el bloque `[[headers]]` de `netlify.toml` para levantar el `noindex`.
 
 ---
 
+## Catálogo de categorías — la lista manda
+
+`scripts/catalogo-2026.mjs` es la **fuente de verdad** de qué categorías
+existen, cómo se llaman, en qué orden salen y qué texto las describe. El Excel
+sólo aporta los nombres de los prenominados.
+
+Cada entrada declara `fuenteExcel`:
+
+- **un nombre** → sus prenominados salen de esa categoría del Excel (renombrada
+  en la web si el nombre oficial cambió).
+- **`null`** → categoría nueva: se publica con su descripción y el rótulo
+  «Próximamente» hasta que llegue el listado con sus prenominados.
+
+Las categorías del Excel que **no** figuren como `fuenteExcel` de ninguna
+entrada quedan fuera de la web, y `npm run data` las enumera en el reporte.
+
+Para actualizar: se edita ese archivo y se ejecuta `npm run data && npm run build`.
+
+### Estado actual (catálogo 2026 vs. Excel 2023)
+
+| | |
+|---|---|
+| Categorías publicadas | 19 |
+| Prenominados publicados | 462 |
+| Renombradas respecto al Excel | 7 |
+| Nuevas, aún sin prenominados | 6 |
+| Categorías del Excel excluidas | 5 (138 prenominados) |
+
+Las excluidas son *Instagram Senior*, *Instagram Junior*, *YouTuber*, *Cuenta
+Digital de Dramáticos* y *Cuenta Digital de Entretenimiento*: el catálogo 2026
+no las contempla. Sus prenominados dejan de publicarse; siguen en el Excel y
+volverían solos si alguna entrada del catálogo los reclamara como `fuenteExcel`.
+
 ## Fuente de datos
 
 - **Archivo:** `Nominados oficiales PREMIOS ITV 2023 (1).xlsx`, hoja `Hoja1`.

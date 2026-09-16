@@ -1,32 +1,33 @@
 # Reporte de datos — Prenominados Premios ITV
 
 - **Archivo fuente:** `Nominados oficiales PREMIOS ITV 2023 (1).xlsx`
-- **Generado:** 2026-09-09T18:52:50.855Z
+- **Generado:** 2026-09-16T15:43:56.043Z
 - **Categorías:** 18
 - **Registros de prenominados:** 600
 
-## Categorías detectadas
+## Categorías publicadas (catálogo oficial 2026)
 
-| # | Categoría | Prenominados | Disciplina | Tipo | Fila origen |
-|---|-----------|--------------|------------|------|-------------|
-| 1 | MEJOR PRESENTADOR DE NOTICIAS | 27 | Noticias | persona | 3 |
-| 2 | MEJOR PRESENTADORA DE NOTICIAS | 30 | Noticias | persona | 33 |
-| 3 | MEJOR REPORTERO/A DE NOTICIAS | 83 | Noticias | persona | 67 |
-| 4 | MEJOR CUENTA INFORMATIVA DIGITAL | 22 | Noticias | medio | 153 |
-| 5 | MEJOR NARRADOR DEPORTIVO | 34 | Deportes | persona | 181 |
-| 6 | MEJOR COMENTARISTA DEPORTIVO (MASCULINO) | 83 | Deportes | persona | 220 |
-| 7 | MEJOR COMENTARISTA DEPORTIVO (MUJERES) | 30 | Deportes | persona | 307 |
-| 8 | MEJOR CUENTA DIGITAL DE DEPORTES | 16 | Deportes | cuenta | 341 |
-| 9 | MEJOR CONDUCTOR DE VARIEDADES | 34 | Variedades | persona | 370 |
-| 10 | MEJOR CONDUCTORA DE VARIEDADES | 34 | Variedades | persona | 407 |
-| 11 | MEJOR PROGRAMA DE VARIEDADES | 29 | Variedades | programa | 444 |
-| 12 | MEJOR ACTOR | 23 | Dramáticos | persona | 478 |
-| 13 | MEJOR ACTRIZ | 17 | Dramáticos | persona | 504 |
-| 14 | MEJOR CUENTA DE INSTAGRAM SENIOR | 68 | Digital | cuenta | 526 |
-| 15 | MEJOR CUENTA DE INSTAGRAM JUNIOR | 31 | Digital | cuenta | 600 |
-| 16 | MEJOR YOUTUBER | 15 | Digital | cuenta | 636 |
-| 17 | MEJOR CUENTA DIGITAL DE DRAMÁTICOS | 3 | Dramáticos | cuenta | 657 |
-| 18 | MEJOR CUENTA DIGITAL DE ENTRETENIMIENTO | 21 | Digital | cuenta | 666 |
+| # | Categoría | Prenominados | Disciplina | Origen en el Excel |
+|---|-----------|--------------|------------|--------------------|
+| 1 | MEJOR PRESENTADOR DE INFORMACIÓN, NOTICIAS E INVESTIGACIÓN | 27 | Noticias | «MEJOR PRESENTADOR DE NOTICIAS» (renombrada) |
+| 2 | MEJOR PRESENTADORA DE INFORMACIÓN, NOTICIAS E INVESTIGACIÓN | 30 | Noticias | «MEJOR PRESENTADORA DE NOTICIAS» (renombrada) |
+| 3 | MEJOR REPORTERO/A DE NOTICIAS | 83 | Noticias | igual |
+| 4 | MEJOR MEDIO DIGITAL DE INFORMACIÓN | 22 | Noticias | «MEJOR CUENTA INFORMATIVA DIGITAL» (renombrada) |
+| 5 | MEJOR NARRADOR DEPORTIVO | 34 | Deportes | igual |
+| 6 | MEJOR COMUNICADOR DE DEPORTES | 83 | Deportes | «MEJOR COMENTARISTA DEPORTIVO (MASCULINO)» (renombrada) |
+| 7 | MEJOR COMUNICADORA DE DEPORTES | 30 | Deportes | «MEJOR COMENTARISTA DEPORTIVO (MUJERES)» (renombrada) |
+| 8 | MEJOR CUENTA DIGITAL DE DEPORTES | 16 | Deportes | igual |
+| 9 | MEJOR CONDUCTOR DE PROGRAMAS DE VARIEDADES | 34 | Variedades | «MEJOR CONDUCTOR DE VARIEDADES» (renombrada) |
+| 10 | MEJOR CONDUCTORA DE PROGRAMAS DE VARIEDADES | 34 | Variedades | «MEJOR CONDUCTORA DE VARIEDADES» (renombrada) |
+| 11 | MEJOR PROGRAMA DE VARIEDADES | 29 | Variedades | igual |
+| 12 | MEJOR ANIMADOR DE PROGRAMA DE CONCURSOS | 0 | Concursos | — (nueva) |
+| 13 | MEJOR ANIMADORA DE PROGRAMA DE CONCURSOS | 0 | Concursos | — (nueva) |
+| 14 | MEJOR PROGRAMA DE CONCURSOS | 0 | Concursos | — (nueva) |
+| 15 | MEJOR ACTOR | 23 | Dramáticos | igual |
+| 16 | MEJOR ACTRIZ | 17 | Dramáticos | igual |
+| 17 | MEJOR CREADOR DE CONTENIDO DE INSTAGRAM | 0 | Digital | — (nueva) |
+| 18 | MEJOR TIKTOKER | 0 | Digital | — (nueva) |
+| 19 | MEJOR CREADOR DE CONTENIDO EMPRESARIAL | 0 | Digital | — (nueva) |
 
 ## Filas fuera de categoría (encabezado del archivo)
 
@@ -49,6 +50,23 @@ _Ninguno._
 ## Posibles inconsistencias de escritura (NO corregidas — revisar manualmente)
 
 - Posible variante del mismo registro en «MEJOR REPORTERO/A DE NOTICIAS»: "GOYES RASHEL" (fila 101) y "RASHEL GOYES" (fila 127).
+
+## Categorías del Excel EXCLUIDAS (no están en el catálogo 2026)
+
+- MEJOR CUENTA DE INSTAGRAM SENIOR — se dejan de publicar 68 prenominados
+- MEJOR CUENTA DE INSTAGRAM JUNIOR — se dejan de publicar 31 prenominados
+- MEJOR YOUTUBER — se dejan de publicar 15 prenominados
+- MEJOR CUENTA DIGITAL DE DRAMÁTICOS — se dejan de publicar 3 prenominados
+- MEJOR CUENTA DIGITAL DE ENTRETENIMIENTO — se dejan de publicar 21 prenominados
+
+## Categorías del catálogo SIN prenominados todavía
+
+- MEJOR ANIMADOR DE PROGRAMA DE CONCURSOS
+- MEJOR ANIMADORA DE PROGRAMA DE CONCURSOS
+- MEJOR PROGRAMA DE CONCURSOS
+- MEJOR CREADOR DE CONTENIDO DE INSTAGRAM
+- MEJOR TIKTOKER
+- MEJOR CREADOR DE CONTENIDO EMPRESARIAL
 
 ## Registros presentes en más de una categoría (esperado)
 

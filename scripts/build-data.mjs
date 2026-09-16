@@ -20,6 +20,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import * as XLSX from 'xlsx';
+import { CATALOGO_2026 } from './catalogo-2026.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
@@ -80,51 +81,12 @@ const slugify = (s) =>
     .replace(/^-+|-+$/g, '');
 
 /* -------------------------------------------------------------------------- */
-/* Clasificación de categorías                                                */
+/* Catálogo oficial                                                           */
 /* -------------------------------------------------------------------------- */
 
 /**
- * La disciplina y el tipo de registro se DERIVAN del nombre de la categoría
- * (no provienen del Excel). Sirven sólo para agrupar y etiquetar en la interfaz.
- */
-function classifyCategory(name) {
-  const n = normalize(name);
-
-  let discipline = 'Otras';
-  if (/noticia|informativ|reporter/.test(n)) discipline = 'Noticias';
-  else if (/deport|narrador|comentarista/.test(n)) discipline = 'Deportes';
-  else if (/variedad/.test(n)) discipline = 'Variedades';
-  else if (/actor|actriz|dramatic/.test(n)) discipline = 'Dramáticos';
-  else if (/instagram|youtub|digital|cuenta/.test(n)) discipline = 'Digital';
-
-  // Tipo de registro y significado de la columna auxiliar del Excel.
-  let entryType = 'persona';
-  let metaLabel = null;
-
-  if (/mejor programa/.test(n)) {
-    entryType = 'programa';
-    metaLabel = 'Canal';
-  } else if (/cuenta informativa digital/.test(n)) {
-    entryType = 'medio';
-    metaLabel = 'Plataforma';
-  } else if (/cuenta digital/.test(n)) {
-    entryType = 'cuenta';
-    metaLabel = 'Plataforma';
-  } else if (/instagram/.test(n)) {
-    entryType = 'cuenta';
-    metaLabel = /junior/.test(n) ? 'Usuario' : null;
-  } else if (/youtuber/.test(n)) {
-    entryType = 'cuenta';
-    metaLabel = 'Canal';
-  }
-
-  return { discipline, entryType, metaLabel };
-}
-
-/**
  * Una fila es encabezado de categoría cuando empieza por "MEJOR".
- * (Es el único patrón presente en el archivo oficial; si aparece otro,
- * el reporte lo advierte como fila fuera de categoría.)
+ * (Es el único patrón presente en el archivo oficial.)
  */
 const isCategoryHeader = (value) => /^mejor\b/.test(normalize(value));
 
@@ -163,16 +125,14 @@ function parseWorkbook(file) {
       if (!name) continue;
 
       if (isCategoryHeader(name)) {
-        const slug = slugify(name);
-        const meta = classifyCategory(name);
+        // El Excel sólo aporta nombre, orden y prenominados: la disciplina, el
+        // tipo y la etiqueta los decide el catálogo 2026.
         current = {
-          id: slug,
-          slug,
+          id: slugify(name),
           name,
           order: categoryOrder++,
           sourceRow: rowNumber,
           sourceSheet: sheetName,
-          ...meta,
           count: 0,
         };
         categories.push(current);
@@ -223,15 +183,6 @@ function validate({ categories, nominees }) {
   // Categorías vacías
   for (const c of categories) {
     if (c.count === 0) issues.push(`Categoría sin prenominados: «${c.name}».`);
-  }
-
-  // Slugs duplicados
-  const slugs = new Map();
-  for (const c of categories) {
-    if (slugs.has(c.slug)) {
-      issues.push(`Slug repetido "${c.slug}" entre «${slugs.get(c.slug)}» y «${c.name}».`);
-    }
-    slugs.set(c.slug, c.name);
   }
 
   // Posibles variantes del mismo nombre dentro de una categoría
@@ -296,6 +247,7 @@ function main() {
   const parsed = parseWorkbook(SOURCE);
   const { categories, nominees, warnings, notes, orphanRows } = parsed;
   const { issues, similar } = validate(parsed);
+  // `issues` recoge además los desajustes entre el catálogo y el Excel.
 
   // Personas/cuentas presentes en más de una categoría (dato útil, no un error).
   const acrossCategories = new Map();
@@ -311,15 +263,62 @@ function main() {
       categories: [...new Set(list.map((n) => n.categoryId))],
     }));
 
+  /* --------------------- Aplicación del catálogo 2026 --------------------- */
+  // El catálogo manda: renombra, crea las nuevas y deja fuera las que ya no
+  // están en la lista oficial.
+  const porNombreExcel = new Map(categories.map((c) => [c.name, c]));
+  const usadas = new Set();
+
+  const catalogCategories = [];
+  const catalogNominees = [];
+  const nuevasSinPrenominados = [];
+
+  CATALOGO_2026.forEach((entry, order) => {
+    const slug = slugify(entry.nombre);
+    const origen = entry.fuenteExcel ? porNombreExcel.get(entry.fuenteExcel) : undefined;
+
+    if (entry.fuenteExcel && !origen) {
+      issues.push(
+        `El catálogo espera la categoría «${entry.fuenteExcel}» en el Excel y no está. ` +
+          `«${entry.nombre}» se publica vacía.`
+      );
+    }
+    if (origen) usadas.add(origen.name);
+
+    const propias = origen ? nominees.filter((n) => n.categoryId === origen.id) : [];
+    propias.forEach((n, index) =>
+      catalogNominees.push({ ...n, categoryId: slug, order: index })
+    );
+
+    if (propias.length === 0) nuevasSinPrenominados.push(entry.nombre);
+
+    catalogCategories.push({
+      id: slug,
+      slug,
+      name: entry.nombre,
+      order,
+      description: entry.descripcion,
+      discipline: entry.disciplina,
+      entryType: entry.tipo,
+      metaLabel: entry.etiquetaMeta,
+      /** Categoría del Excel de la que provienen sus prenominados. */
+      sourceCategory: entry.fuenteExcel,
+      sourceRow: origen ? origen.sourceRow : null,
+      count: propias.length,
+    });
+  });
+
+  const excluidas = categories.filter((c) => !usadas.has(c.name));
+
   const payload = {
     meta: {
       source: path.basename(SOURCE),
       generatedAt: new Date().toISOString(),
-      totalCategories: categories.length,
-      totalNominees: nominees.length,
+      totalCategories: catalogCategories.length,
+      totalNominees: catalogNominees.length,
     },
-    categories: categories.map(({ sourceSheet, ...c }) => c),
-    nominees,
+    categories: catalogCategories,
+    nominees: catalogNominees,
   };
 
   const outDir = path.join(ROOT, 'src', 'data', 'generated');
@@ -339,14 +338,18 @@ function main() {
   lines.push(`- **Categorías:** ${categories.length}`);
   lines.push(`- **Registros de prenominados:** ${nominees.length}`);
   lines.push('');
-  lines.push('## Categorías detectadas');
+  lines.push('## Categorías publicadas (catálogo oficial 2026)');
   lines.push('');
-  lines.push('| # | Categoría | Prenominados | Disciplina | Tipo | Fila origen |');
-  lines.push('|---|-----------|--------------|------------|------|-------------|');
-  categories.forEach((c, i) => {
-    lines.push(
-      `| ${i + 1} | ${c.name} | ${c.count} | ${c.discipline} | ${c.entryType} | ${c.sourceRow} |`
-    );
+  lines.push('| # | Categoría | Prenominados | Disciplina | Origen en el Excel |');
+  lines.push('|---|-----------|--------------|------------|--------------------|');
+  catalogCategories.forEach((c, i) => {
+    const origen =
+      c.sourceCategory === null
+        ? '— (nueva)'
+        : c.sourceCategory === c.name
+          ? 'igual'
+          : `«${c.sourceCategory}» (renombrada)`;
+    lines.push(`| ${i + 1} | ${c.name} | ${c.count} | ${c.discipline} | ${origen} |`);
   });
   lines.push('');
 
@@ -372,6 +375,16 @@ function main() {
     'Ninguna detectada.'
   );
   section(
+    'Categorías del Excel EXCLUIDAS (no están en el catálogo 2026)',
+    excluidas.map((c) => `${c.name} — se dejan de publicar ${c.count} prenominados`),
+    'Ninguna: el catálogo cubre todas.'
+  );
+  section(
+    'Categorías del catálogo SIN prenominados todavía',
+    nuevasSinPrenominados,
+    'Ninguna.'
+  );
+  section(
     'Registros presentes en más de una categoría (esperado)',
     multiCategory.map((m) => `${m.name} → ${m.categories.join(', ')}`),
     'Ninguno.'
@@ -379,7 +392,20 @@ function main() {
 
   fs.writeFileSync(path.join(ROOT, 'data-report.md'), lines.join('\n') + '\n', 'utf8');
 
-  console.log(`✔ ${categories.length} categorías, ${nominees.length} prenominados`);
+  console.log(
+    `✔ ${catalogCategories.length} categorías del catálogo 2026, ` +
+      `${catalogNominees.length} prenominados publicados`
+  );
+  if (excluidas.length) {
+    const perdidos = excluidas.reduce((t, c) => t + c.count, 0);
+    console.log(
+      `⚠ ${excluidas.length} categoría(s) del Excel fuera del catálogo ` +
+        `(${perdidos} prenominados no se publican)`
+    );
+  }
+  if (nuevasSinPrenominados.length) {
+    console.log(`⚠ ${nuevasSinPrenominados.length} categoría(s) del catálogo sin prenominados`);
+  }
   console.log(`✔ src/data/generated/prenominados.json`);
   console.log(`✔ data-report.md`);
   if (warnings.length) console.log(`⚠ ${warnings.length} duplicado(s) exacto(s) omitido(s)`);
