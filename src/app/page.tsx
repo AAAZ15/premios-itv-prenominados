@@ -12,7 +12,7 @@ import { NOMINATION_REQUIREMENT } from '@/data/descriptions';
 import styles from './page.module.css';
 
 export const metadata: Metadata = {
-  title: `Prenominados oficiales | ${SITE.name} ${SITE.edition}`,
+  title: `Prenominados oficiales | ${SITE.name} ${SITE.year} · ${SITE.edition}`,
   description: SITE.description,
   alternates: { canonical: '/' },
 };

@@ -13,6 +13,45 @@ interface PageProps {
   params: Promise<{ slug: string }>;
 }
 
+/**
+ * Marcas cuya grafía no sigue la regla de «inicial mayúscula»: sin esto,
+ * «MEJOR TIKTOKER» acababa como «Mejor Tiktoker» en los resultados de Google.
+ */
+const GRAFIA_PROPIA: Record<string, string> = {
+  tiktoker: 'TikToker',
+  tiktok: 'TikTok',
+  itv: 'ITV',
+  instagram: 'Instagram',
+  youtube: 'YouTube',
+};
+
+/** Conectores que en español van en minúscula salvo al principio del título. */
+const MINUSCULAS = new Set([
+  'de', 'del', 'la', 'las', 'el', 'los', 'y', 'e', 'o', 'u', 'a', 'en', 'con',
+  'para', 'por', 'al',
+]);
+
+/**
+ * El nombre de la categoría, que viene en MAYÚSCULAS, pasado a título legible:
+ * «MEJOR CREADOR DE CONTENIDO DE INSTAGRAM» → «Mejor Creador de Contenido de
+ * Instagram».
+ */
+function toTitleCase(name: string): string {
+  let primera = true;
+  return name.toLocaleLowerCase('es').replace(/[\p{L}\p{N}]+/gu, (palabra) => {
+    const propia = GRAFIA_PROPIA[palabra];
+    if (propia) {
+      primera = false;
+      return propia;
+    }
+    const enMinuscula = !primera && MINUSCULAS.has(palabra);
+    primera = false;
+    return enMinuscula
+      ? palabra
+      : palabra.charAt(0).toLocaleUpperCase('es') + palabra.slice(1);
+  });
+}
+
 /** Genera las 18 rutas estáticas, una por categoría del Excel. */
 export function generateStaticParams() {
   return categories.map((category) => ({ slug: category.slug }));
@@ -23,21 +62,26 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const category = getCategory(slug);
   if (!category) return { title: 'Categoría no encontrada' };
 
-  const title = category.name
-    .toLocaleLowerCase('es')
-    .replace(/(^|[\s(/])([a-záéíóúñ])/g, (_, prefix: string, letter: string) => prefix + letter.toLocaleUpperCase('es'));
+  const title = toTitleCase(category.name);
 
-  // La descripción oficial describe mejor la categoría que un simple conteo.
-  const description = category.description;
+  // La descripción oficial de ITV, precedida del dato que la sitúa: cuántos
+  // prenominados y de qué edición. Google recorta a ~155 caracteres, así que
+  // lo concreto va primero.
+  const description = `${category.count} ${plural(
+    category.count,
+    'prenominado',
+    'prenominados'
+  )} en ${title} de los ${SITE.name} ${SITE.year}. ${category.description}`;
 
   return {
-    title,
+    title: `Prenominados de ${title}`,
     description,
     alternates: { canonical: `/categoria/${category.slug}/` },
     openGraph: {
-      title: `${title} | ${SITE.name} ${SITE.edition}`,
+      title: `Prenominados de ${title} | ${SITE.name} ${SITE.year}`,
       description,
       url: `${SITE.url}/categoria/${category.slug}/`,
+      type: 'article',
     },
   };
 }

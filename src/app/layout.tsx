@@ -25,31 +25,31 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: `Prenominados | ${SITE.name} ${SITE.edition}`,
-    template: `%s | ${SITE.name} ${SITE.edition}`,
+    default: `Prenominados oficiales | ${SITE.name} ${SITE.year} · ${SITE.edition}`,
+    template: `%s | ${SITE.name} ${SITE.year}`,
   },
   description: SITE.description,
   applicationName: `${SITE.name} ${SITE.edition}`,
   keywords: [
     'Premios ITV',
-    'Premios ITV 30 años',
+    `Premios ITV ${SITE.year}`,
+    `Premios ITV ${SITE.edition}`,
+    'prenominados Premios ITV',
     'prenominados',
-    'nominados',
     'televisión Ecuador',
-    'categorías',
   ],
   alternates: { canonical: '/' },
   openGraph: {
     type: 'website',
     locale: SITE.locale,
     siteName: `${SITE.name} ${SITE.edition}`,
-    title: `Prenominados | ${SITE.name} ${SITE.edition}`,
+    title: `Prenominados oficiales | ${SITE.name} ${SITE.year} · ${SITE.edition}`,
     description: SITE.description,
     url: SITE.url,
   },
   twitter: {
     card: 'summary_large_image',
-    title: `Prenominados | ${SITE.name} ${SITE.edition}`,
+    title: `Prenominados oficiales | ${SITE.name} ${SITE.year} · ${SITE.edition}`,
     description: SITE.description,
   },
   robots: NOINDEX

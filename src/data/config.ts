@@ -27,10 +27,15 @@ export const NOINDEX = process.env.NEXT_PUBLIC_NOINDEX === '1';
 export const SITE = {
   name: 'Premios ITV',
   edition: '30 Años',
+  /** Año de la edición. Va en títulos y descripciones: mucha gente busca
+   *  «Premios ITV 2026», no «Premios ITV 30 años». */
+  year: '2026',
   fullName: 'Premios ITV · 30 Años',
   tagline: 'Celebrando el talento de la televisión, los medios y el entretenimiento.',
   description:
-    'Consulta la lista oficial de prenominados de los Premios ITV 30 Años: categorías, talentos, programas, medios y cuentas digitales.',
+    'Lista oficial de prenominados de los Premios ITV 2026, edición 30 Años: ' +
+    'talentos, programas, medios y cuentas digitales de televisión, radio y ' +
+    'plataformas, organizados por categoría.',
   url: SITE_URL,
   /** El pie siempre muestra el dominio oficial, no el de la vista previa. */
   siteUrlLabel: 'www.premiositv.com',
